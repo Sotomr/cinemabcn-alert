@@ -1,10 +1,10 @@
 name: Cinema alerts
 
-# Cada día ~07:00 hora de Madrid (invierno ≈ 06:00 UTC; verano ≈ 05:00 UTC).
+# Cada día ~10:00–11:00 Europa/Madrid (GitHub usa UTC: 09:00 UTC ≈ 10:00 CET / 11:00 CEST).
 # Ajusta el cron si quieres otra hora (UTC): https://crontab.guru
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 permissions:
