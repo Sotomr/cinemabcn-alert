@@ -51,7 +51,7 @@ def sort_films_for_tmdb_priority(films: list[Film], tz_name: str) -> list[Film]:
     )
 
 # Nueva versión de caché si cambian criterios de confianza (evita notas viejas ★ 0.0)
-_CACHE_FILENAME = "tmdb_cache_v6.json"
+_CACHE_FILENAME = "tmdb_cache_v7.json"
 
 
 def _int_env(name: str, default: int) -> int:
@@ -193,6 +193,11 @@ def _search_query_variants(clean: str) -> list[str]:
     ).strip()
     if stripped != clean.strip() and len(stripped) >= 3:
         out.append(stripped)
+    # Catalan: "L'arquitecte" vs ficha "El arquitecto" / "The Architect"
+    if re.match(r"^l['\u2019]", clean.strip(), re.I):
+        tail = re.sub(r"^l['\u2019]\s*", "", clean.strip(), count=1, flags=re.I).strip()
+        if len(tail) >= 3:
+            out.append(tail)
     seen: set[str] = set()
     uniq: list[str] = []
     for x in out:
