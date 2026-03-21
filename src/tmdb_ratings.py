@@ -51,7 +51,7 @@ def sort_films_for_tmdb_priority(films: list[Film], tz_name: str) -> list[Film]:
     )
 
 # Nueva versión de caché si cambian criterios de confianza (evita notas viejas ★ 0.0)
-_CACHE_FILENAME = "tmdb_cache_v5.json"
+_CACHE_FILENAME = "tmdb_cache_v6.json"
 
 
 def _int_env(name: str, default: int) -> int:
@@ -101,6 +101,13 @@ def _clean_title_for_search(title: str) -> str:
         flags=re.IGNORECASE,
     ).strip()
     t = re.sub(r"\s+\bVO\b\s*$", "", t, flags=re.IGNORECASE).strip()
+    # "Little Amélie Doblada ESP" (sin paréntesis)
+    t = re.sub(
+        r"\s+Doblada\s+(ESP|CAT|Cast|Català|Catalan)\s*$",
+        "",
+        t,
+        flags=re.IGNORECASE,
+    ).strip()
     return t[:120] if t else title[:120]
 
 

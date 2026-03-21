@@ -29,10 +29,21 @@ def film_dedupe_key(cinema: str, title: str) -> str:
     return f"{cinema.strip().lower()}::{normalize_title(title)}"
 
 
-def fetch_soup(url: str, *, timeout: float = 25):
+def fetch_soup(url: str, *, timeout: float = 30, retries: int = 2):
+    import time
+
     import requests
     from bs4 import BeautifulSoup
 
-    r = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
-    r.raise_for_status()
-    return BeautifulSoup(r.content, "lxml")
+    last_exc: Exception | None = None
+    for attempt in range(retries):
+        try:
+            r = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout)
+            r.raise_for_status()
+            return BeautifulSoup(r.content, "lxml")
+        except Exception as e:
+            last_exc = e
+            if attempt < retries - 1:
+                time.sleep(1.5)
+    assert last_exc is not None
+    raise last_exc

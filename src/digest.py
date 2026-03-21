@@ -281,9 +281,13 @@ def build_digest_sections(
                         _emit(title, times, rating)
                 parts_msg: List[str] = []
                 if hide_r:
-                    parts_msg.append(f"{hide_r} con nota no mostradas")
+                    parts_msg.append(
+                        f"{hide_r} con ★ TMDb no listadas (tope {top_n}/día por cine)"
+                    )
                 if hide_u:
-                    parts_msg.append(f"{hide_u} sin nota no mostradas")
+                    parts_msg.append(
+                        f"{hide_u} sin ★ no listadas (tope {extra_u} sesiones)"
+                    )
                 if parts_msg:
                     lines.append(f"<i>… {' · '.join(parts_msg)}</i>")
                 elif cinema == "Verdi" and max_v > 0 and top_n == 0 and orig_count > max_v:

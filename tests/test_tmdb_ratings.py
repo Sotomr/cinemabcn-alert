@@ -48,6 +48,12 @@ def test_pick_best_chooses_similar_title_not_most_popular():
     assert best["id"] == 2
 
 
+def test_clean_title_strips_trailing_doblada_esp_without_parentheses():
+    t = _clean_title_for_search("Little Amélie Doblada ESP")
+    assert "doblada" not in t.casefold()
+    assert t.strip().casefold().startswith("little")
+
+
 def test_clean_title_strips_trailing_vose_without_parentheses():
     assert _clean_title_for_search("El agente secreto VOSE").strip().casefold() == (
         "el agente secreto"
