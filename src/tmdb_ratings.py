@@ -51,7 +51,7 @@ def sort_films_for_tmdb_priority(films: list[Film], tz_name: str) -> list[Film]:
     )
 
 # Nueva versión de caché si cambian criterios de confianza (evita notas viejas ★ 0.0)
-_CACHE_FILENAME = "tmdb_cache_v7.json"
+_CACHE_FILENAME = "tmdb_cache_v8.json"
 
 
 def _int_env(name: str, default: int) -> int:
@@ -319,15 +319,11 @@ def _movie_detail(api_key: str, movie_id: int) -> dict:
 
 def _format_rating_line(
     vote: float,
-    vote_count: int,
+    _vote_count: int,
     imdb_id: Optional[str],
     tmdb_id: Optional[int] = None,
 ) -> str:
     parts = [f"★ {vote:.1f} TMDb"]
-    if vote_count == 1:
-        parts.append("(1 voto)")
-    elif vote_count:
-        parts.append(f"({vote_count} votos)")
     if imdb_id:
         parts.append(f'<a href="https://www.imdb.com/title/{imdb_id}/">IMDb</a>')
     elif tmdb_id:

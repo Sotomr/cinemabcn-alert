@@ -15,13 +15,13 @@ def test_parse_verdi_show():
 
 
 def test_score_from_rating_html():
-    assert score_from_rating_html("★ 7.5 TMDb (10 votos) IMDb") == 7.5
+    assert score_from_rating_html("★ 7.5 TMDb IMDb") == 7.5
     assert score_from_rating_html(None) == -1.0
     assert score_from_rating_html("") == -1.0
 
 
 def test_global_top_merges_same_film_across_cinemas():
-    rating = "★ 8.5 TMDb (10 votos) IMDb"
+    rating = "★ 8.5 TMDb IMDb"
     block = {
         "Verdi": [("Your name VOSE", ["20:30"], rating)],
         "Maldà": [("Your Name (VOSE)", ["17:50"], rating)],
