@@ -10,11 +10,11 @@ _ROOT = Path(__file__).resolve().parent
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
-from classifiers import classify_film, week_bounds_today
 from config import load_settings
+from digest import format_daily_digest_html, format_novelties_html
 from diff_engine import compute_new_entries, titles_for_compare
 from models import Film, Snapshot
-from notifier import format_alert_html, send_telegram_message
+from notifier import send_telegram_message
 from scrapers.espai_texas import EspaiTexasScraper
 from scrapers.malda import MaldaScraper
 from scrapers.phenomena import PhenomenaScraper
@@ -60,28 +60,27 @@ def main() -> int:
 
     prev = load_snapshot(settings.snapshot_path)
     prev_films = list(prev.films) if prev else []
-    # Snapshot inicial del repo (1970-01-01) = aún no hay captura real
     is_first = prev is None or prev.fetched_at.startswith("1970-01-01")
 
-    prev_titles_norm = frozenset(titles_for_compare(prev_films))
-    week_start, week_end = week_bounds_today()
+    text = format_daily_digest_html(
+        films,
+        failures,
+        tz_name=settings.timezone,
+    )
+
+    if settings.append_novelties and not is_first:
+        new_entries = compute_new_entries(prev_films, current.films)
+        if new_entries:
+            text = text + format_novelties_html(new_entries)
 
     if is_first:
-        save_snapshot(settings.snapshot_path, current)
-        text = format_alert_html({}, failures=failures, first_run=True)
-    else:
-        new_entries = compute_new_entries(prev_films, current.films)
-        grouped: dict[str, list[tuple[Film, str]]] = {}
-        for film in new_entries:
-            cl = classify_film(
-                film,
-                previous_titles_norm=prev_titles_norm,
-                week_start=week_start,
-                week_end=week_end,
-            )
-            grouped.setdefault(film.cinema, []).append((film, cl.primary))
-        save_snapshot(settings.snapshot_path, current)
-        text = format_alert_html(grouped, failures=failures, first_run=False)
+        text = (
+            text
+            + "\n\n<i>Primera ejecución: snapshot guardado en el repo. "
+            "Las próximas veces el diff de novedades tendrá más sentido.</i>"
+        )
+
+    save_snapshot(settings.snapshot_path, current)
 
     if settings.skip_telegram or settings.dry_run or not settings.telegram_bot_token:
         logger.info("Telegram desactivado o sin token. Mensaje generado:\n%s", text)

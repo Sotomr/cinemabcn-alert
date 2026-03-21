@@ -1,6 +1,6 @@
 # Cinema Alert — Barcelona (cinéfilos)
 
-Mini aplicación en Python que consulta la cartelera de varios cines de Barcelona, compara con la última captura guardada en `data/latest_snapshot.json` y envía un resumen por **Telegram**.
+Mini aplicación en Python que consulta la cartelera de varios cines de Barcelona y envía un **resumen diario por Telegram** con **hoy, mañana y pasado mañana**. Donde la web publica sesiones con fecha (p. ej. **Verdi**), lista **horas**; el resto va en un bloque “cartelera sin horarios en este mensaje” con enlace a la web. Opcionalmente añade un bloque de **novedades** respecto al snapshot guardado en `data/latest_snapshot.json`.
 
 ## Cines (MVP)
 
@@ -29,11 +29,17 @@ pip install -r requirements.txt
 
 ### Obtener `chat_id`
 
-Escribe algo a tu bot y abre en el navegador:
+**Opción recomendada** (si `getUpdates` en el navegador sale vacío o `@userinfobot` no responde):
 
-`https://api.telegram.org/bot<TU_TOKEN>/getUpdates`
+```bash
+export TELEGRAM_BOT_TOKEN="tu_token_de_botfather"
+pip install requests   # si hace falta
+python3 scripts/get_chat_id.py
+```
 
-Busca `"chat":{"id": ...}`.
+Con el script en marcha, abre Telegram y **escribe cualquier mensaje a tu bot**. En la terminal aparecerá el número para `TELEGRAM_CHAT_ID`.
+
+**Opción manual:** escribe a tu bot y abre `https://api.telegram.org/bot<TU_TOKEN>/getUpdates` y busca `"chat":{"id": ...}`.
 
 ## Ejecución
 
@@ -55,7 +61,7 @@ pytest
 
 ## GitHub Actions
 
-El workflow `.github/workflows/cinema-alerts.yml` ejecuta el script los **jueves a las 08:00 UTC** (ajusta el `cron` si quieres) y hace commit de `data/latest_snapshot.json` cuando cambia.
+El workflow `.github/workflows/cinema-alerts.yml` ejecuta el script **cada día** (~07:00 hora de Madrid en invierno; el `cron` está en **UTC**: `0 6 * * *`) y hace commit de `data/latest_snapshot.json` cuando cambia. Puedes lanzarlo a mano cuando quieras: **Actions → Run workflow** (para comprobar que llega el mensaje).
 
 Añade en el repositorio **Secrets**:
 
@@ -66,7 +72,12 @@ El workflow necesita permiso de escritura en el contenido del repo (ya está en 
 
 ## Primera ejecución
 
-El archivo `data/latest_snapshot.json` incluye una fecha sentinel `1970-01-01`. La primera vez que corre el job con éxito sustituye ese snapshot por una captura real y envía un mensaje corto indicando que las siguientes ejecuciones mostrarán solo **novedades**.
+El archivo `data/latest_snapshot.json` puede incluir la fecha sentinel `1970-01-01`. La primera vez que corre con éxito guarda un snapshot real; el mensaje incluye el **resumen de 3 días** y una nota sobre el diff de novedades en ejecuciones posteriores.
+
+Variables útiles (ver `.env.example`):
+
+- `TIMEZONE` — por defecto `Europe/Madrid` (define qué es “hoy”).
+- `APPEND_NOVELTIES` — `1` por defecto: añade al final películas nuevas respecto al snapshot anterior.
 
 ## Añadir un cine
 
@@ -86,6 +97,7 @@ src/
   classifiers.py
   storage.py
   utils.py
+  digest.py
   scrapers/
 data/
   latest_snapshot.json
