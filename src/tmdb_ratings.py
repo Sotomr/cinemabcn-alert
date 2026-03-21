@@ -5,6 +5,8 @@ import logging
 import os
 import re
 import time
+import unicodedata
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Dict, Optional
 
@@ -49,7 +51,7 @@ def sort_films_for_tmdb_priority(films: list[Film], tz_name: str) -> list[Film]:
     )
 
 # Nueva versión de caché si cambian criterios de confianza (evita notas viejas ★ 0.0)
-_CACHE_FILENAME = "tmdb_cache_v3.json"
+_CACHE_FILENAME = "tmdb_cache_v4.json"
 
 
 def _int_env(name: str, default: int) -> int:
@@ -93,6 +95,111 @@ def _clean_title_for_search(title: str) -> str:
         t = t.split(" - ")[0].strip()
     return t[:120] if t else title[:120]
 
+
+def _normalize_for_match(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"[^a-z0-9\s]", " ", s.lower())
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def score_tmdb_title_match(query_clean: str, result: dict) -> float:
+    """
+    Similitud 0–1 entre la consulta limpia y title/original_title del resultado TMDb.
+    Mejor que elegir solo por popularidad (fallaba con títulos locales o traducciones).
+    """
+    qn = _normalize_for_match(query_clean)
+    if not qn:
+        return 0.0
+    best = 0.0
+    for key in ("title", "original_title"):
+        raw = result.get(key)
+        if not raw or not str(raw).strip():
+            continue
+        tn = _normalize_for_match(str(raw))
+        if not tn:
+            continue
+        seq = SequenceMatcher(None, qn, tn).ratio()
+        qset = set(qn.split())
+        tset = set(tn.split())
+        jac = 0.0
+        if qset and tset:
+            jac = len(qset & tset) / len(qset | tset)
+        blended = max(seq, jac)
+        if qn == tn:
+            blended = 1.0
+        elif qn in tn or tn in qn:
+            blended = max(blended, 0.82)
+        best = max(best, blended)
+    return best
+
+
+def pick_best_tmdb_search_result(
+    query_clean: str, results: list[dict]
+) -> Optional[dict]:
+    """
+    Elige el mejor candidato de la lista de resultados de /search/movie.
+    Si la similitud es muy baja en todos, mantiene el comportamiento antiguo (más popular).
+    """
+    if not results:
+        return None
+    scored: list[tuple[float, float, dict]] = []
+    for r in results:
+        if not r.get("id"):
+            continue
+        s = score_tmdb_title_match(query_clean, r)
+        pop = float(r.get("popularity") or 0.0)
+        scored.append((s, pop, r))
+    if not scored:
+        return None
+    scored.sort(key=lambda x: (-x[0], -x[1]))
+    best_s, _, best_r = scored[0]
+    if best_s >= 0.38:
+        return best_r
+    return max((x[2] for x in scored), key=lambda x: float(x.get("popularity") or 0.0))
+
+
+def _search_query_variants(clean: str) -> list[str]:
+    """Variantes para cuando el título en cartelera no coincide con el de TMDb."""
+    out: list[str] = []
+    if clean and len(clean) >= 2:
+        out.append(clean.strip())
+    for sep in (" — ", " – ", " - "):
+        if sep in clean:
+            head = clean.split(sep)[0].strip()
+            if len(head) >= 3:
+                out.append(head)
+    stripped = re.sub(
+        r"^(el|la|los|las|les|els|un|una|uns|unes|l\'|ll\')\s+",
+        "",
+        clean.strip(),
+        flags=re.IGNORECASE,
+    ).strip()
+    if stripped != clean.strip() and len(stripped) >= 3:
+        out.append(stripped)
+    seen: set[str] = set()
+    uniq: list[str] = []
+    for x in out:
+        k = x.casefold()
+        if k not in seen:
+            seen.add(k)
+            uniq.append(x)
+    return uniq[:5]
+
+
+def _merge_tmdb_results(pool: dict[int, dict], results: list[dict]) -> None:
+    for r in results:
+        mid = r.get("id")
+        if mid is None:
+            continue
+        mid = int(mid)
+        pop = float(r.get("popularity") or 0.0)
+        prev = pool.get(mid)
+        if prev is None or pop > float(prev.get("popularity") or 0.0):
+            pool[mid] = r
+
+
 TMDB_SEARCH = "https://api.themoviedb.org/3/search/movie"
 TMDB_MOVIE = "https://api.themoviedb.org/3/movie"
 
@@ -115,19 +222,43 @@ def _save_cache(path: Path, cache: Dict[str, str]) -> None:
     path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def _search_movie(api_key: str, title: str) -> Optional[dict]:
+def _search_movie(
+    api_key: str, title: str, *, delay_s: float = 0.12
+) -> Optional[dict]:
     clean = _clean_title_for_search(title)
     clean = re.sub(r"\s*[\(\[].*?[\)\]]\s*", " ", clean).strip()
     if len(clean) < 2:
         return None
-    q = clean[:120]
+    q_base = clean[:120]
+    variants = _search_query_variants(q_base)
 
-    def _do_search(lang: str) -> list:
+    pool: dict[int, dict] = {}
+    steps: list[tuple[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+
+    def add_step(q: str, lang: str) -> None:
+        if len(q) < 2:
+            return
+        k = (q.casefold(), lang)
+        if k not in seen:
+            seen.add(k)
+            steps.append((q, lang))
+
+    v0 = variants[0]
+    add_step(v0, "es-ES")
+    add_step(v0, "en-US")
+    if len(variants) > 1:
+        add_step(variants[1], "es-ES")
+        add_step(variants[1], "en-US")
+    add_step(v0, "ca-ES")
+
+    step_slice = steps[:6]
+    for i, (q, lang) in enumerate(step_slice):
         r = requests.get(
             TMDB_SEARCH,
             params={
                 "api_key": api_key,
-                "query": q,
+                "query": q[:120],
                 "language": lang,
                 "region": "ES",
                 "include_adult": "false",
@@ -136,14 +267,19 @@ def _search_movie(api_key: str, title: str) -> Optional[dict]:
             timeout=20,
         )
         r.raise_for_status()
-        return r.json().get("results") or []
+        _merge_tmdb_results(pool, (r.json().get("results") or [])[:20])
+        if i < len(step_slice) - 1:
+            time.sleep(delay_s)
+        if not pool:
+            continue
+        merged = list(pool.values())
+        best = pick_best_tmdb_search_result(q_base, merged)
+        if best and score_tmdb_title_match(q_base, best) >= 0.68:
+            return best
 
-    results = _do_search("es-ES")
-    if not results:
-        results = _do_search("en-US")
-    if not results:
+    if not pool:
         return None
-    return max(results, key=lambda x: float(x.get("popularity") or 0.0))
+    return pick_best_tmdb_search_result(q_base, list(pool.values()))
 
 
 def _movie_detail(api_key: str, movie_id: int) -> dict:
@@ -221,7 +357,7 @@ def enrich_films_with_ratings(
             film.rating = v if v else None
             continue
         try:
-            sm = _search_movie(api_key, film.title)
+            sm = _search_movie(api_key, film.title, delay_s=delay_s)
             time.sleep(delay_s)
             if not sm or not sm.get("id"):
                 cache[key] = ""
