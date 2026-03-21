@@ -78,6 +78,11 @@ Variables útiles (ver `.env.example`):
 
 - `TIMEZONE` — por defecto `Europe/Madrid` (define qué es “hoy”).
 - `APPEND_NOVELTIES` — `1` por defecto: añade al final películas nuevas respecto al snapshot anterior.
+- `DIGEST_MAX_UNSCHEDULED` — por defecto `15`: máximo de títulos por cine en carteleras sin hora (Maldà, Espai Texas…); el resto se indica con “y N más”.
+- `DIGEST_MAX_VERDI_PER_DAY` — por defecto `0` (sin límite). Pon p. ej. `22` si quieres acortar listados del Verdi por día.
+- `DEBUG_FOOTER` — `0` por defecto. Pon `1` para un pie con cómo ejecutar el workflow a mano.
+
+El mensaje se divide en **varios envíos de Telegram** solo cuando hace falta, intentando **no cortar** en mitad de un día o de un bloque de cine.
 
 ## Añadir un cine
 

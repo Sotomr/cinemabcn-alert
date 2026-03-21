@@ -25,17 +25,30 @@ _LABEL = {
 
 
 def send_telegram_message(token: str, chat_id: str, text: str) -> None:
+    """Compatibilidad: un solo bloque de texto (puede partirse por longitud)."""
+    send_telegram_messages(token, chat_id, _chunk_text(text, TELEGRAM_MAX))
+
+
+def send_telegram_messages(token: str, chat_id: str, parts: List[str]) -> None:
+    """Envía uno o varios mensajes (p. ej. secciones del digest ya acotadas)."""
     url = f"https://api.telegram.org/bot{token}/sendMessage"
-    for chunk in _chunk_text(text, TELEGRAM_MAX):
+    for i, chunk in enumerate(parts):
+        if not chunk.strip():
+            continue
         payload = {
             "chat_id": chat_id,
-            "text": chunk,
+            "text": chunk.strip(),
             "parse_mode": "HTML",
             "disable_web_page_preview": True,
         }
         r = requests.post(url, json=payload, timeout=30)
         r.raise_for_status()
-        logger.info("Mensaje Telegram enviado (%s caracteres)", len(chunk))
+        logger.info(
+            "Telegram parte %s/%s (%s caracteres)",
+            i + 1,
+            len(parts),
+            len(chunk),
+        )
 
 
 def _chunk_text(text: str, max_len: int) -> List[str]:

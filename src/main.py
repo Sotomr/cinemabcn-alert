@@ -11,10 +11,15 @@ if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
 from config import load_settings
-from digest import format_daily_digest_html, format_novelties_html
-from diff_engine import compute_new_entries, titles_for_compare
+from digest import (
+    DigestLimits,
+    build_digest_sections,
+    format_novelties_html,
+    merge_sections_for_telegram,
+)
+from diff_engine import compute_new_entries
 from models import Film, Snapshot
-from notifier import send_telegram_message
+from notifier import TELEGRAM_MAX, send_telegram_messages
 from scrapers.espai_texas import EspaiTexasScraper
 from scrapers.malda import MaldaScraper
 from scrapers.phenomena import PhenomenaScraper
@@ -62,28 +67,36 @@ def main() -> int:
     prev_films = list(prev.films) if prev else []
     is_first = prev is None or prev.fetched_at.startswith("1970-01-01")
 
-    text = format_daily_digest_html(
+    limits = DigestLimits(
+        max_films_unscheduled_per_cinema=settings.digest_max_unscheduled,
+        max_films_verdi_per_day=settings.digest_max_verdi_per_day,
+        show_debug_footer=settings.debug_footer,
+    )
+    sections = build_digest_sections(
         films,
         failures,
         tz_name=settings.timezone,
+        limits=limits,
     )
 
     if settings.append_novelties and not is_first:
         new_entries = compute_new_entries(prev_films, current.films)
         if new_entries:
-            text = text + format_novelties_html(new_entries)
+            sections.append(format_novelties_html(new_entries))
 
     if is_first:
-        text = (
-            text
-            + "\n\n<i>Primera ejecución: snapshot guardado en el repo. "
-            "Las próximas veces el diff de novedades tendrá más sentido.</i>"
+        sections.append(
+            "<i>Primera ejecución: snapshot guardado en el repo. "
+            "El bloque «novedades» tendrá más sentido en las siguientes corridas.</i>"
         )
+
+    telegram_parts = merge_sections_for_telegram(sections, max_len=TELEGRAM_MAX - 150)
+    log_text = "\n\n--- mensaje siguiente ---\n\n".join(telegram_parts)
 
     save_snapshot(settings.snapshot_path, current)
 
     if settings.skip_telegram or settings.dry_run or not settings.telegram_bot_token:
-        logger.info("Telegram desactivado o sin token. Mensaje generado:\n%s", text)
+        logger.info("Telegram desactivado o sin token. Mensaje generado:\n%s", log_text)
         if not settings.skip_telegram and not settings.dry_run:
             logger.warning(
                 "Define TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID para enviar avisos."
@@ -95,10 +108,10 @@ def main() -> int:
         return 1
 
     try:
-        send_telegram_message(
+        send_telegram_messages(
             settings.telegram_bot_token,
             settings.telegram_chat_id,
-            text,
+            telegram_parts,
         )
     except Exception as e:
         logger.exception("No se pudo enviar Telegram: %s", e)

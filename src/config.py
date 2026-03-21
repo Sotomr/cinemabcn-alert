@@ -19,10 +19,23 @@ class Settings:
     dry_run: bool
     timezone: str
     append_novelties: bool
+    digest_max_unscheduled: int
+    digest_max_verdi_per_day: int
+    debug_footer: bool
 
     # Optional overrides for fragile cinema URLs (see README)
     phenomena_base_url: str | None
     zumzeig_cartelera_url: str | None
+
+
+def _int_env(name: str, default: int) -> int:
+    v = os.getenv(name)
+    if v is None or str(v).strip() == "":
+        return default
+    try:
+        return int(v)
+    except ValueError:
+        return default
 
 
 def load_settings() -> Settings:
@@ -34,6 +47,7 @@ def load_settings() -> Settings:
     dry = os.getenv("DRY_RUN", "").lower() in ("1", "true", "yes")
     tz = os.getenv("TIMEZONE", "Europe/Madrid").strip() or "Europe/Madrid"
     append_n = os.getenv("APPEND_NOVELTIES", "1").lower() not in ("0", "false", "no")
+    dbg = os.getenv("DEBUG_FOOTER", "").lower() in ("1", "true", "yes")
 
     return Settings(
         telegram_bot_token=token,
@@ -44,6 +58,9 @@ def load_settings() -> Settings:
         dry_run=dry,
         timezone=tz,
         append_novelties=append_n,
+        digest_max_unscheduled=_int_env("DIGEST_MAX_UNSCHEDULED", 15),
+        digest_max_verdi_per_day=_int_env("DIGEST_MAX_VERDI_PER_DAY", 0),
+        debug_footer=dbg,
         phenomena_base_url=os.getenv("PHENOMENA_BASE_URL") or None,
         zumzeig_cartelera_url=os.getenv("ZUMZEIG_CARTELERA_URL") or None,
     )
