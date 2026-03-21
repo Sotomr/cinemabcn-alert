@@ -11,7 +11,7 @@ if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
 from config import load_settings
-from tmdb_ratings import enrich_films_with_ratings
+from tmdb_ratings import enrich_films_with_ratings, sort_films_for_tmdb_priority
 from digest import (
     DigestLimits,
     build_digest_sections,
@@ -22,6 +22,7 @@ from diff_engine import compute_new_entries
 from models import Film, Snapshot
 from notifier import TELEGRAM_MAX, send_telegram_messages
 from scrapers.espai_texas import EspaiTexasScraper
+from scrapers.mooby_balmes import MoobyBalmesScraper
 from scrapers.malda import MaldaScraper
 from scrapers.phenomena import PhenomenaScraper
 from scrapers.verdi import VerdiScraper
@@ -42,6 +43,7 @@ def _run_scrapers() -> tuple[list[Film], list[str]]:
         MaldaScraper(),
         ZumzeigScraper(),
         EspaiTexasScraper(),
+        MoobyBalmesScraper(),
     ]
     films: list[Film] = []
     failures: list[str] = []
@@ -61,6 +63,7 @@ def main() -> int:
     settings.data_dir.mkdir(parents=True, exist_ok=True)
 
     films, failures = _run_scrapers()
+    films = sort_films_for_tmdb_priority(films, settings.timezone)
     enrich_films_with_ratings(
         films,
         settings.tmdb_api_key,

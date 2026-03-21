@@ -15,6 +15,39 @@ from utils import DEFAULT_HEADERS, normalize_title
 
 logger = logging.getLogger(__name__)
 
+
+def sort_films_for_tmdb_priority(films: list[Film], tz_name: str) -> list[Film]:
+    """
+    Prioriza títulos con sesión en hoy/mañana para que no se queden sin nota
+    por el límite TMDB_MAX_FILMS (antes: Verdi+Phenomena agotaban el cupo).
+    """
+    from zoneinfo import ZoneInfo
+
+    from digest import parse_show_date, two_calendar_days
+
+    try:
+        tz = ZoneInfo(tz_name)
+    except Exception:
+        tz = ZoneInfo("Europe/Madrid")
+    d0, d1 = two_calendar_days(tz)
+    win = {d0, d1}
+
+    def in_window(f: Film) -> bool:
+        for sh in f.shows:
+            sd = parse_show_date(sh)
+            if sd is not None and sd in win:
+                return True
+        return False
+
+    return sorted(
+        films,
+        key=lambda f: (
+            0 if in_window(f) else 1,
+            f.cinema.lower(),
+            f.title.lower(),
+        ),
+    )
+
 # Nueva versión de caché si cambian criterios de confianza (evita notas viejas ★ 0.0)
 _CACHE_FILENAME = "tmdb_cache_v2.json"
 
@@ -102,7 +135,12 @@ def _movie_detail(api_key: str, movie_id: int) -> dict:
     return r.json()
 
 
-def _format_rating_line(vote: float, vote_count: int, imdb_id: Optional[str]) -> str:
+def _format_rating_line(
+    vote: float,
+    vote_count: int,
+    imdb_id: Optional[str],
+    tmdb_id: Optional[int] = None,
+) -> str:
     parts = [f"★ {vote:.1f} TMDb"]
     if vote_count == 1:
         parts.append("(1 voto)")
@@ -110,6 +148,10 @@ def _format_rating_line(vote: float, vote_count: int, imdb_id: Optional[str]) ->
         parts.append(f"({vote_count} votos)")
     if imdb_id:
         parts.append(f'<a href="https://www.imdb.com/title/{imdb_id}/">IMDb</a>')
+    elif tmdb_id:
+        parts.append(
+            f'<a href="https://www.themoviedb.org/movie/{tmdb_id}">TMDb</a>'
+        )
     return " ".join(parts)
 
 
@@ -164,6 +206,7 @@ def enrich_films_with_ratings(
             va = detail.get("vote_average")
             vc = detail.get("vote_count") or 0
             imdb_id = (detail.get("external_ids") or {}).get("imdb_id")
+            tmdb_mid = int(sm["id"])
             if va is None:
                 cache[key] = ""
                 continue
@@ -172,7 +215,7 @@ def enrich_films_with_ratings(
             if not _rating_is_reliable(va_f, vc_i, mv):
                 cache[key] = ""
                 continue
-            line = _format_rating_line(va_f, vc_i, imdb_id)
+            line = _format_rating_line(va_f, vc_i, imdb_id, tmdb_mid)
             cache[key] = line
             film.rating = line
         except Exception as e:

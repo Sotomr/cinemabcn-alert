@@ -71,6 +71,6 @@ def load_settings() -> Settings:
         phenomena_base_url=os.getenv("PHENOMENA_BASE_URL") or None,
         zumzeig_cartelera_url=os.getenv("ZUMZEIG_CARTELERA_URL") or None,
         tmdb_api_key=(os.getenv("TMDB_API_KEY") or "").strip() or None,
-        tmdb_max_films=_int_env("TMDB_MAX_FILMS", 50),
+        tmdb_max_films=_int_env("TMDB_MAX_FILMS", 200),
         tmdb_min_votes=_int_env("TMDB_MIN_VOTES", 5),
     )

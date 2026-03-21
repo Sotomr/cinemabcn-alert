@@ -4,7 +4,7 @@ import html
 import re
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 from zoneinfo import ZoneInfo
 
 from models import Film, Show
@@ -72,6 +72,39 @@ def two_calendar_days(tz: ZoneInfo) -> Tuple[date, date]:
     """Solo hoy y mañana (ventana útil para decidir sesión)."""
     today = datetime.now(tz).date()
     return today, today + timedelta(days=1)
+
+
+def _cinema_notes_sin_ventana(
+    films: List[Film],
+    by_day_cinema: Dict[date, Dict[str, Any]],
+    day_list: List[Tuple[date, str]],
+) -> List[str]:
+    """Avisos cuando un cine aporta títulos pero ninguno entra en hoy/mañana."""
+    present: set[str] = set()
+    for d, _ in day_list:
+        present |= set(by_day_cinema.get(d, {}).keys())
+    by_cinema: Dict[str, List[Film]] = {}
+    for f in films:
+        by_cinema.setdefault(f.cinema, []).append(f)
+    notes: List[str] = []
+    for cin, flist in sorted(by_cinema.items(), key=lambda x: x[0].lower()):
+        if cin in present or not flist:
+            continue
+        if cin == "Phenomena":
+            notes.append(
+                f"<i><b>{html.escape(cin)}</b>: sus sesiones en la web no caen en hoy/mañana "
+                f"(suelen ser fechas posteriores).</i>"
+            )
+        elif cin == "Moby Balmes":
+            notes.append(
+                f"<i><b>{html.escape(cin)}</b>: la web no publica horarios en la página que usamos; "
+                f"consulta la cartelera en moobycinemas.com.</i>"
+            )
+        else:
+            notes.append(
+                f"<i><b>{html.escape(cin)}</b>: no hay sesiones para hoy/mañana con los datos obtenidos.</i>"
+            )
+    return notes
 
 
 def build_digest_sections(
@@ -189,7 +222,9 @@ def build_digest_sections(
             chunk += f"\n\n{_SEP}"
         sections.append(chunk)
 
-    # Solo mostramos lo que cae en hoy/mañana; no bloque extra de “otras carteleras”.
+    notes_extra = _cinema_notes_sin_ventana(films, by_day_cinema, day_list)
+    if notes_extra:
+        sections.append("\n".join([_SEP, ""] + notes_extra))
 
     if failures:
         fl = [
