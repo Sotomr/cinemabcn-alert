@@ -29,6 +29,62 @@ def film_dedupe_key(cinema: str, title: str) -> str:
     return f"{cinema.strip().lower()}::{normalize_title(title)}"
 
 
+def film_title_dedupe_key(title: str) -> str:
+    """
+    Agrupa la misma película con distintas variantes de cartelera (VOSE con/sin
+    paréntesis, Doblada ESP, etc.) para resúmenes y tops globales.
+    """
+    t = title.strip()
+    for pat in (
+        r"\s*\(VOSE\)\s*$",
+        r"\s*\(VOSC\)\s*$",
+        r"\s*\(VOCAT\)\s*$",
+        r"\s*\(VO\)\s*$",
+    ):
+        t = re.sub(pat, "", t, flags=re.IGNORECASE)
+    t = re.sub(
+        r"\s+(VOSE|VOSC|VOCAT|VOI|V\.O\.|V\.O\.S\.E\.|V\.O\.S\.C\.)\s*$",
+        "",
+        t,
+        flags=re.IGNORECASE,
+    ).strip()
+    t = re.sub(
+        r"\s+Doblada\s+(ESP|CAT|Cast|Català|Catalan)\s*$",
+        "",
+        t,
+        flags=re.IGNORECASE,
+    ).strip()
+    t = re.sub(r"\s+\bVO\b\s*$", "", t, flags=re.IGNORECASE).strip()
+    t = normalize_title(t)
+    t = re.sub(r"\(\s*\)", "", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def global_top_display_title(title: str) -> str:
+    """Título más corto para el resumen global (quita sufijos de sesión)."""
+    t = title.strip()
+    for pat in (
+        r"\s*\(VOSE\)\s*$",
+        r"\s*\(VOSC\)\s*$",
+        r"\s*\(VOCAT\)\s*$",
+    ):
+        t = re.sub(pat, "", t, flags=re.IGNORECASE)
+    t = re.sub(
+        r"\s+(VOSE|VOSC|VOCAT|VOI)\s*$",
+        "",
+        t,
+        flags=re.IGNORECASE,
+    ).strip()
+    t = re.sub(
+        r"\s+Doblada\s+(ESP|CAT|Cast|Català|Catalan)\s*$",
+        "",
+        t,
+        flags=re.IGNORECASE,
+    ).strip()
+    return t.strip()
+
+
 def fetch_soup(url: str, *, timeout: float = 30, retries: int = 2):
     import time
 

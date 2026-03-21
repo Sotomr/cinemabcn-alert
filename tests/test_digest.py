@@ -29,7 +29,8 @@ def test_global_top_merges_same_film_across_cinemas():
     lines = _global_top_lines(block, 10)
     text = "\n".join(lines)
     assert "Verdi" in text and "Maldà" in text
-    assert "1." in text
+    assert "   1." in text
+    assert "   2." not in text
 
 
 def test_global_top_empty_when_no_ratings():

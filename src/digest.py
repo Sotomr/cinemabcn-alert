@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from zoneinfo import ZoneInfo
 
 from models import Film, Show
-from utils import normalize_title
+from utils import film_title_dedupe_key, global_top_display_title
 
 _WEEKDAY_ES = (
     "lunes",
@@ -126,7 +126,7 @@ def _global_top_lines(
             sc = score_from_rating_html(rating)
             if sc < 0:
                 continue
-            nk = normalize_title(title)
+            nk = film_title_dedupe_key(title)
             if nk not in best:
                 best[nk] = {
                     "score": sc,
@@ -146,14 +146,18 @@ def _global_top_lines(
     if not items:
         return []
     lines: List[str] = [
-        f"<b>Top por nota TMDb</b> (hasta {max_titles} títulos con ★)",
+        "<b>1) Resumen</b> — top por nota TMDb (una película, varios cines en la misma línea)",
         "",
     ]
     for i, it in enumerate(items, start=1):
-        cin_s = ", ".join(sorted(it["cinemas"], key=str.lower))
-        t_esc = html.escape(it["title"])
+        cin_html = ", ".join(
+            f"<b>{html.escape(c)}</b>"
+            for c in sorted(it["cinemas"], key=str.lower)
+        )
+        disp = global_top_display_title(it["title"])
+        t_esc = html.escape(disp)
         note = f" {it['rating']}" if it.get("rating") else ""
-        lines.append(f"   {i}. {t_esc} · <i>{html.escape(cin_s)}</i>{note}")
+        lines.append(f"   {i}. {t_esc} · {cin_html}{note}")
     lines.append("")
     return lines
 
@@ -254,7 +258,7 @@ def build_digest_sections(
         "",
         f"<i>Barcelona · {html.escape(tz_name)}</i>",
         f"<i>Actualizado {html.escape(now_str)}</i>",
-        "<i>Resumen por nota TMDb; luego cartelera por cine (orden: nota, luego sin nota).</i>",
+        "<i>Estructura: (1) resumen global por nota · (2) detalle por cine con horarios.</i>",
     ]
     if lim.top_films_per_cinema_per_day > 0:
         header_lines.append(
@@ -279,6 +283,12 @@ def build_digest_sections(
             g_lines = _global_top_lines(block, lim.global_top_per_day)
             if g_lines:
                 lines.extend(g_lines)
+            if g_lines:
+                lines.append("<b>2) Por cine</b> — horarios y sesiones")
+                lines.append("")
+            else:
+                lines.append("<b>Por cine</b> — horarios y sesiones")
+                lines.append("")
             for cix, cinema in enumerate(sorted(block.keys())):
                 if cix:
                     lines.append("")
@@ -322,15 +332,15 @@ def build_digest_sections(
                     note = f" {rating}" if rating else ""
                     if times:
                         horas = ", ".join(html.escape(x) for x in times)
-                        lines.append(f"   • {t_esc} — {horas}{note}")
+                        lines.append(f"    • {t_esc} — {horas}{note}")
                     else:
-                        lines.append(f"   • {t_esc}{note}")
+                        lines.append(f"    • {t_esc}{note}")
 
                 for title, times, rating in show_r:
                     _emit(title, times, rating)
                 if show_u:
                     lines.append(
-                        "<i>   Sin ★ TMDb (sin match o votos por debajo del mínimo):</i>"
+                        "<i>    Sin ★ TMDb (sin match o pocos votos en TMDb):</i>"
                     )
                     for title, times, rating in show_u:
                         _emit(title, times, rating)
