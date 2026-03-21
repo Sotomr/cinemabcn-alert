@@ -33,6 +33,9 @@ _MONTH_ES = (
     "dic",
 )
 
+# Separador visual (Telegram HTML)
+_SEP = "────────────"
+
 
 @dataclass(frozen=True)
 class DigestLimits:
@@ -44,9 +47,9 @@ class DigestLimits:
 
 
 def _fmt_day_header(d: date, label: str) -> str:
-    wd = _WEEKDAY_ES[d.weekday()]
+    wd = _WEEKDAY_ES[d.weekday()].capitalize()
     mon = _MONTH_ES[d.month - 1]
-    return f"{label} — {wd} {d.day} {mon}"
+    return f"{label} · {wd} {d.day} {mon}"
 
 
 def parse_show_date(show: Show) -> date | None:
@@ -65,21 +68,10 @@ def parse_show_time(show: Show) -> str | None:
     return m.group(2) if m else None
 
 
-def three_calendar_days(tz: ZoneInfo) -> Tuple[date, date, date]:
+def two_calendar_days(tz: ZoneInfo) -> Tuple[date, date]:
+    """Solo hoy y mañana (ventana útil para decidir sesión)."""
     today = datetime.now(tz).date()
-    return today, today + timedelta(days=1), today + timedelta(days=2)
-
-
-def _dedupe_films_by_title(films: List[Film]) -> List[Film]:
-    seen: set[str] = set()
-    out: List[Film] = []
-    for f in films:
-        k = f.title.strip().lower()
-        if k in seen:
-            continue
-        seen.add(k)
-        out.append(f)
-    return out
+    return today, today + timedelta(days=1)
 
 
 def build_digest_sections(
@@ -99,23 +91,20 @@ def build_digest_sections(
     except Exception:
         tz = ZoneInfo("Europe/Madrid")
 
-    d0, d1, d2 = three_calendar_days(tz)
+    d0, d1 = two_calendar_days(tz)
     day_list = [
         (d0, "Hoy"),
         (d1, "Mañana"),
-        (d2, "Pasado mañana"),
     ]
-    target_dates = {d0, d1, d2}
+    target_dates = {d0, d1}
 
     # (título, horas, nota HTML opcional)
     by_day_cinema: Dict[
         date, Dict[str, List[Tuple[str, List[str], Optional[str]]]]
     ] = {d: {} for d, _ in day_list}
-    no_schedule: Dict[str, List[Film]] = {}
 
     for film in films:
         if not film.shows:
-            no_schedule.setdefault(film.cinema, []).append(film)
             continue
 
         by_date: Dict[date, List[str]] = {}
@@ -128,7 +117,6 @@ def build_digest_sections(
                 by_date.setdefault(sd, []).append(tm)
 
         if not by_date:
-            no_schedule.setdefault(film.cinema, []).append(film)
             continue
 
         for sd, times in by_date.items():
@@ -151,24 +139,31 @@ def build_digest_sections(
     now_str = datetime.now(tz).strftime("%d/%m/%Y %H:%M")
     header = "\n".join(
         [
-            "🎬 <b>Cartelera — próximos 3 días</b>",
-            f"<i>Barcelona · {html.escape(tz_name)} · {html.escape(now_str)}</i>",
+            "🎬 <b>Cartelera — hoy y mañana</b>",
+            "",
+            f"<i>📍 Barcelona · {html.escape(tz_name)}</i>",
+            f"<i>🕐 Actualizado {html.escape(now_str)}</i>",
+            "",
+            _SEP,
         ]
     )
     sections.append(header)
 
-    # Un bloque por día (horarios Verdi / otros con sesiones)
-    for d, lab in day_list:
+    # Un bloque por día
+    for idx, (d, lab) in enumerate(day_list):
         lines: List[str] = [
             f"📅 <b>{html.escape(_fmt_day_header(d, lab))}</b>",
+            "",
         ]
         block = by_day_cinema.get(d, {})
         if not block:
             lines.append(
-                "<i>Nada con horario en fuentes con sesiones para este día.</i>"
+                "<i>Ninguna sesión con hora en este periodo (según las webs consultadas).</i>"
             )
         else:
-            for cinema in sorted(block.keys()):
+            for cix, cinema in enumerate(sorted(block.keys())):
+                if cix:
+                    lines.append("")
                 lines.append(f"<b>{html.escape(cinema)}</b>")
                 rows = sorted(block[cinema], key=lambda x: x[0].lower())
                 max_v = lim.max_films_verdi_per_day
@@ -181,72 +176,30 @@ def build_digest_sections(
                     note = f" {rating}" if rating else ""
                     if times:
                         horas = ", ".join(html.escape(x) for x in times)
-                        lines.append(f"  • {t_esc} — {horas}{note}")
+                        lines.append(f"   • {t_esc} — {horas}{note}")
                     else:
-                        lines.append(f"  • {t_esc}{note}")
+                        lines.append(f"   • {t_esc}{note}")
                 if truncated:
                     lines.append(
-                        f"<i>… y más títulos este día — "
-                        f'<a href="https://barcelona.cines-verdi.com/es/cartelera">cartelera Verdi</a></i>'
+                        "<i>… y más en "
+                        '<a href="https://barcelona.cines-verdi.com/es/cartelera">Verdi</a></i>'
                     )
-                lines.append("")
-        sections.append("\n".join(lines).strip())
+        chunk = "\n".join(lines).strip()
+        if idx < len(day_list) - 1:
+            chunk += f"\n\n{_SEP}"
+        sections.append(chunk)
 
-    # Cartelera sin horario: un bloque por cine (listas largas recortadas)
-    footer_intro = "\n".join(
-        [
-            "────────────",
-            "<b>Otras carteleras</b> (sin horario parseado aquí)",
-            "<i>Enlaces a la web del cine para sesiones exactas.</i>",
-        ]
-    )
-    sections.append(footer_intro)
-
-    if not no_schedule:
-        sections.append("<i>No hay listados sin sesiones parseadas.</i>")
-    else:
-        # Orden: cines con menos ruido primero
-        order_pref = (
-            "Espai Texas",
-            "Phenomena",
-            "Zumzeig",
-            "Maldà",
-            "Verdi",
-        )
-
-        def _cin_sort(name: str) -> tuple[int, str]:
-            try:
-                return (order_pref.index(name), name.lower())
-            except ValueError:
-                return (99, name.lower())
-
-        for cinema in sorted(no_schedule.keys(), key=_cin_sort):
-            raw = _dedupe_films_by_title(no_schedule[cinema])
-            raw.sort(key=lambda f: f.title.lower())
-            max_f = lim.max_films_unscheduled_per_cinema
-            show = raw[:max_f] if max_f > 0 else raw
-            rest = len(raw) - len(show)
-
-            lines = [f"<b>{html.escape(cinema)}</b>"]
-            for film in show:
-                note = f" {film.rating}" if film.rating else ""
-                if film.url:
-                    lines.append(
-                        f"  • {html.escape(film.title)} — "
-                        f'<a href="{html.escape(film.url)}">web</a>{note}'
-                    )
-                else:
-                    lines.append(f"  • {html.escape(film.title)}{note}")
-            if rest > 0:
-                lines.append(
-                    f"<i>… y {rest} títulos más (lista completa en la web del cine)</i>"
-                )
-            sections.append("\n".join(lines))
+    # Solo mostramos lo que cae en hoy/mañana; no bloque extra de “otras carteleras”.
 
     if failures:
-        fl = ["<b>Scrapers con error</b>"]
+        fl = [
+            _SEP,
+            "<b>⚠️ Avisos</b>",
+            "<i>Alguna web no se pudo leer bien en esta pasada.</i>",
+            "",
+        ]
         for f in failures:
-            fl.append(f"  • {html.escape(f)}")
+            fl.append(f"   • {html.escape(f)}")
         sections.append("\n".join(fl))
 
     if lim.show_debug_footer:
@@ -325,15 +278,16 @@ def format_novelties_html(films: List[Film], *, limit: int = 12) -> str:
     if not films:
         return ""
     lines = [
-        "────────────",
-        "<b>Novedades desde la última ejecución</b>",
-        "<i>Diff respecto al snapshot anterior (puede solaparse con lo de arriba).</i>",
+        _SEP,
+        "<b>✨ Novedades</b>",
+        "<i>Respecto al último aviso (altas en cartelera).</i>",
+        "",
     ]
     for f in films[:limit]:
         note = f" {f.rating}" if f.rating else ""
         lines.append(
-            f"  • <b>{html.escape(f.cinema)}</b>: {html.escape(f.title)}{note}"
+            f"   • <b>{html.escape(f.cinema)}</b> · {html.escape(f.title)}{note}"
         )
     if len(films) > limit:
-        lines.append(f"  <i>… y {len(films) - limit} más</i>")
+        lines.append(f"   <i>… y {len(films) - limit} más</i>")
     return "\n".join(lines)

@@ -66,6 +66,7 @@ def main() -> int:
         settings.tmdb_api_key,
         data_dir=settings.data_dir,
         max_films=settings.tmdb_max_films,
+        min_votes=settings.tmdb_min_votes,
     )
     fetched_at = datetime.now(timezone.utc).isoformat()
     current = Snapshot(fetched_at=fetched_at, films=films)
@@ -93,8 +94,8 @@ def main() -> int:
 
     if is_first:
         sections.append(
-            "<i>Primera ejecución: snapshot guardado en el repo. "
-            "El bloque «novedades» tendrá más sentido en las siguientes corridas.</i>"
+            "<i>Primera corrida: snapshot guardado. "
+            "Las «novedades» tendrán sentido a partir del próximo aviso.</i>"
         )
 
     telegram_parts = merge_sections_for_telegram(sections, max_len=TELEGRAM_MAX - 150)
