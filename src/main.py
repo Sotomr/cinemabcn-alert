@@ -15,6 +15,8 @@ from tmdb_ratings import enrich_films_with_ratings, sort_films_for_tmdb_priority
 from digest import (
     DigestLimits,
     build_digest_sections,
+    build_digest_telegram_parts,
+    expand_digest_parts_for_telegram,
     film_has_show_in_window,
     format_novelties_html,
     merge_sections_for_telegram,
@@ -87,12 +89,26 @@ def main() -> int:
         novelties_top_per_cinema=settings.digest_novelties_top_per_cinema,
         novelties_max_lines=settings.digest_novelties_max_lines,
     )
-    sections = build_digest_sections(
-        films,
-        failures,
-        tz_name=settings.timezone,
-        limits=limits,
-    )
+    if settings.digest_telegram_by_cinema:
+        digest_chunks = build_digest_telegram_parts(
+            films,
+            failures,
+            tz_name=settings.timezone,
+            limits=limits,
+        )
+        sections = expand_digest_parts_for_telegram(
+            digest_chunks, max_len=TELEGRAM_MAX - 150
+        )
+    else:
+        sections = merge_sections_for_telegram(
+            build_digest_sections(
+                films,
+                failures,
+                tz_name=settings.timezone,
+                limits=limits,
+            ),
+            max_len=TELEGRAM_MAX - 150,
+        )
 
     if settings.append_novelties and not is_first:
         new_entries = compute_new_entries(prev_films, current.films)
@@ -102,21 +118,31 @@ def main() -> int:
             if film_has_show_in_window(f, settings.timezone)
         ]
         if new_entries:
-            sections.append(
-                format_novelties_html(
-                    new_entries,
-                    top_per_cinema=limits.novelties_top_per_cinema,
-                    max_lines=limits.novelties_max_lines,
+            sections.extend(
+                merge_sections_for_telegram(
+                    [
+                        format_novelties_html(
+                            new_entries,
+                            top_per_cinema=limits.novelties_top_per_cinema,
+                            max_lines=limits.novelties_max_lines,
+                        )
+                    ],
+                    max_len=TELEGRAM_MAX - 150,
                 )
             )
 
     if is_first:
-        sections.append(
-            "<i>Primera corrida: snapshot guardado. "
-            "Las «novedades» tendrán sentido a partir del próximo aviso.</i>"
+        sections.extend(
+            merge_sections_for_telegram(
+                [
+                    "<i>Primera corrida: snapshot guardado. "
+                    "Las «novedades» tendrán sentido a partir del próximo aviso.</i>"
+                ],
+                max_len=TELEGRAM_MAX - 150,
+            )
         )
 
-    telegram_parts = merge_sections_for_telegram(sections, max_len=TELEGRAM_MAX - 150)
+    telegram_parts = sections
     log_text = "\n\n--- mensaje siguiente ---\n\n".join(telegram_parts)
 
     save_snapshot(settings.snapshot_path, current)

@@ -162,6 +162,232 @@ def _global_top_lines(
     return lines
 
 
+def _collect_by_day_cinema(
+    films: List[Film],
+    day_list: List[Tuple[date, str]],
+) -> Dict[date, Dict[str, List[Tuple[str, List[str], Optional[str]]]]]:
+    target_dates = {d for d, _ in day_list}
+    by_day_cinema: Dict[
+        date, Dict[str, List[Tuple[str, List[str], Optional[str]]]]
+    ] = {d: {} for d, _ in day_list}
+
+    for film in films:
+        if not film.shows:
+            continue
+
+        by_date: Dict[date, List[str]] = {}
+        for sh in film.shows:
+            sd = parse_show_date(sh)
+            if sd is None or sd not in target_dates:
+                continue
+            tm = parse_show_time(sh) or ""
+            if tm:
+                by_date.setdefault(sd, []).append(tm)
+
+        if not by_date:
+            continue
+
+        for sd, times in by_date.items():
+            times_u = sorted(set(times))
+            title = film.title
+            cin = film.cinema
+            lst = by_day_cinema.setdefault(sd, {}).setdefault(cin, [])
+            found = False
+            for i, (t, hs, r0) in enumerate(lst):
+                if t == title:
+                    merged = sorted(set(hs + times_u))
+                    lst[i] = (t, merged, r0 or film.rating)
+                    found = True
+                    break
+            if not found:
+                lst.append((title, times_u, film.rating))
+
+    return by_day_cinema
+
+
+def _format_cinema_rows(
+    cinema: str,
+    raw: List[Tuple[str, List[str], Optional[str]]],
+    lim: DigestLimits,
+) -> List[str]:
+    """Líneas de listado (viñetas) para un cine en un día."""
+    lines: List[str] = []
+    orig_count = len(raw)
+    rated = [x for x in raw if score_from_rating_html(x[2]) >= 0.0]
+    unrated = [x for x in raw if score_from_rating_html(x[2]) < 0.0]
+    rated.sort(key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()))
+    unrated.sort(key=lambda x: x[0].lower())
+
+    max_v = lim.max_films_verdi_per_day
+    top_n = lim.top_films_per_cinema_per_day
+    extra_u = lim.extra_unrated_per_cinema_per_day
+
+    if top_n > 0:
+        show_r = rated[:top_n]
+        hide_r = max(0, len(rated) - len(show_r))
+        if show_r:
+            show_u = unrated[:extra_u] if extra_u > 0 else []
+            hide_u = max(0, len(unrated) - len(show_u))
+        else:
+            cap = top_n + (extra_u if extra_u > 0 else 0)
+            show_u = unrated[:cap]
+            hide_u = max(0, len(unrated) - len(show_u))
+            show_r = []
+            hide_r = 0
+    else:
+        rows_all = sorted(
+            raw,
+            key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()),
+        )
+        if cinema == "Verdi" and max_v > 0:
+            rows_all = rows_all[:max_v]
+        show_r = rows_all
+        show_u = []
+        hide_r = hide_u = 0
+
+    def _emit(title: str, times: List[str], rating: Optional[str]) -> None:
+        t_esc = html.escape(title)
+        note = f" {rating}" if rating else ""
+        if times:
+            horas = ", ".join(html.escape(x) for x in times)
+            lines.append(f"    • {t_esc} — {horas}{note}")
+        else:
+            lines.append(f"    • {t_esc}{note}")
+
+    for title, times, rating in show_r:
+        _emit(title, times, rating)
+    if show_u:
+        lines.append("<i>    Sin ★ TMDb (sin match o pocos votos en TMDb):</i>")
+        for title, times, rating in show_u:
+            _emit(title, times, rating)
+    parts_msg: List[str] = []
+    if hide_r:
+        parts_msg.append(
+            f"{hide_r} con ★ TMDb no listadas (tope {top_n}/día por cine)"
+        )
+    if hide_u:
+        parts_msg.append(f"{hide_u} sin ★ no listadas (tope {extra_u} sesiones)")
+    if parts_msg:
+        lines.append(f"<i>… {' · '.join(parts_msg)}</i>")
+    elif cinema == "Verdi" and max_v > 0 and top_n == 0 and orig_count > max_v:
+        lines.append(
+            "<i>… y más en "
+            '<a href="https://barcelona.cines-verdi.com/es/cartelera">Verdi</a></i>'
+        )
+    return lines
+
+
+def build_digest_telegram_parts(
+    films: List[Film],
+    failures: List[str],
+    *,
+    tz_name: str = "Europe/Madrid",
+    limits: DigestLimits | None = None,
+) -> List[str]:
+    """
+    Mensaje 1: cabecera + resumen por día (top por nota) + notas + avisos.
+    Siguientes: un mensaje por cine con hoy y mañana.
+    """
+    lim = limits or DigestLimits()
+    try:
+        tz = ZoneInfo(tz_name)
+    except Exception:
+        tz = ZoneInfo("Europe/Madrid")
+
+    d0, d1 = two_calendar_days(tz)
+    day_list = [
+        (d0, "Hoy"),
+        (d1, "Mañana"),
+    ]
+    by_day_cinema = _collect_by_day_cinema(films, day_list)
+
+    now_str = datetime.now(tz).strftime("%d/%m/%Y %H:%M")
+    header_lines: List[str] = [
+        "<b>Cartelera — hoy y mañana</b>",
+        "",
+        f"<i>Barcelona · {html.escape(tz_name)}</i>",
+        f"<i>Actualizado {html.escape(now_str)}</i>",
+        "<i>Mensaje 1: resumen por nota · siguientes: un mensaje por cine.</i>",
+    ]
+    if lim.top_films_per_cinema_per_day > 0:
+        header_lines.append(
+            f"<i>Tope por cine: {lim.top_films_per_cinema_per_day} con ★, "
+            f"{lim.extra_unrated_per_cinema_per_day} sin nota (ver DIGEST_TOP_PER_CINEMA).</i>"
+        )
+    header_lines.extend(["", _SEP])
+
+    first: List[str] = list(header_lines)
+    for idx, (d, lab) in enumerate(day_list):
+        if idx:
+            first.append("")
+            first.append(_SEP)
+            first.append("")
+        first.append(f"<b>{html.escape(_fmt_day_header(d, lab))}</b>")
+        first.append("")
+        block = by_day_cinema.get(d, {})
+        if not block:
+            first.append(
+                "<i>Ninguna sesión con hora en este periodo (según las webs consultadas).</i>"
+            )
+        else:
+            g_lines = _global_top_lines(block, lim.global_top_per_day)
+            if g_lines:
+                first.extend(g_lines)
+
+    notes_extra = _cinema_notes_sin_ventana(films, by_day_cinema, day_list)
+    if notes_extra:
+        first.extend(["", _SEP, ""] + notes_extra)
+
+    if failures:
+        fl = [
+            "",
+            _SEP,
+            "",
+            "<b>Avisos</b>",
+            "<i>Alguna web no se pudo leer bien en esta pasada.</i>",
+            "",
+        ]
+        for f in failures:
+            fl.append(f"   • {html.escape(f)}")
+        first.extend(fl)
+
+    if lim.show_debug_footer:
+        first.extend(
+            [
+                "",
+                "<i>Debug: GitHub Actions → Run workflow · "
+                "local: <code>python src/main.py</code></i>",
+            ]
+        )
+
+    out: List[str] = ["\n".join(first).strip()]
+
+    all_cinemas_set: set[str] = set()
+    for d, _ in day_list:
+        all_cinemas_set |= set(by_day_cinema.get(d, {}).keys())
+    all_cinemas = sorted(all_cinemas_set, key=str.lower)
+    for cinema in all_cinemas:
+        clines: List[str] = [
+            f"<b>{html.escape(cinema)}</b>",
+            "<i>Sesiones hoy y mañana</i>",
+            "",
+        ]
+        wrote = False
+        for d, lab in day_list:
+            block = by_day_cinema.get(d, {})
+            if cinema not in block:
+                continue
+            wrote = True
+            clines.append(f"<b>{html.escape(_fmt_day_header(d, lab))}</b>")
+            clines.append("")
+            clines.extend(_format_cinema_rows(cinema, block[cinema], lim))
+            clines.append("")
+        if wrote:
+            out.append("\n".join(clines).strip())
+
+    return [s for s in out if s.strip()]
+
+
 def _cinema_notes_sin_ventana(
     films: List[Film],
     by_day_cinema: Dict[date, Dict[str, Any]],
@@ -212,43 +438,7 @@ def build_digest_sections(
         (d0, "Hoy"),
         (d1, "Mañana"),
     ]
-    target_dates = {d0, d1}
-
-    # (título, horas, nota HTML opcional)
-    by_day_cinema: Dict[
-        date, Dict[str, List[Tuple[str, List[str], Optional[str]]]]
-    ] = {d: {} for d, _ in day_list}
-
-    for film in films:
-        if not film.shows:
-            continue
-
-        by_date: Dict[date, List[str]] = {}
-        for sh in film.shows:
-            sd = parse_show_date(sh)
-            if sd is None or sd not in target_dates:
-                continue
-            tm = parse_show_time(sh) or ""
-            if tm:
-                by_date.setdefault(sd, []).append(tm)
-
-        if not by_date:
-            continue
-
-        for sd, times in by_date.items():
-            times_u = sorted(set(times))
-            title = film.title
-            cin = film.cinema
-            lst = by_day_cinema.setdefault(sd, {}).setdefault(cin, [])
-            found = False
-            for i, (t, hs, r0) in enumerate(lst):
-                if t == title:
-                    merged = sorted(set(hs + times_u))
-                    lst[i] = (t, merged, r0 or film.rating)
-                    found = True
-                    break
-            if not found:
-                lst.append((title, times_u, film.rating))
+    by_day_cinema = _collect_by_day_cinema(films, day_list)
 
     sections: List[str] = []
 
@@ -293,73 +483,9 @@ def build_digest_sections(
                 if cix:
                     lines.append("")
                 lines.append(f"<b>{html.escape(cinema)}</b>")
-                orig_count = len(block[cinema])
-                raw = block[cinema]
-                rated = [x for x in raw if score_from_rating_html(x[2]) >= 0.0]
-                unrated = [x for x in raw if score_from_rating_html(x[2]) < 0.0]
-                rated.sort(key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()))
-                unrated.sort(key=lambda x: x[0].lower())
-
-                max_v = lim.max_films_verdi_per_day
-                top_n = lim.top_films_per_cinema_per_day
-                extra_u = lim.extra_unrated_per_cinema_per_day
-
-                if top_n > 0:
-                    show_r = rated[:top_n]
-                    hide_r = max(0, len(rated) - len(show_r))
-                    if show_r:
-                        show_u = unrated[:extra_u] if extra_u > 0 else []
-                        hide_u = max(0, len(unrated) - len(show_u))
-                    else:
-                        cap = top_n + (extra_u if extra_u > 0 else 0)
-                        show_u = unrated[:cap]
-                        hide_u = max(0, len(unrated) - len(show_u))
-                        show_r = []
-                        hide_r = 0
-                else:
-                    rows_all = sorted(
-                        raw,
-                        key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()),
-                    )
-                    if cinema == "Verdi" and max_v > 0:
-                        rows_all = rows_all[:max_v]
-                    show_r = rows_all
-                    show_u = []
-                    hide_r = hide_u = 0
-
-                def _emit(title: str, times: List[str], rating: Optional[str]) -> None:
-                    t_esc = html.escape(title)
-                    note = f" {rating}" if rating else ""
-                    if times:
-                        horas = ", ".join(html.escape(x) for x in times)
-                        lines.append(f"    • {t_esc} — {horas}{note}")
-                    else:
-                        lines.append(f"    • {t_esc}{note}")
-
-                for title, times, rating in show_r:
-                    _emit(title, times, rating)
-                if show_u:
-                    lines.append(
-                        "<i>    Sin ★ TMDb (sin match o pocos votos en TMDb):</i>"
-                    )
-                    for title, times, rating in show_u:
-                        _emit(title, times, rating)
-                parts_msg: List[str] = []
-                if hide_r:
-                    parts_msg.append(
-                        f"{hide_r} con ★ TMDb no listadas (tope {top_n}/día por cine)"
-                    )
-                if hide_u:
-                    parts_msg.append(
-                        f"{hide_u} sin ★ no listadas (tope {extra_u} sesiones)"
-                    )
-                if parts_msg:
-                    lines.append(f"<i>… {' · '.join(parts_msg)}</i>")
-                elif cinema == "Verdi" and max_v > 0 and top_n == 0 and orig_count > max_v:
-                    lines.append(
-                        "<i>… y más en "
-                        '<a href="https://barcelona.cines-verdi.com/es/cartelera">Verdi</a></i>'
-                    )
+                lines.extend(
+                    _format_cinema_rows(cinema, block[cinema], lim),
+                )
         chunk = "\n".join(lines).strip()
         if idx < len(day_list) - 1:
             chunk += f"\n\n{_SEP}"
@@ -387,6 +513,16 @@ def build_digest_sections(
         )
 
     return [s for s in sections if s.strip()]
+
+
+def expand_digest_parts_for_telegram(
+    parts: List[str], max_len: int = 3800
+) -> List[str]:
+    """Parte cada trozo del digest si supera max_len (p. ej. un solo cine muy largo)."""
+    out: List[str] = []
+    for p in parts:
+        out.extend(merge_sections_for_telegram([p], max_len=max_len))
+    return out
 
 
 def merge_sections_for_telegram(sections: List[str], max_len: int = 3800) -> List[str]:
@@ -447,7 +583,7 @@ def format_daily_digest_html(
     tz_name: str = "Europe/Madrid",
     limits: DigestLimits | None = None,
 ) -> str:
-    """Un solo string (p. ej. logs); para Telegram usar build_digest_sections + merge."""
+    """Un solo string (p. ej. logs); usa build_digest_sections (vista continua)."""
     parts = build_digest_sections(films, failures, tz_name=tz_name, limits=limits)
     return "\n\n".join(parts).strip()
 

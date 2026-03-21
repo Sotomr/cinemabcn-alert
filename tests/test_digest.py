@@ -1,11 +1,20 @@
 import sys
 from datetime import date
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
-from digest import _global_top_lines, parse_show_date, parse_show_time, score_from_rating_html
-from models import Show
+from digest import (
+    DigestLimits,
+    _global_top_lines,
+    build_digest_telegram_parts,
+    parse_show_date,
+    parse_show_time,
+    score_from_rating_html,
+    two_calendar_days,
+)
+from models import Film, Show
 
 
 def test_parse_verdi_show():
@@ -38,3 +47,35 @@ def test_global_top_empty_when_no_ratings():
         "Verdi": [("Solo sin nota", ["20:30"], None)],
     }
     assert _global_top_lines(block, 10) == []
+
+
+def test_build_digest_telegram_parts_separates_cinemas():
+    tz = ZoneInfo("Europe/Madrid")
+    d0, _ = two_calendar_days(tz)
+    dt = f"{d0.strftime('%Y%m%d')} 20:00"
+    films = [
+        Film(
+            cinema="Alpha",
+            title="Pel A",
+            url="https://x/a",
+            source_section="t",
+            shows=[Show(datetime=dt)],
+        ),
+        Film(
+            cinema="Beta",
+            title="Pel B",
+            url="https://x/b",
+            source_section="t",
+            shows=[Show(datetime=dt)],
+        ),
+    ]
+    parts = build_digest_telegram_parts(
+        films,
+        [],
+        tz_name="Europe/Madrid",
+        limits=DigestLimits(global_top_per_day=0),
+    )
+    assert len(parts) >= 3
+    assert "Mensaje 1" in parts[0]
+    assert any("Alpha" in p for p in parts[1:])
+    assert any("Beta" in p for p in parts[1:])

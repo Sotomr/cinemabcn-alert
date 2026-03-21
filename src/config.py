@@ -38,6 +38,7 @@ class Settings:
     digest_extra_unrated: int
     digest_novelties_top_per_cinema: int
     digest_novelties_max_lines: int
+    digest_telegram_by_cinema: bool
 
 
 def _int_env(name: str, default: int) -> int:
@@ -83,4 +84,6 @@ def load_settings() -> Settings:
         digest_extra_unrated=_int_env("DIGEST_EXTRA_UNRATED", 5),
         digest_novelties_top_per_cinema=_int_env("DIGEST_NOVELTIES_TOP_PER_CINEMA", 5),
         digest_novelties_max_lines=_int_env("DIGEST_NOVELTIES_MAX_LINES", 15),
+        digest_telegram_by_cinema=os.getenv("DIGEST_TELEGRAM_BY_CINEMA", "1").lower()
+        not in ("0", "false", "no"),
     )
