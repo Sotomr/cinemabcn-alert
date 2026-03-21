@@ -11,8 +11,9 @@ from .base import BaseScraper
 
 logger = logging.getLogger(__name__)
 
-# Cooperativa Zumzeig (Barcelona): la URL pública a veces cambia; usa ZUMZEIG_CARTELERA_URL si falla.
+# Cooperativa Zumzeig (Barcelona): dominio actual 2025+ zumzeigcine.coop; override con ZUMZEIG_CARTELERA_URL.
 DEFAULT_URLS = (
+    "https://www.zumzeigcine.coop/",
     "https://www.zumzeig.fr/",
     "https://zumzeig.org/",
     "https://www.zumzeig.org/",

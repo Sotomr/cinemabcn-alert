@@ -6,7 +6,9 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-load_dotenv()
+_ROOT = Path(__file__).resolve().parent.parent
+# Siempre desde la raíz del repo (no depende del cwd al lanzar python)
+load_dotenv(_ROOT / ".env")
 
 
 @dataclass(frozen=True)
@@ -27,6 +29,10 @@ class Settings:
     phenomena_base_url: str | None
     zumzeig_cartelera_url: str | None
 
+    # TMDb (notas + enlace IMDb); opcional
+    tmdb_api_key: str | None
+    tmdb_max_films: int
+
 
 def _int_env(name: str, default: int) -> int:
     v = os.getenv(name)
@@ -39,7 +45,7 @@ def _int_env(name: str, default: int) -> int:
 
 
 def load_settings() -> Settings:
-    root = Path(__file__).resolve().parent.parent
+    root = _ROOT
     data_dir = root / "data"
     token = os.getenv("TELEGRAM_BOT_TOKEN") or None
     chat_id = os.getenv("TELEGRAM_CHAT_ID") or None
@@ -63,4 +69,6 @@ def load_settings() -> Settings:
         debug_footer=dbg,
         phenomena_base_url=os.getenv("PHENOMENA_BASE_URL") or None,
         zumzeig_cartelera_url=os.getenv("ZUMZEIG_CARTELERA_URL") or None,
+        tmdb_api_key=(os.getenv("TMDB_API_KEY") or "").strip() or None,
+        tmdb_max_films=_int_env("TMDB_MAX_FILMS", 50),
     )

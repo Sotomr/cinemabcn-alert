@@ -11,6 +11,7 @@ if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
 from config import load_settings
+from tmdb_ratings import enrich_films_with_ratings
 from digest import (
     DigestLimits,
     build_digest_sections,
@@ -60,6 +61,12 @@ def main() -> int:
     settings.data_dir.mkdir(parents=True, exist_ok=True)
 
     films, failures = _run_scrapers()
+    enrich_films_with_ratings(
+        films,
+        settings.tmdb_api_key,
+        data_dir=settings.data_dir,
+        max_films=settings.tmdb_max_films,
+    )
     fetched_at = datetime.now(timezone.utc).isoformat()
     current = Snapshot(fetched_at=fetched_at, films=films)
 

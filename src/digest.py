@@ -4,7 +4,7 @@ import html
 import re
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 from zoneinfo import ZoneInfo
 
 from models import Film, Show
@@ -107,9 +107,10 @@ def build_digest_sections(
     ]
     target_dates = {d0, d1, d2}
 
-    by_day_cinema: Dict[date, Dict[str, List[Tuple[str, List[str]]]]] = {
-        d: {} for d, _ in day_list
-    }
+    # (título, horas, nota HTML opcional)
+    by_day_cinema: Dict[
+        date, Dict[str, List[Tuple[str, List[str], Optional[str]]]]
+    ] = {d: {} for d, _ in day_list}
     no_schedule: Dict[str, List[Film]] = {}
 
     for film in films:
@@ -136,14 +137,14 @@ def build_digest_sections(
             cin = film.cinema
             lst = by_day_cinema.setdefault(sd, {}).setdefault(cin, [])
             found = False
-            for i, (t, hs) in enumerate(lst):
+            for i, (t, hs, r0) in enumerate(lst):
                 if t == title:
                     merged = sorted(set(hs + times_u))
-                    lst[i] = (t, merged)
+                    lst[i] = (t, merged, r0 or film.rating)
                     found = True
                     break
             if not found:
-                lst.append((title, times_u))
+                lst.append((title, times_u, film.rating))
 
     sections: List[str] = []
 
@@ -175,13 +176,14 @@ def build_digest_sections(
                 if max_v > 0 and len(rows) > max_v:
                     rows = rows[:max_v]
                     truncated = True
-                for title, times in rows:
+                for title, times, rating in rows:
                     t_esc = html.escape(title)
+                    note = f" {rating}" if rating else ""
                     if times:
                         horas = ", ".join(html.escape(x) for x in times)
-                        lines.append(f"  • {t_esc} — {horas}")
+                        lines.append(f"  • {t_esc} — {horas}{note}")
                     else:
-                        lines.append(f"  • {t_esc}")
+                        lines.append(f"  • {t_esc}{note}")
                 if truncated:
                     lines.append(
                         f"<i>… y más títulos este día — "
@@ -194,7 +196,7 @@ def build_digest_sections(
     footer_intro = "\n".join(
         [
             "────────────",
-            "<b>Otras carteleras</b> (sin horas en este aviso)",
+            "<b>Otras carteleras</b> (sin horario parseado aquí)",
             "<i>Enlaces a la web del cine para sesiones exactas.</i>",
         ]
     )
@@ -227,13 +229,14 @@ def build_digest_sections(
 
             lines = [f"<b>{html.escape(cinema)}</b>"]
             for film in show:
+                note = f" {film.rating}" if film.rating else ""
                 if film.url:
                     lines.append(
                         f"  • {html.escape(film.title)} — "
-                        f'<a href="{html.escape(film.url)}">web</a>'
+                        f'<a href="{html.escape(film.url)}">web</a>{note}'
                     )
                 else:
-                    lines.append(f"  • {html.escape(film.title)}")
+                    lines.append(f"  • {html.escape(film.title)}{note}")
             if rest > 0:
                 lines.append(
                     f"<i>… y {rest} títulos más (lista completa en la web del cine)</i>"
@@ -327,8 +330,9 @@ def format_novelties_html(films: List[Film], *, limit: int = 12) -> str:
         "<i>Diff respecto al snapshot anterior (puede solaparse con lo de arriba).</i>",
     ]
     for f in films[:limit]:
+        note = f" {f.rating}" if f.rating else ""
         lines.append(
-            f"  • <b>{html.escape(f.cinema)}</b>: {html.escape(f.title)}"
+            f"  • <b>{html.escape(f.cinema)}</b>: {html.escape(f.title)}{note}"
         )
     if len(films) > limit:
         lines.append(f"  <i>… y {len(films) - limit} más</i>")

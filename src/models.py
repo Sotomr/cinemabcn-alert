@@ -34,6 +34,8 @@ class Film:
     source_section: str
     shows: List[Show] = field(default_factory=list)
     labels: List[str] = field(default_factory=list)
+    # Nota corta p. ej. "★ 7.4 TMDb" (opcional, desde API)
+    rating: Optional[str] = None
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -43,6 +45,7 @@ class Film:
             "source_section": self.source_section,
             "shows": [s.to_dict() for s in self.shows],
             "labels": list(self.labels),
+            "rating": self.rating,
         }
 
     @staticmethod
@@ -55,6 +58,7 @@ class Film:
             source_section=d.get("source_section", ""),
             shows=[Show.from_dict(s) for s in shows_raw],
             labels=list(d.get("labels") or []),
+            rating=d.get("rating"),
         )
 
 
