@@ -15,6 +15,7 @@ from tmdb_ratings import enrich_films_with_ratings, sort_films_for_tmdb_priority
 from digest import (
     DigestLimits,
     build_digest_sections,
+    film_has_show_in_window,
     format_novelties_html,
     merge_sections_for_telegram,
 )
@@ -22,7 +23,6 @@ from diff_engine import compute_new_entries
 from models import Film, Snapshot
 from notifier import TELEGRAM_MAX, send_telegram_messages
 from scrapers.espai_texas import EspaiTexasScraper
-from scrapers.mooby_balmes import MoobyBalmesScraper
 from scrapers.malda import MaldaScraper
 from scrapers.phenomena import PhenomenaScraper
 from scrapers.verdi import VerdiScraper
@@ -43,7 +43,6 @@ def _run_scrapers() -> tuple[list[Film], list[str]]:
         MaldaScraper(),
         ZumzeigScraper(),
         EspaiTexasScraper(),
-        MoobyBalmesScraper(),
     ]
     films: list[Film] = []
     failures: list[str] = []
@@ -82,6 +81,9 @@ def main() -> int:
         max_films_unscheduled_per_cinema=settings.digest_max_unscheduled,
         max_films_verdi_per_day=settings.digest_max_verdi_per_day,
         show_debug_footer=settings.debug_footer,
+        top_films_per_cinema_per_day=settings.digest_top_per_cinema,
+        novelties_top_per_cinema=settings.digest_novelties_top_per_cinema,
+        novelties_max_lines=settings.digest_novelties_max_lines,
     )
     sections = build_digest_sections(
         films,
@@ -92,8 +94,19 @@ def main() -> int:
 
     if settings.append_novelties and not is_first:
         new_entries = compute_new_entries(prev_films, current.films)
+        new_entries = [
+            f
+            for f in new_entries
+            if film_has_show_in_window(f, settings.timezone)
+        ]
         if new_entries:
-            sections.append(format_novelties_html(new_entries))
+            sections.append(
+                format_novelties_html(
+                    new_entries,
+                    top_per_cinema=limits.novelties_top_per_cinema,
+                    max_lines=limits.novelties_max_lines,
+                )
+            )
 
     if is_first:
         sections.append(

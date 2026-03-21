@@ -44,6 +44,10 @@ class DigestLimits:
     max_films_unscheduled_per_cinema: int = 15
     max_films_verdi_per_day: int = 0  # 0 = sin límite
     show_debug_footer: bool = False
+    # 0 = mostrar todas; >0 = top N por cine y día ordenadas por nota TMDb
+    top_films_per_cinema_per_day: int = 5
+    novelties_top_per_cinema: int = 5
+    novelties_max_lines: int = 15
 
 
 def _fmt_day_header(d: date, label: str) -> str:
@@ -74,6 +78,34 @@ def two_calendar_days(tz: ZoneInfo) -> Tuple[date, date]:
     return today, today + timedelta(days=1)
 
 
+def film_has_show_in_window(film: Film, tz_name: str) -> bool:
+    """True si la película tiene al menos una sesión hoy o mañana."""
+    try:
+        tz = ZoneInfo(tz_name)
+    except Exception:
+        tz = ZoneInfo("Europe/Madrid")
+    d0, d1 = two_calendar_days(tz)
+    win = {d0, d1}
+    for sh in film.shows:
+        sd = parse_show_date(sh)
+        if sd is not None and sd in win:
+            return True
+    return False
+
+
+def score_from_rating_html(rating_html: Optional[str]) -> float:
+    """Extrae la nota numérica del HTML de TMDb para ordenar."""
+    if not rating_html:
+        return -1.0
+    m = re.search(r"★\s*([\d.]+)", rating_html)
+    if not m:
+        return -1.0
+    try:
+        return float(m.group(1))
+    except ValueError:
+        return -1.0
+
+
 def _cinema_notes_sin_ventana(
     films: List[Film],
     by_day_cinema: Dict[date, Dict[str, Any]],
@@ -94,11 +126,6 @@ def _cinema_notes_sin_ventana(
             notes.append(
                 f"<i><b>{html.escape(cin)}</b>: sus sesiones en la web no caen en hoy/mañana "
                 f"(suelen ser fechas posteriores).</i>"
-            )
-        elif cin == "Moby Balmes":
-            notes.append(
-                f"<i><b>{html.escape(cin)}</b>: la web no publica horarios en la página que usamos; "
-                f"consulta la cartelera en moobycinemas.com.</i>"
             )
         else:
             notes.append(
@@ -170,17 +197,18 @@ def build_digest_sections(
     sections: List[str] = []
 
     now_str = datetime.now(tz).strftime("%d/%m/%Y %H:%M")
-    header = "\n".join(
-        [
-            "🎬 <b>Cartelera — hoy y mañana</b>",
-            "",
-            f"<i>📍 Barcelona · {html.escape(tz_name)}</i>",
-            f"<i>🕐 Actualizado {html.escape(now_str)}</i>",
-            "",
-            _SEP,
-        ]
-    )
-    sections.append(header)
+    header_lines: List[str] = [
+        "🎬 <b>Cartelera — hoy y mañana</b>",
+        "",
+        f"<i>📍 Barcelona · {html.escape(tz_name)}</i>",
+        f"<i>🕐 Actualizado {html.escape(now_str)}</i>",
+    ]
+    if lim.top_films_per_cinema_per_day > 0:
+        header_lines.append(
+            f"<i>Hasta {lim.top_films_per_cinema_per_day} títulos por cine y día · orden por nota TMDb</i>"
+        )
+    header_lines.extend(["", _SEP])
+    sections.append("\n".join(header_lines))
 
     # Un bloque por día
     for idx, (d, lab) in enumerate(day_list):
@@ -198,12 +226,19 @@ def build_digest_sections(
                 if cix:
                     lines.append("")
                 lines.append(f"<b>{html.escape(cinema)}</b>")
-                rows = sorted(block[cinema], key=lambda x: x[0].lower())
+                orig_count = len(block[cinema])
+                rows = sorted(
+                    block[cinema],
+                    key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()),
+                )
                 max_v = lim.max_films_verdi_per_day
-                truncated = False
-                if max_v > 0 and len(rows) > max_v:
+                if cinema == "Verdi" and max_v > 0 and lim.top_films_per_cinema_per_day == 0:
                     rows = rows[:max_v]
-                    truncated = True
+                top_n = lim.top_films_per_cinema_per_day
+                hidden = 0
+                if top_n > 0 and len(rows) > top_n:
+                    hidden = len(rows) - top_n
+                    rows = rows[:top_n]
                 for title, times, rating in rows:
                     t_esc = html.escape(title)
                     note = f" {rating}" if rating else ""
@@ -212,11 +247,16 @@ def build_digest_sections(
                         lines.append(f"   • {t_esc} — {horas}{note}")
                     else:
                         lines.append(f"   • {t_esc}{note}")
-                if truncated:
+                if hidden:
                     lines.append(
-                        "<i>… y más en "
-                        '<a href="https://barcelona.cines-verdi.com/es/cartelera">Verdi</a></i>'
+                        f"<i>… y {hidden} más no mostradas (prioridad por nota TMDb)</i>"
                     )
+                elif cinema == "Verdi" and max_v > 0 and lim.top_films_per_cinema_per_day == 0:
+                    if orig_count > max_v:
+                        lines.append(
+                            "<i>… y más en "
+                            '<a href="https://barcelona.cines-verdi.com/es/cartelera">Verdi</a></i>'
+                        )
         chunk = "\n".join(lines).strip()
         if idx < len(day_list) - 1:
             chunk += f"\n\n{_SEP}"
@@ -309,20 +349,44 @@ def format_daily_digest_html(
     return "\n\n".join(parts).strip()
 
 
-def format_novelties_html(films: List[Film], *, limit: int = 12) -> str:
+def format_novelties_html(
+    films: List[Film],
+    *,
+    top_per_cinema: int = 5,
+    max_lines: int = 15,
+) -> str:
+    """Solo hoy/mañana: filtrar antes de llamar. Top por cine por nota."""
     if not films:
         return ""
+    by_cin: Dict[str, List[Film]] = {}
+    for f in films:
+        by_cin.setdefault(f.cinema, []).append(f)
+    picked: List[Film] = []
+    for cin in sorted(by_cin.keys(), key=str.lower):
+        grp = sorted(
+            by_cin[cin],
+            key=lambda f: (-score_from_rating_html(f.rating), f.title.lower()),
+        )
+        picked.extend(grp[: max(0, top_per_cinema)])
+    picked.sort(
+        key=lambda f: (
+            f.cinema.lower(),
+            -score_from_rating_html(f.rating),
+            f.title.lower(),
+        )
+    )
     lines = [
         _SEP,
         "<b>✨ Novedades</b>",
-        "<i>Respecto al último aviso (altas en cartelera).</i>",
+        "<i>Altas con sesión hoy o mañana · top por nota TMDb</i>",
         "",
     ]
-    for f in films[:limit]:
+    shown = picked[:max_lines]
+    for f in shown:
         note = f" {f.rating}" if f.rating else ""
         lines.append(
             f"   • <b>{html.escape(f.cinema)}</b> · {html.escape(f.title)}{note}"
         )
-    if len(films) > limit:
-        lines.append(f"   <i>… y {len(films) - limit} más</i>")
+    if len(picked) > max_lines:
+        lines.append(f"   <i>… y {len(picked) - max_lines} más</i>")
     return "\n".join(lines)

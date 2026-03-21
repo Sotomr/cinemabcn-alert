@@ -49,7 +49,7 @@ def sort_films_for_tmdb_priority(films: list[Film], tz_name: str) -> list[Film]:
     )
 
 # Nueva versión de caché si cambian criterios de confianza (evita notas viejas ★ 0.0)
-_CACHE_FILENAME = "tmdb_cache_v2.json"
+_CACHE_FILENAME = "tmdb_cache_v3.json"
 
 
 def _int_env(name: str, default: int) -> int:
@@ -63,15 +63,34 @@ def _int_env(name: str, default: int) -> int:
 
 
 def _clean_title_for_search(title: str) -> str:
-    """Quita sufijos de sala/copia que rompen la búsqueda en TMDb."""
+    """Quita sufijos VO/versión y ruido para buscar en TMDb (es/ca/en)."""
     t = re.sub(r"\s+", " ", title).strip()
+    for pat in (
+        r"\(VOSE\)",
+        r"\(VOSC\)",
+        r"\(VOCAT\)",
+        r"\(VO\)",
+        r"\(ATMOS\)",
+        r"\(4K\)",
+        r"\(3D\)",
+        r"\(HFR\)",
+        r"\(Doblada ESP\)",
+        r"\(Doblada Cat\)",
+        r"\(En directo\)",
+        r"\(Proyección[^)]*\)",
+        r"\(proyección[^)]*\)",
+    ):
+        t = re.sub(pat, "", t, flags=re.IGNORECASE)
     t = re.sub(
         r"\s*\([^)]*(?:proyección|proyecció|VOSE|VOSC|VOCAT|4K|Dolby|Atmos)[^)]*\)\s*",
         " ",
         t,
         flags=re.IGNORECASE,
     )
+    t = re.sub(r"\s*\([^)]*\)", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
+    if " - " in t and len(t) > 42:
+        t = t.split(" - ")[0].strip()
     return t[:120] if t else title[:120]
 
 TMDB_SEARCH = "https://api.themoviedb.org/3/search/movie"
@@ -101,23 +120,30 @@ def _search_movie(api_key: str, title: str) -> Optional[dict]:
     clean = re.sub(r"\s*[\(\[].*?[\)\]]\s*", " ", clean).strip()
     if len(clean) < 2:
         return None
-    r = requests.get(
-        TMDB_SEARCH,
-        params={
-            "api_key": api_key,
-            "query": clean[:120],
-            "language": "es-ES",
-            "include_adult": "false",
-        },
-        headers=DEFAULT_HEADERS,
-        timeout=20,
-    )
-    r.raise_for_status()
-    data = r.json()
-    results = data.get("results") or []
+    q = clean[:120]
+
+    def _do_search(lang: str) -> list:
+        r = requests.get(
+            TMDB_SEARCH,
+            params={
+                "api_key": api_key,
+                "query": q,
+                "language": lang,
+                "region": "ES",
+                "include_adult": "false",
+            },
+            headers=DEFAULT_HEADERS,
+            timeout=20,
+        )
+        r.raise_for_status()
+        return r.json().get("results") or []
+
+    results = _do_search("es-ES")
+    if not results:
+        results = _do_search("en-US")
     if not results:
         return None
-    return results[0]
+    return max(results, key=lambda x: float(x.get("popularity") or 0.0))
 
 
 def _movie_detail(api_key: str, movie_id: int) -> dict:
