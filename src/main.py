@@ -82,6 +82,7 @@ def main() -> int:
         max_films_verdi_per_day=settings.digest_max_verdi_per_day,
         show_debug_footer=settings.debug_footer,
         top_films_per_cinema_per_day=settings.digest_top_per_cinema,
+        extra_unrated_per_cinema_per_day=settings.digest_extra_unrated,
         novelties_top_per_cinema=settings.digest_novelties_top_per_cinema,
         novelties_max_lines=settings.digest_novelties_max_lines,
     )

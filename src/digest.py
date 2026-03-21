@@ -44,8 +44,9 @@ class DigestLimits:
     max_films_unscheduled_per_cinema: int = 15
     max_films_verdi_per_day: int = 0  # 0 = sin límite
     show_debug_footer: bool = False
-    # 0 = mostrar todas; >0 = top N por cine y día ordenadas por nota TMDb
+    # Top N entre títulos que **tienen** nota TMDb; aparte, hasta M sin nota (horarios reales).
     top_films_per_cinema_per_day: int = 5
+    extra_unrated_per_cinema_per_day: int = 5
     novelties_top_per_cinema: int = 5
     novelties_max_lines: int = 15
 
@@ -205,7 +206,8 @@ def build_digest_sections(
     ]
     if lim.top_films_per_cinema_per_day > 0:
         header_lines.append(
-            f"<i>Hasta {lim.top_films_per_cinema_per_day} títulos por cine y día · orden por nota TMDb</i>"
+            f"<i>Hasta {lim.top_films_per_cinema_per_day} con ★ TMDb por cine/día; "
+            f"hasta {lim.extra_unrated_per_cinema_per_day} sesiones más sin nota (sin match o pocos votos).</i>"
         )
     header_lines.extend(["", _SEP])
     sections.append("\n".join(header_lines))
@@ -227,19 +229,40 @@ def build_digest_sections(
                     lines.append("")
                 lines.append(f"<b>{html.escape(cinema)}</b>")
                 orig_count = len(block[cinema])
-                rows = sorted(
-                    block[cinema],
-                    key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()),
-                )
+                raw = block[cinema]
+                rated = [x for x in raw if score_from_rating_html(x[2]) >= 0.0]
+                unrated = [x for x in raw if score_from_rating_html(x[2]) < 0.0]
+                rated.sort(key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()))
+                unrated.sort(key=lambda x: x[0].lower())
+
                 max_v = lim.max_films_verdi_per_day
-                if cinema == "Verdi" and max_v > 0 and lim.top_films_per_cinema_per_day == 0:
-                    rows = rows[:max_v]
                 top_n = lim.top_films_per_cinema_per_day
-                hidden = 0
-                if top_n > 0 and len(rows) > top_n:
-                    hidden = len(rows) - top_n
-                    rows = rows[:top_n]
-                for title, times, rating in rows:
+                extra_u = lim.extra_unrated_per_cinema_per_day
+
+                if top_n > 0:
+                    show_r = rated[:top_n]
+                    hide_r = max(0, len(rated) - len(show_r))
+                    if show_r:
+                        show_u = unrated[:extra_u] if extra_u > 0 else []
+                        hide_u = max(0, len(unrated) - len(show_u))
+                    else:
+                        cap = top_n + (extra_u if extra_u > 0 else 0)
+                        show_u = unrated[:cap]
+                        hide_u = max(0, len(unrated) - len(show_u))
+                        show_r = []
+                        hide_r = 0
+                else:
+                    rows_all = sorted(
+                        raw,
+                        key=lambda x: (-score_from_rating_html(x[2]), x[0].lower()),
+                    )
+                    if cinema == "Verdi" and max_v > 0:
+                        rows_all = rows_all[:max_v]
+                    show_r = rows_all
+                    show_u = []
+                    hide_r = hide_u = 0
+
+                def _emit(title: str, times: List[str], rating: Optional[str]) -> None:
                     t_esc = html.escape(title)
                     note = f" {rating}" if rating else ""
                     if times:
@@ -247,16 +270,27 @@ def build_digest_sections(
                         lines.append(f"   • {t_esc} — {horas}{note}")
                     else:
                         lines.append(f"   • {t_esc}{note}")
-                if hidden:
+
+                for title, times, rating in show_r:
+                    _emit(title, times, rating)
+                if show_u:
                     lines.append(
-                        f"<i>… y {hidden} más no mostradas (prioridad por nota TMDb)</i>"
+                        "<i>   Sin ★ TMDb (sin match o votos por debajo del mínimo):</i>"
                     )
-                elif cinema == "Verdi" and max_v > 0 and lim.top_films_per_cinema_per_day == 0:
-                    if orig_count > max_v:
-                        lines.append(
-                            "<i>… y más en "
-                            '<a href="https://barcelona.cines-verdi.com/es/cartelera">Verdi</a></i>'
-                        )
+                    for title, times, rating in show_u:
+                        _emit(title, times, rating)
+                parts_msg: List[str] = []
+                if hide_r:
+                    parts_msg.append(f"{hide_r} con nota no mostradas")
+                if hide_u:
+                    parts_msg.append(f"{hide_u} sin nota no mostradas")
+                if parts_msg:
+                    lines.append(f"<i>… {' · '.join(parts_msg)}</i>")
+                elif cinema == "Verdi" and max_v > 0 and top_n == 0 and orig_count > max_v:
+                    lines.append(
+                        "<i>… y más en "
+                        '<a href="https://barcelona.cines-verdi.com/es/cartelera">Verdi</a></i>'
+                    )
         chunk = "\n".join(lines).strip()
         if idx < len(day_list) - 1:
             chunk += f"\n\n{_SEP}"
