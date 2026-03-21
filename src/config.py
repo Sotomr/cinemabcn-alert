@@ -32,6 +32,7 @@ class Settings:
     # TMDb (notas + enlace IMDb); opcional
     tmdb_api_key: str | None
     tmdb_max_films: int
+    tmdb_min_votes: int
 
 
 def _int_env(name: str, default: int) -> int:
@@ -71,4 +72,5 @@ def load_settings() -> Settings:
         zumzeig_cartelera_url=os.getenv("ZUMZEIG_CARTELERA_URL") or None,
         tmdb_api_key=(os.getenv("TMDB_API_KEY") or "").strip() or None,
         tmdb_max_films=_int_env("TMDB_MAX_FILMS", 50),
+        tmdb_min_votes=_int_env("TMDB_MIN_VOTES", 5),
     )

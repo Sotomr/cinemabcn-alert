@@ -66,6 +66,8 @@ def _parse(soup, base_url: str) -> List[Film]:
             continue
         if href.startswith("#") or not href:
             continue
+        if "/cinema/films/" not in href:
+            continue
         url = href if href.startswith("http") else urljoin(base_url, href)
         if url in seen:
             continue
