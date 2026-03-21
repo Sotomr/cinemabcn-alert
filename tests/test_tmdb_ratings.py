@@ -3,7 +3,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
-from tmdb_ratings import pick_best_tmdb_search_result, score_tmdb_title_match
+from tmdb_ratings import (
+    _clean_title_for_search,
+    pick_best_tmdb_search_result,
+    score_tmdb_title_match,
+)
 
 
 def test_score_prefers_matching_title_over_popularity_noise():
@@ -42,6 +46,15 @@ def test_pick_best_chooses_similar_title_not_most_popular():
     best = pick_best_tmdb_search_result(q, results)
     assert best is not None
     assert best["id"] == 2
+
+
+def test_clean_title_strips_trailing_vose_without_parentheses():
+    assert _clean_title_for_search("El agente secreto VOSE").strip().casefold() == (
+        "el agente secreto"
+    )
+    assert _clean_title_for_search("Cumbres borrascosas VOSE").strip().casefold() == (
+        "cumbres borrascosas"
+    )
 
 
 def test_spanish_title_matches_original_english():

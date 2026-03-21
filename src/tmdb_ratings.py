@@ -51,7 +51,7 @@ def sort_films_for_tmdb_priority(films: list[Film], tz_name: str) -> list[Film]:
     )
 
 # Nueva versión de caché si cambian criterios de confianza (evita notas viejas ★ 0.0)
-_CACHE_FILENAME = "tmdb_cache_v4.json"
+_CACHE_FILENAME = "tmdb_cache_v5.json"
 
 
 def _int_env(name: str, default: int) -> int:
@@ -93,6 +93,14 @@ def _clean_title_for_search(title: str) -> str:
     t = re.sub(r"\s+", " ", t).strip()
     if " - " in t and len(t) > 42:
         t = t.split(" - ")[0].strip()
+    # Verdi y otros: "Pillion VOSE", "El agente secreto VOSE" (sin paréntesis)
+    t = re.sub(
+        r"\s+(VOSE|VOSC|VOCAT|VOI|V\.O\.|V\.O\.S\.E\.|V\.O\.S\.C\.)\s*$",
+        "",
+        t,
+        flags=re.IGNORECASE,
+    ).strip()
+    t = re.sub(r"\s+\bVO\b\s*$", "", t, flags=re.IGNORECASE).strip()
     return t[:120] if t else title[:120]
 
 
@@ -318,7 +326,10 @@ def _format_rating_line(
 
 
 def _rating_is_reliable(vote: float, vote_count: int, min_votes: int) -> bool:
-    """Evita ★ 0.0 y medias con casi ningún voto (match erróneo o película demasiado nueva)."""
+    """
+    Evita ★ 0.0. TMDB_MIN_VOTES filtra estrenos con pocos votos en TMDb (no en IMDb):
+    una película famosa puede tener ya nota en IMDb pero aún <N votos en TMDb.
+    """
     if vote <= 0.01:
         return False
     if vote_count < min_votes:
@@ -343,7 +354,7 @@ def enrich_films_with_ratings(
         logger.info("TMDB_API_KEY no definida: sin notas.")
         return
 
-    mv = min_votes if min_votes is not None else _int_env("TMDB_MIN_VOTES", 5)
+    mv = min_votes if min_votes is not None else _int_env("TMDB_MIN_VOTES", 1)
 
     cache = _load_cache(_cache_path(data_dir))
     enriched = 0
