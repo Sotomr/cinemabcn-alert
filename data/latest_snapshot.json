@@ -1,6 +1,51 @@
 {
-  "fetched_at": "2026-03-25T09:43:14.375074+00:00",
+  "fetched_at": "2026-03-26T09:51:15.877651+00:00",
   "films": [
+    {
+      "cinema": "Espai Texas",
+      "title": "BALANDRAU, VENT SALVATGE",
+      "url": "https://espaitexas.cat/pelicula/balandrau-vent-salvatge/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260327 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260328 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260401 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260402 18:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
     {
       "cinema": "Espai Texas",
       "title": "EL SOMRIURE DEL MAL",
@@ -8,12 +53,62 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260325 20:15",
+          "datetime": "20260326 20:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260326 20:15",
+          "datetime": "20260330 20:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260401 20:40",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "JO ET CREC",
+      "url": "https://espaitexas.cat/pelicula/jo-et-crec/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260327 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 20:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260401 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260402 17:30",
           "room": null,
           "language": null
         }
@@ -28,7 +123,12 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260325 20:00",
+          "datetime": "20260327 20:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260328 20:40",
           "room": null,
           "language": null
         }
@@ -43,12 +143,22 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260325 16:00",
+          "datetime": "20260326 18:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260326 18:30",
+          "datetime": "20260329 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260402 16:15",
           "room": null,
           "language": null
         }
@@ -66,10 +176,15 @@
           "datetime": "20260326 16:15",
           "room": null,
           "language": null
+        },
+        {
+          "datetime": "20260401 16:15",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 8.5 TMDb <a href=\"https://www.imdb.com/title/tt35695538/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -78,12 +193,62 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260325 18:15",
+          "datetime": "20260326 16:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260326 16:15",
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 20:40",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "MAIGRET I LA MORT DE L'EMBAIXADOR",
+      "url": "https://espaitexas.cat/pelicula/maigret-i-la-mort-de-lembaixador/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260327 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260328 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260401 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260402 16:00",
           "room": null,
           "language": null
         }
@@ -98,12 +263,12 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260325 16:15",
+          "datetime": "20260326 18:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260326 18:15",
+          "datetime": "20260327 16:15",
           "room": null,
           "language": null
         }
@@ -118,12 +283,12 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260325 18:00",
+          "datetime": "20260326 20:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260326 20:30",
+          "datetime": "20260402 20:40",
           "room": null,
           "language": null
         }
@@ -132,54 +297,84 @@
       "rating": "★ 6.3 TMDb <a href=\"https://www.imdb.com/title/tt32321317/\">IMDb</a>"
     },
     {
-      "cinema": "Maldà",
-      "title": "Balandrau, vent salvatge (VOCAT)",
-      "url": "https://www.cinemamalda.com/balandrau/",
-      "source_section": "cartelera-dia-dia",
+      "cinema": "Espai Texas",
+      "title": "UN ALTRE HOME",
+      "url": "https://espaitexas.cat/pelicula/un-altre-home/",
+      "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260325 18:20",
+          "datetime": "20260327 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260327 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260328 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260328 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260401 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260401 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260402 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260402 20:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "As Estações",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/as-estacoes/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260310 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260317 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260320 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260323 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260325 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.0 TMDb <a href=\"https://www.imdb.com/title/tt21257788/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -198,73 +393,68 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "El agente secreto",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/el-agente-secreto/",
+      "title": "Dos fiscales",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/dos-fiscales/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260301 18:30",
+          "datetime": "20260327 21:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260303 20:45",
+          "datetime": "20260328 16:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260304 21:00",
+          "datetime": "20260329 21:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260306 21:15",
+          "datetime": "20260330 18:45",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260307 21:15",
+          "datetime": "20260331 21:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260309 18:00",
+          "datetime": "20260401 19:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260310 11:15",
+          "datetime": "20260402 21:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260311 20:45",
+          "datetime": "20260403 17:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260315 18:00",
+          "datetime": "20260404 21:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260316 18:15",
+          "datetime": "20260405 19:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260319 21:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260325 21:00",
+          "datetime": "20260406 18:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.4 TMDb <a href=\"https://www.imdb.com/title/tt27847051/\">IMDb</a>"
+      "rating": "★ 6.7 TMDb <a href=\"https://www.imdb.com/title/tt35521200/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -333,12 +523,47 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Muito barulho",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/muito-barulho/",
+      "title": "Mary Anning i la platja dels dinosaures",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/mary-anning-i-la-platja-dels-dinosaures/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260325 19:00",
+          "datetime": "20260327 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260401 17:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260404 17:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260405 17:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260406 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Siemprevivas",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260327 19:30",
           "room": null,
           "language": null
         }
@@ -348,30 +573,18 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "BALANDRAU. VENT SALVATGE",
-      "url": "https://espaitexas.cat/pelicula/balandrau-vent-salvatge/",
+      "title": "SIRAT",
+      "url": "https://espaitexas.cat/pelicula/sirat/",
       "source_section": "cartellera-cinema",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "JO ET CREC",
-      "url": "https://espaitexas.cat/pelicula/jo-et-crec/",
-      "source_section": "cartellera-cinema",
-      "shows": [],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "MAIGRET I LA MORT DE L'EMBAIXADOR",
-      "url": "https://espaitexas.cat/pelicula/maigret-i-la-mort-de-lembaixador/",
-      "source_section": "cartellera-cinema",
-      "shows": [],
-      "labels": [],
-      "rating": null
+      "rating": "★ 6.8 TMDb <a href=\"https://www.imdb.com/title/tt32298285/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -390,9 +603,24 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "UN ALTRE HOME",
-      "url": "https://espaitexas.cat/pelicula/un-altre-home/",
+      "title": "TAFITI I ELS SEUS AMICS",
+      "url": "https://espaitexas.cat/pelicula/tafiti-i-els-seus-amics/",
       "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260329 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.2 TMDb <a href=\"https://www.imdb.com/title/tt9612976/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Balandrau, vent salvatge (VOCAT)",
+      "url": "https://www.cinemamalda.com/balandrau/",
+      "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
       "rating": null
@@ -468,6 +696,294 @@
       "shows": [],
       "labels": [],
       "rating": "★ 8.5 TMDb <a href=\"https://www.imdb.com/title/tt5311514/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "2001: UNA ODISEA DEL ESPACIO (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=76",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.1 TMDb <a href=\"https://www.imdb.com/title/tt0062622/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "AKIRA (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=459",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.9 TMDb <a href=\"https://www.imdb.com/title/tt0094625/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "BLADE RUNNER 2049 (Proyección en Dolby Atmos, 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=63",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.6 TMDb <a href=\"https://www.imdb.com/title/tt1856101/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "BLADE RUNNER: THE FINAL CUT (Proyección en Dolby Atmos, 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=625",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.9 TMDb <a href=\"https://www.imdb.com/title/tt0083658/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "CALL ME BY YOUR NAME (Proyección en VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=64",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.1 TMDb <a href=\"https://www.imdb.com/title/tt5726616/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "CANTANDO BAJO LA LLUVIA (Proyección en VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=666",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.1 TMDb <a href=\"https://www.imdb.com/title/tt0045152/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "CHUNGKING EXPRESS (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=706",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.0 TMDb <a href=\"https://www.imdb.com/title/tt0109424/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "DUNE: PARTE DOS (Proyección en Dolby Atmos, 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=850",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.1 TMDb <a href=\"https://www.imdb.com/title/tt15239678/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "DUNKERQUE (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=254",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.5 TMDb <a href=\"https://www.imdb.com/title/tt5013056/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "EL CABALLERO OSCURO  (VOSE) Proyección en 4K",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=937",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "EL MAGO DE OZ (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1070",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.6 TMDb <a href=\"https://www.imdb.com/title/tt0032138/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "EL PADRINO (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=896",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.7 TMDb <a href=\"https://www.imdb.com/title/tt0068646/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "EL PADRINO: PARTE II (Proyección en VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1095",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.6 TMDb <a href=\"https://www.imdb.com/title/tt0071562/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "EL RESPLANDOR (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=108",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.2 TMDb <a href=\"https://www.imdb.com/title/tt0081505/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "IN THE MOOD FOR LOVE (DESEANDO AMAR) (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=73",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 6.9 TMDb <a href=\"https://www.imdb.com/title/tt16077670/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "INTERSTELLAR (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=75",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.5 TMDb <a href=\"https://www.imdb.com/title/tt0816692/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "JURASSIC PARK (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1571",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.0 TMDb <a href=\"https://www.imdb.com/title/tt0107290/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "KILL BILL: THE WHOLE BLOODY AFFAIR (Proyección en 35 mm y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2963",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.0 TMDb <a href=\"https://www.imdb.com/title/tt6019206/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "LA COSA. EL ENIGMA DE OTRO MUNDO (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1656",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.1 TMDb <a href=\"https://www.imdb.com/title/tt0084787/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "LA LA LAND (LA CIUDAD DE LAS ESTRELLAS) (Proyección en Dolby 7.1 y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1604",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.9 TMDb <a href=\"https://www.imdb.com/title/tt3783958/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "MAD MAX: FURY ROAD (Proyección en Dolby Atmos y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1930",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.6 TMDb <a href=\"https://www.imdb.com/title/tt1392190/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "MANHATTAN (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1947",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.7 TMDb <a href=\"https://www.imdb.com/title/tt0079522/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "MATRIX (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1979",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.2 TMDb <a href=\"https://www.imdb.com/title/tt0133093/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "ORIGEN (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=79",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.4 TMDb <a href=\"https://www.imdb.com/title/tt1375666/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "PORCO ROSSO",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=103",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.8 TMDb <a href=\"https://www.imdb.com/title/tt0104652/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "PROYECTO SALVACION (Proyección en Dolby Atmos y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2962",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.2 TMDb <a href=\"https://www.imdb.com/title/tt12042730/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "PSYCHO: THEATRICAL CUT",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2435",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "PULP FICTION (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=66",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.5 TMDb <a href=\"https://www.imdb.com/title/tt0110912/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "TERCIOPELO AZUL (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2697",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.6 TMDb <a href=\"https://www.imdb.com/title/tt0090756/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.4 TMDb <a href=\"https://www.imdb.com/title/tt0073629/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "TIBURÓN (Proyección en 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2767",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.7 TMDb <a href=\"https://www.imdb.com/title/tt0073195/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "WHIPLASH (Proyección en VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2915",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.4 TMDb <a href=\"https://www.imdb.com/title/tt2582802/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -576,6 +1092,41 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "As Estações",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/as-estacoes/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260310 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260317 12:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260320 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260323 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260325 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.0 TMDb <a href=\"https://www.imdb.com/title/tt21257788/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Atado + No Title",
       "url": "https://www.zumzeigcine.coop/es/cine/films/atado-no-title/",
       "source_section": "calendari",
@@ -666,68 +1217,73 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Dos fiscales",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/dos-fiscales/",
+      "title": "El agente secreto",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/el-agente-secreto/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260327 21:30",
+          "datetime": "20260301 18:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260328 16:30",
+          "datetime": "20260303 20:45",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260329 21:00",
+          "datetime": "20260304 21:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260330 18:45",
+          "datetime": "20260306 21:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260331 21:00",
+          "datetime": "20260307 21:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260401 19:00",
+          "datetime": "20260309 18:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260402 21:30",
+          "datetime": "20260310 11:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260403 17:00",
+          "datetime": "20260311 20:45",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260404 21:15",
+          "datetime": "20260315 18:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260405 19:00",
+          "datetime": "20260316 18:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260406 18:45",
+          "datetime": "20260319 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260325 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 TMDb <a href=\"https://www.imdb.com/title/tt35521200/\">IMDb</a>"
+      "rating": "★ 7.4 TMDb <a href=\"https://www.imdb.com/title/tt27847051/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1136,32 +1692,12 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Mary Anning i la platja dels dinosaures",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/mary-anning-i-la-platja-dels-dinosaures/",
+      "title": "Moon Safari",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/moon-safari/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260327 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260401 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260404 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260405 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260406 17:00",
+          "datetime": "20260322 20:00",
           "room": null,
           "language": null
         }
@@ -1171,12 +1707,12 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Moon Safari",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/moon-safari/",
+      "title": "Muito barulho",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/muito-barulho/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260322 20:00",
+          "datetime": "20260325 19:00",
           "room": null,
           "language": null
         }
@@ -1261,7 +1797,7 @@
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260408 19:15",
+          "datetime": "20260408 19:00",
           "room": null,
           "language": null
         }
@@ -1271,12 +1807,12 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Siemprevivas",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas/",
+      "title": "Stories from the Sea",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/stories-from-the-sea/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260327 19:30",
+          "datetime": "20260407 19:00",
           "room": null,
           "language": null
         }
@@ -1311,7 +1847,7 @@
           "language": null
         },
         {
-          "datetime": "20260408 21:00",
+          "datetime": "20260408 21:15",
           "room": null,
           "language": null
         }
