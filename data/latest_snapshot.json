@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-28T09:27:10.403225+00:00",
+  "fetched_at": "2026-03-28T19:01:40.356667+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -47,11 +47,6 @@
       "url": "https://espaitexas.cat/pelicula/jo-et-crec/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260328 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260329 20:40",
           "room": null,
@@ -163,21 +158,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "SIRAT",
-      "url": "https://espaitexas.cat/pelicula/sirat/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260328 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.8 TMDb <a href=\"https://www.imdb.com/title/tt32298285/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "TAFITI I ELS SEUS AMICS",
       "url": "https://espaitexas.cat/pelicula/tafiti-i-els-seus-amics/",
       "source_section": "cartellera-cinema",
@@ -268,11 +248,6 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260328 17:05",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260329 14:35",
           "room": null,
           "language": null
@@ -327,24 +302,724 @@
       "rating": null
     },
     {
-      "cinema": "Maldà",
-      "title": "Tres adioses (VOSE)",
-      "url": "https://www.cinemamalda.com/tres-adioses/",
-      "source_section": "cartelera-dia-dia",
+      "cinema": "Verdi",
+      "title": "Amarga Navidad",
+      "url": "https://barcelona.cines-verdi.com/amarga-navidad",
+      "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260328 15:00",
+          "datetime": "20260328 16:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260330 15:30",
+          "datetime": "20260329 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.6 TMDb <a href=\"https://www.imdb.com/title/tt28088049/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Balandrau, vent salvatge",
+      "url": "https://barcelona.cines-verdi.com/balandrau",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 17:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Coppellia (Teatro alla Scala)",
+      "url": "https://barcelona.cines-verdi.com/coppellia-teatro-alla-scala",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260329 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Cumbres borrascosas VOSE",
+      "url": "https://barcelona.cines-verdi.com/cumbres-borrascosas",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.4 TMDb <a href=\"https://www.imdb.com/title/tt32897959/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Dos fiscales VOSE",
+      "url": "https://barcelona.cines-verdi.com/dos-fiscales",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 18:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.7 TMDb <a href=\"https://www.imdb.com/title/tt35521200/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "El agente secreto VOSE",
+      "url": "https://barcelona.cines-verdi.com/el-agente-secreto",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 19:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 TMDb <a href=\"https://www.imdb.com/title/tt27847051/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "El mago del Kremlin VOSE",
+      "url": "https://barcelona.cines-verdi.com/el-mago-del-kremlin",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 21:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 21:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 21:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 21:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.4 TMDb <a href=\"https://www.imdb.com/title/tt32386654/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "El testamento de Ann Lee VOSE",
+      "url": "https://barcelona.cines-verdi.com/el-testamento-de-ann-lee",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.5 TMDb <a href=\"https://www.imdb.com/title/tt34819091/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Father Mother Sister Brother VOSE",
+      "url": "https://barcelona.cines-verdi.com/father-mother-sister-brother",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 22:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 22:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 22:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 22:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.6 TMDb <a href=\"https://www.imdb.com/title/tt31189315/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Hamnet VOSE",
+      "url": "https://barcelona.cines-verdi.com/hamnet",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.7 TMDb <a href=\"https://www.imdb.com/title/tt14905854/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "La gran festa del bosc",
+      "url": "https://barcelona.cines-verdi.com/la-gran-fiesta-del-bosque",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260329 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Little Amélie",
+      "url": "https://barcelona.cines-verdi.com/little-amelie",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.0 TMDb <a href=\"https://www.imdb.com/title/tt29313285/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Los Domingos VOSE",
+      "url": "https://barcelona.cines-verdi.com/los-domingos",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 TMDb <a href=\"https://www.imdb.com/title/tt35513027/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Marty Supreme VOSE",
+      "url": "https://barcelona.cines-verdi.com/marty-supreme",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 19:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 TMDb <a href=\"https://www.imdb.com/title/tt32916440/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Pillion VOSE",
+      "url": "https://barcelona.cines-verdi.com/pillion",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 22:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 22:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 22:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 22:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.3 TMDb <a href=\"https://www.imdb.com/title/tt32321317/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Proyecto Salvación VOSE",
+      "url": "https://barcelona.cines-verdi.com/proyecto-salvacion",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.2 TMDb <a href=\"https://www.imdb.com/title/tt12042730/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Sessió Teta: Cumbres borrascosas VOSE",
+      "url": "https://barcelona.cines-verdi.com/sesion-teta-cumbres-borrascosas",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260329 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Sorda VOSE",
+      "url": "https://barcelona.cines-verdi.com/sorda",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 16:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:05",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.3 TMDb <a href=\"https://www.imdb.com/title/tt26923797/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Torrente Presidente",
+      "url": "https://barcelona.cines-verdi.com/torrente-presidente",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.4 TMDb <a href=\"https://www.imdb.com/title/tt37969901/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Tres adioses VOSE",
+      "url": "https://barcelona.cines-verdi.com/tres-adioses",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 11:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": "★ 7.1 TMDb <a href=\"https://www.imdb.com/title/tt35705184/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Una hija en Tokio VOSE",
+      "url": "https://barcelona.cines-verdi.com/una-hija-en-tokio",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.5 TMDb <a href=\"https://www.imdb.com/title/tt21993194/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Valor sentimental VOSE",
+      "url": "https://barcelona.cines-verdi.com/valor-sentimental",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.5 TMDb <a href=\"https://www.imdb.com/title/tt27714581/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Yo te creo VOSE",
+      "url": "https://barcelona.cines-verdi.com/yo-te-creo",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 18:05",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.8 TMDb <a href=\"https://www.imdb.com/title/tt35504398/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Your name VOSE",
+      "url": "https://barcelona.cines-verdi.com/your-name",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 22:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 22:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 22:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 22:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.5 TMDb <a href=\"https://www.imdb.com/title/tt5311514/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "¡La novia! VOSE",
+      "url": "https://barcelona.cines-verdi.com/la-novia",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260328 22:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260329 22:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260330 22:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260331 22:25",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.3 TMDb <a href=\"https://www.imdb.com/title/tt30851137/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -642,6 +1317,21 @@
       ],
       "labels": [],
       "rating": "★ 6.3 TMDb <a href=\"https://www.imdb.com/title/tt32321317/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Tres adioses (VOSE)",
+      "url": "https://www.cinemamalda.com/tres-adioses/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260330 15:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 TMDb <a href=\"https://www.imdb.com/title/tt35705184/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1069,7 +1759,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PORCO ROSSO",
+      "title": "PORCO ROSSO (Proyección en VOSE)",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=103",
       "source_section": "cartelera",
       "shows": [
@@ -1211,6 +1901,80 @@
       ],
       "labels": [],
       "rating": "★ 8.4 TMDb <a href=\"https://www.imdb.com/title/tt2582802/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "5 centímetros por segundo + El jardín de las palabras",
+      "url": "https://barcelona.cines-verdi.com/el-jardin-de-las-palabras",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Cantando bajo la lluvia",
+      "url": "https://barcelona.cines-verdi.com/cantando-bajo-la-lluvia",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.1 TMDb <a href=\"https://www.imdb.com/title/tt0045152/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Incontrolable (I swear)",
+      "url": "https://barcelona.cines-verdi.com/incontrolable",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 4.0 TMDb <a href=\"https://www.imdb.com/title/tt0456070/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Power To The People: John & Yoko Live in NYC",
+      "url": "https://barcelona.cines-verdi.com/power-to-the-people-john-yoko-live-in-nyc",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260513 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260517 22:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Sessió Teta: Amarga Navidad",
+      "url": "https://barcelona.cines-verdi.com/sesion-teta-amarga-navidad",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Stop Making Sense",
+      "url": "https://barcelona.cines-verdi.com/stop-making-sense",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.3 TMDb <a href=\"https://www.imdb.com/title/tt0088178/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Un poeta",
+      "url": "https://barcelona.cines-verdi.com/un-poeta",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.7 TMDb <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2195,7 +2959,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.8 TMDb <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
+      "rating": "★ 7.7 TMDb <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
