@@ -45,7 +45,7 @@ class DigestLimits:
     max_films_unscheduled_per_cinema: int = 15
     max_films_verdi_per_day: int = 0  # 0 = sin límite
     show_debug_footer: bool = False
-    global_top_per_day: int = 10  # 0 = no mostrar bloque global
+    global_top_per_day: int = 12  # 0 = no mostrar bloque global
     top_films_per_cinema_per_day: int = 3
     extra_unrated_per_cinema_per_day: int = 0
     novelties_top_per_cinema: int = 5
@@ -343,7 +343,7 @@ def build_digest_telegram_parts(
         f"<i>actualitzat {html.escape(now_str)}</i>",
         "",
         _SEP,
-        "<b>Les 10 millors per nota (avui + demà)</b>",
+        f"<b>Les {lim.global_top_per_day} millors per nota (avui + demà)</b>",
         "",
     ]
     if top:
@@ -374,7 +374,7 @@ def build_digest_telegram_parts(
     # --- Message 2: detailed schedules for those top films ---
     if top:
         msg2: List[str] = [
-            "<b>Horaris — Top 10</b>",
+            f"<b>Horaris — Top {lim.global_top_per_day}</b>",
             "",
         ]
         for i, it in enumerate(top, start=1):

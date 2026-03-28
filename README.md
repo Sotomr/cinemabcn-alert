@@ -95,11 +95,11 @@ Vegeu `.env.example` per la llista completa. Les més rellevants:
 | Variable | Per defecte | Descripció |
 |----------|---------------|------------|
 | `TIMEZONE` | `Europe/Madrid` | Defineix «avui» i «demà». |
-| `APPEND_NOVELTIES` | `1` | Afegeix novetats respecte al snapshot anterior. |
+| `APPEND_NOVELTIES` | `1` | Afegeix novetats respecte al snapshot anterior **només** si `DIGEST_TELEGRAM_BY_CINEMA=0` (mode clàssic). Amb el format de 2 missatges (top + horaris) no s’envia el bloc «Novetats». |
 | `TMDB_API_KEY` | — | Notes + enllaç IMDb; caché a `data/tmdb_cache_v*.json`. |
 | `TMDB_MAX_FILMS` | `200` | Màxim de títols a enriqueir per execució (prioritat sessions avui/demà). |
 | `TMDB_MIN_VOTES` | `1` | Vots mínims a TMDb per mostrar nota. |
-| `DIGEST_GLOBAL_TOP` | `10` | Mida del top global (i del segon missatge d’horaris). |
+| `DIGEST_GLOBAL_TOP` | `12` | Mida del top global (i del segon missatge d’horaris). |
 | `DIGEST_TELEGRAM_BY_CINEMA` | `1` | `1` = format 2 missatges (top + horaris). `0` = digest per seccions en un o més blocs (`build_digest_sections`). |
 | `DIGEST_ONLY_TODAY` | `0` | `1` = només avui (útil per proves); per defecte avui + demà. |
 | `DIGEST_TOP_PER_CINEMA` | `3` | Afecta el mode seccions (`DIGEST_TELEGRAM_BY_CINEMA=0`), no el top global. |

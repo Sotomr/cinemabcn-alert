@@ -119,7 +119,12 @@ def main() -> int:
             max_len=TELEGRAM_MAX - 150,
         )
 
-    if settings.append_novelties and not is_first:
+    # Mode 2 missatges (top + horaris): sense bloc «Novetats» (evita repeticions).
+    if (
+        settings.append_novelties
+        and not is_first
+        and not settings.digest_telegram_by_cinema
+    ):
         new_entries = compute_new_entries(prev_films, current.films)
         new_entries = [
             f

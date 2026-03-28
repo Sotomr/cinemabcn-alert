@@ -80,7 +80,7 @@ def load_settings() -> Settings:
         tmdb_api_key=(os.getenv("TMDB_API_KEY") or "").strip() or None,
         tmdb_max_films=_int_env("TMDB_MAX_FILMS", 200),
         tmdb_min_votes=_int_env("TMDB_MIN_VOTES", 1),
-        digest_global_top=_int_env("DIGEST_GLOBAL_TOP", 10),
+        digest_global_top=_int_env("DIGEST_GLOBAL_TOP", 12),
         digest_top_per_cinema=_int_env("DIGEST_TOP_PER_CINEMA", 3),
         digest_extra_unrated=_int_env("DIGEST_EXTRA_UNRATED", 0),
         digest_novelties_top_per_cinema=_int_env("DIGEST_NOVELTIES_TOP_PER_CINEMA", 5),

@@ -36,10 +36,14 @@ def film_title_dedupe_key(title: str) -> str:
     """
     t = title.strip()
     for pat in (
+        r"\s*\(VOSE\)\s*\(ATMOS\)\s*$",
         r"\s*\(VOSE\)\s*$",
         r"\s*\(VOSC\)\s*$",
         r"\s*\(VOCAT\)\s*$",
         r"\s*\(VO\)\s*$",
+        r"\s*\(ATMOS\)\s*$",
+        r"\s*\(IMAX\)\s*$",
+        r"\s*\(4DX\)\s*$",
     ):
         t = re.sub(pat, "", t, flags=re.IGNORECASE)
     t = re.sub(
@@ -65,9 +69,11 @@ def global_top_display_title(title: str) -> str:
     """Título más corto para el resumen global (quita sufijos de sesión)."""
     t = title.strip()
     for pat in (
+        r"\s*\(VOSE\)\s*\(ATMOS\)\s*$",
         r"\s*\(VOSE\)\s*$",
         r"\s*\(VOSC\)\s*$",
         r"\s*\(VOCAT\)\s*$",
+        r"\s*\(ATMOS\)\s*$",
     ):
         t = re.sub(pat, "", t, flags=re.IGNORECASE)
     t = re.sub(

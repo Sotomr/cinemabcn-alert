@@ -85,7 +85,7 @@ class MoobyBalmesScraper(BaseScraper):
             logger.warning("Mooby Balmes: cap botiga amb slug /balmes")
             return []
 
-        films: List[Film] = []
+        raw_films: List[Film] = []
         events = shop.get("events") or []
         for ev in events:
             if not isinstance(ev, dict):
@@ -104,7 +104,7 @@ class MoobyBalmesScraper(BaseScraper):
                         shows.append(sh)
             if not shows:
                 continue
-            films.append(
+            raw_films.append(
                 Film(
                     cinema=self.cinema_name,
                     title=title,
@@ -115,5 +115,38 @@ class MoobyBalmesScraper(BaseScraper):
                 )
             )
 
-        logger.info("Mooby Balmes: %s pel·lícules amb sessions", len(films))
+        from utils import film_title_dedupe_key, global_top_display_title
+
+        merged: dict[str, Film] = {}
+        for film in raw_films:
+            nk = film_title_dedupe_key(film.title)
+            if nk not in merged:
+                merged[nk] = film
+                continue
+            ex = merged[nk]
+            seen_dt = {s.datetime for s in ex.shows}
+            for s in film.shows:
+                if s.datetime not in seen_dt:
+                    ex.shows.append(s)
+                    seen_dt.add(s.datetime)
+            if len(global_top_display_title(film.title)) < len(
+                global_top_display_title(ex.title)
+            ):
+                ex.title = film.title
+            if film.url.startswith("https://www.imdb.com/title/") and not ex.url.startswith(
+                "https://www.imdb.com/title/"
+            ):
+                ex.url = film.url
+
+        films = list(merged.values())
+        for f in films:
+            clean = global_top_display_title(f.title).strip()
+            if clean:
+                f.title = clean
+
+        logger.info(
+            "Mooby Balmes: %s pel·lícules amb sessions (%s entrades abans de fusionar)",
+            len(films),
+            len(raw_films),
+        )
         return films

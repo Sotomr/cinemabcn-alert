@@ -26,3 +26,10 @@ def test_film_title_dedupe_key_merges_doblada():
     a = film_title_dedupe_key("Little Amélie Doblada ESP")
     b = film_title_dedupe_key("Little Amélie")
     assert a == b
+
+
+def test_film_title_dedupe_key_merges_vose_atmos():
+    a = film_title_dedupe_key("Proyecto Salvación")
+    b = film_title_dedupe_key("Proyecto Salvación (VOSE) (ATMOS)")
+    c = film_title_dedupe_key("Proyecto Salvación (VOSE)")
+    assert a == b == c
