@@ -28,6 +28,7 @@ from scrapers.espai_texas import EspaiTexasScraper
 from scrapers.filmoteca import FilmotecaScraper
 from scrapers.girona import GironaScraper
 from scrapers.malda import MaldaScraper
+from scrapers.mooby_balmes import MoobyBalmesScraper
 from scrapers.phenomena import PhenomenaScraper
 from scrapers.renoir import RenoirScraper
 from scrapers.verdi import VerdiScraper
@@ -46,6 +47,7 @@ def _run_scrapers() -> tuple[list[Film], list[str]]:
         FilmotecaScraper(),
         PhenomenaScraper(),
         VerdiScraper(),
+        MoobyBalmesScraper(),
         MaldaScraper(),
         ZumzeigScraper(),
         GironaScraper(),
