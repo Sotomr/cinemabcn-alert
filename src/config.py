@@ -39,6 +39,7 @@ class Settings:
     digest_novelties_top_per_cinema: int
     digest_novelties_max_lines: int
     digest_telegram_by_cinema: bool
+    digest_only_today: bool
 
 
 def _int_env(name: str, default: int) -> int:
@@ -80,10 +81,12 @@ def load_settings() -> Settings:
         tmdb_max_films=_int_env("TMDB_MAX_FILMS", 200),
         tmdb_min_votes=_int_env("TMDB_MIN_VOTES", 1),
         digest_global_top=_int_env("DIGEST_GLOBAL_TOP", 10),
-        digest_top_per_cinema=_int_env("DIGEST_TOP_PER_CINEMA", 0),
-        digest_extra_unrated=_int_env("DIGEST_EXTRA_UNRATED", 5),
+        digest_top_per_cinema=_int_env("DIGEST_TOP_PER_CINEMA", 3),
+        digest_extra_unrated=_int_env("DIGEST_EXTRA_UNRATED", 0),
         digest_novelties_top_per_cinema=_int_env("DIGEST_NOVELTIES_TOP_PER_CINEMA", 5),
         digest_novelties_max_lines=_int_env("DIGEST_NOVELTIES_MAX_LINES", 15),
         digest_telegram_by_cinema=os.getenv("DIGEST_TELEGRAM_BY_CINEMA", "1").lower()
+        not in ("0", "false", "no"),
+        digest_only_today=os.getenv("DIGEST_ONLY_TODAY", "1").lower()
         not in ("0", "false", "no"),
     )

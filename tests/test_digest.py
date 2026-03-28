@@ -76,6 +76,6 @@ def test_build_digest_telegram_parts_separates_cinemas():
         limits=DigestLimits(global_top_per_day=0),
     )
     assert len(parts) >= 3
-    assert "Mensaje 1" in parts[0]
+    assert "Cartelera" in parts[0]
     assert any("Alpha" in p for p in parts[1:])
     assert any("Beta" in p for p in parts[1:])

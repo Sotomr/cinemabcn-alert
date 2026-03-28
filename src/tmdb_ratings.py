@@ -323,13 +323,15 @@ def _format_rating_line(
     imdb_id: Optional[str],
     tmdb_id: Optional[int] = None,
 ) -> str:
-    parts = [f"★ {vote:.1f} TMDb"]
+    parts = [f"★ {vote:.1f}"]
     if imdb_id:
         parts.append(f'<a href="https://www.imdb.com/title/{imdb_id}/">IMDb</a>')
     elif tmdb_id:
         parts.append(
             f'<a href="https://www.themoviedb.org/movie/{tmdb_id}">TMDb</a>'
         )
+    else:
+        parts.append("TMDb")
     return " ".join(parts)
 
 

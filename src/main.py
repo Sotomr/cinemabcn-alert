@@ -25,8 +25,11 @@ from diff_engine import compute_new_entries
 from models import Film, Snapshot
 from notifier import TELEGRAM_MAX, send_telegram_messages
 from scrapers.espai_texas import EspaiTexasScraper
+from scrapers.filmoteca import FilmotecaScraper
+from scrapers.girona import GironaScraper
 from scrapers.malda import MaldaScraper
 from scrapers.phenomena import PhenomenaScraper
+from scrapers.renoir import RenoirScraper
 from scrapers.verdi import VerdiScraper
 from scrapers.zumzeig import ZumzeigScraper
 from storage import load_snapshot, save_snapshot
@@ -40,10 +43,13 @@ logger = logging.getLogger("cinema_alert")
 
 def _run_scrapers() -> tuple[list[Film], list[str]]:
     scrapers = [
-        VerdiScraper(),
+        FilmotecaScraper(),
         PhenomenaScraper(),
+        VerdiScraper(),
         MaldaScraper(),
         ZumzeigScraper(),
+        GironaScraper(),
+        RenoirScraper(),
         EspaiTexasScraper(),
     ]
     films: list[Film] = []
@@ -88,6 +94,7 @@ def main() -> int:
         extra_unrated_per_cinema_per_day=settings.digest_extra_unrated,
         novelties_top_per_cinema=settings.digest_novelties_top_per_cinema,
         novelties_max_lines=settings.digest_novelties_max_lines,
+        only_today=settings.digest_only_today,
     )
     if settings.digest_telegram_by_cinema:
         digest_chunks = build_digest_telegram_parts(
