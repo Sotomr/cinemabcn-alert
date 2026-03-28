@@ -142,15 +142,15 @@ def main() -> int:
         sections.extend(
             merge_sections_for_telegram(
                 [
-                    "<i>Primera corrida: snapshot guardado. "
-                    "Las «novedades» tendrán sentido a partir del próximo aviso.</i>"
+                    "<i>Primera execució: instantània desada. "
+                    "Les «novetats» tindran sentit a partir del proper avís.</i>"
                 ],
                 max_len=TELEGRAM_MAX - 150,
             )
         )
 
     telegram_parts = sections
-    log_text = "\n\n--- mensaje siguiente ---\n\n".join(telegram_parts)
+    log_text = "\n\n--- missatge següent ---\n\n".join(telegram_parts)
 
     save_snapshot(settings.snapshot_path, current)
 

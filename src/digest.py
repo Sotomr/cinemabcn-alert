@@ -10,28 +10,28 @@ from zoneinfo import ZoneInfo
 from models import Film, Show
 from utils import film_title_dedupe_key, global_top_display_title
 
-_WEEKDAY_ES = (
-    "lunes",
-    "martes",
-    "miércoles",
-    "jueves",
-    "viernes",
-    "sábado",
-    "domingo",
+_WEEKDAY_CA = (
+    "dilluns",
+    "dimarts",
+    "dimecres",
+    "dijous",
+    "divendres",
+    "dissabte",
+    "diumenge",
 )
-_MONTH_ES = (
-    "ene",
-    "feb",
-    "mar",
+_MONTH_CA = (
+    "gen",
+    "febr",
+    "març",
     "abr",
-    "may",
-    "jun",
+    "maig",
+    "juny",
     "jul",
-    "ago",
-    "sep",
+    "ag",
+    "set",
     "oct",
     "nov",
-    "dic",
+    "des",
 )
 
 # Separador visual (Telegram HTML)
@@ -54,8 +54,8 @@ class DigestLimits:
 
 
 def _fmt_day_header(d: date, label: str) -> str:
-    wd = _WEEKDAY_ES[d.weekday()].capitalize()
-    mon = _MONTH_ES[d.month - 1]
+    wd = _WEEKDAY_CA[d.weekday()].capitalize()
+    mon = _MONTH_CA[d.month - 1]
     return f"{label} · {wd} {d.day} {mon}"
 
 
@@ -145,7 +145,7 @@ def _global_top_lines(
     if not items:
         return []
     lines: List[str] = [
-        "<b>Top por nota</b>",
+        "<b>Millors per nota</b>",
         "",
     ]
     for i, it in enumerate(items, start=1):
@@ -256,12 +256,14 @@ def _format_cinema_rows(
     for title, times, rating in show_r:
         _emit(title, times, rating)
     if show_u:
-        lines.append("<i>    Sin ★ TMDb (sin match o pocos votos en TMDb):</i>")
+        lines.append(
+            "<i>    Sense ★ TMDb (sense coincidència o pocs vots a TMDb):</i>"
+        )
         for title, times, rating in show_u:
             _emit(title, times, rating)
     hidden = hide_r + hide_u
     if hidden:
-        lines.append(f"<i>    … y {hidden} más</i>")
+        lines.append(f"<i>    … i {hidden} més</i>")
     return lines
 
 
@@ -327,22 +329,21 @@ def build_digest_telegram_parts(
         tz = ZoneInfo("Europe/Madrid")
 
     d0, d1 = two_calendar_days(tz)
-    day_list: List[Tuple[date, str]] = [(d0, "Hoy"), (d1, "Mañana")]
+    day_list: List[Tuple[date, str]] = [(d0, "Avui"), (d1, "Demà")]
     by_day_cinema = _collect_by_day_cinema(films, day_list)
 
     top = _build_global_top(by_day_cinema, day_list, lim.global_top_per_day)
 
     now_str = datetime.now(tz).strftime("%d/%m/%Y %H:%M")
-    hoy_hdr = _fmt_day_header(d0, "Hoy")
-    man_hdr = _fmt_day_header(d1, "Mañana")
+    hoy_hdr = _fmt_day_header(d0, "Avui")
 
     # --- Message 1: ranked list ---
     msg1: List[str] = [
-        f"<b>Cartelera BCN · {html.escape(hoy_hdr)}</b>",
-        f"<i>actualizado {html.escape(now_str)}</i>",
+        f"<b>Cartellera BCN · {html.escape(hoy_hdr)}</b>",
+        f"<i>actualitzat {html.escape(now_str)}</i>",
         "",
         _SEP,
-        "<b>Top 10 por nota (hoy + mañana)</b>",
+        "<b>Les 10 millors per nota (avui + demà)</b>",
         "",
     ]
     if top:
@@ -356,14 +357,14 @@ def build_digest_telegram_parts(
             note = f" {it['rating']}" if it.get("rating") else ""
             msg1.append(f"   {i}. {t_esc} · {cin_html}{note}")
     else:
-        msg1.append("<i>Sin notas TMDb en esta pasada.</i>")
+        msg1.append("<i>Sense notes TMDb en aquesta passada.</i>")
 
     notes_extra = _cinema_notes_sin_ventana(films, by_day_cinema, day_list)
     if notes_extra:
         msg1.extend(["", _SEP, ""] + notes_extra)
 
     if failures:
-        fl = ["", _SEP, "", "<b>Avisos</b>", ""]
+        fl = ["", _SEP, "", "<b>Avísos</b>", ""]
         for f in failures:
             fl.append(f"   • {html.escape(f)}")
         msg1.extend(fl)
@@ -373,7 +374,7 @@ def build_digest_telegram_parts(
     # --- Message 2: detailed schedules for those top films ---
     if top:
         msg2: List[str] = [
-            "<b>Horarios — Top 10</b>",
+            "<b>Horaris — Top 10</b>",
             "",
         ]
         for i, it in enumerate(top, start=1):
@@ -385,7 +386,6 @@ def build_digest_telegram_parts(
             for d, lab in day_list:
                 if d not in sched:
                     continue
-                day_label = _fmt_day_header(d, lab)
                 cinemas_today = sched[d]
                 for cin in sorted(cinemas_today.keys(), key=str.lower):
                     times = cinemas_today[cin]
@@ -410,18 +410,31 @@ def _cinema_notes_sin_ventana(
     for f in films:
         by_cinema.setdefault(f.cinema, []).append(f)
     notes: List[str] = []
+    multi_day = len(day_list) > 1
     for cin, flist in sorted(by_cinema.items(), key=lambda x: x[0].lower()):
         if cin in present or not flist:
             continue
         if cin == "Phenomena":
-            notes.append(
-                f"<i><b>{html.escape(cin)}</b>: sus sesiones no caen hoy "
-                f"(suelen ser fechas posteriores).</i>"
-            )
+            if multi_day:
+                notes.append(
+                    f"<i><b>{html.escape(cin)}</b>: les sessions de la web no "
+                    f"coincideixen amb avui ni demà (sovint són dates posteriors).</i>"
+                )
+            else:
+                notes.append(
+                    f"<i><b>{html.escape(cin)}</b>: les sessions de la web no "
+                    f"coincideixen amb avui (sovint són dates posteriors).</i>"
+                )
         else:
-            notes.append(
-                f"<i><b>{html.escape(cin)}</b>: sin sesiones hoy.</i>"
-            )
+            if multi_day:
+                notes.append(
+                    f"<i><b>{html.escape(cin)}</b>: sense sessions avui ni demà "
+                    f"segons les dades obtingudes.</i>"
+                )
+            else:
+                notes.append(
+                    f"<i><b>{html.escape(cin)}</b>: sense sessions avui.</i>"
+                )
     return notes
 
 
@@ -444,18 +457,18 @@ def build_digest_sections(
 
     d0, d1 = two_calendar_days(tz)
     if lim.only_today:
-        day_list = [(d0, "Hoy")]
+        day_list = [(d0, "Avui")]
     else:
-        day_list = [(d0, "Hoy"), (d1, "Mañana")]
+        day_list = [(d0, "Avui"), (d1, "Demà")]
     by_day_cinema = _collect_by_day_cinema(films, day_list)
 
     sections: List[str] = []
 
     now_str = datetime.now(tz).strftime("%d/%m/%Y %H:%M")
-    day_header = _fmt_day_header(d0, "Hoy")
+    day_header = _fmt_day_header(d0, "Avui")
     header_lines: List[str] = [
-        f"<b>Cartelera · {html.escape(day_header)}</b>",
-        f"<i>Barcelona · actualizado {html.escape(now_str)}</i>",
+        f"<b>Cartellera · {html.escape(day_header)}</b>",
+        f"<i>Barcelona · actualitzat {html.escape(now_str)}</i>",
     ]
     header_lines.extend(["", _SEP])
     sections.append("\n".join(header_lines))
@@ -469,17 +482,17 @@ def build_digest_sections(
         block = by_day_cinema.get(d, {})
         if not block:
             lines.append(
-                "<i>Ninguna sesión con hora en este periodo (según las webs consultadas).</i>"
+                "<i>Cap sessió amb hora en aquest període (segons les webs consultades).</i>"
             )
         else:
             g_lines = _global_top_lines(block, lim.global_top_per_day)
             if g_lines:
                 lines.extend(g_lines)
             if g_lines:
-                lines.append("<b>2) Por cine</b> — horarios y sesiones")
+                lines.append("<b>2) Per cinema</b> — horaris i sessions")
                 lines.append("")
             else:
-                lines.append("<b>Por cine</b> — horarios y sesiones")
+                lines.append("<b>Per cinema</b> — horaris i sessions")
                 lines.append("")
             for cix, cinema in enumerate(sorted(block.keys())):
                 if cix:
@@ -500,8 +513,8 @@ def build_digest_sections(
     if failures:
         fl = [
             _SEP,
-            "<b>Avisos</b>",
-            "<i>Alguna web no se pudo leer bien en esta pasada.</i>",
+            "<b>Avísos</b>",
+            "<i>Alguna web no s'ha pogut llegir bé en aquesta passada.</i>",
             "",
         ]
         for f in failures:
@@ -510,7 +523,7 @@ def build_digest_sections(
 
     if lim.show_debug_footer:
         sections.append(
-            "<i>Debug: GitHub Actions → Run workflow · "
+            "<i>Depuració: GitHub Actions → Run workflow · "
             "local: <code>python src/main.py</code></i>"
         )
 
@@ -618,8 +631,8 @@ def format_novelties_html(
     )
     lines = [
         _SEP,
-        "<b>Novedades</b>",
-        "<i>Altas con sesión hoy o mañana; orden por nota TMDb.</i>",
+        "<b>Novetats</b>",
+        "<i>Noves amb sessió avui o demà; ordenades per nota TMDb.</i>",
         "",
     ]
     shown = picked[:max_lines]
@@ -629,5 +642,5 @@ def format_novelties_html(
             f"   • <b>{html.escape(f.cinema)}</b> · {html.escape(f.title)}{note}"
         )
     if len(picked) > max_lines:
-        lines.append(f"   <i>… y {len(picked) - max_lines} más</i>")
+        lines.append(f"   <i>… i {len(picked) - max_lines} més</i>")
     return "\n".join(lines)

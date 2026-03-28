@@ -78,9 +78,9 @@ def test_build_digest_telegram_parts_top_and_schedules():
         limits=DigestLimits(global_top_per_day=10),
     )
     assert len(parts) == 2
-    assert "Cartelera" in parts[0]
+    assert "Cartellera" in parts[0]
     assert "Pel A" in parts[0]
     assert "Pel B" in parts[0]
-    assert "Horarios" in parts[1]
+    assert "Horaris" in parts[1]
     assert "Alpha" in parts[1]
     assert "Beta" in parts[1]

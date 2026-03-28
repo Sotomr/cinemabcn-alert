@@ -18,8 +18,8 @@ logger = logging.getLogger(__name__)
 TELEGRAM_MAX = 3900  # margen bajo el límite 4096
 
 _LABEL = {
-    PRIMARY_RELEASE_WEEK: "Estreno",
-    PRIMARY_NEW_ON_BOARD: "Nueva",
+    PRIMARY_RELEASE_WEEK: "Estrena",
+    PRIMARY_NEW_ON_BOARD: "Nova",
     PRIMARY_SPECIAL_EVENT: "Especial",
 }
 
@@ -76,20 +76,20 @@ def format_alert_html(
     first_run: bool,
 ) -> str:
     lines: List[str] = [
-        "🎬 <b>Alertas cinéfilas en Barcelona</b>",
+        "🎬 <b>Alertes cinèfiles a Barcelona</b>",
         "",
     ]
     if first_run:
         lines.extend(
             [
-                "<i>Primera ejecución: snapshot creado. "
-                "Las próximas corridas avisarán solo de novedades.</i>",
+                "<i>Primera execució: instantània desada. "
+                "Les properes execucions avisaran només de novetats.</i>",
                 "",
             ]
         )
 
     if not first_run and not grouped and not failures:
-        lines.append("Sin novedades destacadas esta vez.")
+        lines.append("Sense novetats destacades aquest cop.")
     else:
         for cinema in sorted(grouped.keys()):
             lines.append(f"<b>{html.escape(cinema)}</b>")
@@ -100,7 +100,7 @@ def format_alert_html(
             lines.append("")
 
     if failures:
-        lines.append("<b>Scrapers con error</b>")
+        lines.append("<b>Scrapers amb error</b>")
         for f in failures:
             lines.append(f"  • {html.escape(f)}")
     return "\n".join(lines).strip()
