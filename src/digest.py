@@ -50,7 +50,7 @@ class DigestLimits:
     extra_unrated_per_cinema_per_day: int = 0
     novelties_top_per_cinema: int = 5
     novelties_max_lines: int = 15
-    only_today: bool = True
+    only_today: bool = False
 
 
 def _fmt_day_header(d: date, label: str) -> str:
@@ -265,6 +265,50 @@ def _format_cinema_rows(
     return lines
 
 
+def _build_global_top(
+    by_day_cinema: Dict[date, Dict[str, List[Tuple[str, List[str], Optional[str]]]]],
+    day_list: List[Tuple[date, str]],
+    max_titles: int,
+) -> List[Dict[str, Any]]:
+    """
+    Build a unified top-N across all days, deduped by title.
+    Returns list of dicts with score, title, rating, cinemas (set of names),
+    and schedule: {date: {cinema: [times]}}.
+    """
+    best: Dict[str, Dict[str, Any]] = {}
+    for d, _lab in day_list:
+        block = by_day_cinema.get(d, {})
+        for cinema, rows in block.items():
+            for title, times, rating in rows:
+                sc = score_from_rating_html(rating)
+                if sc < 0:
+                    continue
+                nk = film_title_dedupe_key(title)
+                if nk not in best:
+                    best[nk] = {
+                        "score": sc,
+                        "title": title,
+                        "rating": rating,
+                        "cinemas": {cinema},
+                        "schedule": {},
+                    }
+                else:
+                    b = best[nk]
+                    b["cinemas"].add(cinema)
+                    if sc > b["score"]:
+                        b["score"] = sc
+                        b["title"] = title
+                        b["rating"] = rating
+                sched = best[nk]["schedule"]
+                sched.setdefault(d, {}).setdefault(cinema, []).extend(times)
+    for entry in best.values():
+        for d in entry["schedule"]:
+            for cin in entry["schedule"][d]:
+                entry["schedule"][d][cin] = sorted(set(entry["schedule"][d][cin]))
+    items = sorted(best.values(), key=lambda x: (-x["score"], x["title"].lower()))
+    return items[:max_titles] if max_titles > 0 else items
+
+
 def build_digest_telegram_parts(
     films: List[Film],
     failures: List[str],
@@ -273,8 +317,8 @@ def build_digest_telegram_parts(
     limits: DigestLimits | None = None,
 ) -> List[str]:
     """
-    Mensaje 1: cabecera + top global de hoy + avisos.
-    Siguientes: un mensaje por cine (top N).
+    Mensaje 1: top 10 global (hoy+mañana) con nota y cines.
+    Mensaje 2: los mismos 10 con horarios detallados por cine y día.
     """
     lim = limits or DigestLimits()
     try:
@@ -283,75 +327,72 @@ def build_digest_telegram_parts(
         tz = ZoneInfo("Europe/Madrid")
 
     d0, d1 = two_calendar_days(tz)
-    if lim.only_today:
-        day_list = [(d0, "Hoy")]
-    else:
-        day_list = [(d0, "Hoy"), (d1, "Mañana")]
+    day_list: List[Tuple[date, str]] = [(d0, "Hoy"), (d1, "Mañana")]
     by_day_cinema = _collect_by_day_cinema(films, day_list)
 
-    now_str = datetime.now(tz).strftime("%d/%m/%Y %H:%M")
-    day_header = _fmt_day_header(d0, "Hoy")
-    header_lines: List[str] = [
-        f"<b>Cartelera · {html.escape(day_header)}</b>",
-        f"<i>Barcelona · actualizado {html.escape(now_str)}</i>",
-    ]
-    header_lines.extend(["", _SEP])
+    top = _build_global_top(by_day_cinema, day_list, lim.global_top_per_day)
 
-    first: List[str] = list(header_lines)
-    for idx, (d, lab) in enumerate(day_list):
-        if idx:
-            first.append("")
-            first.append(_SEP)
-            first.append("")
-            first.append(f"<b>{html.escape(_fmt_day_header(d, lab))}</b>")
-            first.append("")
-        block = by_day_cinema.get(d, {})
-        if not block:
-            first.append(
-                "<i>Ninguna sesión con hora en este periodo.</i>"
+    now_str = datetime.now(tz).strftime("%d/%m/%Y %H:%M")
+    hoy_hdr = _fmt_day_header(d0, "Hoy")
+    man_hdr = _fmt_day_header(d1, "Mañana")
+
+    # --- Message 1: ranked list ---
+    msg1: List[str] = [
+        f"<b>Cartelera BCN · {html.escape(hoy_hdr)}</b>",
+        f"<i>actualizado {html.escape(now_str)}</i>",
+        "",
+        _SEP,
+        "<b>Top 10 por nota (hoy + mañana)</b>",
+        "",
+    ]
+    if top:
+        for i, it in enumerate(top, start=1):
+            cin_html = ", ".join(
+                f"<b>{html.escape(c)}</b>"
+                for c in sorted(it["cinemas"], key=str.lower)
             )
-        else:
-            g_lines = _global_top_lines(block, lim.global_top_per_day)
-            if g_lines:
-                first.extend(g_lines)
-            else:
-                n_films = sum(len(rows) for rows in block.values())
-                n_cinemas = len(block)
-                first.append(
-                    f"<i>{n_films} películas en {n_cinemas} cines (sin notas TMDb en esta pasada).</i>"
-                )
+            disp = global_top_display_title(it["title"])
+            t_esc = html.escape(disp)
+            note = f" {it['rating']}" if it.get("rating") else ""
+            msg1.append(f"   {i}. {t_esc} · {cin_html}{note}")
+    else:
+        msg1.append("<i>Sin notas TMDb en esta pasada.</i>")
 
     notes_extra = _cinema_notes_sin_ventana(films, by_day_cinema, day_list)
     if notes_extra:
-        first.extend(["", _SEP, ""] + notes_extra)
+        msg1.extend(["", _SEP, ""] + notes_extra)
 
     if failures:
         fl = ["", _SEP, "", "<b>Avisos</b>", ""]
         for f in failures:
             fl.append(f"   • {html.escape(f)}")
-        first.extend(fl)
+        msg1.extend(fl)
 
-    out: List[str] = ["\n".join(first).strip()]
+    out: List[str] = ["\n".join(msg1).strip()]
 
-    all_cinemas_set: set[str] = set()
-    for d, _ in day_list:
-        all_cinemas_set |= set(by_day_cinema.get(d, {}).keys())
-    all_cinemas = sorted(all_cinemas_set, key=str.lower)
-    for cinema in all_cinemas:
-        clines: List[str] = [f"<b>{html.escape(cinema)}</b>", ""]
-        wrote = False
-        for d, lab in day_list:
-            block = by_day_cinema.get(d, {})
-            if cinema not in block:
-                continue
-            wrote = True
-            if len(day_list) > 1:
-                clines.append(f"<b>{html.escape(_fmt_day_header(d, lab))}</b>")
-                clines.append("")
-            clines.extend(_format_cinema_rows(cinema, block[cinema], lim))
-            clines.append("")
-        if wrote:
-            out.append("\n".join(clines).strip())
+    # --- Message 2: detailed schedules for those top films ---
+    if top:
+        msg2: List[str] = [
+            "<b>Horarios — Top 10</b>",
+            "",
+        ]
+        for i, it in enumerate(top, start=1):
+            disp = global_top_display_title(it["title"])
+            t_esc = html.escape(disp)
+            note = f" {it['rating']}" if it.get("rating") else ""
+            msg2.append(f"<b>{i}. {t_esc}</b>{note}")
+            sched = it["schedule"]
+            for d, lab in day_list:
+                if d not in sched:
+                    continue
+                day_label = _fmt_day_header(d, lab)
+                cinemas_today = sched[d]
+                for cin in sorted(cinemas_today.keys(), key=str.lower):
+                    times = cinemas_today[cin]
+                    horas = ", ".join(times)
+                    msg2.append(f"    {html.escape(cin)} · {lab.lower()} — {horas}")
+            msg2.append("")
+        out.append("\n".join(msg2).strip())
 
     return [s for s in out if s.strip()]
 

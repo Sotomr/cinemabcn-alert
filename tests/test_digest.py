@@ -49,7 +49,7 @@ def test_global_top_empty_when_no_ratings():
     assert _global_top_lines(block, 10) == []
 
 
-def test_build_digest_telegram_parts_separates_cinemas():
+def test_build_digest_telegram_parts_top_and_schedules():
     tz = ZoneInfo("Europe/Madrid")
     d0, _ = two_calendar_days(tz)
     dt = f"{d0.strftime('%Y%m%d')} 20:00"
@@ -60,6 +60,7 @@ def test_build_digest_telegram_parts_separates_cinemas():
             url="https://x/a",
             source_section="t",
             shows=[Show(datetime=dt)],
+            rating="★ 8.0 IMDb",
         ),
         Film(
             cinema="Beta",
@@ -67,15 +68,19 @@ def test_build_digest_telegram_parts_separates_cinemas():
             url="https://x/b",
             source_section="t",
             shows=[Show(datetime=dt)],
+            rating="★ 7.5 IMDb",
         ),
     ]
     parts = build_digest_telegram_parts(
         films,
         [],
         tz_name="Europe/Madrid",
-        limits=DigestLimits(global_top_per_day=0),
+        limits=DigestLimits(global_top_per_day=10),
     )
-    assert len(parts) >= 3
+    assert len(parts) == 2
     assert "Cartelera" in parts[0]
-    assert any("Alpha" in p for p in parts[1:])
-    assert any("Beta" in p for p in parts[1:])
+    assert "Pel A" in parts[0]
+    assert "Pel B" in parts[0]
+    assert "Horarios" in parts[1]
+    assert "Alpha" in parts[1]
+    assert "Beta" in parts[1]

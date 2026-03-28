@@ -87,6 +87,6 @@ def load_settings() -> Settings:
         digest_novelties_max_lines=_int_env("DIGEST_NOVELTIES_MAX_LINES", 15),
         digest_telegram_by_cinema=os.getenv("DIGEST_TELEGRAM_BY_CINEMA", "1").lower()
         not in ("0", "false", "no"),
-        digest_only_today=os.getenv("DIGEST_ONLY_TODAY", "1").lower()
+        digest_only_today=os.getenv("DIGEST_ONLY_TODAY", "0").lower()
         not in ("0", "false", "no"),
     )
