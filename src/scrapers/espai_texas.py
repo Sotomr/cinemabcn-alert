@@ -6,7 +6,6 @@ import time
 from datetime import date
 from typing import List
 
-import requests
 from bs4 import BeautifulSoup
 
 from models import Film, Show
@@ -66,11 +65,9 @@ class EspaiTexasScraper(BaseScraper):
     cinema_name = "Espai Texas"
 
     def fetch(self) -> List[Film]:
-        from utils import DEFAULT_HEADERS
+        from utils import fetch_soup
 
-        r = requests.get(CARTELLERA_URL, headers=DEFAULT_HEADERS, timeout=25)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.content, "lxml")
+        soup = fetch_soup(CARTELLERA_URL)
         films: List[Film] = []
 
         for h2 in soup.select("h2.title.color-green"):
@@ -95,9 +92,7 @@ class EspaiTexasScraper(BaseScraper):
             if i:
                 time.sleep(0.35)
             try:
-                fr = requests.get(film.url, headers=DEFAULT_HEADERS, timeout=25)
-                fr.raise_for_status()
-                psoup = BeautifulSoup(fr.content, "lxml")
+                psoup = fetch_soup(film.url)
                 film.shows = _parse_texas_sessions(psoup)
             except Exception as e:
                 logger.warning("Espai Texas: no sesiones %s: %s", film.title, e)

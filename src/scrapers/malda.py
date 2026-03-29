@@ -9,8 +9,6 @@ from typing import List, Optional, Set
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
-import requests
-
 from models import Film, Show
 
 from .base import BaseScraper
@@ -114,13 +112,9 @@ class MaldaScraper(BaseScraper):
     cinema_name = "Maldà"
 
     def fetch(self) -> List[Film]:
-        from bs4 import BeautifulSoup
+        from utils import fetch_soup
 
-        from utils import DEFAULT_HEADERS
-
-        r = requests.get(CARTELERA_DIA_URL, headers=DEFAULT_HEADERS, timeout=25)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.content, "lxml")
+        soup = fetch_soup(CARTELERA_DIA_URL)
         film_urls: Set[str] = set()
 
         for a in soup.find_all("a", href=True):
@@ -146,9 +140,7 @@ class MaldaScraper(BaseScraper):
         for url in sorted(film_urls):
             try:
                 time.sleep(0.35)
-                fr = requests.get(url, headers=DEFAULT_HEADERS, timeout=25)
-                fr.raise_for_status()
-                psoup = BeautifulSoup(fr.content, "lxml")
+                psoup = fetch_soup(url)
                 title_el = psoup.select_one("h1.entry-title") or psoup.select_one("h1")
                 title = (
                     title_el.get_text(" ", strip=True)
