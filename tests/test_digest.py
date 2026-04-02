@@ -79,8 +79,8 @@ def test_build_digest_telegram_parts_top_and_schedules():
     )
     assert len(parts) == 2
     assert "Cartellera" in parts[0]
-    assert "Pel A" in parts[0]
-    assert "Pel B" in parts[0]
+    assert "pel a" in parts[0]
+    assert "pel b" in parts[0]
     assert "Horaris" in parts[1]
     assert "Alpha" in parts[1]
     assert "Beta" in parts[1]

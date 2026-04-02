@@ -109,7 +109,8 @@ def global_top_display_title(title: str) -> str:
         t,
         flags=re.IGNORECASE,
     ).strip()
-    return t.strip()
+    # Estètica al digest (Telegram): Phenomena i altres solen posar títols en MAJÚSCULES.
+    return t.lower().strip()
 
 
 def fetch_soup(url: str, *, timeout: float = 30, retries: int = 2):

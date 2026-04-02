@@ -47,5 +47,5 @@ def test_global_top_display_title_strips_proyeccion():
     from utils import global_top_display_title
 
     t = global_top_display_title("EL PADRINO (Proyección en 4K y VOSE)")
-    assert "Proyección" not in t and "proyección" not in t.lower()
-    assert "PADRINO" in t or "Padrino" in t
+    assert "proyección" not in t
+    assert "padrino" in t
