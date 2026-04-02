@@ -33,3 +33,19 @@ def test_film_title_dedupe_key_merges_vose_atmos():
     b = film_title_dedupe_key("Proyecto Salvación (VOSE) (ATMOS)")
     c = film_title_dedupe_key("Proyecto Salvación (VOSE)")
     assert a == b == c
+
+
+def test_film_title_dedupe_key_merges_phenomena_caps_and_proyeccion():
+    pheno = "PROYECTO SALVACION (Proyección en Dolby Atmos y VOSE)"
+    other = "Proyecto Salvación"
+    assert film_title_dedupe_key(pheno) == film_title_dedupe_key(other)
+    pad = "EL PADRINO (Proyección en 4K y VOSE)"
+    assert film_title_dedupe_key(pad) == film_title_dedupe_key("El Padrino")
+
+
+def test_global_top_display_title_strips_proyeccion():
+    from utils import global_top_display_title
+
+    t = global_top_display_title("EL PADRINO (Proyección en 4K y VOSE)")
+    assert "Proyección" not in t and "proyección" not in t.lower()
+    assert "PADRINO" in t or "Padrino" in t

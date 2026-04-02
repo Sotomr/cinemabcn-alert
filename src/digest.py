@@ -301,6 +301,15 @@ def _build_global_top(
                         b["score"] = sc
                         b["title"] = title
                         b["rating"] = rating
+                    elif sc == b["score"]:
+                        d_new = len(global_top_display_title(title))
+                        d_old = len(global_top_display_title(b["title"]))
+                        u_old = b["title"].strip().isupper()
+                        u_new = title.strip().isupper()
+                        if d_new < d_old or (u_old and not u_new):
+                            b["title"] = title
+                            if rating:
+                                b["rating"] = rating
                 sched = best[nk]["schedule"]
                 sched.setdefault(d, {}).setdefault(cinema, []).extend(times)
     for entry in best.values():

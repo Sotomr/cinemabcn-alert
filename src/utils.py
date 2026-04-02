@@ -3,6 +3,23 @@ from __future__ import annotations
 import re
 import unicodedata
 
+# Sufijos de sesión en cartelera (p. ej. Phenomena: título en MAYÚSCULAS + paréntesis).
+_PROYECCION_TAIL = re.compile(
+    r"\s*\([^)]*\bproyecci[oó]n\b[^)]*\)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _strip_trailing_proyeccion_parens(title: str) -> str:
+    t = title.strip()
+    while True:
+        n = _PROYECCION_TAIL.sub("", t).strip()
+        if n == t:
+            break
+        t = n
+    return t
+
+
 DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; CinemaAlertsBot/1.0; +https://github.com/)",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -33,8 +50,11 @@ def film_title_dedupe_key(title: str) -> str:
     """
     Agrupa la misma película con distintas variantes de cartelera (VOSE con/sin
     paréntesis, Doblada ESP, etc.) para resúmenes y tops globales.
+    Mayúsculas/minúsculas y acentos se normalizan; se quitan paréntesis tipo
+    «(Proyección en 4K y VOSE)» (Phenomena y similares).
     """
-    t = title.strip()
+    t = title.strip().lower()
+    t = _strip_trailing_proyeccion_parens(t)
     for pat in (
         r"\s*\(VOSE\)\s*\(ATMOS\)\s*$",
         r"\s*\(VOSE\)\s*$",
@@ -68,6 +88,7 @@ def film_title_dedupe_key(title: str) -> str:
 def global_top_display_title(title: str) -> str:
     """Título más corto para el resumen global (quita sufijos de sesión)."""
     t = title.strip()
+    t = _strip_trailing_proyeccion_parens(t)
     for pat in (
         r"\s*\(VOSE\)\s*\(ATMOS\)\s*$",
         r"\s*\(VOSE\)\s*$",
