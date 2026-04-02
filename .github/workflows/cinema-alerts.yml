@@ -47,5 +47,7 @@ jobs:
             echo "No snapshot changes"
           else
             git commit -m "chore: update cinema snapshot"
+            # Integra commits nous al main (p. ex. push manual) abans de pujar el snapshot
+            git pull --rebase origin "${{ github.ref_name }}"
             git push
           fi
