@@ -11,17 +11,17 @@ Opcionalment s’afegeix un bloc de **novetats** (altes respecte a `data/latest_
 
 ## Cinemes
 
-| Cinema | Font / tècnica |
-|--------|----------------|
-| **Filmoteca de Catalunya** | Agenda setmanal (`filmoteca.cat`, HTML) |
-| **Phenomena** | `phenomena-experience.com` (configurable) |
-| **Verdi** | Llistat + pàgines de pel·lícula (`cines-verdi.com`) |
-| **Mooby Balmes** | JSON embegut `window.shops` a `moobycinemas.com/balmes` |
-| **Maldà** | WordPress, pàgines per pel·lícula |
-| **Zumzeig** | Calendari mensual (configurable) |
-| **Cinemes Girona** | Cartellera Admit One (`cinemesgirona.cat`) |
-| **Renoir Floridablanca** | Web Renoir / Pillalas |
-| **Espai Texas** | `espaitexas.cat` |
+| Cinema | Web (cartellera) |
+|--------|------------------|
+| **Filmoteca de Catalunya** | [filmoteca.cat — agenda setmanal](https://www.filmoteca.cat/web/ca/view-agenda-setmanal) |
+| **Phenomena** | [phenomena-experience.com](https://phenomena-experience.com/index?pag=cartelera) |
+| **Verdi** | [cines-verdi.com — Barcelona](https://barcelona.cines-verdi.com/cartellera) |
+| **Mooby Balmes** | [moobycinemas.com — Balmes](https://www.moobycinemas.com/balmes) |
+| **Maldà** | [cinemamalda.com — cartellera](https://www.cinemamalda.com/cartelera-dia-dia/) |
+| **Zumzeig** | [zumzeigcine.coop — calendari](https://www.zumzeigcine.coop/es/cine/calendari/) |
+| **Cinemes Girona** | [cinemesgirona.cat — cartellera](https://www.cinemesgirona.cat/cartelera) |
+| **Renoir Floridablanca** | [cinesrenoir.com — Renoir Floridablanca](https://www.cinesrenoir.com/cine/renoir-floridablanca/cartelera/) |
+| **Espai Texas** | [espaitexas.cat — cartellera](https://espaitexas.cat/cartellera-cinema/) |
 
 **Phenomena** i **Zumzeig** canvien sovint d’URL o d’estructura. Si un scraper retorna 0 títols, defineix la URL a `.env` (`PHENOMENA_BASE_URL`, `ZUMZEIG_CARTELERA_URL`) i revisa el mòdul corresponent a `src/scrapers/`.
 
