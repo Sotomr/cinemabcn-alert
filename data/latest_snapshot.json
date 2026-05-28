@@ -1,6 +1,106 @@
 {
-  "fetched_at": "2026-05-27T12:11:36.335367+00:00",
+  "fetched_at": "2026-05-28T12:20:11.972709+00:00",
   "films": [
+    {
+      "cinema": "Cinemes Girona",
+      "title": "Corredora (CAT)",
+      "url": "https://www.cinemesgirona.cat/corredora-cat",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 19:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 21:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
     {
       "cinema": "Cinemes Girona",
       "title": "Cowgirl (CAT)",
@@ -8,17 +108,37 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260527 18:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 17:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 17:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:00",
           "room": null,
           "language": null
         }
@@ -33,11 +153,6 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 20:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 16:00",
           "room": null,
           "language": null
@@ -46,10 +161,130 @@
           "datetime": "20260528 22:00",
           "room": null,
           "language": null
+        },
+        {
+          "datetime": "20260604 21:30",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Cinemes Girona",
+      "title": "El Drama (VOSE)",
+      "url": "https://www.cinemesgirona.cat/el-drama-vose",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 22:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 22:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 22:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Cinemes Girona",
@@ -73,17 +308,32 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 17:00",
-          "room": null,
-          "language": "VOSE"
-        },
-        {
-          "datetime": "20260527 19:30",
-          "room": null,
-          "language": "VOSE"
-        },
-        {
           "datetime": "20260528 17:30",
+          "room": null,
+          "language": "VOSE"
+        },
+        {
+          "datetime": "20260529 20:10",
+          "room": null,
+          "language": "VOSE"
+        },
+        {
+          "datetime": "20260530 21:40",
+          "room": null,
+          "language": "VOSE"
+        },
+        {
+          "datetime": "20260531 19:50",
+          "room": null,
+          "language": "VOSE"
+        },
+        {
+          "datetime": "20260602 19:50",
+          "room": null,
+          "language": "VOSE"
+        },
+        {
+          "datetime": "20260604 17:00",
           "room": null,
           "language": "VOSE"
         }
@@ -123,27 +373,32 @@
     },
     {
       "cinema": "Cinemes Girona",
-      "title": "Un hijo",
-      "url": "https://www.cinemesgirona.cat/un-hijo",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Cinemes Girona",
       "title": "Yo no moriré de amor",
       "url": "https://www.cinemesgirona.cat/yo-no-morire9-de-amor",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 18:00",
+          "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
           "room": null,
           "language": null
         }
@@ -173,22 +428,7 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260527 16:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "LA BONA FILLA",
-      "url": "https://espaitexas.cat/pelicula/la-bona-filla/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260527 20:15",
+          "datetime": "20260529 16:00",
           "room": null,
           "language": null
         }
@@ -203,18 +443,78 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260527 20:45",
+          "datetime": "20260528 20:45",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260528 20:45",
+          "datetime": "20260530 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt28834646/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "MALLORCA CONFIDENCIAL",
+      "url": "https://espaitexas.cat/pelicula/mallorca-confidencial/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260529 17:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 17:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 19:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -233,17 +533,72 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "QUÈ ET DIU AQUESTA NATURA?",
+      "url": "https://espaitexas.cat/pelicula/que-et-diu-aquesta-natura/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260529 18:10",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:10",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:10",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 19:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 20:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt35499025/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "SILENT FRIEND",
       "url": "https://espaitexas.cat/pelicula/silent-friend/",
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260527 16:00",
+          "datetime": "20260528 16:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260528 16:00",
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -258,12 +613,27 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260527 18:10",
+          "datetime": "20260528 18:10",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260528 18:10",
+          "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:10",
           "room": null,
           "language": null
         }
@@ -278,17 +648,32 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260527 18:45",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 16:00",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260528 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:10",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -298,35 +683,37 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Genealogies insulars: l’arxipèlag de Barbara Hammer (Sessió de curtmetratges)",
-      "url": "https://www.filmoteca.cat/web/ca/film/genealogies-insulars-larxipelag-de-barbara-hammer",
+      "title": "Dins i fora del llit (Sessió de curtmetratges)",
+      "url": "https://www.filmoteca.cat/web/ca/film/dins-i-fora-del-llit",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260527 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Ikiru | AULA B (Vivir)",
-      "url": "https://www.filmoteca.cat/web/ca/film/ikiru-aula-b",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260527 17:00",
+          "datetime": "20260529 20:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Akira Kurosawa, 1952"
+        "Barbara Hammer, 1974-1982"
       ],
       "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "El inquilino (José Antonio Nieves Conde, 1957)",
+      "url": "https://www.filmoteca.cat/web/ca/film/el-inquilino",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260529 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "José Antonio Nieves Conde, 1957"
+      ],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0051779/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -347,20 +734,52 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Rapt (Segrest)",
-      "url": "https://www.filmoteca.cat/web/ca/film/rapt",
+      "title": "Les possibilitats d'una banda sonora: The Kid, de Charles Chaplin. (Programa expandit)",
+      "url": "https://www.filmoteca.cat/web/ca/film/les-possibilitats-duna-banda-sonora-kid-de-charles-chaplin",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260527 21:00",
+          "datetime": "20260529 11:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Oranjevie jileti (Orange Vests)",
+      "url": "https://www.filmoteca.cat/web/ca/film/oranjevie-jileti",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260529 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Dimitri Kirsanoff, 1933"
+        "Studio Tatjana, 1992"
       ],
-      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt1430110/\">IMDb</a>"
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Sennen joyû (Millennium Actress)",
+      "url": "https://www.filmoteca.cat/web/ca/film/sennen-joyu",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260529 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Satoshi Kon"
+      ],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0291350/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -398,23 +817,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "The Long Road to the Director's Chair (Vibeke Løkkeberg, 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/long-road-directors-chair",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260527 20:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Vibeke Løkkeberg, 2025"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Videotapes de Rita Moreira i de Norma Bahia Pontes (Rita Moreira i Norma Bahia Pontes, 1972-1975)",
       "url": "https://www.filmoteca.cat/web/ca/film/videotapes-de-rita-moreira-i-de-norma-bahia-pontes",
       "source_section": "agenda-setmanal",
@@ -431,46 +833,146 @@
       "rating": null
     },
     {
+      "cinema": "Maldà",
+      "title": "Dos días (VOSE)",
+      "url": "https://www.cinemamalda.com/dos-dias/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260529 15:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Mooby Balmes",
+      "title": "corredora (cat)",
+      "url": "https://www.imdb.com/title/tt36665220/",
+      "source_section": "moobycinemas-embed",
+      "shows": [
+        {
+          "datetime": "20260529 15:50",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260529 18:05",
+          "room": "SALA 04",
+          "language": null
+        },
+        {
+          "datetime": "20260529 20:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260530 15:50",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:05",
+          "room": "SALA 04",
+          "language": null
+        },
+        {
+          "datetime": "20260530 20:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260531 12:15",
+          "room": "SALA 03",
+          "language": null
+        },
+        {
+          "datetime": "20260531 15:50",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:05",
+          "room": "SALA 04",
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260601 15:50",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:05",
+          "room": "SALA 04",
+          "language": null
+        },
+        {
+          "datetime": "20260601 20:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260602 15:50",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:05",
+          "room": "SALA 04",
+          "language": null
+        },
+        {
+          "datetime": "20260602 20:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260603 15:50",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:05",
+          "room": "SALA 04",
+          "language": null
+        },
+        {
+          "datetime": "20260603 20:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260604 15:50",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:05",
+          "room": "SALA 04",
+          "language": null
+        },
+        {
+          "datetime": "20260604 20:00",
+          "room": "SALA 10",
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
       "cinema": "Mooby Balmes",
       "title": "el diablo viste de prada 2",
       "url": "https://www.imdb.com/title/tt33612209/",
       "source_section": "moobycinemas-embed",
       "shows": [
-        {
-          "datetime": "20260527 16:00",
-          "room": "SALA 06",
-          "language": null
-        },
-        {
-          "datetime": "20260527 17:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260527 18:00",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260527 18:45",
-          "room": "SALA 06",
-          "language": null
-        },
-        {
-          "datetime": "20260527 19:30",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260527 20:30",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260527 21:25",
-          "room": "SALA 06",
-          "language": null
-        },
         {
           "datetime": "20260528 16:00",
           "room": "SALA 06",
@@ -657,15 +1159,280 @@
     },
     {
       "cinema": "Mooby Balmes",
+      "title": "el drama",
+      "url": "https://www.imdb.com/title/tt33071426/",
+      "source_section": "moobycinemas-embed",
+      "shows": [
+        {
+          "datetime": "20260529 15:50",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260529 18:00",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260529 19:00",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260529 20:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260529 21:15",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260529 22:20",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260530 15:50",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:00",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260530 19:00",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260530 20:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260530 21:15",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260530 22:20",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260531 12:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260531 15:50",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:00",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260531 19:00",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260531 21:15",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260531 22:20",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260601 15:50",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:00",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260601 19:00",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260601 20:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260601 21:15",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260601 22:20",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260602 15:50",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:00",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260602 19:00",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260602 20:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260602 21:15",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260602 22:20",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260603 15:50",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:00",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260603 19:00",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260603 20:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260603 21:15",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260603 22:20",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260604 15:50",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:00",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260604 19:00",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260604 20:10",
+          "room": "SALA 02",
+          "language": null
+        },
+        {
+          "datetime": "20260604 21:15",
+          "room": "SALA 01",
+          "language": null
+        },
+        {
+          "datetime": "20260604 22:20",
+          "room": "SALA 02",
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
+    },
+    {
+      "cinema": "Mooby Balmes",
+      "title": "el señor de los anillos: el retorno del rey (v.extendida)",
+      "url": "https://www.imdb.com/title/tt0167260/",
+      "source_section": "moobycinemas-embed",
+      "shows": [
+        {
+          "datetime": "20260529 19:00",
+          "room": "SALA 05",
+          "language": null
+        },
+        {
+          "datetime": "20260530 19:00",
+          "room": "SALA 05",
+          "language": null
+        },
+        {
+          "datetime": "20260531 17:00",
+          "room": "SALA 05",
+          "language": null
+        },
+        {
+          "datetime": "20260601 19:00",
+          "room": "SALA 05",
+          "language": null
+        },
+        {
+          "datetime": "20260602 19:00",
+          "room": "SALA 05",
+          "language": null
+        },
+        {
+          "datetime": "20260603 19:00",
+          "room": "SALA 05",
+          "language": null
+        },
+        {
+          "datetime": "20260604 19:00",
+          "room": "SALA 05",
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt0167260/\">IMDb</a>"
+    },
+    {
+      "cinema": "Mooby Balmes",
       "title": "el señor de los anillos: las dos torres (v.extendida)",
       "url": "https://www.imdb.com/title/tt0167261/",
       "source_section": "moobycinemas-embed",
       "shows": [
-        {
-          "datetime": "20260527 19:30",
-          "room": "SALA 07",
-          "language": null
-        },
         {
           "datetime": "20260528 19:30",
           "room": "SALA 07",
@@ -681,11 +1448,6 @@
       "url": "https://www.imdb.com/title/tt31514146/",
       "source_section": "moobycinemas-embed",
       "shows": [
-        {
-          "datetime": "20260527 17:15",
-          "room": "SALA 05",
-          "language": null
-        },
         {
           "datetime": "20260528 17:15",
           "room": "SALA 05",
@@ -736,16 +1498,6 @@
       "url": "https://www.imdb.com/title/tt4357198/",
       "source_section": "moobycinemas-embed",
       "shows": [
-        {
-          "datetime": "20260527 16:00",
-          "room": "SALA 11",
-          "language": null
-        },
-        {
-          "datetime": "20260527 22:00",
-          "room": "SALA 10",
-          "language": null
-        },
         {
           "datetime": "20260528 16:00",
           "room": "SALA 11",
@@ -802,11 +1554,6 @@
       "source_section": "moobycinemas-embed",
       "shows": [
         {
-          "datetime": "20260527 18:15",
-          "room": "SALA 11",
-          "language": null
-        },
-        {
           "datetime": "20260528 18:15",
           "room": "SALA 11",
           "language": null
@@ -857,11 +1604,6 @@
       "source_section": "moobycinemas-embed",
       "shows": [
         {
-          "datetime": "20260527 17:25",
-          "room": "SALA 07",
-          "language": null
-        },
-        {
           "datetime": "20260528 17:25",
           "room": "SALA 07",
           "language": null
@@ -876,16 +1618,6 @@
       "url": "https://www.imdb.com/title/tt32565993/",
       "source_section": "moobycinemas-embed",
       "shows": [
-        {
-          "datetime": "20260527 16:00",
-          "room": "SALA 12",
-          "language": null
-        },
-        {
-          "datetime": "20260527 18:30",
-          "room": "SALA 12",
-          "language": null
-        },
         {
           "datetime": "20260528 16:00",
           "room": "SALA 12",
@@ -977,11 +1709,6 @@
       "source_section": "moobycinemas-embed",
       "shows": [
         {
-          "datetime": "20260527 18:35",
-          "room": "SALA 03",
-          "language": null
-        },
-        {
           "datetime": "20260528 18:35",
           "room": "SALA 03",
           "language": null
@@ -1031,31 +1758,6 @@
       "url": "https://www.imdb.com/title/tt11378946/",
       "source_section": "moobycinemas-embed",
       "shows": [
-        {
-          "datetime": "20260527 16:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260527 17:45",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260527 18:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260527 20:30",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260527 21:30",
-          "room": "SALA 02",
-          "language": null
-        },
         {
           "datetime": "20260528 16:10",
           "room": "SALA 02",
@@ -1272,16 +1974,6 @@
       "source_section": "moobycinemas-embed",
       "shows": [
         {
-          "datetime": "20260527 16:00",
-          "room": "SALA 03",
-          "language": null
-        },
-        {
-          "datetime": "20260527 21:30",
-          "room": "SALA 03",
-          "language": null
-        },
-        {
           "datetime": "20260528 16:00",
           "room": "SALA 03",
           "language": null
@@ -1337,11 +2029,6 @@
       "source_section": "moobycinemas-embed",
       "shows": [
         {
-          "datetime": "20260527 21:00",
-          "room": "SALA 12",
-          "language": null
-        },
-        {
           "datetime": "20260528 21:00",
           "room": "SALA 12",
           "language": null
@@ -1386,11 +2073,6 @@
       "url": "https://www.imdb.com/title/tt29002950/",
       "source_section": "moobycinemas-embed",
       "shows": [
-        {
-          "datetime": "20260527 21:00",
-          "room": "SALA 11",
-          "language": null
-        },
         {
           "datetime": "20260528 21:00",
           "room": "SALA 11",
@@ -1442,43 +2124,63 @@
     },
     {
       "cinema": "Mooby Balmes",
+      "title": "shrek (25 aniversario)",
+      "url": "https://www.imdb.com/title/tt0126029/",
+      "source_section": "moobycinemas-embed",
+      "shows": [
+        {
+          "datetime": "20260529 18:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260531 12:15",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:00",
+          "room": "SALA 10",
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:00",
+          "room": "SALA 10",
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0126029/\">IMDb</a>"
+    },
+    {
+      "cinema": "Mooby Balmes",
       "title": "the mandalorian and grogu",
       "url": "https://www.imdb.com/title/tt30825738/",
       "source_section": "moobycinemas-embed",
       "shows": [
         {
-          "datetime": "20260527 19:45",
-          "room": "SALA 05",
-          "language": null
-        },
-        {
           "datetime": "20260528 19:45",
           "room": "SALA 05",
-          "language": null
-        },
-        {
-          "datetime": "20260527 16:00",
-          "room": "SALA 09",
-          "language": null
-        },
-        {
-          "datetime": "20260527 17:40",
-          "room": "SALA 08",
-          "language": null
-        },
-        {
-          "datetime": "20260527 18:50",
-          "room": "SALA 09",
-          "language": null
-        },
-        {
-          "datetime": "20260527 20:30",
-          "room": "SALA 08",
-          "language": null
-        },
-        {
-          "datetime": "20260527 21:40",
-          "room": "SALA 09",
           "language": null
         },
         {
@@ -1722,58 +2424,18 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "CON FALDAS Y A LO LOCO (Proyección en 4K y VOSE) Some Like It Hot",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=732",
+      "title": "LOST IN TRANSLATION (Proyección en VOSE) Lost in Translation",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1909",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:10",
+          "datetime": "20260529 15:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0053291/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LA POSESIÓN (Proyección en VOSE) Possession",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2303",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260527 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0082933/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "MICHAEL (Proyección en 4K, Dolby Atmos y VOSE) Michael",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2968",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260527 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260603 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260609 17:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt11378946/\">IMDb</a>"
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0335266/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1791,19 +2453,94 @@
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt29002950/\">IMDb</a>"
     },
     {
+      "cinema": "Phenomena",
+      "title": "THE MANDALORIAN AND GROGU (Proyección en 4K, Dolby Atmos y VOSE) Star Wars: The Mandalorian and Grogu",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2973",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 17:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260529 20:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 15:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 20:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 17:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260605 19:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260606 15:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt30825738/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 23:20",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0073629/\">IMDb</a>"
+    },
+    {
       "cinema": "Renoir Floridablanca",
       "title": "Amarga Navidad",
       "url": "https://www.cinesrenoir.com/pelicula/amarga-navidad/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 18:05",
+          "datetime": "20260528 18:05",
           "room": null,
           "language": "Castellano"
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt28088049/\">IMDb</a>"
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt28088049/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -1812,12 +2549,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 15:50",
+          "datetime": "20260528 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260527 18:00",
+          "datetime": "20260528 18:00",
           "room": null,
           "language": "Castellano"
         }
@@ -1832,7 +2569,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 15:50",
+          "datetime": "20260528 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -1847,17 +2584,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 15:50",
+          "datetime": "20260528 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 20:20",
+          "datetime": "20260528 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 22:35",
+          "datetime": "20260528 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -1872,17 +2609,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 17:50",
+          "datetime": "20260528 17:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 20:00",
+          "datetime": "20260528 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 22:10",
+          "datetime": "20260528 22:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -1897,7 +2634,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:00",
+          "datetime": "20260528 16:00",
           "room": null,
           "language": "Castellano"
         }
@@ -1912,7 +2649,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 20:15",
+          "datetime": "20260528 20:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -1922,22 +2659,37 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "La Vida De Brian [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/la-vida-de-brian-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260528 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0079470/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "Love Me Tender",
       "url": "https://www.cinesrenoir.com/pelicula/love-me-tender/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:10",
+          "datetime": "20260528 16:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 19:00",
+          "datetime": "20260528 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 21:50",
+          "datetime": "20260528 21:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -1952,12 +2704,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:10",
+          "datetime": "20260528 16:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 22:10",
+          "datetime": "20260528 22:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -1972,7 +2724,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 20:10",
+          "datetime": "20260528 20:10",
           "room": null,
           "language": "Castellano"
         }
@@ -1987,7 +2739,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 22:00",
+          "datetime": "20260528 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -2002,17 +2754,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:10",
+          "datetime": "20260528 16:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 19:00",
+          "datetime": "20260528 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260527 21:45",
+          "datetime": "20260528 21:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -2027,7 +2779,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 18:00",
+          "datetime": "20260528 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -2036,44 +2788,39 @@
       "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt32622406/\">IMDb</a>"
     },
     {
-      "cinema": "Renoir Floridablanca",
-      "title": "Un Poeta",
-      "url": "https://www.cinesrenoir.com/pelicula/un-poeta/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260527 18:50",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260527 21:30",
-          "room": null,
-          "language": "Castellano"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.4 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
-    },
-    {
       "cinema": "Verdi",
       "title": "Amarga Navidad",
       "url": "https://barcelona.cines-verdi.com/amarga-navidad",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 20:25",
+          "datetime": "20260529 22:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260529 22:15",
+          "datetime": "20260530 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 22:40",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt28088049/\">IMDb</a>"
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt28088049/\">IMDb</a>"
     },
     {
       "cinema": "Verdi",
@@ -2082,17 +2829,42 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260528 11:30",
+          "datetime": "20260528 16:00",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -2107,7 +2879,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260528 11:30",
+          "datetime": "20260528 20:30",
           "room": null,
           "language": null
         }
@@ -2117,15 +2889,100 @@
     },
     {
       "cinema": "Verdi",
+      "title": "Conoce a los bárbaros VOSE",
+      "url": "https://barcelona.cines-verdi.com/conoce-a-los-barbaros",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 22:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt23640170/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Corredora",
+      "url": "https://barcelona.cines-verdi.com/corredora",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 20:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 20:20",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
       "title": "Cowgirl",
       "url": "https://barcelona.cines-verdi.com/cowgirl",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260527 20:10",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260528 20:10",
           "room": null,
@@ -2135,6 +2992,36 @@
           "datetime": "20260529 16:00",
           "room": null,
           "language": null
+        },
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
@@ -2142,15 +3029,80 @@
     },
     {
       "cinema": "Verdi",
+      "title": "Dragon Ball Super: Super Hero VOSE",
+      "url": "https://barcelona.cines-verdi.com/dragon-ball-super-super-hero",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 22:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt14614892/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
+      "title": "El caso Hübener VOSE",
+      "url": "https://barcelona.cines-verdi.com/el-caso-hubener",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 17:55",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt21825416/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
       "title": "El diablo viste de Prada 2 VOSE",
       "url": "https://barcelona.cines-verdi.com/el-diablo-viste-de-prada-2",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260528 16:00",
           "room": null,
@@ -2160,6 +3112,36 @@
           "datetime": "20260529 16:00",
           "room": null,
           "language": null
+        },
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
@@ -2167,15 +3149,55 @@
     },
     {
       "cinema": "Verdi",
+      "title": "El Drama VOSE",
+      "url": "https://barcelona.cines-verdi.com/el-drama",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
+    },
+    {
+      "cinema": "Verdi",
       "title": "Hamnet VOSE",
       "url": "https://barcelona.cines-verdi.com/hamnet",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260527 22:40",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260528 22:40",
           "room": null,
@@ -2192,17 +3214,42 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 16:00",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:15",
           "room": null,
           "language": null
         }
@@ -2217,17 +3264,27 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 22:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 16:00",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 22:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 22:15",
           "room": null,
           "language": null
         }
@@ -2242,17 +3299,42 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 16:00",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -2267,17 +3349,42 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 17:50",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:05",
           "room": null,
           "language": null
         }
@@ -2292,17 +3399,42 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 18:15",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -2316,11 +3448,6 @@
       "url": "https://barcelona.cines-verdi.com/los-mejores-anos-de-nuestra-vida",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260528 16:00",
           "room": null,
@@ -2337,12 +3464,37 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 20:00",
+          "datetime": "20260528 20:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260528 20:00",
+          "datetime": "20260530 22:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 22:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 22:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 22:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 22:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 22:40",
           "room": null,
           "language": null
         }
@@ -2352,15 +3504,55 @@
     },
     {
       "cinema": "Verdi",
+      "title": "Mallorca Confidencial",
+      "url": "https://barcelona.cines-verdi.com/mallorca-confidencial",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260529 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 17:55",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 17:55",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Verdi",
       "title": "Michael VOSE",
       "url": "https://barcelona.cines-verdi.com/michael",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260527 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260528 16:00",
           "room": null,
@@ -2368,6 +3560,36 @@
         },
         {
           "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -2382,17 +3604,42 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260528 18:30",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:30",
           "room": null,
           "language": null
         }
@@ -2402,32 +3649,37 @@
     },
     {
       "cinema": "Verdi",
-      "title": "Pompeya, mito y leyenda VOSE",
-      "url": "https://barcelona.cines-verdi.com/pompeya-mito-y-leyenda",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260527 18:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Verdi",
       "title": "Proyecto Salvación VOSE",
       "url": "https://barcelona.cines-verdi.com/proyecto-salvacion",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 19:50",
+          "datetime": "20260528 19:50",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260528 19:50",
+          "datetime": "20260530 19:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 19:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 19:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 19:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 19:50",
           "room": null,
           "language": null
         }
@@ -2442,17 +3694,42 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 16:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260528 11:30",
+          "datetime": "20260528 16:30",
           "room": null,
           "language": null
         },
         {
           "datetime": "20260529 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -2482,12 +3759,27 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260527 22:30",
+          "datetime": "20260529 16:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260529 16:00",
+          "datetime": "20260601 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 16:00",
           "room": null,
           "language": null
         }
@@ -2512,73 +3804,33 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "La chica del coro",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/la-chica-del-coro/",
+      "title": "Corredora",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/corredora/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260515 21:30",
+          "datetime": "20260529 21:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260516 19:30",
+          "datetime": "20260531 19:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260517 19:15",
+          "datetime": "20260602 12:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260518 17:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260519 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260520 18:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260521 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260522 19:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260523 16:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260524 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260526 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260527 17:30",
+          "datetime": "20260603 17:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt28834646/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -2637,28 +3889,58 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Quién vio los templos caer",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/quien-vio-los-templos-caer/",
+      "title": "Més enllà del gel i les estrelles",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/mes-enlla-del-gel-i-les-estrelles/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260519 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260523 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260527 19:30",
+          "datetime": "20260529 17:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "¿Qué te dice esa naturaleza?",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/que-te-dice-esa-naturaleza/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260529 19:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260530 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt35499025/\">IMDb</a>"
     },
     {
       "cinema": "Cinemes Girona",
@@ -2738,7 +4020,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Cinemes Girona",
@@ -2777,66 +4059,6 @@
     },
     {
       "cinema": "Cinemes Girona",
-      "title": "Corredora (CAT)",
-      "url": "https://www.cinemesgirona.cat/corredora-cat",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260529 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260529 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260529 20:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260530 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260530 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260530 20:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260530 22:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260531 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260531 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260531 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Cinemes Girona",
       "title": "La Bohéme. Arena de Verona",
       "url": "https://www.cinemesgirona.cat/la-bohe9me-arena-de-verona",
       "source_section": "cartelera",
@@ -2845,6 +4067,21 @@
           "datetime": "20260601 19:15",
           "room": null,
           "language": "VOSE"
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Cinemes Girona",
+      "title": "Los ilusos 13 + 13",
+      "url": "https://www.cinemesgirona.cat/los-ilusos-13-2b-13",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260603 20:00",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
@@ -2877,7 +4114,17 @@
       "source_section": "cartelera",
       "shows": [
         {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
           "datetime": "20260531 12:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
           "room": null,
           "language": null
         }
@@ -2944,6 +4191,26 @@
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Cinemes Girona",
+      "title": "Saliendo del nido (Doblada CAT)",
+      "url": "https://www.cinemesgirona.cat/saliendo-del-nido-doblada-cat",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt31520900/\">IMDb</a>"
     },
     {
       "cinema": "Cinemes Girona",
@@ -3035,27 +4302,29 @@
       "title": "FLEAK",
       "url": "https://espaitexas.cat/pelicula/fleak/",
       "source_section": "cartellera-cinema",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260530 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 16:30",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt14813764/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
-      "title": "MALLORCA CONFIDENCIAL",
-      "url": "https://espaitexas.cat/pelicula/mallorca-confidencial/",
+      "title": "LA MEMÒRIA DE LES PAPALLONES",
+      "url": "https://espaitexas.cat/pelicula/la-memoria-de-les-papallones/",
       "source_section": "cartellera-cinema",
       "shows": [],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "QUÈ ET DIU AQUESTA NATURA?",
-      "url": "https://espaitexas.cat/pelicula/que-et-diu-aquesta-natura/",
-      "source_section": "cartellera-cinema",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt35499025/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -3076,40 +4345,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Dins i fora del llit (Sessió de curtmetratges)",
-      "url": "https://www.filmoteca.cat/web/ca/film/dins-i-fora-del-llit",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260529 20:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Barbara Hammer, 1974-1982"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "El inquilino (José Antonio Nieves Conde, 1957)",
-      "url": "https://www.filmoteca.cat/web/ca/film/el-inquilino",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260529 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "José Antonio Nieves Conde, 1957"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0051779/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Ikiru | AULA B (Vivir)",
       "url": "https://www.filmoteca.cat/web/ca/film/ikiru-aula-b",
       "source_section": "agenda-setmanal",
@@ -3123,21 +4358,6 @@
       "labels": [
         "Akira Kurosawa, 1952"
       ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Les possibilitats d'una banda sonora: The Kid, de Charles Chaplin. (Programa expandit)",
-      "url": "https://www.filmoteca.cat/web/ca/film/les-possibilitats-duna-banda-sonora-kid-de-charles-chaplin",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260529 11:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
       "rating": null
     },
     {
@@ -3173,23 +4393,6 @@
         "Kleber Mendoça Filho, 2012"
       ],
       "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt2190367/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Oranjevie jileti (Orange Vests)",
-      "url": "https://www.filmoteca.cat/web/ca/film/oranjevie-jileti",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260529 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Studiao Tatjana, 1992"
-      ],
-      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -3244,23 +4447,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Sennen joyû (Millennium Actress)",
-      "url": "https://www.filmoteca.cat/web/ca/film/sennen-joyu",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260529 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Satoshi Kon"
-      ],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0291350/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Siemprevivas (Mar López Zapata, 2026)",
       "url": "https://www.filmoteca.cat/web/ca/film/siemprevivas",
       "source_section": "agenda-setmanal",
@@ -3295,30 +4481,98 @@
     },
     {
       "cinema": "Maldà",
-      "title": "El agente secreto (VOSE)",
-      "url": "https://www.cinemamalda.com/el-agente-secreto/",
+      "title": "A la cara (VOE)",
+      "url": "https://www.cinemamalda.com/a-la-cara/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt27847051/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "El amigo silencioso (VOSE)",
-      "url": "https://www.cinemamalda.com/el-amigo-silencioso/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt27811632/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "EL DRAMA #sesionteta (VOSE)",
-      "url": "https://www.cinemamalda.com/cine-bebes-maldanins_sesionteta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260530 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 20:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 20:35",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Conoce a los bárbaros (VOSE)",
+      "url": "https://www.cinemamalda.com/conoce-a-los-barbaros/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260530 13:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 17:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 18:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt23640170/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "El drama (VOSE)",
+      "url": "https://www.cinemamalda.com/el-drama/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260530 18:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260531 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260601 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260602 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 18:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -3331,15 +4585,6 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Flores para Antonio (VOE)",
-      "url": "https://www.cinemamalda.com/flores-para-antonio/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt33396880/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "Kill Bill: The whole bloody affair (VOSE)",
       "url": "https://www.cinemamalda.com/kill-bill-the-whole-bloody-affair/",
       "source_section": "cartelera-dia-dia",
@@ -3349,12 +4594,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Prime Crime A True Story (VOSE)",
-      "url": "https://www.cinemamalda.com/prime-crime/",
+      "title": "Las catadoras de Hitler (VOSE)",
+      "url": "https://www.cinemamalda.com/las-catadoras-de-hitler/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260531 15:15",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt15181326/\">IMDb</a>"
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt27811248/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -3367,12 +4618,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Todo lo que fuimos (VOSE)",
-      "url": "https://www.cinemamalda.com/todo-lo-que-fuimos/",
+      "title": "Un mundo frágil y maravilloso (VOSE) y (VOSCAT)",
+      "url": "https://www.cinemamalda.com/un-mundo-fragil-y-maravilloso/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260601 13:10",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt29344894/\">IMDb</a>"
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt32622406/\">IMDb</a>"
     },
     {
       "cinema": "Mooby Balmes",
@@ -3427,7 +4684,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Mooby Balmes",
@@ -3443,351 +4700,6 @@
       ],
       "labels": [],
       "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt39018643/\">IMDb</a>"
-    },
-    {
-      "cinema": "Mooby Balmes",
-      "title": "corredora (cat)",
-      "url": "https://www.imdb.com/title/tt36665220/",
-      "source_section": "moobycinemas-embed",
-      "shows": [
-        {
-          "datetime": "20260529 15:50",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260529 18:05",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260529 20:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260530 15:50",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260530 18:05",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260530 20:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260531 12:15",
-          "room": "SALA 03",
-          "language": null
-        },
-        {
-          "datetime": "20260531 15:50",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260531 18:05",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260531 20:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260601 15:50",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260601 18:05",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260601 20:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260602 15:50",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260602 18:05",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260602 20:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260603 15:50",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260603 18:05",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260603 20:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260604 15:50",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260604 18:05",
-          "room": "SALA 04",
-          "language": null
-        },
-        {
-          "datetime": "20260604 20:00",
-          "room": "SALA 10",
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Mooby Balmes",
-      "title": "el drama",
-      "url": "https://www.imdb.com/title/tt33071426/",
-      "source_section": "moobycinemas-embed",
-      "shows": [
-        {
-          "datetime": "20260529 15:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260529 18:00",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260529 19:00",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260529 20:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260529 21:15",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260529 22:20",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260530 15:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260530 18:00",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260530 19:00",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260530 20:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260530 21:15",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260530 22:20",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260531 12:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260531 15:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260531 18:00",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260531 19:00",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260531 20:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260531 21:15",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260531 22:20",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260601 15:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260601 18:00",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260601 19:00",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260601 20:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260601 21:15",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260601 22:20",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260602 15:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260602 18:00",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260602 19:00",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260602 20:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260602 21:15",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260602 22:20",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260603 15:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260603 18:00",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260603 19:00",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260603 20:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260603 21:15",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260603 22:20",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260604 15:50",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260604 18:00",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260604 19:00",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260604 20:10",
-          "room": "SALA 02",
-          "language": null
-        },
-        {
-          "datetime": "20260604 21:15",
-          "room": "SALA 01",
-          "language": null
-        },
-        {
-          "datetime": "20260604 22:20",
-          "room": "SALA 02",
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Mooby Balmes",
@@ -3871,6 +4783,11 @@
           "language": null
         },
         {
+          "datetime": "20260617 16:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
           "datetime": "20260617 18:15",
           "room": "SALA 09",
           "language": null
@@ -3879,55 +4796,15 @@
           "datetime": "20260617 21:20",
           "room": "SALA 09",
           "language": null
+        },
+        {
+          "datetime": "20260618 16:00",
+          "room": "SALA 08",
+          "language": null
         }
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Mooby Balmes",
-      "title": "el señor de los anillos: el retorno del rey (v.extendida)",
-      "url": "https://www.imdb.com/title/tt0167260/",
-      "source_section": "moobycinemas-embed",
-      "shows": [
-        {
-          "datetime": "20260529 19:00",
-          "room": "SALA 05",
-          "language": null
-        },
-        {
-          "datetime": "20260530 19:00",
-          "room": "SALA 05",
-          "language": null
-        },
-        {
-          "datetime": "20260531 17:00",
-          "room": "SALA 05",
-          "language": null
-        },
-        {
-          "datetime": "20260601 19:00",
-          "room": "SALA 05",
-          "language": null
-        },
-        {
-          "datetime": "20260602 19:00",
-          "room": "SALA 05",
-          "language": null
-        },
-        {
-          "datetime": "20260603 19:00",
-          "room": "SALA 05",
-          "language": null
-        },
-        {
-          "datetime": "20260604 19:00",
-          "room": "SALA 05",
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt0167260/\">IMDb</a>"
     },
     {
       "cinema": "Mooby Balmes",
@@ -3991,56 +4868,6 @@
     },
     {
       "cinema": "Mooby Balmes",
-      "title": "shrek (25 aniversario)",
-      "url": "https://www.imdb.com/title/tt0126029/",
-      "source_section": "moobycinemas-embed",
-      "shows": [
-        {
-          "datetime": "20260529 18:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260530 18:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260531 12:15",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260531 18:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260601 18:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260602 18:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260603 18:00",
-          "room": "SALA 10",
-          "language": null
-        },
-        {
-          "datetime": "20260604 18:00",
-          "room": "SALA 10",
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0126029/\">IMDb</a>"
-    },
-    {
-      "cinema": "Mooby Balmes",
       "title": "super mario galaxy: la película",
       "url": "https://www.imdb.com/title/tt28650488/",
       "source_section": "moobycinemas-embed",
@@ -4065,8 +4892,158 @@
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt28650488/\">IMDb</a>"
     },
     {
+      "cinema": "Mooby Balmes",
+      "title": "toy story 5",
+      "url": "https://www.imdb.com/title/tt29355505/",
+      "source_section": "moobycinemas-embed",
+      "shows": [
+        {
+          "datetime": "20260617 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260617 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260617 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260618 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260618 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260618 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260619 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260619 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260619 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260620 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260620 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260620 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260621 12:20",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260621 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260621 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260621 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260622 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260622 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260622 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260623 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260623 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260623 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260624 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260624 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260624 21:15",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260625 16:00",
+          "room": "SALA 09",
+          "language": null
+        },
+        {
+          "datetime": "20260625 19:00",
+          "room": "SALA 08",
+          "language": null
+        },
+        {
+          "datetime": "20260625 21:15",
+          "room": "SALA 08",
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
       "cinema": "Phenomena",
-      "title": "007: QUANTUM OF SOLACE (Proyección en 35 mm y VOSE)",
+      "title": "007: QUANTUM OF SOLACE (Proyección en 35 mm y VOSE) Quantum of Solace",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2441",
       "source_section": "cartelera",
       "shows": [
@@ -4096,7 +5073,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "A.I. INTELIGENCIA ARTIFICIAL (VOSE)",
+      "title": "A.I. INTELIGENCIA ARTIFICIAL (VOSE) A.I. Artificial Intelligence",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=438",
       "source_section": "cartelera",
       "shows": [
@@ -4157,7 +5134,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -4176,7 +5153,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "CASINO ROYALE (Proyección en 35 mm y VOSE)",
+      "title": "CASINO ROYALE (Proyección en 35 mm y VOSE) Casino Royale",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=688",
       "source_section": "cartelera",
       "shows": [
@@ -4251,6 +5228,61 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "EL DÍA DE LA REVELACIÓN (Proyección en 4K, Dolby Atmos y VOSE) Disclosure Day",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2965",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260612 17:10",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260612 20:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260613 18:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260613 21:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260614 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260614 19:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260617 17:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260617 20:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260618 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
       "title": "EL SÉPTIMO SELLO (Proyección en VOSE)",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2976",
       "source_section": "cartelera",
@@ -4316,7 +5348,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "LA CHAQUETA METÁLICA (Proyección en VOSE)",
+      "title": "LA CHAQUETA METÁLICA (Proyección en VOSE) Full Metal Jacket",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=1646",
       "source_section": "cartelera",
       "shows": [
@@ -4346,21 +5378,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "LOST IN TRANSLATION (Proyección en VOSE) Lost in Translation",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1909",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260529 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0335266/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "MI VECINO TOTORO (Proyección en VOSE)",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2004",
       "source_section": "cartelera",
@@ -4376,7 +5393,27 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "MINORITY REPORT (Proyección en 35mm y VOSE)",
+      "title": "MICHAEL (Proyección en 4K, Dolby Atmos y VOSE) Michael",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2968",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260603 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260609 17:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt11378946/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "MINORITY REPORT (Proyección en 35mm y VOSE) Minority Report",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2019",
       "source_section": "cartelera",
       "shows": [
@@ -4391,7 +5428,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "NO ES PAÍS PARA VIEJOS (Proyección en 4K y VOSE)",
+      "title": "NO ES PAÍS PARA VIEJOS (Proyección en 4K y VOSE) No Country for Old Men",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2088",
       "source_section": "cartelera",
       "shows": [
@@ -4403,6 +5440,21 @@
       ],
       "labels": [],
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0477348/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "PERSONA (Proyección en VOSE) Persona",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2216",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260618 15:10",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0060827/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -4451,7 +5503,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PREESTRENO: LA MUERTE DE ROBIN HOOD (Proyección en 4K y VOSE)",
+      "title": "PREESTRENO: LA MUERTE DE ROBIN HOOD (Proyección en 4K y VOSE) The Death of Robin Hood",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2978",
       "source_section": "cartelera",
       "shows": [
@@ -4576,81 +5628,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "THE MANDALORIAN AND GROGU (Proyección en 4K, Dolby Atmos y VOSE) Star Wars: The Mandalorian and Grogu",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2973",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260529 17:20",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260529 20:25",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260530 15:20",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260530 18:20",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260531 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260531 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260603 20:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260604 17:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260605 19:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260606 15:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt30825738/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260529 23:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0073629/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "UNO DE LOS NUESTROS (Proyección en 4K y VOSE) GoodFellas",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2861",
       "source_section": "cartelera",
@@ -4666,7 +5643,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "WHIPLASH (Proyección en VOSE)",
+      "title": "WHIPLASH (Proyección en VOSE) Whiplash",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2915",
       "source_section": "cartelera",
       "shows": [
@@ -4681,50 +5658,10 @@
     },
     {
       "cinema": "Verdi",
-      "title": "Conoce a los bárbaros VOSE",
-      "url": "https://barcelona.cines-verdi.com/conoce-a-los-barbaros",
+      "title": "David: Una aventura gigante",
+      "url": "https://barcelona.cines-verdi.com/david-una-aventura-gigante",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260529 20:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt23640170/\">IMDb</a>"
-    },
-    {
-      "cinema": "Verdi",
-      "title": "Corredora",
-      "url": "https://barcelona.cines-verdi.com/corredora",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260529 11:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260601 20:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Verdi",
-      "title": "Dragon Ball Super: Super Hero VOSE",
-      "url": "https://barcelona.cines-verdi.com/dragon-ball-super-super-hero",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260529 22:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260530 11:30",
           "room": null,
@@ -4737,37 +5674,32 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt14614892/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Verdi",
-      "title": "El caso Hübener VOSE",
-      "url": "https://barcelona.cines-verdi.com/el-caso-hubener",
+      "title": "Dragon Ball Super: Broly VOSE",
+      "url": "https://barcelona.cines-verdi.com/dragon-ball-super-broly",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260529 17:55",
+          "datetime": "20260612 22:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260613 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260614 11:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt21825416/\">IMDb</a>"
-    },
-    {
-      "cinema": "Verdi",
-      "title": "El Drama VOSE",
-      "url": "https://barcelona.cines-verdi.com/el-drama",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260529 11:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt7961060/\">IMDb</a>"
     },
     {
       "cinema": "Verdi",
@@ -4816,27 +5748,33 @@
     },
     {
       "cinema": "Verdi",
-      "title": "Hitchcock/Truffaut",
-      "url": "https://barcelona.cines-verdi.com/hitchcock-truffaut",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt3748512/\">IMDb</a>"
-    },
-    {
-      "cinema": "Verdi",
-      "title": "Mallorca Confidencial",
-      "url": "https://barcelona.cines-verdi.com/mallorca-confidencial",
+      "title": "F. Espectador: Cada día nace un listo",
+      "url": "https://barcelona.cines-verdi.com/f-espectador-cada-dia-nace-un-listo",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260529 17:55",
+          "datetime": "20260602 11:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Verdi",
+      "title": "Hitchcock/Truffaut VOSE",
+      "url": "https://barcelona.cines-verdi.com/hitchcock-truffaut",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260604 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt3748512/\">IMDb</a>"
     },
     {
       "cinema": "Verdi",
@@ -4903,7 +5841,13 @@
       "title": "Woolf Works (Royal Ballet & Opera de Londres)",
       "url": "https://barcelona.cines-verdi.com/woolf-works-roh-2026",
       "source_section": "cartelera",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260531 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
       "rating": "★ 2.0 <a href=\"https://www.imdb.com/title/tt7152166/\">IMDb</a>"
     },
@@ -4965,36 +5909,6 @@
         },
         {
           "datetime": "20260712 10:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Corredora",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/corredora/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260529 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260531 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260602 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260603 17:00",
           "room": null,
           "language": null
         }
@@ -5129,6 +6043,76 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "La chica del coro",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/la-chica-del-coro/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260515 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260516 19:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260517 19:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260518 17:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260519 12:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260520 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260521 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260522 19:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260523 16:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260524 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260526 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260527 17:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt28834646/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "La fábrica y el sexo",
       "url": "https://www.zumzeigcine.coop/es/cine/films/la-fabrica-y-el-sexo/",
       "source_section": "calendari",
@@ -5170,6 +6154,21 @@
         },
         {
           "datetime": "20260517 12:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "La memòria de les papallones",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/la-memoria-de-les-papallones/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260620 18:30",
           "room": null,
           "language": null
         }
@@ -5259,21 +6258,6 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Més enllà del gel i les estrelles",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/mes-enlla-del-gel-i-les-estrelles/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260529 17:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
       "title": "Prime Crime: A True Story",
       "url": "https://www.zumzeigcine.coop/es/cine/films/prime-crime-a-true-story/",
       "source_section": "calendari",
@@ -5295,6 +6279,31 @@
       "shows": [
         {
           "datetime": "20260617 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Quién vio los templos caer",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/quien-vio-los-templos-caer/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260519 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260523 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260527 19:30",
           "room": null,
           "language": null
         }
@@ -5486,46 +6495,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "¿Qué te dice esa naturaleza?",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/que-te-dice-esa-naturaleza/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260529 19:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260530 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260531 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260602 18:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260603 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260604 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt35499025/\">IMDb</a>"
     }
   ]
 }
