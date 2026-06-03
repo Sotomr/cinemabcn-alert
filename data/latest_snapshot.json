@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-02T12:33:49.527462+00:00",
+  "fetched_at": "2026-06-03T13:04:09.383789+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -7,11 +7,6 @@
       "url": "https://espaitexas.cat/pelicula/a-la-cara/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260602 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260603 21:00",
           "room": null,
@@ -48,15 +43,25 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "L'AMIC SILENCIOS (SILENT FRIEND)",
+      "url": "https://espaitexas.cat/pelicula/silent-friend/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260604 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "MALLORCA CONFIDENCIAL",
       "url": "https://espaitexas.cat/pelicula/mallorca-confidencial/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260602 18:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260603 18:15",
           "room": null,
@@ -78,11 +83,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260602 20:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260603 20:00",
           "room": null,
           "language": null
@@ -103,11 +103,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260602 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260604 18:10",
           "room": null,
           "language": null
@@ -122,11 +117,6 @@
       "url": "https://espaitexas.cat/pelicula/un-mon-fragil-i-meravellos/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260602 18:10",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260603 16:00",
           "room": null,
@@ -143,19 +133,17 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "El gest íntim i el desig còmplice (Sessió de curtmetratges)",
-      "url": "https://www.filmoteca.cat/web/ca/film/el-gest-intim-i-el-desig-complice",
+      "title": "Com fer pel·lícules sense tenir talent, amb Radu Jude (Classe magistral amb estudiants)",
+      "url": "https://www.filmoteca.cat/web/ca/film/com-fer-pellicules-sense-tenir-talent-amb-radu-jude",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260602 20:30",
+          "datetime": "20260604 11:00",
           "room": null,
           "language": null
         }
       ],
-      "labels": [
-        "Barbara Hammer, 1979-1987"
-      ],
+      "labels": [],
       "rating": null
     },
     {
@@ -177,20 +165,37 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Memorîzu (Memories)",
-      "url": "https://www.filmoteca.cat/web/ca/film/memorizu",
+      "title": "Kontinental '25 (Radu Jude, 2025)",
+      "url": "https://www.filmoteca.cat/web/ca/film/kontinental-25",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260602 18:00",
+          "datetime": "20260604 19:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Katsuhiro Ōtomo, Kōji Morimoto, Tensai Okamura, 1996"
+        "Radu Jude, 2025"
       ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0113799/\">IMDb</a>"
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt35492581/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Kuhle Wampe oder: Wem gehört die Welt? | Les maisons de la misère | Misère au Borinage (Kuhle Wampe | Les cases de la misèria | Misèria a Borinage)",
+      "url": "https://www.filmoteca.cat/web/ca/film/kuhle-wampe-oder-wem-gehort-die-welt-les-maisons-de-la-misere-misere-au-borinage",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260604 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Slatan Dudow, 1932"
+      ],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0023104/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -243,20 +248,37 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Spione (Els espies)",
-      "url": "https://www.filmoteca.cat/web/ca/film/spione",
+      "title": "Souris d’hôtel | Roping Her Romeo (Ratolí d’hotel | Atrapant el seu Romeo)",
+      "url": "https://www.filmoteca.cat/web/ca/film/souris-dhotel-roping-her-romeo",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260602 17:00",
+          "datetime": "20260604 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Fritz Lang, 1928"
+        "Adelqui Migliar, 1929"
       ],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0019415/\">IMDb</a>"
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Tender Fictions (Barbara Hammer, 1995)",
+      "url": "https://www.filmoteca.cat/web/ca/film/tender-fictions",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260604 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Barbara Hammer, 1995"
+      ],
+      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt0114646/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -274,33 +296,11 @@
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Wendy & Lucy (Kelly Reichardt, 2008)",
-      "url": "https://www.filmoteca.cat/web/ca/film/wendy-lucy",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260602 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Kelly Reichardt, 2008"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1152850/\">IMDb</a>"
-    },
-    {
       "cinema": "Maldà",
       "title": "Conoce a los bárbaros (VOSE)",
       "url": "https://www.cinemamalda.com/conoce-a-los-barbaros/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20260602 18:20",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260604 20:00",
           "room": null,
@@ -317,33 +317,58 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260602 20:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260604 18:15",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Tres adioses (VOSE)",
-      "url": "https://www.cinemamalda.com/tres-adioses/",
+      "title": "Hangar rojo (VOE)",
+      "url": "https://www.cinemamalda.com/hangar-rojo/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260602 16:15",
+          "datetime": "20260604 16:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35705184/\">IMDb</a>"
+      "rating": null
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Un poeta (VOE)",
+      "url": "https://www.cinemamalda.com/un-poeta/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260604 14:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "COWBOY BEBOP LA PELÍCULA: LLAMANDO A LAS PUERTAS DEL CIELO  (Proyección en VOSE) Kauboi Bibappu: Tengoku no Tobira",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=750",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260604 15:20",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0275277/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -387,6 +412,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "PREESTRENO: BACKROOMS (Proyección en Dolby Atmos y VOSE) Backrooms",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2977",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260604 20:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
       "title": "THE MANDALORIAN AND GROGU (Proyección en 4K, Dolby Atmos y VOSE) Star Wars: The Mandalorian and Grogu",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2973",
       "source_section": "cartelera",
@@ -403,22 +443,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt30825738/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "Bailando Con Lobos [Wilder Cinema]",
-      "url": "https://www.cinesrenoir.com/pelicula/bailando-con-lobos-wilder-cinema/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260602 20:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0099348/\">IMDb</a>"
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt30825738/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -427,12 +452,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 15:50",
+          "datetime": "20260603 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260602 18:00",
+          "datetime": "20260603 18:00",
           "room": null,
           "language": "Castellano"
         }
@@ -447,22 +472,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 16:00",
+          "datetime": "20260603 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 18:10",
+          "datetime": "20260603 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 20:15",
+          "datetime": "20260603 20:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 22:25",
+          "datetime": "20260603 22:25",
           "room": null,
           "language": "subtitulada"
         }
@@ -477,12 +502,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 15:50",
+          "datetime": "20260603 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 20:25",
+          "datetime": "20260603 20:25",
           "room": null,
           "language": "subtitulada"
         }
@@ -497,28 +522,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 16:00",
+          "datetime": "20260603 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 18:05",
+          "datetime": "20260603 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 20:10",
+          "datetime": "20260603 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 22:15",
+          "datetime": "20260603 22:15",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -527,17 +552,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 18:10",
+          "datetime": "20260603 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 20:15",
+          "datetime": "20260603 20:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 22:20",
+          "datetime": "20260603 22:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -552,7 +577,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 17:50",
+          "datetime": "20260603 17:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -567,12 +592,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 19:45",
+          "datetime": "20260603 19:45",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 22:20",
+          "datetime": "20260603 22:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -587,12 +612,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 16:10",
+          "datetime": "20260603 16:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260602 18:00",
+          "datetime": "20260603 18:00",
+          "room": null,
+          "language": "Castellano"
+        },
+        {
+          "datetime": "20260603 19:50",
+          "room": null,
+          "language": "Castellano"
+        },
+        {
+          "datetime": "20260603 21:45",
           "room": null,
           "language": "Castellano"
         }
@@ -607,7 +642,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 16:00",
+          "datetime": "20260603 16:00",
           "room": null,
           "language": "Castellano"
         }
@@ -622,18 +657,18 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 20:10",
+          "datetime": "20260603 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260602 22:40",
+          "datetime": "20260603 22:40",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt30825738/\">IMDb</a>"
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt30825738/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -642,7 +677,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 16:00",
+          "datetime": "20260603 16:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -657,12 +692,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260602 18:05",
+          "datetime": "20260603 18:05",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260602 22:40",
+          "datetime": "20260603 22:40",
           "room": null,
           "language": "Castellano"
         }
@@ -687,6 +722,11 @@
           "language": null
         },
         {
+          "datetime": "20260608 21:30",
+          "room": null,
+          "language": null
+        },
+        {
           "datetime": "20260610 18:00",
           "room": null,
           "language": null
@@ -699,6 +739,21 @@
       ],
       "labels": [],
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt36665220/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "La fábrica y el sexo",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/la-fabrica-y-el-sexo/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260604 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -771,21 +826,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "L'AMIC SILENCIOS (SILENT FRIEND)",
-      "url": "https://espaitexas.cat/pelicula/silent-friend/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260604 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "LA IRONIA DE L'AMOR",
       "url": "https://espaitexas.cat/pelicula/la-ironia-de-lamor/",
       "source_section": "cartellera-cinema",
@@ -827,21 +867,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Com fer pel·lícules sense tenir talent, amb Radu Jude (Classe magistral amb estudiants)",
-      "url": "https://www.filmoteca.cat/web/ca/film/com-fer-pellicules-sense-tenir-talent-amb-radu-jude",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260604 11:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Dracula (Radu Jude, 2025)",
       "url": "https://www.filmoteca.cat/web/ca/film/dracula-1",
       "source_section": "agenda-setmanal",
@@ -873,40 +898,6 @@
         "Gisaburô Sugii, 1985"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Kontinental '25 (Radu Jude, 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/kontinental-25",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260604 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Radu Jude, 2025"
-      ],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt35492581/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Kuhle Wampe oder: Wem gehört die Welt? | Les maisons de la misère | Misère au Borinage (Kuhle Wampe | Les cases de la misèria | Misèria a Borinage)",
-      "url": "https://www.filmoteca.cat/web/ca/film/kuhle-wampe-oder-wem-gehort-die-welt-les-maisons-de-la-misere-misere-au-borinage",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260604 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Slatan Dudow, 1932"
-      ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0023104/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1025,40 +1016,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Souris d’hôtel | Roping Her Romeo (Ratolí d’hotel | Atrapant el seu Romeo)",
-      "url": "https://www.filmoteca.cat/web/ca/film/souris-dhotel-roping-her-romeo",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260604 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Adelqui Migliar, 1929"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Tender Fictions (Barbara Hammer, 1995)",
-      "url": "https://www.filmoteca.cat/web/ca/film/tender-fictions",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260604 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Barbara Hammer, 1995"
-      ],
-      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt0114646/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Wendy & Lucy (Kelly Reichardt, 2008)",
       "url": "https://www.filmoteca.cat/web/ca/film/wendy-lucy",
       "source_section": "agenda-setmanal",
@@ -1085,18 +1042,12 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Hangar rojo (VOE)",
-      "url": "https://www.cinemamalda.com/hangar-rojo/",
+      "title": "Necropolis (VOSCAT)",
+      "url": "https://www.cinemamalda.com/necropolis/",
       "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260604 16:45",
-          "room": null,
-          "language": null
-        }
-      ],
+      "shows": [],
       "labels": [],
-      "rating": null
+      "rating": "★ 3.0 <a href=\"https://www.imdb.com/title/tt12928782/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1109,27 +1060,12 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Un mundo frágil y maravilloso (VOSE) y (VOSCAT)",
-      "url": "https://www.cinemamalda.com/un-mundo-fragil-y-maravilloso/",
+      "title": "Tres adioses (VOSE)",
+      "url": "https://www.cinemamalda.com/tres-adioses/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt32622406/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Un poeta (VOE)",
-      "url": "https://www.cinemamalda.com/un-poeta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260604 14:35",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35705184/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1208,7 +1144,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1254,21 +1190,6 @@
       ],
       "labels": [],
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0109424/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "COWBOY BEBOP LA PELÍCULA: LLAMANDO A LAS PUERTAS DEL CIELO  (Proyección en VOSE) Kauboi Bibappu: Tengoku no Tobira",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=750",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260604 15:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0275277/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1537,21 +1458,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PREESTRENO: BACKROOMS (Proyección en Dolby Atmos y VOSE) Backrooms",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2977",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260604 20:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
       "title": "PREESTRENO: LA MUERTE DE ROBIN HOOD (Proyección en 4K y VOSE) The Death of Robin Hood",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2978",
       "source_section": "cartelera",
@@ -1788,21 +1694,6 @@
         },
         {
           "datetime": "20260617 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "La fábrica y el sexo",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/la-fabrica-y-el-sexo/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260604 19:00",
           "room": null,
           "language": null
         }
