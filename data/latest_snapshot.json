@@ -1,6 +1,21 @@
 {
-  "fetched_at": "2026-06-05T11:55:29.424738+00:00",
+  "fetched_at": "2026-06-06T10:49:17.256899+00:00",
   "films": [
+    {
+      "cinema": "Espai Texas",
+      "title": "COUTURE (ALTA COSTURA)",
+      "url": "https://espaitexas.cat/pelicula/couture-alta-costura/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260607 20:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
     {
       "cinema": "Espai Texas",
       "title": "FLEAK",
@@ -27,11 +42,6 @@
       "url": "https://espaitexas.cat/pelicula/silent-friend/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260605 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260606 20:15",
           "room": null,
@@ -62,11 +72,6 @@
       "url": "https://espaitexas.cat/pelicula/la-ironia-de-lamor/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260605 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260606 20:15",
           "room": null,
@@ -113,11 +118,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260605 20:45",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260606 18:15",
           "room": null,
           "language": null
@@ -158,11 +158,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260605 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260606 18:15",
           "room": null,
           "language": null
@@ -202,11 +197,6 @@
       "url": "https://espaitexas.cat/pelicula/tres-dones/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260605 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260607 16:00",
           "room": null,
@@ -280,23 +270,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Dracula (Radu Jude, 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/dracula-1",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260605 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Radu Jude, 2025"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt31434030/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Ginga-tesudô no yoru (El tren nocturn de la via làctia)",
       "url": "https://www.filmoteca.cat/web/ca/film/ginga-tesudo-no-yoru",
       "source_section": "agenda-setmanal",
@@ -311,23 +284,6 @@
         "Gisaburô Sugii, 1985"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Kôkaku kidôtai + Innocence (Ghost in the Shell + Ghost in the Shell II: Innocence)",
-      "url": "https://www.filmoteca.cat/web/ca/film/kokaku-kidotai-innocence",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260605 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Mamoru Oshii, 1995, 2004"
-      ],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0347246/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -348,17 +304,68 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Paris is Burning | AULA B (Jennie Livingston, 1991)",
+      "url": "https://www.filmoteca.cat/web/ca/film/paris-burning-aula-b",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260607 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Jennie Livingston, 1991"
+      ],
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Primeres intuïcions, primeres revolucions (Sessió de curtmetratges)",
       "url": "https://www.filmoteca.cat/web/ca/film/primeres-intuicions-primeres-revolucions",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260605 17:00",
+          "datetime": "20260607 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Promare (Puromea)",
+      "url": "https://www.filmoteca.cat/web/ca/film/promare",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260607 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Hiroyuki Imaishi, 2019"
+      ],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt9116358/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Radu Jude. Curtmetratges (II) (Radu Jude, 2006-2014)",
+      "url": "https://www.filmoteca.cat/web/ca/film/radu-jude-curtmetratges-ii",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260607 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Radu Jude, 2006-2014"
+      ],
       "rating": null
     },
     {
@@ -377,6 +384,21 @@
         "Kelly Reichardt, 2008"
       ],
       "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1152850/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Cel meu Infern teu (VOCAT)",
+      "url": "https://www.cinemamalda.com/cel-meu-infern-teu/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260607 17:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt33355369/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -445,11 +467,6 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 22:45",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260606 18:15",
           "room": null,
           "language": null
@@ -476,22 +493,22 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
-      "title": "DÍAS DEL CIELO (Proyección en 4K y VOSE) Days of Heaven",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=858",
+      "title": "E.T. EL EXTRATERRESTRE (Proyección en 4K y VOSE) E.T. The Extra-Terrestrial",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=864",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 17:35",
+          "datetime": "20260607 18:35",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0077405/\">IMDb</a>"
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0083866/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -507,41 +524,6 @@
       ],
       "labels": [],
       "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0133093/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "MI VECINO TOTORO (Proyección en VOSE) Tonari no Totoro",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2004",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260605 15:40",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0096283/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "MICHAEL (Proyección en 4K, Dolby Atmos y VOSE) Michael",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2968",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260605 19:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260609 17:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt11378946/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -574,34 +556,49 @@
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0084516/\">IMDb</a>"
     },
     {
+      "cinema": "Phenomena",
+      "title": "STALKER (Proyección en VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2651",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260607 21:10",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0079944/\">IMDb</a>"
+    },
+    {
       "cinema": "Renoir Floridablanca",
       "title": "Backrooms",
       "url": "https://www.cinesrenoir.com/pelicula/backrooms/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 16:00",
+          "datetime": "20260606 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 18:15",
+          "datetime": "20260606 18:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 20:30",
+          "datetime": "20260606 20:30",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 22:45",
+          "datetime": "20260606 22:45",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -610,22 +607,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 16:00",
+          "datetime": "20260606 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 18:00",
+          "datetime": "20260606 18:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 20:00",
+          "datetime": "20260606 20:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 22:00",
+          "datetime": "20260606 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -640,7 +637,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 18:05",
+          "datetime": "20260606 18:05",
           "room": null,
           "language": "Castellano"
         }
@@ -655,12 +652,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 16:00",
+          "datetime": "20260606 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 18:10",
+          "datetime": "20260606 18:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -675,7 +672,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 15:50",
+          "datetime": "20260606 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -690,28 +687,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 16:00",
+          "datetime": "20260606 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 18:05",
+          "datetime": "20260606 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 20:10",
+          "datetime": "20260606 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 22:15",
+          "datetime": "20260606 22:15",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -720,12 +717,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 20:05",
+          "datetime": "20260606 20:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 22:15",
+          "datetime": "20260606 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -740,22 +737,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 15:50",
+          "datetime": "20260606 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 18:05",
+          "datetime": "20260606 18:05",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 20:25",
+          "datetime": "20260606 20:25",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 22:45",
+          "datetime": "20260606 22:45",
           "room": null,
           "language": "Castellano"
         }
@@ -770,12 +767,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 16:10",
+          "datetime": "20260606 16:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 20:20",
+          "datetime": "20260606 20:20",
           "room": null,
           "language": "Castellano"
         }
@@ -790,12 +787,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 20:10",
+          "datetime": "20260606 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260605 22:40",
+          "datetime": "20260606 22:40",
           "room": null,
           "language": "subtitulada"
         }
@@ -810,12 +807,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260605 18:00",
+          "datetime": "20260606 18:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260605 22:10",
+          "datetime": "20260606 22:10",
           "room": null,
           "language": "Castellano"
         }
@@ -969,6 +966,55 @@
       "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
     },
     {
+      "cinema": "Zumzeig",
+      "title": "¿Qué te dice esa naturaleza?",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/que-te-dice-esa-naturaleza/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260602 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260603 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260604 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260607 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260609 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260618 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35499025/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "CAS 137",
+      "url": "https://espaitexas.cat/pelicula/cas-137/",
+      "source_section": "cartellera-cinema",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
       "cinema": "Espai Texas",
       "title": "CICLE: ÀNGEL JOVÉ, MOSSEGAR LA IMATGE",
       "url": "https://espaitexas.cat/pelicula/cicle-angel-jove-mossegar-la-imatge/",
@@ -985,18 +1031,12 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "COUTURE (ALTA COSTURA)",
-      "url": "https://espaitexas.cat/pelicula/couture-alta-costura/",
+      "title": "DREAMS",
+      "url": "https://espaitexas.cat/pelicula/dreams/",
       "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260607 20:15",
-          "room": null,
-          "language": null
-        }
-      ],
+      "shows": [],
       "labels": [],
-      "rating": null
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt13429870/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1023,72 +1063,6 @@
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Paris is Burning | AULA B (Jennie Livingston, 1991)",
-      "url": "https://www.filmoteca.cat/web/ca/film/paris-burning-aula-b",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260607 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jennie Livingston, 1991"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Primeres intuïcions, primeres revolucions (Sessió de curtmetratges)",
-      "url": "https://www.filmoteca.cat/web/ca/film/primeres-intuicions-primeres-revolucions",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260607 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Promare (Puromea)",
-      "url": "https://www.filmoteca.cat/web/ca/film/promare",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260607 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Hiroyuki Imaishi, 2019"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt9116358/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Radu Jude. Curtmetratges (II) (Radu Jude, 2006-2014)",
-      "url": "https://www.filmoteca.cat/web/ca/film/radu-jude-curtmetratges-ii",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260607 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Radu Jude, 2006-2014"
-      ],
-      "rating": null
-    },
-    {
       "cinema": "Maldà",
       "title": "A la cara (VOE)",
       "url": "https://www.cinemamalda.com/a-la-cara/",
@@ -1105,18 +1079,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Cel meu Infern teu (VOCAT)",
-      "url": "https://www.cinemamalda.com/cel-meu-infern-teu/",
+      "title": "Dos días (VOSE)",
+      "url": "https://www.cinemamalda.com/dos-dias/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260607 17:15",
+          "datetime": "20260608 16:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt33355369/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Maldà",
@@ -1145,16 +1119,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Par 4 chemins (VOSCAT)",
-      "url": "https://www.cinemamalda.com/par-4-chemins/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": null
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1242,21 +1207,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "E.T. EL EXTRATERRESTRE (Proyección en 4K y VOSE) E.T. The Extra-Terrestrial",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=864",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260607 18:35",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0083866/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "EL DÍA DE LA REVELACIÓN (Proyección en 4K, Dolby Atmos y VOSE) Disclosure Day",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2965",
       "source_section": "cartelera",
@@ -1303,7 +1253,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt15047880/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt15047880/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1384,6 +1334,21 @@
       ],
       "labels": [],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt3783958/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "MICHAEL (Proyección en 4K, Dolby Atmos y VOSE) Michael",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2968",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260609 17:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt11378946/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1512,7 +1477,7 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "SLEEPY HOLLOW (Proyección en 4K y VOSE)",
+      "title": "SLEEPY HOLLOW (Proyección en 4K y VOSE) Sleepy Hollow",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2615",
       "source_section": "cartelera",
       "shows": [
@@ -1539,21 +1504,6 @@
       ],
       "labels": [],
       "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt2379713/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "STALKER (Proyección en VOSE)",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2651",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260607 21:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0079944/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1618,11 +1568,6 @@
         },
         {
           "datetime": "20260603 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260608 21:30",
           "room": null,
           "language": null
         },
@@ -1783,7 +1728,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt0049452/\">IMDb</a>"
+      "rating": "★ 5.2 <a href=\"https://www.imdb.com/title/tt0377057/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1864,46 +1809,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "¿Qué te dice esa naturaleza?",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/que-te-dice-esa-naturaleza/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260602 18:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260603 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260604 21:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260607 17:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260609 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260618 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35499025/\">IMDb</a>"
     }
   ]
 }
