@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T10:49:17.256899+00:00",
+  "fetched_at": "2026-06-07T10:59:43.406288+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -23,11 +23,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260606 16:30",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260607 16:30",
           "room": null,
           "language": null
@@ -42,11 +37,6 @@
       "url": "https://espaitexas.cat/pelicula/silent-friend/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260606 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260608 20:15",
           "room": null,
@@ -72,11 +62,6 @@
       "url": "https://espaitexas.cat/pelicula/la-ironia-de-lamor/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260606 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260607 20:15",
           "room": null,
@@ -118,11 +103,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260606 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260607 18:15",
           "room": null,
           "language": null
@@ -157,11 +137,6 @@
       "url": "https://espaitexas.cat/pelicula/que-et-diu-aquesta-natura/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260606 18:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260607 18:15",
           "room": null,
@@ -228,11 +203,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260606 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260608 16:00",
           "room": null,
           "language": null
@@ -250,57 +220,6 @@
       ],
       "labels": [],
       "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt32622406/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Cea mai fericita fata din lume (La noia més feliç del món)",
-      "url": "https://www.filmoteca.cat/web/ca/film/cea-mai-fericita-fata-din-lume",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260606 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Radu Jude, 2009"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1157549/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Ginga-tesudô no yoru (El tren nocturn de la via làctia)",
-      "url": "https://www.filmoteca.cat/web/ca/film/ginga-tesudo-no-yoru",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260606 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Gisaburô Sugii, 1985"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Nitrate Kisses (Barbara Hammer, 1992)",
-      "url": "https://www.filmoteca.cat/web/ca/film/nitrate-kisses",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260606 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Barbara Hammer, 1992"
-      ],
-      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt0107693/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -369,21 +288,34 @@
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Wendy & Lucy (Kelly Reichardt, 2008)",
-      "url": "https://www.filmoteca.cat/web/ca/film/wendy-lucy",
-      "source_section": "agenda-setmanal",
+      "cinema": "Maldà",
+      "title": "A la cara (VOE)",
+      "url": "https://www.cinemamalda.com/a-la-cara/",
+      "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260606 21:00",
+          "datetime": "20260608 15:00",
           "room": null,
           "language": null
         }
       ],
-      "labels": [
-        "Kelly Reichardt, 2008"
+      "labels": [],
+      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt15487888/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Calle Málaga (VOE)",
+      "url": "https://www.cinemamalda.com/calle-malaga/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260608 18:00",
+          "room": null,
+          "language": null
+        }
       ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1152850/\">IMDb</a>"
+      "labels": [],
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt32429174/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -402,15 +334,25 @@
     },
     {
       "cinema": "Maldà",
+      "title": "Dos días (VOSE)",
+      "url": "https://www.cinemamalda.com/dos-dias/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260608 16:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.6 <a href=\"https://www.imdb.com/title/tt0017839/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
       "title": "Este cuerpo mío (VOE)",
       "url": "https://www.cinemamalda.com/este-cuerpo/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20260606 15:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260607 19:05",
           "room": null,
@@ -427,11 +369,6 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260606 14:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260607 15:30",
           "room": null,
           "language": null
@@ -447,11 +384,6 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260606 19:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260607 14:10",
           "room": null,
           "language": null
@@ -466,11 +398,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2979",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260606 18:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260607 16:10",
           "room": null,
@@ -493,7 +420,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -509,51 +436,6 @@
       ],
       "labels": [],
       "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0083866/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "MATRIX (Proyección en 4K y VOSE) The Matrix",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1979",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260606 15:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0133093/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PINK FLAMINGOS + GUION DEL FILM FIRMADO POR JOHN WATERS (Proyección en VOSE) Pink Flamingos",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2975",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260606 23:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "POLTERGEIST: FENÓMENOS EXTRAÑOS (Proyección en 4K y VOSE) Poltergeist",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2298",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260606 20:35",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0084516/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -577,28 +459,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 16:00",
+          "datetime": "20260607 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 18:15",
+          "datetime": "20260607 18:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 20:30",
+          "datetime": "20260607 20:30",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 22:45",
+          "datetime": "20260607 22:45",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -607,22 +489,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 16:00",
+          "datetime": "20260607 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 18:00",
+          "datetime": "20260607 18:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 20:00",
+          "datetime": "20260607 20:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 22:00",
+          "datetime": "20260607 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -637,7 +519,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 18:05",
+          "datetime": "20260607 18:05",
           "room": null,
           "language": "Castellano"
         }
@@ -652,12 +534,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 16:00",
+          "datetime": "20260607 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 18:10",
+          "datetime": "20260607 18:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -672,7 +554,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 15:50",
+          "datetime": "20260607 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -687,22 +569,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 16:00",
+          "datetime": "20260607 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 18:05",
+          "datetime": "20260607 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 20:10",
+          "datetime": "20260607 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 22:15",
+          "datetime": "20260607 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -717,18 +599,18 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 20:05",
+          "datetime": "20260607 20:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 22:15",
+          "datetime": "20260607 22:15",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt35672862/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt35672862/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -737,22 +619,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 15:50",
+          "datetime": "20260607 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 18:05",
+          "datetime": "20260607 18:05",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 20:25",
+          "datetime": "20260607 20:25",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 22:45",
+          "datetime": "20260607 22:45",
           "room": null,
           "language": "Castellano"
         }
@@ -767,12 +649,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 16:10",
+          "datetime": "20260607 16:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 20:20",
+          "datetime": "20260607 20:20",
           "room": null,
           "language": "Castellano"
         }
@@ -787,12 +669,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 20:10",
+          "datetime": "20260607 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260606 22:40",
+          "datetime": "20260607 22:40",
           "room": null,
           "language": "subtitulada"
         }
@@ -807,53 +689,18 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260606 18:00",
+          "datetime": "20260607 18:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260606 22:10",
+          "datetime": "20260607 22:10",
           "room": null,
           "language": "Castellano"
         }
       ],
       "labels": [],
       "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Este cuerpo mío",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/este-cuerpo-mio/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260605 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260606 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260609 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260613 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260616 19:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -963,7 +810,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1036,7 +883,7 @@
       "source_section": "cartellera-cinema",
       "shows": [],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt13429870/\">IMDb</a>"
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt29768334/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1064,38 +911,8 @@
     },
     {
       "cinema": "Maldà",
-      "title": "A la cara (VOE)",
-      "url": "https://www.cinemamalda.com/a-la-cara/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260608 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt15487888/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Dos días (VOSE)",
-      "url": "https://www.cinemamalda.com/dos-dias/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260608 16:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Maldà",
-      "title": "EL DRAMA #sesionteta (VOSE)",
-      "url": "https://www.cinemamalda.com/cine-bebes-maldanins_sesionteta/",
+      "title": "FIESTA DEL CINE 2026 (VOSE) (3,50€)",
+      "url": "https://www.cinemamalda.com/fiesta-del-cine-2026/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
@@ -1103,29 +920,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "El drama (VOSE)",
-      "url": "https://www.cinemamalda.com/el-drama/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260609 20:40",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260611 12:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "Uyariy (Escuchar) (NO ENTRA A LA SESSIÓ CONTINUA, CARNET DE PATRÓ/NA NO VÀLID, NI ENTRADES DE PACK…) (VOSE)",
       "url": "https://www.cinemamalda.com/uyariy/",
       "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "#titulo-2# #titulo-vo-2#",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
+      "source_section": "cartelera",
       "shows": [],
       "labels": [],
       "rating": null
@@ -1599,6 +1405,41 @@
       ],
       "labels": [],
       "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt30006845/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Este cuerpo mío",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/este-cuerpo-mio/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260605 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260606 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260609 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260613 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260616 19:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
