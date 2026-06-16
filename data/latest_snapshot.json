@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-15T14:53:11.602070+00:00",
+  "fetched_at": "2026-06-16T13:22:16.024762+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -7,11 +7,6 @@
       "url": "https://espaitexas.cat/pelicula/silent-friend/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260615 17:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260616 16:00",
           "room": null,
@@ -78,11 +73,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260615 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260616 20:30",
           "room": null,
           "language": null
@@ -107,11 +97,6 @@
       "url": "https://espaitexas.cat/pelicula/que-et-diu-aquesta-natura/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260615 18:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260616 18:15",
           "room": null,
@@ -152,21 +137,6 @@
       "rating": "★ 4.8 <a href=\"https://www.imdb.com/title/tt14852188/\">IMDb</a>"
     },
     {
-      "cinema": "Espai Texas",
-      "title": "UN MÓN FRÀGIL I MERAVELLÓS",
-      "url": "https://espaitexas.cat/pelicula/un-mon-fragil-i-meravellos/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260615 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt32622406/\">IMDb</a>"
-    },
-    {
       "cinema": "Filmoteca",
       "title": "Aferim! | A pedepsi, a supraveghea (Càstig i disciplina)",
       "url": "https://www.filmoteca.cat/web/ca/film/aferim-pedepsi-supraveghea",
@@ -180,6 +150,23 @@
       ],
       "labels": [
         "Radu Jude, 2015"
+      ],
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "El nervi òptic (Sessió de curtmetratges)",
+      "url": "https://www.filmoteca.cat/web/ca/film/el-nervi-optic",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260617 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Barbara Hammer, 1984-1988"
       ],
       "rating": null
     },
@@ -219,6 +206,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Resisting Paradise (Barbara Hammer, 2003)",
+      "url": "https://www.filmoteca.cat/web/ca/film/resisting-paradise",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260617 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Barbara Hammer, 2003"
+      ],
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0389318/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Techo y comida | Nr 1 Aus Berichten der Wach und Patrouillenste (Núm. 1 dels informes dels serveis de vigilància i patrulla)",
       "url": "https://www.filmoteca.cat/web/ca/film/techo-y-comida-nr-1-aus-berichten-der-wach-und-patrouillenste",
       "source_section": "agenda-setmanal",
@@ -235,54 +239,38 @@
       "rating": null
     },
     {
-      "cinema": "Maldà",
-      "title": "El guardián del árbol de alcanfor (VOSE)",
-      "url": "https://www.cinemamalda.com/el-guardian-del-arbol-de-alcanfor/",
-      "source_section": "cartelera-dia-dia",
+      "cinema": "Filmoteca",
+      "title": "Toata lumea din familia noastra (Tots els membres de la nostra família)",
+      "url": "https://www.filmoteca.cat/web/ca/film/toata-lumea-din-familia-noastra",
+      "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260615 20:35",
+          "datetime": "20260617 17:00",
           "room": null,
           "language": null
         }
       ],
-      "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt36461929/\">IMDb</a>"
+      "labels": [
+        "Radu Jude, 212"
+      ],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt2202607/\">IMDb</a>"
     },
     {
-      "cinema": "Maldà",
-      "title": "Solomamma (VOSE)",
-      "url": "https://www.cinemamalda.com/solomamma/",
-      "source_section": "cartelera-dia-dia",
+      "cinema": "Filmoteca",
+      "title": "Wu ming zhe (L'home sense nom)",
+      "url": "https://www.filmoteca.cat/web/ca/film/wu-ming-zhe",
+      "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260615 17:00",
+          "datetime": "20260617 20:00",
           "room": null,
           "language": null
         }
       ],
-      "labels": [],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt35485652/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Un talento único (VOSE)",
-      "url": "https://www.cinemamalda.com/un-talento-unico/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260615 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260618 18:00",
-          "room": null,
-          "language": null
-        }
+      "labels": [
+        "Wang Bing, 2009"
       ],
-      "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33296751/\">IMDb</a>"
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt1802198/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -406,22 +394,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 16:00",
+          "datetime": "20260616 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 18:15",
+          "datetime": "20260616 18:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 20:30",
+          "datetime": "20260616 20:30",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 22:45",
+          "datetime": "20260616 22:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -436,7 +424,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 16:00",
+          "datetime": "20260616 16:00",
           "room": null,
           "language": "Castellano"
         }
@@ -451,7 +439,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 20:20",
+          "datetime": "20260616 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -466,22 +454,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 16:00",
+          "datetime": "20260616 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 18:05",
+          "datetime": "20260616 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 20:10",
+          "datetime": "20260616 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 22:15",
+          "datetime": "20260616 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -496,17 +484,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 16:10",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260615 19:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260615 21:45",
+          "datetime": "20260616 16:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -521,17 +499,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 16:10",
+          "datetime": "20260616 16:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 19:00",
+          "datetime": "20260616 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260615 21:35",
+          "datetime": "20260616 21:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -546,12 +524,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 18:05",
+          "datetime": "20260616 18:05",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260615 22:15",
+          "datetime": "20260616 22:15",
           "room": null,
           "language": "Castellano"
         }
@@ -566,17 +544,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 15:50",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260615 18:05",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260615 20:25",
+          "datetime": "20260616 15:50",
           "room": null,
           "language": "Castellano"
         }
@@ -586,12 +554,27 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "Ladrón De Bicicletas [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/ladron-de-bicicletas-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260616 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0040522/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "Mallorca Confidencial",
       "url": "https://www.cinesrenoir.com/pelicula/mallorca-confidencial/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 22:45",
+          "datetime": "20260616 22:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -606,12 +589,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 16:00",
+          "datetime": "20260616 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260615 20:10",
+          "datetime": "20260616 20:10",
           "room": null,
           "language": "Castellano"
         }
@@ -626,7 +609,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 22:15",
+          "datetime": "20260616 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -641,7 +624,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260615 18:00",
+          "datetime": "20260616 18:00",
           "room": null,
           "language": "Castellano"
         }
@@ -782,6 +765,26 @@
         },
         {
           "datetime": "20260622 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260701 17:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Queer Cinema for Palestine",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/queer-cinema-for-palestine-2026/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260617 19:00",
           "room": null,
           "language": null
         }
@@ -972,23 +975,6 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260617 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Barbara Hammer, 1984-1988"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "El nervi òptic (Sessió de curtmetratges)",
-      "url": "https://www.filmoteca.cat/web/ca/film/el-nervi-optic",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
           "datetime": "20260619 21:30",
           "room": null,
           "language": null
@@ -1101,23 +1087,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Resisting Paradise (Barbara Hammer, 2003)",
-      "url": "https://www.filmoteca.cat/web/ca/film/resisting-paradise",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260617 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Barbara Hammer, 2003"
-      ],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0389318/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "The Big Short (La gran apuesta)",
       "url": "https://www.filmoteca.cat/web/ca/film/big-short",
       "source_section": "agenda-setmanal",
@@ -1132,23 +1101,6 @@
         "Adam McKay, 2015"
       ],
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt1596363/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Toata lumea din familia noastra (Tots els membres de la nostra família)",
-      "url": "https://www.filmoteca.cat/web/ca/film/toata-lumea-din-familia-noastra",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260617 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Radu Jude, 212"
-      ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt2202607/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1198,21 +1150,13 @@
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Wu ming zhe (L'home sense nom)",
-      "url": "https://www.filmoteca.cat/web/ca/film/wu-ming-zhe",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260617 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Wang Bing, 2009"
-      ],
-      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt1802198/\">IMDb</a>"
+      "cinema": "Maldà",
+      "title": "Conoce a los bárbaros (VOSE)",
+      "url": "https://www.cinemamalda.com/conoce-a-los-barbaros/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt23640170/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1234,6 +1178,15 @@
     },
     {
       "cinema": "Maldà",
+      "title": "Incontrolable (I swear) (VOSE)",
+      "url": "https://www.cinemamalda.com/incontrolable/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt0456070/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
       "title": "Par 4 chemins (VOSCAT)",
       "url": "https://www.cinemamalda.com/par-4-chemins/",
       "source_section": "cartelera-dia-dia",
@@ -1248,7 +1201,7 @@
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
-      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt11540726/\">IMDb</a>"
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt0142804/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1261,12 +1214,21 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Un hombre de verdad (VOE)",
-      "url": "https://www.cinemamalda.com/un-hombre-de-verdad/",
+      "title": "Tres mujeres (VOSE)",
+      "url": "https://www.cinemamalda.com/tres-mujeres/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0075612/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Un poeta (VOE)",
+      "url": "https://www.cinemamalda.com/un-poeta/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.7 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -2091,7 +2053,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt0067943/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -2140,6 +2102,21 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Pequeña angustia existencial",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/pequena-angustia-existencial/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260701 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Pollen 2026: Overburden",
       "url": "https://www.zumzeigcine.coop/es/cine/films/pollen-2026-overburden/",
       "source_section": "calendari",
@@ -2151,21 +2128,6 @@
         },
         {
           "datetime": "20260629 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Queer Cinema for Palestine",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/queer-cinema-for-palestine-2026/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260617 19:00",
           "room": null,
           "language": null
         }
@@ -2271,6 +2233,11 @@
         },
         {
           "datetime": "20260630 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260701 21:15",
           "room": null,
           "language": null
         }
