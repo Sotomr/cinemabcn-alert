@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T11:36:10.804347+00:00",
+  "fetched_at": "2026-07-08T10:54:00.836090+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -7,11 +7,6 @@
       "url": "https://espaitexas.cat/pelicula/backrooms/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260707 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260708 20:15",
           "room": null,
@@ -33,11 +28,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260707 18:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260708 18:00",
           "room": null,
           "language": null
@@ -58,11 +48,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260707 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260709 16:00",
           "room": null,
           "language": null
@@ -78,18 +63,13 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260707 20:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260709 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt13429870/\">IMDb</a>"
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt31710990/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -128,11 +108,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260707 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260708 16:00",
           "room": null,
           "language": null
@@ -152,11 +127,6 @@
       "url": "https://espaitexas.cat/pelicula/rebuilding/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260707 18:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260708 18:00",
           "room": null,
@@ -195,7 +165,7 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260707 17:00",
+          "datetime": "20260709 21:00",
           "room": null,
           "language": null
         }
@@ -204,23 +174,6 @@
         "Fritz Lang, 1936"
       ],
       "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt2713180/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Iesirea trenurilor din gara (La salida de los trenes)",
-      "url": "https://www.filmoteca.cat/web/ca/film/iesirea-trenurilor-din-gara",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260707 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Adrian Cioflanca, Radu Jude, 2020"
-      ],
-      "rating": "★ 8.6 <a href=\"https://www.imdb.com/title/tt11777952/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -238,6 +191,23 @@
         "Frank Capra, 1934"
       ],
       "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0025316/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Kontinental '25 (Radu Jude, 2025)",
+      "url": "https://www.filmoteca.cat/web/ca/film/kontinental-25",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260709 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Radu Jude, 2025"
+      ],
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt35492581/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -275,112 +245,65 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Sleep #2 (Radu Jude, 2024)",
-      "url": "https://www.filmoteca.cat/web/ca/film/sleep-2",
+      "title": "Sessió inaugural de l'exposició Feminismes fílmics: 1976-2026 A partir de la col·lecció de la Filmoteca de Catalunya",
+      "url": "https://www.filmoteca.cat/web/ca/film/sessio-inaugural-de-lexposicio-feminismes-filmics-1976-2026-partir-de-la-colleccio-de-la",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260707 21:30",
+          "datetime": "20260709 19:00",
           "room": null,
           "language": null
         }
       ],
-      "labels": [
-        "Radu Jude, 2024"
-      ],
-      "rating": "★ 4.5 <a href=\"https://www.imdb.com/title/tt32896493/\">IMDb</a>"
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Filmoteca",
-      "title": "The Mastermind (Kelly Reichardt , 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/mastermind",
+      "title": "The Shrouds (Los sudarios)",
+      "url": "https://www.filmoteca.cat/web/ca/film/shrouds",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260707 20:00",
+          "datetime": "20260709 17:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Kelly Reichardt , 2025"
+        "David Cronenberg, 2024"
       ],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt33455099/\">IMDb</a>"
+      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt20212786/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Día de caza (VOE)",
-      "url": "https://www.cinemamalda.com/dia-de-caza/",
+      "title": "El drama (VOSE)",
+      "url": "https://www.cinemamalda.com/el-drama/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260707 14:15",
+          "datetime": "20260709 13:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33071426/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Hermanos (VOE)",
-      "url": "https://www.cinemamalda.com/hermanos/",
+      "title": "Un talento único (VOSCAT)",
+      "url": "https://www.cinemamalda.com/un-talento-unico/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260707 12:45",
+          "datetime": "20260709 15:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0765010/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "La mujer sin nombre (VOSE)",
-      "url": "https://www.cinemamalda.com/la-mujer-sin-nombre/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260707 17:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt32298366/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Nino tres días, una vida (VOSE)",
-      "url": "https://www.cinemamalda.com/nino/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260707 19:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Viva (VOSCAT)",
-      "url": "https://www.cinemamalda.com/viva/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260707 15:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt36822560/\">IMDb</a>"
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt33296751/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -389,17 +312,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 16:00",
+          "datetime": "20260708 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260707 18:00",
+          "datetime": "20260708 18:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260707 22:30",
+          "datetime": "20260708 22:30",
           "room": null,
           "language": "Castellano"
         }
@@ -414,12 +337,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 16:00",
+          "datetime": "20260708 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 17:45",
+          "datetime": "20260708 17:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -429,27 +352,12 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Cuentos De Tokio [Wilder Cinema]",
-      "url": "https://www.cinesrenoir.com/pelicula/cuentos-de-tokio-wilder-cinema/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260707 20:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0046438/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
       "title": "El Drama",
       "url": "https://www.cinesrenoir.com/pelicula/el-drama/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 22:10",
+          "datetime": "20260708 22:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -464,7 +372,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 20:00",
+          "datetime": "20260708 20:00",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260708 21:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -474,12 +387,27 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "El Perro Del Hortelano",
+      "url": "https://www.cinesrenoir.com/pelicula/el-perro-del-hortelano/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260708 19:00",
+          "room": null,
+          "language": "Castellano"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt0114115/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "La Luz",
       "url": "https://www.cinesrenoir.com/pelicula/la-luz/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 22:45",
+          "datetime": "20260708 22:45",
           "room": null,
           "language": "Castellano"
         }
@@ -494,7 +422,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 22:00",
+          "datetime": "20260708 20:05",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260708 22:25",
           "room": null,
           "language": "subtitulada"
         }
@@ -509,17 +442,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 16:00",
+          "datetime": "20260708 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 18:00",
+          "datetime": "20260708 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 20:10",
+          "datetime": "20260708 20:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -534,22 +467,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 16:00",
+          "datetime": "20260708 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 18:10",
+          "datetime": "20260708 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 20:20",
+          "datetime": "20260708 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 22:30",
+          "datetime": "20260708 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -564,12 +497,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 15:50",
+          "datetime": "20260708 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 22:30",
+          "datetime": "20260708 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -584,17 +517,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 16:00",
+          "datetime": "20260708 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 18:10",
+          "datetime": "20260708 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 20:20",
+          "datetime": "20260708 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -609,83 +542,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260707 16:00",
+          "datetime": "20260708 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 18:10",
+          "datetime": "20260708 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260707 20:20",
+          "datetime": "20260708 20:20",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
       "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt36822560/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "Éxtasis",
-      "url": "https://www.cinesrenoir.com/pelicula/extasis/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260707 19:00",
-          "room": null,
-          "language": "Castellano"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt0022867/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Eleonora Duse, la divina",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/eleonora-duse-la-divina/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260702 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260707 11:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt31415482/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Iván & Hadoum",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/ivan-hadoum/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260702 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260707 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260713 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -785,7 +658,22 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt36456563/\">IMDb</a>"
+      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt36456563/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "The Track: Joventut, esport i memòria als Balcans",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/the-track-joventut-esport-i-memoria-als-balcans/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260709 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -902,23 +790,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Fury (Fúria)",
-      "url": "https://www.filmoteca.cat/web/ca/film/fury",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260709 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1936"
-      ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt2713180/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Hamlet Liikemaailassa (Hamlet va de negocios)",
       "url": "https://www.filmoteca.cat/web/ca/film/hamlet-liikemaailassa",
       "source_section": "agenda-setmanal",
@@ -950,23 +821,6 @@
         "Pier Paolo Pasolini, 1964"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Kontinental '25 (Radu Jude, 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/kontinental-25",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260709 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Radu Jude, 2025"
-      ],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt35492581/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1021,21 +875,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Sessió inaugural de l'exposició Feminismes fílmics: 1976-2026 A partir de la col·lecció de la Filmoteca de Catalunya",
-      "url": "https://www.filmoteca.cat/web/ca/film/sessio-inaugural-de-lexposicio-feminismes-filmics-1976-2026-partir-de-la-colleccio-de-la",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260709 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Sleep #2 (Radu Jude, 2024)",
       "url": "https://www.filmoteca.cat/web/ca/film/sleep-2",
       "source_section": "agenda-setmanal",
@@ -1070,23 +909,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "The Shrouds (Los sudarios)",
-      "url": "https://www.filmoteca.cat/web/ca/film/shrouds",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260709 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "David Cronenberg, 2024"
-      ],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt20212786/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Varjoja paratiisissa (Sombras en el paraíso)",
       "url": "https://www.filmoteca.cat/web/ca/film/varjoja-paratiisissa",
       "source_section": "agenda-setmanal",
@@ -1101,6 +923,15 @@
         "Aki Kaurismäki, 1986"
       ],
       "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0092149/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "A 500 millas de casa (VOSE)",
+      "url": "https://www.cinemamalda.com/a-500-millas-de-casa/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Maldà",
@@ -1122,12 +953,30 @@
     },
     {
       "cinema": "Maldà",
+      "title": "Hermanos (VOE)",
+      "url": "https://www.cinemamalda.com/hermanos/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0765010/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
       "title": "Incontrolable (I swear) (VOSE)",
       "url": "https://www.cinemamalda.com/incontrolable/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
       "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt0456070/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Letras robadas (VOSE)",
+      "url": "https://www.cinemamalda.com/letras-robadas/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt32267691/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1629,6 +1478,51 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Eleonora Duse, la divina",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/eleonora-duse-la-divina/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260702 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260707 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt31415482/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Iván & Hadoum",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/ivan-hadoum/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260702 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260707 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260713 21:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "La casa del bosque (Episodios 1-4)",
       "url": "https://www.zumzeigcine.coop/es/cine/films/la-casa-del-bosque-episodios-1-4/",
       "source_section": "calendari",
@@ -1735,7 +1629,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt34803680/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -1795,21 +1689,6 @@
       "shows": [
         {
           "datetime": "20260701 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "The Track: Joventut, esport i memòria als Balcans",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/the-track-joventut-esport-i-memoria-als-balcans/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260709 19:00",
           "room": null,
           "language": null
         }
