@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T11:40:26.096073+00:00",
+  "fetched_at": "2026-07-11T10:08:40.455653+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -109,7 +109,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt13429870/\">IMDb</a>"
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt31710990/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -277,6 +277,40 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Breakfast at Tiffany’s (Esmorzar a Tiffany's)",
+      "url": "https://www.filmoteca.cat/web/ca/film/breakfast-tiffanys",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260712 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Blake Edwards, 1961"
+      ],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0054698/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "E.T. l'extraterrestre (E.T. the Extra-Terrestrial)",
+      "url": "https://www.filmoteca.cat/web/ca/film/et-lextraterrestre",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260712 17:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Steven Spielberg, 1982"
+      ],
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0083866/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Hamlet Liikemaailassa (Hamlet va de negocios)",
       "url": "https://www.filmoteca.cat/web/ca/film/hamlet-liikemaailassa",
       "source_section": "agenda-setmanal",
@@ -294,20 +328,20 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Il vangelo secondo Matteo | BACHcelona (El evangelio según san Mateo)",
-      "url": "https://www.filmoteca.cat/web/ca/film/il-vangelo-secondo-matteo-bachcelona",
+      "title": "M - Eine Stadt sucht einen Mörder (M, el vampiro de Düsseldorf)",
+      "url": "https://www.filmoteca.cat/web/ca/film/m-eine-stadt-sucht-einen-morder",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260710 20:00",
+          "datetime": "20260712 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Pier Paolo Pasolini, 1964"
+        "Fritz Lang, 1931"
       ],
-      "rating": null
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0022100/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -328,54 +362,20 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Opt ilustrate din lumea ideala (Eight Postcards from Utopia)",
-      "url": "https://www.filmoteca.cat/web/ca/film/opt-ilustrate-din-lumea-ideala",
+      "title": "Sleep #2 (Radu Jude, 2024)",
+      "url": "https://www.filmoteca.cat/web/ca/film/sleep-2",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260710 21:00",
+          "datetime": "20260712 20:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Christian Ferencz-Flatz, Radu Jude, 2024"
+        "Radu Jude, 2024"
       ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt32448327/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Something Wild (Alguna cosa salvatge)",
-      "url": "https://www.filmoteca.cat/web/ca/film/something-wild",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260710 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jonathan Demme, 1986"
-      ],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt0091983/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Varjoja paratiisissa (Sombras en el paraíso)",
-      "url": "https://www.filmoteca.cat/web/ca/film/varjoja-paratiisissa",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260710 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 1986"
-      ],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0092149/\">IMDb</a>"
+      "rating": "★ 4.5 <a href=\"https://www.imdb.com/title/tt32896493/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -434,7 +434,22 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Winnipeg, el barco de la esperanza (V Doblada en Catalan)",
+      "title": "Valles Escondidos: Emancipación en un México contemporáneo (VOE)",
+      "url": "https://www.cinemamalda.com/valles-escondidos/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260712 20:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Winnipeg, el barco de la esperanza (V Doblada al Català)",
       "url": "https://www.cinemamalda.com/winnipeg-el-barco-de-la-esperanza/",
       "source_section": "cartelera-dia-dia",
       "shows": [
@@ -446,56 +461,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "ALL THAT JAZZ: EMPIEZA EL ESPECTÁCULO (Proyección en 4K y VOSE) All That Jazz",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=482",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260710 17:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0078754/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "BACKROOMS (Proyección en Dolby Atmos y VOSE) Backrooms",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2979",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260710 20:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260714 19:50",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "BLADE RUNNER: THE FINAL CUT (Proyección en Dolby Atmos, 4K y VOSE)",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=625",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260710 22:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0083658/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -524,6 +489,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "LADRÓN (Proyección en 4K y VOSE) Thief",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1789",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260712 15:10",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt0078926/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "MOULIN ROUGE (Proyección en VOSE) Moulin Rounge",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2047",
       "source_section": "cartelera",
@@ -539,18 +519,23 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PONYO EN EL ACANTILADO (Proyección en VOSE) Gake no ue no Ponyo",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=100",
+      "title": "OBSESSION (Proyección en Dolby Atmos, 4K y VOSE) Obsession",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2981",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 15:15",
+          "datetime": "20260712 20:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260715 17:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0876563/\">IMDb</a>"
+      "rating": "★ 8.3 <a href=\"https://www.imdb.com/title/tt37287335/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -568,13 +553,28 @@
       "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt2382320/\">IMDb</a>"
     },
     {
+      "cinema": "Phenomena",
+      "title": "THE OTHER DAVID LYNCH: THE SHORTS (Proyección en VOSE) The Other David Lynch: The Shorts",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2739",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260712 23:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
       "cinema": "Renoir Floridablanca",
       "title": "9 Lunas",
       "url": "https://www.cinesrenoir.com/pelicula/9-lunas/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 22:35",
+          "datetime": "20260711 22:35",
           "room": null,
           "language": "Castellano"
         }
@@ -589,7 +589,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 21:45",
+          "datetime": "20260711 21:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -599,22 +599,37 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "La Buena Estrella",
+      "url": "https://www.cinesrenoir.com/pelicula/la-buena-estrella/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260711 19:00",
+          "room": null,
+          "language": "Castellano"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.7 <a href=\"https://www.imdb.com/title/tt32553661/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "La Copia Perfecta",
       "url": "https://www.cinesrenoir.com/pelicula/la-copia-perfecta/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 15:50",
+          "datetime": "20260711 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 18:10",
+          "datetime": "20260711 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 22:40",
+          "datetime": "20260711 22:40",
           "room": null,
           "language": "subtitulada"
         }
@@ -629,7 +644,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 16:00",
+          "datetime": "20260711 16:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -644,7 +659,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 20:35",
+          "datetime": "20260711 20:35",
           "room": null,
           "language": "Castellano"
         }
@@ -659,12 +674,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 16:00",
+          "datetime": "20260711 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 18:10",
+          "datetime": "20260711 18:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -679,22 +694,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 16:00",
+          "datetime": "20260711 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 18:10",
+          "datetime": "20260711 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 20:20",
+          "datetime": "20260711 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 22:30",
+          "datetime": "20260711 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -704,32 +719,17 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Secretos Del Corazón",
-      "url": "https://www.cinesrenoir.com/pelicula/secretos-del-corazon/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260710 19:00",
-          "room": null,
-          "language": "Castellano"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0120090/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
       "title": "Viaje Al País De Los Blancos",
       "url": "https://www.cinesrenoir.com/pelicula/viaje-al-pais-de-los-blancos/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 16:00",
+          "datetime": "20260711 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 20:10",
+          "datetime": "20260711 20:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -744,17 +744,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260710 18:20",
+          "datetime": "20260711 18:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 20:30",
+          "datetime": "20260711 20:30",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260710 22:20",
+          "datetime": "20260711 22:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -924,6 +924,21 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "My Father's Shadow",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/my-fathers-shadow/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260712 18:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt35695538/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Viva",
       "url": "https://www.zumzeigcine.coop/es/cine/films/viva/",
       "source_section": "calendari",
@@ -1020,74 +1035,6 @@
       "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt36822560/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Breakfast at Tiffany’s (Esmorzar a Tiffany's)",
-      "url": "https://www.filmoteca.cat/web/ca/film/breakfast-tiffanys",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260712 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Blake Edwards, 1961"
-      ],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0054698/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "E.T. l'extraterrestre (E.T. the Extra-Terrestrial)",
-      "url": "https://www.filmoteca.cat/web/ca/film/et-lextraterrestre",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260712 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Steven Spielberg, 1982"
-      ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0083866/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "M - Eine Stadt sucht einen Mörder (M, el vampiro de Düsseldorf)",
-      "url": "https://www.filmoteca.cat/web/ca/film/m-eine-stadt-sucht-einen-morder",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260712 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1931"
-      ],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0022100/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Sleep #2 (Radu Jude, 2024)",
-      "url": "https://www.filmoteca.cat/web/ca/film/sleep-2",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260712 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Radu Jude, 2024"
-      ],
-      "rating": "★ 4.5 <a href=\"https://www.imdb.com/title/tt32896493/\">IMDb</a>"
-    },
-    {
       "cinema": "Maldà",
       "title": "A 500 millas de casa (VOSE)",
       "url": "https://www.cinemamalda.com/a-500-millas-de-casa/",
@@ -1104,12 +1051,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "L'effet aquatique (VOSCAT)",
-      "url": "https://www.cinemamalda.com/leffet-aquatique/",
+      "title": "Lady Nazca (VOSE)",
+      "url": "https://www.cinemamalda.com/lady-nazca/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260714 15:10",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt4161564/\">IMDb</a>"
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt12349818/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1136,28 +1089,19 @@
       "rating": null
     },
     {
-      "cinema": "Maldà",
-      "title": "Valles Escondidos: Emancipación en un México contemporáneo (VOE)",
-      "url": "https://www.cinemamalda.com/valles-escondidos/",
-      "source_section": "cartelera-dia-dia",
+      "cinema": "Phenomena",
+      "title": "BACKROOMS (Proyección en Dolby Atmos y VOSE) Backrooms",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2979",
+      "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260712 20:35",
+          "datetime": "20260714 19:50",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "#titulo-2# #titulo-vo-2#",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": null
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1172,7 +1116,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0068327/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0436153/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1402,42 +1346,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 4.4 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LADRÓN (Proyección en 4K y VOSE) Thief",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1789",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260712 15:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt0078926/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "OBSESSION (Proyección en Dolby Atmos, 4K y VOSE) Obsession",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2981",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260712 20:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260715 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.3 <a href=\"https://www.imdb.com/title/tt37287335/\">IMDb</a>"
+      "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1452,22 +1361,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt33311069/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "THE OTHER DAVID LYNCH: THE SHORTS (Proyección en VOSE) The Other David Lynch: The Shorts",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2739",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260712 23:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt33311069/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1681,21 +1575,6 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "My Father's Shadow",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/my-fathers-shadow/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260712 18:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt35695538/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
       "title": "Nuestra tierra",
       "url": "https://www.zumzeigcine.coop/es/cine/films/nuestra-tierra-ciclo/",
       "source_section": "calendari",
@@ -1712,7 +1591,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt9859510/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
