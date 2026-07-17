@@ -1,17 +1,12 @@
 {
-  "fetched_at": "2026-07-16T11:06:16.744002+00:00",
+  "fetched_at": "2026-07-17T10:28:46.100867+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
-      "title": "BACKROOMS",
+      "title": "BACKROOMS: LIQUIDACIÓ TOTAL (VERSIÓ AMPLIADA)",
       "url": "https://espaitexas.cat/pelicula/backrooms/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260716 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260717 20:30",
           "room": null,
@@ -44,7 +39,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -52,11 +47,6 @@
       "url": "https://espaitexas.cat/pelicula/cas-137/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260716 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260717 16:00",
           "room": null,
@@ -74,21 +64,41 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt34794183/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
-      "title": "CORREDORA",
-      "url": "https://espaitexas.cat/pelicula/corredora/",
+      "title": "DREAMS",
+      "url": "https://espaitexas.cat/pelicula/dreams/",
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260716 20:30",
+          "datetime": "20260718 16:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260723 20:30",
+          "datetime": "20260722 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260723 16:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt31710990/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "L'AMIC SILENCIOS (SILENT FRIEND)",
+      "url": "https://espaitexas.cat/pelicula/silent-friend/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260718 20:20",
           "room": null,
           "language": null
         }
@@ -102,11 +112,6 @@
       "url": "https://espaitexas.cat/pelicula/la-copia-perfecta/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260716 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260717 18:00",
           "room": null,
@@ -139,7 +144,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -147,11 +152,6 @@
       "url": "https://espaitexas.cat/pelicula/rebuilding/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260716 18:10",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260717 20:30",
           "room": null,
@@ -174,7 +174,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -214,7 +214,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt36822560/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -256,7 +256,24 @@
       "labels": [
         "Whit Stillman, 1994"
       ],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt0109219/\">IMDb</a>"
+      "rating": "★ 6.0 <a href=\"https://www.themoviedb.org/movie/882763\">TMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "E.T. l'extraterrestre (E.T. the Extra-Terrestrial)",
+      "url": "https://www.filmoteca.cat/web/ca/film/et-lextraterrestre",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260718 17:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Steven Spielberg, 1982"
+      ],
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0083866/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -273,41 +290,58 @@
       "labels": [
         "Aki Kaurismäki, 1990"
       ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt0099818/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0099818/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
-      "title": "It Happened One Night (Va succeir una nit)",
-      "url": "https://www.filmoteca.cat/web/ca/film/it-happened-one-night",
+      "title": "La vie de bohème (La vida de bohemia)",
+      "url": "https://www.filmoteca.cat/web/ca/film/la-vie-de-boheme",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260716 21:00",
+          "datetime": "20260718 20:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Frank Capra, 1934"
+        "Aki Kaurismäki, 1992"
       ],
       "rating": null
     },
     {
       "cinema": "Filmoteca",
-      "title": "The Mastermind (Kelly Reichardt , 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/mastermind",
+      "title": "Man Hunt (La caça de l'home)",
+      "url": "https://www.filmoteca.cat/web/ca/film/man-hunt",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260716 18:00",
+          "datetime": "20260718 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Kelly Reichardt , 2025"
+        "Fritz Lang, 1941"
       ],
-      "rating": null
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0033873/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Modern Romance (Un amor modern)",
+      "url": "https://www.filmoteca.cat/web/ca/film/modern-romance",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260718 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Albert Brooks, 1981"
+      ],
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt0082764/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -324,24 +358,7 @@
       "labels": [
         "Fritz Lang, 1940"
       ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Tulitikkutehtaan tyttö (La chica de la fábrica de cerillas)",
-      "url": "https://www.filmoteca.cat/web/ca/film/tulitikkutehtaan-tytto",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260716 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 1990"
-      ],
-      "rating": null
+      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt0032983/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -359,60 +376,88 @@
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "You Only Live Once (Solo se vive una vez)",
-      "url": "https://www.filmoteca.cat/web/ca/film/you-only-live-once",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260716 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1937"
-      ],
-      "rating": null
-    },
-    {
       "cinema": "Maldà",
-      "title": "El drama (VOSE)",
-      "url": "https://www.cinemamalda.com/el-drama/",
+      "title": "Backrooms (VOSE)",
+      "url": "https://www.cinemamalda.com/backrooms/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260716 14:00",
+          "datetime": "20260718 20:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260719 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260723 20:35",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Letras robadas (VOSE)",
-      "url": "https://www.cinemamalda.com/letras-robadas/",
+      "title": "El amigo silencioso (VOSE)",
+      "url": "https://www.cinemamalda.com/el-amigo-silencioso/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260716 18:00",
+          "datetime": "20260718 16:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt27811632/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Un talento único (VOSCAT)",
-      "url": "https://www.cinemamalda.com/un-talento-unico/",
+      "title": "En el camino (VOE)",
+      "url": "https://www.cinemamalda.com/en-el-camino/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260716 16:00",
+          "datetime": "20260718 19:10",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260721 21:10",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt37660509/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Marielle lo sabe todo (VOSE)",
+      "url": "https://www.cinemamalda.com/marielle-lo-sabe-todo/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260718 15:10",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt35500283/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Nino tres días, una vida (VOSE)",
+      "url": "https://www.cinemamalda.com/nino/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260718 13:30",
           "room": null,
           "language": null
         }
@@ -426,11 +471,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260717 11:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260717 15:15",
           "room": null,
@@ -623,22 +663,22 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "9 Lunas",
-      "url": "https://www.cinesrenoir.com/pelicula/9-lunas/",
+      "title": "El Alquimista Impaciente",
+      "url": "https://www.cinesrenoir.com/pelicula/el-alquimista-impaciente/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 22:35",
+          "datetime": "20260717 19:00",
           "room": null,
           "language": "Castellano"
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 5.2 <a href=\"https://www.imdb.com/title/tt0321175/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -647,28 +687,13 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 21:45",
+          "datetime": "20260717 21:45",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "El Viaje De Chihiro [Wilder Cinema]",
-      "url": "https://www.cinesrenoir.com/pelicula/el-viaje-de-chihiro-wilder-cinema/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260716 20:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt0245429/\">IMDb</a>"
+      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt15047880/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -677,23 +702,18 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 15:50",
+          "datetime": "20260717 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260716 18:10",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260716 22:40",
+          "datetime": "20260717 18:00",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -702,13 +722,43 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 16:00",
+          "datetime": "20260717 22:30",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt32273171/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
+      "title": "La Odisea",
+      "url": "https://www.cinesrenoir.com/pelicula/la-odisea/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260717 16:00",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260717 18:00",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260717 19:20",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260717 21:30",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -717,7 +767,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 20:35",
+          "datetime": "20260717 22:30",
           "room": null,
           "language": "Castellano"
         }
@@ -732,33 +782,13 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 16:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260716 18:10",
+          "datetime": "20260717 16:00",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "Lucía Y El Sexo",
-      "url": "https://www.cinesrenoir.com/pelicula/lucia-y-el-sexo/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260716 19:00",
-          "room": null,
-          "language": "Castellano"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt0254455/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt35344083/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -767,28 +797,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 16:00",
+          "datetime": "20260717 18:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260716 18:10",
+          "datetime": "20260717 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260716 20:20",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260716 22:30",
+          "datetime": "20260717 22:30",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt37287335/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -797,7 +822,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 16:00",
+          "datetime": "20260717 16:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -812,23 +837,18 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260716 18:20",
+          "datetime": "20260717 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260716 20:30",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260716 22:30",
+          "datetime": "20260717 20:20",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt36822560/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -883,27 +903,7 @@
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "La niña santa",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/la-nina-santa/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260716 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260724 19:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt0300270/\">IMDb</a>"
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt1221141/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1008,7 +1008,27 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt29253299/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Zama",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/zama/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260718 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260728 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt3409848/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1021,78 +1041,18 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "ANDY",
-      "url": "https://espaitexas.cat/pelicula/andy/",
+      "title": "CORREDORA",
+      "url": "https://espaitexas.cat/pelicula/corredora/",
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260711 20:15",
+          "datetime": "20260723 20:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "DREAMS",
-      "url": "https://espaitexas.cat/pelicula/dreams/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260718 16:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260722 16:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260723 16:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "L'AMIC SILENCIOS (SILENT FRIEND)",
-      "url": "https://espaitexas.cat/pelicula/silent-friend/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260715 20:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260718 20:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "LA MEMÒRIA DE LES PAPALLONES",
-      "url": "https://espaitexas.cat/pelicula/la-memoria-de-les-papallones/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260715 20:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt36665220/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1117,7 +1077,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt12349818/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1126,24 +1086,7 @@
       "source_section": "cartellera-cinema",
       "shows": [],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "E.T. l'extraterrestre (E.T. the Extra-Terrestrial)",
-      "url": "https://www.filmoteca.cat/web/ca/film/et-lextraterrestre",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260718 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Steven Spielberg, 1982"
-      ],
-      "rating": null
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt32267711/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1164,57 +1107,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "La vie de bohème (La vida de bohemia)",
-      "url": "https://www.filmoteca.cat/web/ca/film/la-vie-de-boheme",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260718 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 1992"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Man Hunt (La caça de l'home)",
-      "url": "https://www.filmoteca.cat/web/ca/film/man-hunt",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260718 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1941"
-      ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0033873/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Modern Romance (Un amor modern)",
-      "url": "https://www.filmoteca.cat/web/ca/film/modern-romance",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260718 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Albert Brooks, 1981"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "My Girl (La meva noia)",
       "url": "https://www.filmoteca.cat/web/ca/film/my-girl",
       "source_section": "agenda-setmanal",
@@ -1228,7 +1120,7 @@
       "labels": [
         "Howard Zieff, 1991"
       ],
-      "rating": null
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0102492/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1262,61 +1154,67 @@
       "labels": [
         "David Cronenberg, 2024"
       ],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt20212786/\">IMDb</a>"
+      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt20212786/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "A 500 millas de casa (VOSE)",
-      "url": "https://www.cinemamalda.com/a-500-millas-de-casa/",
+      "title": "Apuntes para una ficción consentida (VOE)",
+      "url": "https://www.cinemamalda.com/apuntes-para-una-ficcion-consentida/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260720 17:35",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
       "rating": null
     },
     {
       "cinema": "Maldà",
-      "title": "Cine con bebes #sesionteta (VOSE)",
-      "url": "https://www.cinemamalda.com/cine-bebes-maldanins_sesionteta/",
+      "title": "El amigo inesperado (VOSE)",
+      "url": "https://www.cinemamalda.com/el-amigo-inesperado/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260719 15:30",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt29291318/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "En el camino (VOE)",
-      "url": "https://www.cinemamalda.com/en-el-camino/",
+      "title": "El guardián (VOE)",
+      "url": "https://www.cinemamalda.com/el-guardian/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260720 20:50",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": null
+      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt0289213/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "L'effet aquatique (VOSCAT)",
-      "url": "https://www.cinemamalda.com/leffet-aquatique/",
+      "title": "Hombres de acero (VOSE)",
+      "url": "https://www.cinemamalda.com/hombres-de-acero/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260720 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt4161564/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "La copia perfecta (VOSCAT)",
-      "url": "https://www.cinemamalda.com/la-copia-perfecta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Winnipeg, el barco de la esperanza (V Doblada al Català)",
-      "url": "https://www.cinemamalda.com/winnipeg-el-barco-de-la-esperanza/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": null
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt29028515/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1331,7 +1229,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0034583/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1381,7 +1279,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt31170389/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1536,7 +1434,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt31415482/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1615,6 +1513,26 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "La niña santa",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/la-nina-santa/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260716 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260724 19:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt0300270/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "La noche está marchándose ya",
       "url": "https://www.zumzeigcine.coop/es/cine/films/la-noche-esta-marchandose-ya/",
       "source_section": "calendari",
@@ -1651,7 +1569,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt34803680/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1731,7 +1649,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt36456563/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1781,7 +1699,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0097814/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1861,27 +1779,7 @@
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Zama",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/zama/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260718 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260728 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt36822560/\">IMDb</a>"
     }
   ]
 }
