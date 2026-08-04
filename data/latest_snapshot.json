@@ -1,6 +1,23 @@
 {
-  "fetched_at": "2026-08-03T12:09:43.308540+00:00",
+  "fetched_at": "2026-08-04T11:13:32.872879+00:00",
   "films": [
+    {
+      "cinema": "Filmoteca",
+      "title": "Annie Hall (Woody Allen, 1977)",
+      "url": "https://www.filmoteca.cat/web/ca/film/annie-hall",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260805 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Woody Allen, 1977"
+      ],
+      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0075686/\">IMDb</a>"
+    },
     {
       "cinema": "Filmoteca",
       "title": "Boom Boom (Rosa Vergés, 1989)",
@@ -17,6 +34,23 @@
         "Rosa Vergés, 1989"
       ],
       "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Calamari Union (Aki Kaurismäki, 1985)",
+      "url": "https://www.filmoteca.cat/web/ca/film/calamari-union",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260805 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Aki Kaurismäki, 1985"
+      ],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0087020/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -37,6 +71,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Les félins (Els felins)",
+      "url": "https://www.filmoteca.cat/web/ca/film/les-felins",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260805 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "René Clément, 1964"
+      ],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0058123/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Rikos ja rangaistus (Crimen y castigo)",
       "url": "https://www.filmoteca.cat/web/ca/film/rikos-ja-rangaistus",
       "source_section": "agenda-setmanal",
@@ -51,6 +102,23 @@
         "Aki Kaurismäki, 1985"
       ],
       "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0086199/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Scarlet Street (Perversidad)",
+      "url": "https://www.filmoteca.cat/web/ca/film/scarlet-street",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260805 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Fritz Lang, 1945"
+      ],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0038057/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -71,30 +139,10 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Blue Moon (VOSE)",
-      "url": "https://www.cinemamalda.com/blue-moon/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260803 16:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt32536315/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "En el camino (VOE)",
       "url": "https://www.cinemamalda.com/en-el-camino/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20260803 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260804 20:10",
           "room": null,
@@ -118,21 +166,6 @@
       ],
       "labels": [],
       "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt0456070/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Nino tres días, una vida (VOSE)",
-      "url": "https://www.cinemamalda.com/nino/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260803 18:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Maldà",
@@ -166,45 +199,10 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "FANTASÍA (Proyección en VOSE) Fantasia",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1246",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260803 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0032455/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "Homenaje a Sam Neill: EN LA BOCA DEL MIEDO (Proyección en VOSE) In the Mouth of Madness",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1189",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260803 22:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
       "title": "LA ODISEA (Proyección en 70 mm, DTS y VOSE) The Odyssey",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260803 18:40",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260804 17:20",
           "room": null,
@@ -357,7 +355,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -366,12 +364,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 16:00",
+          "datetime": "20260804 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 22:00",
+          "datetime": "20260804 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -386,7 +384,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 19:00",
+          "datetime": "20260804 19:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -401,28 +399,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 16:00",
+          "datetime": "20260804 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 19:10",
+          "datetime": "20260804 19:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 20:00",
+          "datetime": "20260804 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 22:00",
+          "datetime": "20260804 22:00",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -431,12 +429,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 16:00",
+          "datetime": "20260804 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 18:00",
+          "datetime": "20260804 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -451,7 +449,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 18:00",
+          "datetime": "20260804 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -466,18 +464,13 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 20:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260803 22:10",
+          "datetime": "20260804 22:30",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 5.5 <a href=\"https://www.imdb.com/title/tt27200708/\">IMDb</a>"
+      "rating": "★ 5.4 <a href=\"https://www.imdb.com/title/tt27200708/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -486,23 +479,38 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 16:00",
+          "datetime": "20260804 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 20:00",
+          "datetime": "20260804 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 22:00",
+          "datetime": "20260804 22:00",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 8.3 <a href=\"https://www.imdb.com/title/tt37287335/\">IMDb</a>"
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt37287335/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
+      "title": "Rashomon [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/rashomon-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260804 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0042876/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -511,22 +519,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260803 16:00",
+          "datetime": "20260804 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 17:00",
+          "datetime": "20260804 17:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 19:00",
+          "datetime": "20260804 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260803 22:15",
+          "datetime": "20260804 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -619,40 +627,6 @@
         "Payal Kapadia, 2024"
       ],
       "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt32086077/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Annie Hall (Woody Allen, 1977)",
-      "url": "https://www.filmoteca.cat/web/ca/film/annie-hall",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260805 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Woody Allen, 1977"
-      ],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0075686/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Calamari Union (Aki Kaurismäki, 1985)",
-      "url": "https://www.filmoteca.cat/web/ca/film/calamari-union",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260805 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 1985"
-      ],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0087020/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -809,23 +783,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Les félins (Els felins)",
-      "url": "https://www.filmoteca.cat/web/ca/film/les-felins",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260805 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "René Clément, 1964"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0058123/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Reír, cantar, tal vez llorar (Marc Ferrer, 2024)",
       "url": "https://www.filmoteca.cat/web/ca/film/reir-cantar-tal-vez-llorar",
       "source_section": "agenda-setmanal",
@@ -857,23 +814,6 @@
         "William Wyler, 1953"
       ],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0046250/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Scarlet Street (Perversidad)",
-      "url": "https://www.filmoteca.cat/web/ca/film/scarlet-street",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260805 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1945"
-      ],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0038057/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -963,6 +903,15 @@
     },
     {
       "cinema": "Maldà",
+      "title": "Calle Málaga (VOE)",
+      "url": "https://www.cinemamalda.com/calle-malaga/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt32429174/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
       "title": "Cine con bebes #sesionteta (VOSE)",
       "url": "https://www.cinemamalda.com/cine-bebes-maldanins_sesionteta/",
       "source_section": "cartelera-dia-dia",
@@ -978,6 +927,39 @@
       "shows": [],
       "labels": [],
       "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Letras robadas (VOSE)",
+      "url": "https://www.cinemamalda.com/letras-robadas/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt32267691/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "#titulo-2# #titulo-vo-2#",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "AKIRA (Proyección en 4K y VOSE) Akira",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=459",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260823 21:50",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0094625/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1308,331 +1290,6 @@
       ],
       "labels": [],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0086541/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Anoche conquisté Tebas",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/anoche-conquiste-tebas-2026/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260828 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260829 20:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260901 20:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260906 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260907 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "El amor que permanece",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/el-amor-que-permanece/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260830 21:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260831 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260902 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt33381401/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "El olor a leche quemada",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/el-olor-a-leche-quemada/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260904 19:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260909 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt32844121/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "El ser querido",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/el-ser-querido/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260904 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260905 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260906 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260908 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260909 17:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260910 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33451014/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Erupcja",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/erupcja/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260828 21:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260830 19:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260831 19:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260901 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260902 19:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260903 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260904 17:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260906 19:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260908 17:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260910 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt33712666/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Funky Freaky Freaks",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/funky-freaky-freaks/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260903 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Jim Queen",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/jim-queen/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260905 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260908 19:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260909 21:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt36955518/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "La increíble historia de la pera gigante",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/la-increible-historia-de-la-pera-gegant/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260828 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260829 16:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260830 17:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260902 17:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260905 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt7006206/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "La noche está marchándose ya",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/la-noche-esta-marchandose-ya/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260918 18:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260919 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Prometido el cielo",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/prometido-el-cielo/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260829 18:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260831 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260901 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260903 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260908 12:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt33311007/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Siemprevivas",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas-zumzeig/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260910 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     }
   ]
 }
