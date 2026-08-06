@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T11:11:08.193390+00:00",
+  "fetched_at": "2026-08-06T11:11:16.331569+00:00",
   "films": [
     {
       "cinema": "Filmoteca",
@@ -20,37 +20,37 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Annie Hall (Woody Allen, 1977)",
-      "url": "https://www.filmoteca.cat/web/ca/film/annie-hall",
+      "title": "Cat Ballou (Elliot Silverstein, 1965)",
+      "url": "https://www.filmoteca.cat/web/ca/film/cat-ballou",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260805 21:00",
+          "datetime": "20260807 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Woody Allen, 1977"
+        "Elliot Silverstein, 1965"
       ],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0075686/\">IMDb</a>"
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0059017/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
-      "title": "Calamari Union (Aki Kaurismäki, 1985)",
-      "url": "https://www.filmoteca.cat/web/ca/film/calamari-union",
+      "title": "Cloak and Dagger (Clandestí)",
+      "url": "https://www.filmoteca.cat/web/ca/film/cloak-and-dagger",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260805 20:00",
+          "datetime": "20260807 17:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Aki Kaurismäki, 1985"
+        "Fritz Lang, 1946"
       ],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0087020/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0038417/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -71,6 +71,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "I Hired a Contract Killer (Contraté un asesino a sueldo)",
+      "url": "https://www.filmoteca.cat/web/ca/film/i-hired-contract-killer",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260807 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Aki Kaurismäki, 1990"
+      ],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0099818/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "L'Ami de mon amie (L’amic de la meva amiga)",
       "url": "https://www.filmoteca.cat/web/ca/film/lami-de-mon-amie",
       "source_section": "agenda-setmanal",
@@ -88,37 +105,20 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Les félins (Els felins)",
-      "url": "https://www.filmoteca.cat/web/ca/film/les-felins",
+      "title": "Roman Holiday (Vacances a Roma)",
+      "url": "https://www.filmoteca.cat/web/ca/film/roman-holiday",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260805 18:00",
+          "datetime": "20260807 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "René Clément, 1964"
+        "William Wyler, 1953"
       ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0058123/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Scarlet Street (Perversidad)",
-      "url": "https://www.filmoteca.cat/web/ca/film/scarlet-street",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260805 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1945"
-      ],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0038057/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0046250/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -188,16 +188,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260805 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260805 19:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260806 20:20",
           "room": null,
@@ -348,18 +338,108 @@
       "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0851578/\">IMDb</a>"
     },
     {
+      "cinema": "Phenomena",
+      "title": "PETER PAN (Proyección en VOSE) Peter Pan",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2224",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260807 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0316396/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "SPIDER-MAN: BRAND NEW DAY (Proyección en Dolby Atmos y VOSE) Spider-Man: Brand New Day",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2984",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260807 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260808 15:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260809 17:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260810 21:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260811 18:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260812 17:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260813 15:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt22084616/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260807 23:40",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0073629/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
+      "title": "American Psycho [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/american-psycho-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260806 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0144084/\">IMDb</a>"
+    },
+    {
       "cinema": "Renoir Floridablanca",
       "title": "El Sueño Americano",
       "url": "https://www.cinesrenoir.com/pelicula/el-sueno-americano/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 16:00",
+          "datetime": "20260806 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 22:00",
+          "datetime": "20260806 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -374,7 +454,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 19:00",
+          "datetime": "20260806 19:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -389,22 +469,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 16:00",
+          "datetime": "20260806 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 19:10",
+          "datetime": "20260806 19:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 20:00",
+          "datetime": "20260806 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 22:00",
+          "datetime": "20260806 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -419,12 +499,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 16:00",
+          "datetime": "20260806 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 18:00",
+          "datetime": "20260806 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -439,7 +519,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 18:00",
+          "datetime": "20260806 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -454,12 +534,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 20:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260805 22:10",
+          "datetime": "20260806 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -474,17 +549,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 16:00",
+          "datetime": "20260806 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 20:00",
+          "datetime": "20260806 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 22:00",
+          "datetime": "20260806 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -499,28 +574,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260805 16:00",
+          "datetime": "20260806 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 17:00",
+          "datetime": "20260806 17:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 19:00",
+          "datetime": "20260806 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260805 22:15",
+          "datetime": "20260806 22:15",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt22084616/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt22084616/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -593,40 +668,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Cat Ballou (Elliot Silverstein, 1965)",
-      "url": "https://www.filmoteca.cat/web/ca/film/cat-ballou",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260807 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Elliot Silverstein, 1965"
-      ],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0059017/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Cloak and Dagger (Clandestí)",
-      "url": "https://www.filmoteca.cat/web/ca/film/cloak-and-dagger",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260807 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1946"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0038417/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Dong dong de jia qi (Un estiu a ca l'avi)",
       "url": "https://www.filmoteca.cat/web/ca/film/dong-dong-de-jia-qi",
       "source_section": "agenda-setmanal",
@@ -678,23 +719,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "I Hired a Contract Killer (Contraté un asesino a sueldo)",
-      "url": "https://www.filmoteca.cat/web/ca/film/i-hired-contract-killer",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260807 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 1990"
-      ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0099818/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "L'Ami de mon amie (L’amic de la meva amiga)",
       "url": "https://www.filmoteca.cat/web/ca/film/lami-de-mon-amie",
       "source_section": "agenda-setmanal",
@@ -726,23 +750,6 @@
         "Marc Ferrer, 2024"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Roman Holiday (Vacances a Roma)",
-      "url": "https://www.filmoteca.cat/web/ca/film/roman-holiday",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260807 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "William Wyler, 1953"
-      ],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0046250/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1019,21 +1026,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PETER PAN (Proyección en VOSE) Peter Pan",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2224",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260807 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0316396/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "PORCO ROSSO (Proyección en VOSE) Kurenai no Buta",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=103",
       "source_section": "cartelera",
@@ -1091,66 +1083,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "SPIDER-MAN: BRAND NEW DAY (Proyección en Dolby Atmos y VOSE) Spider-Man: Brand New Day",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2984",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260807 20:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260808 15:25",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260809 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260810 21:25",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260811 18:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260812 17:40",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260813 15:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt22084616/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260807 23:40",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0073629/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
