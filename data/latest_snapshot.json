@@ -1,23 +1,6 @@
 {
-  "fetched_at": "2026-08-06T11:11:16.331569+00:00",
+  "fetched_at": "2026-08-07T09:51:12.436877+00:00",
   "films": [
-    {
-      "cinema": "Filmoteca",
-      "title": "All We Imagine as Light (La llum que imaginem)",
-      "url": "https://www.filmoteca.cat/web/ca/film/all-we-imagine-light",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260806 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Payal Kapadia, 2024"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt32086077/\">IMDb</a>"
-    },
     {
       "cinema": "Filmoteca",
       "title": "Cat Ballou (Elliot Silverstein, 1965)",
@@ -54,18 +37,35 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Hamlet Liikemaailassa (Hamlet va de negocios)",
-      "url": "https://www.filmoteca.cat/web/ca/film/hamlet-liikemaailassa",
+      "title": "Dong dong de jia qi (Un estiu a ca l'avi)",
+      "url": "https://www.filmoteca.cat/web/ca/film/dong-dong-de-jia-qi",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260806 18:00",
+          "datetime": "20260808 17:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Aki Kaurismäki, 1987"
+        "Hou Hsiao-hsien, 1984"
+      ],
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0087164/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Grand Tour (Miguel Gomes, 2024)",
+      "url": "https://www.filmoteca.cat/web/ca/film/grand-tour",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260808 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Miguel Gomes, 2024"
       ],
       "rating": null
     },
@@ -88,20 +88,20 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "L'Ami de mon amie (L’amic de la meva amiga)",
-      "url": "https://www.filmoteca.cat/web/ca/film/lami-de-mon-amie",
+      "title": "Reír, cantar, tal vez llorar (Marc Ferrer, 2024)",
+      "url": "https://www.filmoteca.cat/web/ca/film/reir-cantar-tal-vez-llorar",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260806 21:00",
+          "datetime": "20260808 20:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Éric Rohmer, 1986"
+        "Marc Ferrer, 2024"
       ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0092550/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -122,65 +122,55 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "The Woman in the Window (La mujer del cuadro)",
-      "url": "https://www.filmoteca.cat/web/ca/film/woman-window",
+      "title": "Varjoja paratiisissa (Sombras en el paraíso)",
+      "url": "https://www.filmoteca.cat/web/ca/film/varjoja-paratiisissa",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260806 20:00",
+          "datetime": "20260808 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Fritz Lang, 1945"
+        "Aki Kaurismäki, 1986"
       ],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt6111574/\">IMDb</a>"
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0092149/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Ammonite (VOSE)",
-      "url": "https://www.cinemamalda.com/ammonite/",
+      "title": "El síndrome Rembrandt (VOSE)",
+      "url": "https://www.cinemamalda.com/el-sindrome-rembrandt/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260806 16:00",
+          "datetime": "20260808 16:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260811 20:15",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt7983894/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "El mundo que viene (VOSE)",
-      "url": "https://www.cinemamalda.com/el-mundo-que-viene/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260806 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt9738716/\">IMDb</a>"
+      "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt31539698/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
-      "title": "EL HOMBRE QUE MATÓ A LIBERTY VALANCE (Proyección en VOSE) The Man Who Shot Liberty Valance",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1044",
+      "title": "LA MOSCA (1986) (Proyección en VOSE) The Fly",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1727",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260806 17:30",
+          "datetime": "20260808 22:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0056217/\">IMDb</a>"
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0091064/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -188,11 +178,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260806 20:20",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260807 17:00",
           "room": null,
@@ -324,21 +309,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PAPRIKA, DETECTIVE DE LOS SUEÑOS (Proyección en VOSE) Papurika",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2192",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260806 15:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0851578/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "PETER PAN (Proyección en VOSE) Peter Pan",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2224",
       "source_section": "cartelera",
@@ -414,53 +384,23 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "American Psycho [Wilder Cinema]",
-      "url": "https://www.cinesrenoir.com/pelicula/american-psycho-wilder-cinema/",
+      "title": "El Amor Que Permanece",
+      "url": "https://www.cinesrenoir.com/pelicula/el-amor-que-permanece/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260806 20:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0144084/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "El Sueño Americano",
-      "url": "https://www.cinesrenoir.com/pelicula/el-sueno-americano/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260806 16:00",
+          "datetime": "20260807 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 22:00",
+          "datetime": "20260807 18:10",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt36313062/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "La Copia Perfecta",
-      "url": "https://www.cinesrenoir.com/pelicula/la-copia-perfecta/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260806 19:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt33381401/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -469,22 +409,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260806 16:00",
+          "datetime": "20260807 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 19:10",
+          "datetime": "20260807 19:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 20:00",
+          "datetime": "20260807 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 22:00",
+          "datetime": "20260807 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -499,12 +439,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260806 16:00",
+          "datetime": "20260807 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 18:00",
+          "datetime": "20260807 18:00",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260807 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -514,27 +459,12 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Mala Bestia",
-      "url": "https://www.cinesrenoir.com/pelicula/mala-bestia/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260806 18:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Renoir Floridablanca",
       "title": "Mother Mary",
       "url": "https://www.cinesrenoir.com/pelicula/mother-mary/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260806 22:30",
+          "datetime": "20260807 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -549,17 +479,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260806 16:00",
+          "datetime": "20260807 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 20:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260806 22:00",
+          "datetime": "20260807 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -574,22 +499,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260806 16:00",
+          "datetime": "20260807 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 17:00",
+          "datetime": "20260807 17:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 19:00",
+          "datetime": "20260807 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260806 22:15",
+          "datetime": "20260807 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -668,23 +593,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Dong dong de jia qi (Un estiu a ca l'avi)",
-      "url": "https://www.filmoteca.cat/web/ca/film/dong-dong-de-jia-qi",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260808 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Hou Hsiao-hsien, 1984"
-      ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0087164/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "El último verano de la Boyita (Julia Solomonoff, 2009)",
       "url": "https://www.filmoteca.cat/web/ca/film/el-ultimo-verano-de-la-boyita",
       "source_section": "agenda-setmanal",
@@ -702,23 +610,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Grand Tour (Miguel Gomes, 2024)",
-      "url": "https://www.filmoteca.cat/web/ca/film/grand-tour",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260808 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Miguel Gomes, 2024"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "L'Ami de mon amie (L’amic de la meva amiga)",
       "url": "https://www.filmoteca.cat/web/ca/film/lami-de-mon-amie",
       "source_section": "agenda-setmanal",
@@ -733,23 +624,6 @@
         "Éric Rohmer, 1986"
       ],
       "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0092550/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Reír, cantar, tal vez llorar (Marc Ferrer, 2024)",
-      "url": "https://www.filmoteca.cat/web/ca/film/reir-cantar-tal-vez-llorar",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260808 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Marc Ferrer, 2024"
-      ],
-      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -786,30 +660,19 @@
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0098532/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Varjoja paratiisissa (Sombras en el paraíso)",
-      "url": "https://www.filmoteca.cat/web/ca/film/varjoja-paratiisissa",
-      "source_section": "agenda-setmanal",
+      "cinema": "Maldà",
+      "title": "15 pruebas de amor (VOSE)",
+      "url": "https://www.cinemamalda.com/15-pruebas-de-amor/",
+      "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260808 18:00",
+          "datetime": "20260809 18:35",
           "room": null,
           "language": null
         }
       ],
-      "labels": [
-        "Aki Kaurismäki, 1986"
-      ],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0092149/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "A 500 millas de casa (VOSE)",
-      "url": "https://www.cinemamalda.com/a-500-millas-de-casa/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
       "labels": [],
-      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt31216533/\">IMDb</a>"
+      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt34762801/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -822,8 +685,62 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Cine con bebes #sesionteta (VOSE)",
-      "url": "https://www.cinemamalda.com/cine-bebes-maldanins_sesionteta/",
+      "title": "Calle Málaga (VOE)",
+      "url": "https://www.cinemamalda.com/calle-malaga/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt32429174/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "En el camino (VOE)",
+      "url": "https://www.cinemamalda.com/en-el-camino/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260810 20:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt37660509/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "La copia perfecta (VOSCAT)",
+      "url": "https://www.cinemamalda.com/la-copia-perfecta/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260811 16:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Rebuilding (VOSE)",
+      "url": "https://www.cinemamalda.com/rebuilding/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260810 16:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Tal vez (VOE)",
+      "url": "https://www.cinemamalda.com/tal-vez/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
@@ -831,39 +748,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Incontrolable (I swear) (VOSE)",
-      "url": "https://www.cinemamalda.com/incontrolable/",
+      "title": "The history of sound (VOSE)",
+      "url": "https://www.cinemamalda.com/the-history-of-sound/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260810 18:15",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt0456070/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "La copia perfecta (VOSCAT)",
-      "url": "https://www.cinemamalda.com/la-copia-perfecta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Letras robadas (VOSE)",
-      "url": "https://www.cinemamalda.com/letras-robadas/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt32267691/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Un poeta (VOE)",
-      "url": "https://www.cinemamalda.com/un-poeta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 8.8 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt15799524/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -993,21 +889,6 @@
       ],
       "labels": [],
       "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0118694/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LA MOSCA (1986) (Proyección en VOSE) The Fly",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1727",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260808 22:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0091064/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1247,7 +1128,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt33451014/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33451014/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
