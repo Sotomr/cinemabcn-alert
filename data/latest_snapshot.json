@@ -1,6 +1,23 @@
 {
-  "fetched_at": "2026-08-19T09:21:06.751292+00:00",
+  "fetched_at": "2026-08-20T09:22:16.002246+00:00",
   "films": [
+    {
+      "cinema": "Filmoteca",
+      "title": "A Countess from Hong Kong (La comtessa de Hong-Kong)",
+      "url": "https://www.filmoteca.cat/web/ca/film/countess-hong-kong",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260821 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Charles Chaplin, 1966"
+      ],
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0061523/\">IMDb</a>"
+    },
     {
       "cinema": "Filmoteca",
       "title": "American Guerrilla in the Philippines (La guerrilla americana a les Filipines)",
@@ -37,6 +54,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Barefoot in the Park (Descalços pel parc)",
+      "url": "https://www.filmoteca.cat/web/ca/film/barefoot-park",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260821 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Gene Saks, 1967"
+      ],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0061385/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Boom Boom (Rosa Vergés, 1989)",
       "url": "https://www.filmoteca.cat/web/ca/film/boom-boom",
       "source_section": "agenda-setmanal",
@@ -59,7 +93,7 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260819 21:00",
+          "datetime": "20260821 20:00",
           "room": null,
           "language": null
         }
@@ -71,54 +105,20 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Hurry Sundown (La noche deseada)",
-      "url": "https://www.filmoteca.cat/web/ca/film/hurry-sundown",
+      "title": "Laitakaupunggin valot (Luces al atardecer)",
+      "url": "https://www.filmoteca.cat/web/ca/film/laitakaupunggin-valot",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260819 20:00",
+          "datetime": "20260821 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Otto Preminger, 1967"
+        "Aki Kaurismäki, 2006"
       ],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0061796/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Mies vailla menneisyyttä (Un hombre sin pasado)",
-      "url": "https://www.filmoteca.cat/web/ca/film/mies-vailla-menneisyytta",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260819 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 2002"
-      ],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0311519/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Roman Holiday (Vacances a Roma)",
-      "url": "https://www.filmoteca.cat/web/ca/film/roman-holiday",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260819 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "William Wyler, 1953"
-      ],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0046250/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -219,16 +219,6 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 15:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260819 19:45",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260820 18:40",
           "room": null,
           "language": null
@@ -319,6 +309,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "PORCO ROSSO (Proyección en VOSE) Kurenai no Buta",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=103",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260821 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0104652/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "TIBURÓN (Proyección en 4K y VOSE) Jaws",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2767",
       "source_section": "cartelera",
@@ -334,17 +339,32 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "Ciudad De Dios [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/ciudad-de-dios-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260820 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.4 <a href=\"https://www.imdb.com/title/tt0317248/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "El Amor Que Permanece",
       "url": "https://www.cinesrenoir.com/pelicula/el-amor-que-permanece/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 16:00",
+          "datetime": "20260820 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 22:35",
+          "datetime": "20260820 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -359,22 +379,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 16:00",
+          "datetime": "20260820 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 19:10",
+          "datetime": "20260820 19:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 20:00",
+          "datetime": "20260820 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 21:45",
+          "datetime": "20260820 21:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -389,17 +409,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 16:00",
+          "datetime": "20260820 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 18:00",
+          "datetime": "20260820 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 20:35",
+          "datetime": "20260820 20:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -414,7 +434,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 22:35",
+          "datetime": "20260820 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -429,17 +449,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 15:50",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260819 18:05",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260819 20:20",
+          "datetime": "20260820 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -454,17 +464,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 16:00",
+          "datetime": "20260820 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 19:00",
+          "datetime": "20260820 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260819 22:15",
+          "datetime": "20260820 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -479,7 +489,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260819 18:10",
+          "datetime": "20260820 18:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -558,40 +568,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "A Countess from Hong Kong (La comtessa de Hong-Kong)",
-      "url": "https://www.filmoteca.cat/web/ca/film/countess-hong-kong",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260821 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Charles Chaplin, 1966"
-      ],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0061523/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Barefoot in the Park (Descalços pel parc)",
-      "url": "https://www.filmoteca.cat/web/ca/film/barefoot-park",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260821 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Gene Saks, 1967"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0061385/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Clueless (Amy Heckerling, 1995)",
       "url": "https://www.filmoteca.cat/web/ca/film/clueless",
       "source_section": "agenda-setmanal",
@@ -606,23 +582,6 @@
         "Amy Heckerling, 1995"
       ],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0112697/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "High Fidelity (Alta fidelitat)",
-      "url": "https://www.filmoteca.cat/web/ca/film/high-fidelity",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260821 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Stephen Frears, 2000"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0146882/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -657,23 +616,6 @@
         "Steven Wouterlood, 2019"
       ],
       "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt6851430/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Laitakaupunggin valot (Luces al atardecer)",
-      "url": "https://www.filmoteca.cat/web/ca/film/laitakaupunggin-valot",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260821 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 2006"
-      ],
-      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -1058,7 +1000,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt27165187/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt27165187/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1158,7 +1100,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 5.5 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
+      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1203,7 +1145,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0101414/\">IMDb</a>"
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt2771200/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1389,21 +1331,6 @@
       ],
       "labels": [],
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0060955/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PORCO ROSSO (Proyección en VOSE) Kurenai no Buta",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=103",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260821 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0104652/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
