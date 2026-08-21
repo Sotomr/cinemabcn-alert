@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-20T09:22:16.002246+00:00",
+  "fetched_at": "2026-08-21T09:24:18.023551+00:00",
   "films": [
     {
       "cinema": "Filmoteca",
@@ -20,40 +20,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "American Guerrilla in the Philippines (La guerrilla americana a les Filipines)",
-      "url": "https://www.filmoteca.cat/web/ca/film/american-guerrilla-philippines",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260820 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1950"
-      ],
-      "rating": "★ 5.5 <a href=\"https://www.imdb.com/title/tt0042195/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Barbarella (Roger Vadim, 1968)",
-      "url": "https://www.filmoteca.cat/web/ca/film/barbarella",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260820 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Roger Vadim, 1968"
-      ],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0062711/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Barefoot in the Park (Descalços pel parc)",
       "url": "https://www.filmoteca.cat/web/ca/film/barefoot-park",
       "source_section": "agenda-setmanal",
@@ -68,23 +34,6 @@
         "Gene Saks, 1967"
       ],
       "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0061385/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Boom Boom (Rosa Vergés, 1989)",
-      "url": "https://www.filmoteca.cat/web/ca/film/boom-boom",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260820 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Rosa Vergés, 1989"
-      ],
-      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt0062751/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -105,6 +54,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Kuolleet lehdet (Fallen Leaves)",
+      "url": "https://www.filmoteca.cat/web/ca/film/kuolleet-lehdet",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260822 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Aki Kaurismäki, 2023"
+      ],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt21027780/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Laitakaupunggin valot (Luces al atardecer)",
       "url": "https://www.filmoteca.cat/web/ca/film/laitakaupunggin-valot",
       "source_section": "agenda-setmanal",
@@ -122,65 +88,94 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Tardes de soledad (Albert Serra, 2024)",
-      "url": "https://www.filmoteca.cat/web/ca/film/tardes-de-soledad",
+      "title": "Super 8 (J.J. Abrams, 2011)",
+      "url": "https://www.filmoteca.cat/web/ca/film/super-8",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260820 20:00",
+          "datetime": "20260822 17:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Albert Serra, 2024"
+        "J.J. Abrams, 2011"
       ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt26245982/\">IMDb</a>"
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1650062/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "There's Something About Mary (Alguna cosa passa amb la Mary)",
+      "url": "https://www.filmoteca.cat/web/ca/film/theres-something-about-mary",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260822 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Peter i Bobby Farrrelli, 1998"
+      ],
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt0129387/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "They Shoot Horses, Don't They? (Oi que maten els cavalls?)",
+      "url": "https://www.filmoteca.cat/web/ca/film/they-shoot-horses-dont-they",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260822 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Sydney Pollack, 1969"
+      ],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0065088/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "15 pruebas de amor (VOSE)",
-      "url": "https://www.cinemamalda.com/15-pruebas-de-amor/",
+      "title": "Días de agosto (VOE)",
+      "url": "https://www.cinemamalda.com/dias-de-agosto/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260820 17:25",
+          "datetime": "20260821 16:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt34762801/\">IMDb</a>"
+      "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt37597339/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "En el camino (VOE)",
-      "url": "https://www.cinemamalda.com/en-el-camino/",
+      "title": "El sueño americano (VOSE)",
+      "url": "https://www.cinemamalda.com/el-sueno-americano/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260820 19:10",
+          "datetime": "20260821 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260822 16:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260824 16:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt37660509/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "L'été nucléaire (VOSCAT)",
-      "url": "https://www.cinemamalda.com/lete-nucleaire/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260820 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 4.8 <a href=\"https://www.imdb.com/title/tt13259672/\">IMDb</a>"
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt36313062/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -189,7 +184,7 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260820 20:45",
+          "datetime": "20260822 21:00",
           "room": null,
           "language": null
         }
@@ -198,19 +193,24 @@
       "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt29253299/\">IMDb</a>"
     },
     {
-      "cinema": "Phenomena",
-      "title": "AMERICAN PSYCHO (Proyección en 4K y VOSE) American Psycho",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=499",
-      "source_section": "cartelera",
+      "cinema": "Maldà",
+      "title": "Vivir la tierra (VOSE) ¡ESTRENO!",
+      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
+      "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260820 22:15",
+          "datetime": "20260822 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260824 18:15",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0144084/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Phenomena",
@@ -218,11 +218,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260820 18:40",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260821 17:20",
           "room": null,
@@ -324,53 +319,38 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "TIBURÓN (Proyección en 4K y VOSE) Jaws",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2767",
+      "title": "TRAINSPOTTING (Proyección en 4K y VOSE) Trainspotting",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2800",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260820 15:45",
+          "datetime": "20260822 23:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0073195/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0117951/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Ciudad De Dios [Wilder Cinema]",
-      "url": "https://www.cinesrenoir.com/pelicula/ciudad-de-dios-wilder-cinema/",
+      "title": "El Coro De Praga",
+      "url": "https://www.cinesrenoir.com/pelicula/el-coro-de-praga/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260820 20:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.4 <a href=\"https://www.imdb.com/title/tt0317248/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "El Amor Que Permanece",
-      "url": "https://www.cinesrenoir.com/pelicula/el-amor-que-permanece/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260820 16:00",
+          "datetime": "20260821 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260820 22:35",
+          "datetime": "20260821 19:45",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt33381401/\">IMDb</a>"
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt28149522/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -379,22 +359,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260820 16:00",
+          "datetime": "20260821 18:30",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260820 19:10",
+          "datetime": "20260821 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260820 20:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260820 21:45",
+          "datetime": "20260821 21:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -409,17 +384,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260820 16:00",
+          "datetime": "20260821 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260820 18:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260820 20:35",
+          "datetime": "20260821 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -429,27 +399,22 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Obsession",
-      "url": "https://www.cinesrenoir.com/pelicula/obsession/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260820 22:35",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt37287335/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
       "title": "Palestina 36",
       "url": "https://www.cinesrenoir.com/pelicula/palestina-36/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260820 15:50",
+          "datetime": "20260821 15:50",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260821 18:05",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260821 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -459,22 +424,37 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "Prometido El Cielo",
+      "url": "https://www.cinesrenoir.com/pelicula/prometido-el-cielo/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260821 17:50",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260821 22:35",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt33311007/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "Spider-Man: Brand New Day",
       "url": "https://www.cinesrenoir.com/pelicula/spider-man-brand-new-day/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260820 16:00",
+          "datetime": "20260821 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260820 19:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260820 22:15",
+          "datetime": "20260821 21:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -489,7 +469,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260820 18:10",
+          "datetime": "20260821 16:00",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260821 18:50",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260821 21:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -585,23 +575,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Kuolleet lehdet (Fallen Leaves)",
-      "url": "https://www.filmoteca.cat/web/ca/film/kuolleet-lehdet",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260822 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 2023"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt21027780/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "La meva setmana extraordinària amb la Tess (Mijn bijzonder rare week met Tess)",
       "url": "https://www.filmoteca.cat/web/ca/film/la-meva-setmana-extraordinaria-amb-la-tess",
       "source_section": "agenda-setmanal",
@@ -652,100 +625,67 @@
       "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0045070/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Super 8 (J.J. Abrams, 2011)",
-      "url": "https://www.filmoteca.cat/web/ca/film/super-8",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260822 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "J.J. Abrams, 2011"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1650062/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "There's Something About Mary (Alguna cosa passa amb la Mary)",
-      "url": "https://www.filmoteca.cat/web/ca/film/theres-something-about-mary",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260822 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Peter i Bobby Farrrelli, 1998"
-      ],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt0129387/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "They Shoot Horses, Don't They? (Oi que maten els cavalls?)",
-      "url": "https://www.filmoteca.cat/web/ca/film/they-shoot-horses-dont-they",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260822 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Sydney Pollack, 1969"
-      ],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0065088/\">IMDb</a>"
-    },
-    {
       "cinema": "Maldà",
-      "title": "A 500 millas de casa (VOSE)",
-      "url": "https://www.cinemamalda.com/a-500-millas-de-casa-2/",
+      "title": "Backrooms (VOSE)",
+      "url": "https://www.cinemamalda.com/backrooms/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
-      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt31216533/\">IMDb</a>"
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Cuenta atrás (VOSE) ¡ESTRENO!",
+      "url": "https://www.cinemamalda.com/cuenta-atras/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260825 18:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Maldà",
       "title": "Incontrolable (I swear) (VOSE)",
       "url": "https://www.cinemamalda.com/incontrolable/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260823 18:15",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
       "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt0456070/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "La copia perfecta (VOSE)",
-      "url": "https://www.cinemamalda.com/la-copia-perfecta/",
+      "title": "L'été nucléaire (VOSCAT)",
+      "url": "https://www.cinemamalda.com/lete-nucleaire/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
+      "rating": "★ 4.8 <a href=\"https://www.imdb.com/title/tt13259672/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Rebuilding (VOSE)",
-      "url": "https://www.cinemamalda.com/rebuilding/",
+      "title": "Un talento único (VOSE)",
+      "url": "https://www.cinemamalda.com/un-talento-unico/",
       "source_section": "cartelera-dia-dia",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20260825 16:30",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Un poeta (VOE)",
-      "url": "https://www.cinemamalda.com/un-poeta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 8.8 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt33296751/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1100,7 +1040,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1145,7 +1085,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt2771200/\">IMDb</a>"
+      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0101414/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1466,21 +1406,6 @@
       ],
       "labels": [],
       "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0482571/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "TRAINSPOTTING (Proyección en 4K y VOSE) Trainspotting",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2800",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260822 23:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0117951/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
