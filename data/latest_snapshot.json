@@ -1,6 +1,151 @@
 {
-  "fetched_at": "2026-08-24T09:34:37.964490+00:00",
+  "fetched_at": "2026-08-25T09:23:39.498773+00:00",
   "films": [
+    {
+      "cinema": "Espai Texas",
+      "title": "EL CEL PROMÈS",
+      "url": "https://espaitexas.cat/pelicula/el-cel-promes/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260825 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260825 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260826 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260826 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260827 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260827 20:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt33311007/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "L'AMIC SILENCIOS (SILENT FRIEND)",
+      "url": "https://espaitexas.cat/pelicula/silent-friend/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260826 20:10",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "LA CÒPIA PERFECTA",
+      "url": "https://espaitexas.cat/pelicula/la-copia-perfecta/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260825 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260826 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260827 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "LADY NAZCA",
+      "url": "https://espaitexas.cat/pelicula/ladynazca/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260825 16:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt12349818/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "REBUILDING",
+      "url": "https://espaitexas.cat/pelicula/rebuilding/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260825 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260826 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260827 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "VIVA",
+      "url": "https://espaitexas.cat/pelicula/viva/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260825 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260826 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260827 16:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.3 <a href=\"https://www.imdb.com/title/tt36822560/\">IMDb</a>"
+    },
     {
       "cinema": "Filmoteca",
       "title": "American Guerrilla in the Philippines (La guerrilla americana a les Filipines)",
@@ -54,6 +199,74 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "But I'm a Cheerleader (Jamie Babbit, 1999)",
+      "url": "https://www.filmoteca.cat/web/ca/film/im-cheerleader",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260826 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Jamie Babbit, 1999"
+      ],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0179116/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Klute (Alan J. Pakula, 1971)",
+      "url": "https://www.filmoteca.cat/web/ca/film/klute",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260826 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Alan J. Pakula, 1971"
+      ],
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt0067309/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Rancho Notorious (Encobridora)",
+      "url": "https://www.filmoteca.cat/web/ca/film/rancho-notorious",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260826 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Fritz Lang, 1952"
+      ],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0045070/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Rikos ja rangaistus (Crimen y castigo)",
+      "url": "https://www.filmoteca.cat/web/ca/film/rikos-ja-rangaistus",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260826 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Aki Kaurismäki, 1985"
+      ],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0086199/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Toivon tuolla puolen (El otro lado de la esperanza)",
       "url": "https://www.filmoteca.cat/web/ca/film/toivon-tuolla-puolen",
       "source_section": "agenda-setmanal",
@@ -86,21 +299,6 @@
     },
     {
       "cinema": "Maldà",
-      "title": "El sueño americano (VOSE)",
-      "url": "https://www.cinemamalda.com/el-sueno-americano/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260824 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt36313062/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "Letras robadas (VOSE)",
       "url": "https://www.cinemamalda.com/letras-robadas/",
       "source_section": "cartelera-dia-dia",
@@ -130,31 +328,11 @@
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt33296751/\">IMDb</a>"
     },
     {
-      "cinema": "Maldà",
-      "title": "Vivir la tierra (VOSE) ¡ESTRENO!",
-      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260824 18:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
       "cinema": "Phenomena",
       "title": "LA ODISEA (Proyección en 70 mm, DTS y VOSE) The Odyssey",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260824 16:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260825 16:15",
           "room": null,
@@ -231,18 +409,18 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PROGRAMA DOBLE SORPRESA CLUB PHENOMENA",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2356",
+      "title": "PLAN DIABÓLICO (Proyección en VOSE) Seconds",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2292",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 20:15",
+          "datetime": "20260826 15:10",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0060955/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -251,12 +429,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 15:50",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260824 19:45",
+          "datetime": "20260825 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -271,17 +444,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 18:30",
+          "datetime": "20260825 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 20:00",
+          "datetime": "20260825 18:30",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 21:50",
+          "datetime": "20260825 21:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -296,12 +469,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 16:00",
+          "datetime": "20260825 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 18:00",
+          "datetime": "20260825 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -316,17 +489,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 15:50",
+          "datetime": "20260825 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 18:05",
+          "datetime": "20260825 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 20:20",
+          "datetime": "20260825 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -341,12 +514,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 17:50",
+          "datetime": "20260825 17:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 22:35",
+          "datetime": "20260825 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -356,17 +529,37 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "Ser O No Ser [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/ser-o-no-ser-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260825 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0035446/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "Spider-Man: Brand New Day",
       "url": "https://www.cinesrenoir.com/pelicula/spider-man-brand-new-day/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 16:00",
+          "datetime": "20260825 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 21:30",
+          "datetime": "20260825 19:10",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260825 21:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -381,17 +574,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260824 16:00",
+          "datetime": "20260825 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 18:50",
+          "datetime": "20260825 18:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260824 21:45",
+          "datetime": "20260825 21:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -410,21 +603,27 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "BACKROOMS: LIQUIDACIÓ TOTAL (VERSIÓ AMPLIADA)",
+      "url": "https://espaitexas.cat/pelicula/backrooms/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260827 20:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "CINC SEGONS",
       "url": "https://espaitexas.cat/pelicula/cinc-segons/",
       "source_section": "cartellera-cinema",
       "shows": [],
       "labels": [],
       "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt34960684/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "EL CEL PROMÈS",
-      "url": "https://espaitexas.cat/pelicula/el-cel-promes/",
-      "source_section": "cartellera-cinema",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt33311007/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -504,23 +703,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "But I'm a Cheerleader (Jamie Babbit, 1999)",
-      "url": "https://www.filmoteca.cat/web/ca/film/im-cheerleader",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260826 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jamie Babbit, 1999"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0179116/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Clash by Night (Trobades a la nit)",
       "url": "https://www.filmoteca.cat/web/ca/film/clash-night",
       "source_section": "agenda-setmanal",
@@ -577,23 +759,6 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260826 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Alan J. Pakula, 1971"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt0067309/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Klute (Alan J. Pakula, 1971)",
-      "url": "https://www.filmoteca.cat/web/ca/film/klute",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
           "datetime": "20260829 20:00",
           "room": null,
           "language": null
@@ -637,40 +802,6 @@
         "Alain Guiraudie, 2024"
       ],
       "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt32085997/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Rancho Notorious (Encobridora)",
-      "url": "https://www.filmoteca.cat/web/ca/film/rancho-notorious",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260826 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1952"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0045070/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Rikos ja rangaistus (Crimen y castigo)",
-      "url": "https://www.filmoteca.cat/web/ca/film/rikos-ja-rangaistus",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260826 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Aki Kaurismäki, 1985"
-      ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0086199/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -819,12 +950,12 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Backrooms (VOSE)",
-      "url": "https://www.cinemamalda.com/backrooms/",
+      "title": "L'été nucléaire (VOSCAT)",
+      "url": "https://www.cinemamalda.com/lete-nucleaire/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 4.8 <a href=\"https://www.imdb.com/title/tt13259672/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -837,21 +968,42 @@
     },
     {
       "cinema": "Maldà",
+      "title": "Love me tender (VOSE)",
+      "url": "https://www.cinemamalda.com/love-me-tender/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260827 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt0049452/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Tal vez (VOE)",
+      "url": "https://www.cinemamalda.com/tal-vez/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260827 17:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Maldà",
       "title": "Un poeta (VOE)",
       "url": "https://www.cinemamalda.com/un-poeta/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
       "rating": "★ 8.8 <a href=\"https://www.imdb.com/title/tt36544524/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "#titulo-2# #titulo-vo-2#",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Phenomena",
@@ -947,6 +1099,21 @@
       ],
       "labels": [],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0052618/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "BLADE RUNNER: THE FINAL CUT (Proyección en Dolby Atmos, 4K y VOSE)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=625",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260915 21:50",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0083658/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1185,6 +1352,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "HAPPY TOGETHER (Proyección en 4K y VOSE) Chun gwong tsa sit",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1452",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260915 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
       "title": "INSIDIOUS: FUERA DEL MÁS ALLÁ (Proyección en VOSE) Insidious: Out of the Further",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2995",
       "source_section": "cartelera",
@@ -1206,7 +1388,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1290,18 +1472,18 @@
           "language": null
         },
         {
-          "datetime": "20260916 17:10",
+          "datetime": "20260915 19:20",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260917 21:45",
+          "datetime": "20260916 17:10",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt21285562/\">IMDb</a>"
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt21285562/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1425,6 +1607,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "MEMORIES OF MURDER (CRÓNICA DE UN ASESINO EN SERIE) (Proyección en VOSE) Salinui chueok (Memories of Murder)",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1993",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260917 21:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0353969/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "MICHAEL (Proyección en 4K, Dolby Atmos y VOSE) Michael",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2968",
       "source_section": "cartelera",
@@ -1490,6 +1687,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "PERDICIÓN (Proyección en 4K y VOSE) Double Indemnity",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2208",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260915 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0036775/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "PINK FLOYD: THE WALL (EL MURO) (Proyección en 35 mm y VOSE) Pink Floyd: The Wall",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2287",
       "source_section": "cartelera",
@@ -1502,21 +1714,6 @@
       ],
       "labels": [],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0084503/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PLAN DIABÓLICO (Proyección en VOSE) Seconds",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2292",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260826 15:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0060955/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
