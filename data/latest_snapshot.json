@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-28T20:28:33.474525+00:00",
+  "fetched_at": "2026-08-29T14:04:11.154085+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -73,11 +73,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260828 21:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260829 19:30",
           "room": null,
           "language": null
@@ -120,6 +115,31 @@
       ],
       "labels": [],
       "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt33712666/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "LA CÒPIA PERFECTA",
+      "url": "https://espaitexas.cat/pelicula/la-copia-perfecta/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260830 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260901 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260903 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -167,11 +187,6 @@
       "url": "https://espaitexas.cat/pelicula/mala-bestia/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260828 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260829 18:30",
           "room": null,
@@ -233,6 +248,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Ariel (Aki Kaurismäki, 1988)",
+      "url": "https://www.filmoteca.cat/web/ca/film/ariel",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260830 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Aki Kaurismäki, 1988"
+      ],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0094675/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Els Goonies (The Goonies)",
       "url": "https://www.filmoteca.cat/web/ca/film/els-goonies",
       "source_section": "agenda-setmanal",
@@ -267,6 +299,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Lola et le piano à bruits (Lola i el piano trencaclosques)",
+      "url": "https://www.filmoteca.cat/web/ca/film/lola-et-le-piano-bruits",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260830 17:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Diverses autories, 2024"
+      ],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt39174702/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Shang Hai zhi yen (Shanghai Blues)",
       "url": "https://www.filmoteca.cat/web/ca/film/shang-hai-zhi-yen",
       "source_section": "agenda-setmanal",
@@ -281,6 +330,40 @@
         "Tsui Hark, 1984"
       ],
       "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0088097/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "The Big Heat (Los sobornados)",
+      "url": "https://www.filmoteca.cat/web/ca/film/big-heat",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260830 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Fritz Lang, 1953"
+      ],
+      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0045555/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Tout va bien (Todo va bien)",
+      "url": "https://www.filmoteca.cat/web/ca/film/tout-va-bien",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260830 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Jean-Luc Godard, Jean-Pierre Gorin, 1972"
+      ],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0069398/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -336,18 +419,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "En el camino (VOE)",
-      "url": "https://www.cinemamalda.com/en-el-camino/",
+      "title": "Rebuilding (VOSE)",
+      "url": "https://www.cinemamalda.com/rebuilding/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260829 15:15",
+          "datetime": "20260830 16:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt37660509/\">IMDb</a>"
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -365,49 +448,19 @@
       "rating": null
     },
     {
-      "cinema": "Phenomena",
-      "title": "EL FINAL DE OAK STREET (Proyección en Dolby Atmos y VOSE) The End of Oak Street",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2986",
-      "source_section": "cartelera",
+      "cinema": "Maldà",
+      "title": "Vivir la tierra (VOSE)",
+      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
+      "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260829 15:10",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260901 21:35",
+          "datetime": "20260830 18:10",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt27165187/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "INSIDIOUS: FUERA DEL MÁS ALLÁ (Proyección en VOSE) Insidious: Out of the Further",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2995",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260828 23:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260831 19:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260902 22:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -460,13 +513,28 @@
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
+      "cinema": "Phenomena",
+      "title": "MATRIX (Proyección en 4K y VOSE) The Matrix",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1979",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260830 22:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.3 <a href=\"https://www.imdb.com/title/tt0133093/\">IMDb</a>"
+    },
+    {
       "cinema": "Renoir Floridablanca",
       "title": "El Coro De Praga",
       "url": "https://www.cinesrenoir.com/pelicula/el-coro-de-praga/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260828 15:50",
+          "datetime": "20260829 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -481,32 +549,32 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260828 16:00",
+          "datetime": "20260829 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260828 17:00",
+          "datetime": "20260829 17:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260828 18:00",
+          "datetime": "20260829 18:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260828 19:00",
+          "datetime": "20260829 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260828 20:00",
+          "datetime": "20260829 20:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260828 21:35",
+          "datetime": "20260829 21:35",
           "room": null,
           "language": "Castellano"
         }
@@ -521,28 +589,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260828 16:00",
+          "datetime": "20260829 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 18:15",
+          "datetime": "20260829 18:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 20:30",
+          "datetime": "20260829 20:30",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 22:45",
+          "datetime": "20260829 22:45",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt21285562/\">IMDb</a>"
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt21285562/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -551,12 +619,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260828 20:35",
+          "datetime": "20260829 20:35",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 21:30",
+          "datetime": "20260829 21:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -571,22 +639,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260828 15:50",
+          "datetime": "20260829 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 18:05",
+          "datetime": "20260829 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 20:20",
+          "datetime": "20260829 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 22:40",
+          "datetime": "20260829 22:40",
           "room": null,
           "language": "subtitulada"
         }
@@ -601,7 +669,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260828 22:35",
+          "datetime": "20260829 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -616,12 +684,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260828 16:00",
+          "datetime": "20260829 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260828 19:00",
+          "datetime": "20260829 19:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -663,6 +731,31 @@
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "El amor que permanece",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/el-amor-que-permanece/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260830 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260831 17:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260902 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt33381401/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -829,31 +922,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "LA CÒPIA PERFECTA",
-      "url": "https://espaitexas.cat/pelicula/la-copia-perfecta/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260830 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260901 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260903 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt35495035/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "REBUILDING",
       "url": "https://espaitexas.cat/pelicula/rebuilding/",
       "source_section": "cartellera-cinema",
@@ -883,72 +951,19 @@
       "rating": "★ 4.0 <a href=\"https://www.themoviedb.org/movie/1655929\">TMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Ariel (Aki Kaurismäki, 1988)",
-      "url": "https://www.filmoteca.cat/web/ca/film/ariel",
-      "source_section": "agenda-setmanal",
+      "cinema": "Maldà",
+      "title": "Días de agosto (VOE)",
+      "url": "https://www.cinemamalda.com/dias-de-agosto/",
+      "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260830 21:00",
+          "datetime": "20260901 15:00",
           "room": null,
           "language": null
         }
       ],
-      "labels": [
-        "Aki Kaurismäki, 1988"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0094675/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Lola et le piano à bruits (Lola i el piano trencaclosques)",
-      "url": "https://www.filmoteca.cat/web/ca/film/lola-et-le-piano-bruits",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260830 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Diverses autories, 2024"
-      ],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt39174702/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "The Big Heat (Los sobornados)",
-      "url": "https://www.filmoteca.cat/web/ca/film/big-heat",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260830 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1953"
-      ],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0045555/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Tout va bien (Todo va bien)",
-      "url": "https://www.filmoteca.cat/web/ca/film/tout-va-bien",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260830 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jean-Luc Godard, Jean-Pierre Gorin, 1972"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0069398/\">IMDb</a>"
+      "labels": [],
+      "rating": "★ 4.0 <a href=\"https://www.imdb.com/title/tt37597339/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -996,36 +1011,6 @@
       "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt35344083/\">IMDb</a>"
     },
     {
-      "cinema": "Maldà",
-      "title": "Rebuilding (VOSE)",
-      "url": "https://www.cinemamalda.com/rebuilding/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260830 16:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt29361963/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Vivir la tierra (VOSE)",
-      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260830 18:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
-    },
-    {
       "cinema": "Phenomena",
       "title": "#titulo-2# #titulo-vo-2#",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
@@ -1063,6 +1048,21 @@
       ],
       "labels": [],
       "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0048028/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "ATRAPA A UN LADRÓN (Proyección en 4K y VOSE) To Catch a Thief",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=555",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260919 17:40",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0048728/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1281,6 +1281,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "EL FINAL DE OAK STREET (Proyección en Dolby Atmos y VOSE) The End of Oak Street",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2986",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260901 21:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt27165187/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "EL HALCÓN MALTÉS (Proyección en 35 mm y VOSE) The Maltese Falcon",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=889",
       "source_section": "cartelera",
@@ -1401,6 +1416,26 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "INSIDIOUS: FUERA DEL MÁS ALLÁ (Proyección en VOSE) Insidious: Out of the Further",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2995",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260831 19:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260902 22:20",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32393988/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "INSOMNIO (Proyección en 35 mm y VOSE) Insomnia",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=1529",
       "source_section": "cartelera",
@@ -1446,15 +1481,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "LA BELLA Y LA BESTIA (Proyección en VOSE) Beauty and the Beast",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2994",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt2771200/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "LA CONSTELACIÓN DEL PERRO (Proyección en Dolby Atmos y VOSE) The Dog Stars",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2990",
       "source_section": "cartelera",
@@ -1481,7 +1507,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt21285562/\">IMDb</a>"
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt21285562/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1572,21 +1598,6 @@
       ],
       "labels": [],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0311113/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "MATRIX (Proyección en 4K y VOSE) The Matrix",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1979",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260830 22:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.3 <a href=\"https://www.imdb.com/title/tt0133093/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1917,31 +1928,6 @@
       ],
       "labels": [],
       "rating": "★ 8.4 <a href=\"https://www.imdb.com/title/tt2582802/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "El amor que permanece",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/el-amor-que-permanece/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260830 21:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260831 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260902 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt33381401/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
