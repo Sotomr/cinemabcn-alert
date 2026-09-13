@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-12T12:28:23.187348+00:00",
+  "fetched_at": "2026-09-13T13:30:39.388391+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -7,11 +7,6 @@
       "url": "https://espaitexas.cat/pelicula/cinc-segons/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260912 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260913 18:15",
           "room": null,
@@ -48,11 +43,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260912 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260913 16:00",
           "room": null,
           "language": null
@@ -83,30 +73,10 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "EL CEL PROMÈS",
-      "url": "https://espaitexas.cat/pelicula/el-cel-promes/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260912 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt33311007/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "ERUPCJA",
       "url": "https://espaitexas.cat/pelicula/erupcja/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260912 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260913 20:30",
           "room": null,
@@ -120,6 +90,36 @@
       ],
       "labels": [],
       "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt33712666/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "L'OLOR DE LLET CREMADA",
+      "url": "https://espaitexas.cat/pelicula/lolor-de-llet-cremada/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260914 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260915 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260916 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260917 16:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -142,11 +142,6 @@
       "url": "https://espaitexas.cat/pelicula/lionel/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260912 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260913 20:30",
           "room": null,
@@ -183,11 +178,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260912 18:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260913 18:00",
           "room": null,
           "language": null
@@ -215,57 +205,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Els Goonies (The Goonies)",
-      "url": "https://www.filmoteca.cat/web/ca/film/els-goonies",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260912 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Richard Donner, 1985"
-      ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0089218/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Feng Liu Yi Dai (A la deriva)",
-      "url": "https://www.filmoteca.cat/web/ca/film/feng-liu-yi-dai",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260912 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jia Zhangke, 2025"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt27958252/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Letter to Jane (Jean-Luc Godard, Jean-Pierre Gorin, 1972)",
-      "url": "https://www.filmoteca.cat/web/ca/film/letter-jane",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260912 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jean-Luc Godard, Jean-Pierre Gorin, 1972"
-      ],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0068846/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -320,23 +259,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "The Heartbreak Kid (El trencacors)",
-      "url": "https://www.filmoteca.cat/web/ca/film/heartbreak-kid",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260912 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Elaine May, 1972"
-      ],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt0408839/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "The Palm Beach Story (La història de Palm Beach)",
       "url": "https://www.filmoteca.cat/web/ca/film/palm-beach-story",
       "source_section": "agenda-setmanal",
@@ -351,21 +273,6 @@
         "Preston Sturges, 1942"
       ],
       "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0035169/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Asesinato en la 3ª planta (VOSE)",
-      "url": "https://www.cinemamalda.com/asesinato-en-la-3a-planta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260912 19:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt38814447/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -388,11 +295,6 @@
       "url": "https://www.cinemamalda.com/cinco-segundos/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20260912 17:35",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260914 15:00",
           "room": null,
@@ -419,18 +321,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Jim Queen (VOSE)",
-      "url": "https://www.cinemamalda.com/jim-queen/",
+      "title": "La isla de Amrum (VOSE)",
+      "url": "https://www.cinemamalda.com/la-isla-de-amrum/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260912 21:00",
+          "datetime": "20260914 20:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt36955518/\">IMDb</a>"
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt22507216/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -438,11 +340,6 @@
       "url": "https://www.cinemamalda.com/lionel/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20260912 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260914 16:45",
           "room": null,
@@ -458,19 +355,19 @@
       "rating": null
     },
     {
-      "cinema": "Phenomena",
-      "title": "BEN-HUR (Proyección 4K y VOSE) Ben-Hur",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=598",
-      "source_section": "cartelera",
+      "cinema": "Maldà",
+      "title": "Vivir la tierra (VOSE)",
+      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
+      "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260912 18:10",
+          "datetime": "20260914 18:20",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0052618/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -489,30 +386,10 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "EL RESPLANDOR (Proyección en 4K y VOSE) The Shining",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=108",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260912 22:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0081505/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "LA CONSTELACIÓN DEL PERRO (Proyección en Dolby Atmos y VOSE) The Dog Stars",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2990",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260912 15:25",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260913 17:25",
           "room": null,
@@ -538,44 +415,29 @@
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt3783958/\">IMDb</a>"
     },
     {
-      "cinema": "Phenomena",
-      "title": "MEMENTO (Proyección en 35 mm y VOSE) Memento",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1990",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260913 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0209144/\">IMDb</a>"
-    },
-    {
       "cinema": "Renoir Floridablanca",
       "title": "Bad Apples",
       "url": "https://www.cinesrenoir.com/pelicula/bad-apples/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 16:00",
+          "datetime": "20260913 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260912 20:20",
+          "datetime": "20260913 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260912 22:20",
+          "datetime": "20260913 22:20",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt29714073/\">IMDb</a>"
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt29714073/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -584,7 +446,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 16:00",
+          "datetime": "20260913 16:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -599,22 +461,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 15:50",
+          "datetime": "20260913 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260912 18:05",
+          "datetime": "20260913 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260912 20:20",
+          "datetime": "20260913 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260912 22:35",
+          "datetime": "20260913 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -629,32 +491,32 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 16:00",
+          "datetime": "20260913 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260912 17:15",
+          "datetime": "20260913 17:15",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260912 18:00",
+          "datetime": "20260913 18:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260912 19:00",
+          "datetime": "20260913 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260912 20:00",
+          "datetime": "20260913 20:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260912 21:35",
+          "datetime": "20260913 21:35",
           "room": null,
           "language": "Castellano"
         }
@@ -669,17 +531,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 15:50",
+          "datetime": "20260913 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260912 17:50",
+          "datetime": "20260913 17:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260912 19:50",
+          "datetime": "20260913 19:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -694,7 +556,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 22:30",
+          "datetime": "20260913 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -709,7 +571,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 20:35",
+          "datetime": "20260913 20:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -724,7 +586,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260912 18:00",
+          "datetime": "20260913 18:00",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260913 21:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -973,31 +840,6 @@
       "rating": null
     },
     {
-      "cinema": "Zumzeig",
-      "title": "Siemprevivas",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas-zumzeig/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260910 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260912 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260924 19:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
       "cinema": "Espai Texas",
       "title": "CHAVALAS",
       "url": "https://espaitexas.cat/pelicula/chavalas/",
@@ -1106,36 +948,6 @@
       ],
       "labels": [],
       "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt3082854/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "L'OLOR DE LLET CREMADA",
-      "url": "https://espaitexas.cat/pelicula/lolor-de-llet-cremada/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260914 16:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260915 16:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260916 16:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260917 16:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -1675,6 +1487,15 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "MEMENTO (Proyección en 35 mm y VOSE) Memento",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1990",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0209144/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "MEMORIES OF MURDER (CRÓNICA DE UN ASESINO EN SERIE) (Proyección en VOSE) Salinui chueok (Memories of Murder)",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=1993",
       "source_section": "cartelera",
@@ -1841,7 +1662,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0076786/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt1034415/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -2262,6 +2083,31 @@
       ],
       "labels": [],
       "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt34678593/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Siemprevivas",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas-zumzeig/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260910 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260912 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260924 19:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
