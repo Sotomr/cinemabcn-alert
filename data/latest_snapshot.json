@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-18T13:13:48.600717+00:00",
+  "fetched_at": "2026-09-19T12:45:40.041346+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -7,11 +7,6 @@
       "url": "https://espaitexas.cat/pelicula/cinc-segons/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260918 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260919 16:00",
           "room": null,
@@ -47,11 +42,6 @@
       "url": "https://espaitexas.cat/pelicula/detectiu-conan-langel-caigut-de-la-carretera/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260918 20:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260919 18:30",
           "room": null,
@@ -113,11 +103,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260918 20:45",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260919 20:15",
           "room": null,
           "language": null
@@ -157,11 +142,6 @@
       "url": "https://espaitexas.cat/pelicula/tanit/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260918 18:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260919 18:15",
           "room": null,
@@ -203,11 +183,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260918 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260919 16:00",
           "room": null,
           "language": null
@@ -239,24 +214,39 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
-      "title": "Flores para Antonio (Elena Molina, Isaki Lacuesta, 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/flores-para-antonio",
+      "title": "Els Goonies (The Goonies)",
+      "url": "https://www.filmoteca.cat/web/ca/film/els-goonies",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260918 20:00",
+          "datetime": "20260920 17:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Elena Molina, Isaki Lacuesta, 2025"
+        "Richard Donner, 1985"
       ],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt33396880/\">IMDb</a>"
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0089218/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Hall of Mirrors | The Tuxedo Theatre | Friendly Witness",
+      "url": "https://www.filmoteca.cat/web/ca/film/hall-mirrors-tuxedo-theatre-friendly-witness",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260920 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -292,40 +282,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Marnie (Alfred Hitchcock, 1964)",
-      "url": "https://www.filmoteca.cat/web/ca/film/marnie",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260918 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Alfred Hitchcock, 1964"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0058329/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "On Golden Pond (A Golden Pond)",
-      "url": "https://www.filmoteca.cat/web/ca/film/golden-pond",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260918 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Mark Rydell, 1981"
-      ],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0082846/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "The Cup and the Lip | Amphetamine | Rude Awakening",
       "url": "https://www.filmoteca.cat/web/ca/film/cup-and-lip-amphetamine-rude-awakening",
       "source_section": "agenda-setmanal",
@@ -341,18 +297,35 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Where Did Our Love Go? | A Woman's Touch | Short Fuse",
-      "url": "https://www.filmoteca.cat/web/ca/film/where-did-our-love-go-womans-touch-short-fuse",
+      "title": "The Tenth Legion | Whiplash | Noblesse oblige",
+      "url": "https://www.filmoteca.cat/web/ca/film/tenth-legion-whiplash-noblesse-oblige",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260918 21:00",
+          "datetime": "20260920 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Weapons (Zach Cregger, 2025)",
+      "url": "https://www.filmoteca.cat/web/ca/film/weapons",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260920 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Zach Cregger, 2025"
+      ],
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt26581740/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -373,23 +346,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Eleonora Duse, la divina (VOSE)",
-      "url": "https://www.cinemamalda.com/eleonora-duse-la-divina/",
+      "title": "Cinco segundos (VOSE)",
+      "url": "https://www.cinemamalda.com/cinco-segundos/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260918 16:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260922 15:00",
+          "datetime": "20260920 15:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt31415482/\">IMDb</a>"
+      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt34960684/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -439,7 +407,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt30229628/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -460,6 +428,21 @@
       ],
       "labels": [],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt36955518/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "La última ronda en Venecia (VOSE)",
+      "url": "https://www.cinemamalda.com/la-ultima-ronda-en-venecia/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260920 17:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt36491632/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -493,6 +476,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "INSOMNIO (Proyección en 35 mm y VOSE) Insomnia",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1529",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260920 15:20",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0278504/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "JASON Y LOS ARGONAUTAS (Proyección en 35 mm y VOSE) Jason and the Argonauts",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=1546",
       "source_section": "cartelera",
@@ -512,11 +510,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260918 17:35",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260920 18:15",
           "room": null,
@@ -551,25 +544,15 @@
           "datetime": "20261001 18:15",
           "room": null,
           "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PINK FLOYD: THE WALL (EL MURO) (Proyección en 35 mm y VOSE) Pink Floyd: The Wall",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2287",
-      "source_section": "cartelera",
-      "shows": [
+        },
         {
-          "datetime": "20260918 23:15",
+          "datetime": "20261008 17:50",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0084503/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -588,18 +571,18 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "SUSPIRIA (Proyección en 4K y VOSE) Suspiria",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2674",
+      "title": "TOMMY (Proyección en 4K y VOSE) TOMMY",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2788",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 21:00",
+          "datetime": "20260920 21:40",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt1034415/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0073812/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -608,17 +591,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 15:50",
+          "datetime": "20260919 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 17:50",
+          "datetime": "20260919 17:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 19:50",
+          "datetime": "20260919 19:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -633,22 +616,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 15:50",
+          "datetime": "20260919 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 17:50",
+          "datetime": "20260919 17:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 20:35",
+          "datetime": "20260919 20:35",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 22:45",
+          "datetime": "20260919 22:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -663,32 +646,32 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 16:00",
+          "datetime": "20260919 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260918 17:15",
+          "datetime": "20260919 17:15",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260918 18:05",
+          "datetime": "20260919 18:05",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260918 19:00",
+          "datetime": "20260919 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260918 20:00",
+          "datetime": "20260919 20:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260918 21:35",
+          "datetime": "20260919 21:35",
           "room": null,
           "language": "Castellano"
         }
@@ -703,12 +686,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 15:50",
+          "datetime": "20260919 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 20:05",
+          "datetime": "20260919 20:05",
           "room": null,
           "language": "subtitulada"
         }
@@ -723,7 +706,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 22:05",
+          "datetime": "20260919 22:05",
           "room": null,
           "language": "subtitulada"
         }
@@ -738,7 +721,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 21:50",
+          "datetime": "20260919 21:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -753,12 +736,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 18:00",
+          "datetime": "20260919 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 22:30",
+          "datetime": "20260919 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -773,23 +756,38 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260918 16:00",
+          "datetime": "20260919 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 20:15",
+          "datetime": "20260919 20:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260918 22:15",
+          "datetime": "20260919 22:15",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
       "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt32547691/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Après les nuages + Massacalor + Un trato brillante + Sueños de viernes",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/apres-les-nuages-massacalor-un-trato-brillante-suenos-de-viernes-1/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260920 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -834,6 +832,21 @@
         },
         {
           "datetime": "20260923 19:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Kinosaure: Mumbo Jumbo es fa enorme",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/kinosaure-mumbo-jumbo-es-fa-enorme/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260920 17:00",
           "room": null,
           "language": null
         }
@@ -920,6 +933,21 @@
       ],
       "labels": [],
       "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt28942997/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Técnicas de creación colectiva en formato Super 8",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/tecnicas-de-creacion-colectiva-en-formato-super-8/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260920 09:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -1089,7 +1117,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt32844121/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1126,6 +1154,21 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "SISÈ PRIMERA + GASTOS INCLUIDOS",
+      "url": "https://espaitexas.cat/pelicula/sise-primera-gastos-incluidos/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261005 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "SNOWPIERCER",
       "url": "https://espaitexas.cat/pelicula/snowpiercer/",
       "source_section": "cartellera-cinema",
@@ -1140,83 +1183,19 @@
       "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt4481854/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Els Goonies (The Goonies)",
-      "url": "https://www.filmoteca.cat/web/ca/film/els-goonies",
-      "source_section": "agenda-setmanal",
+      "cinema": "Espai Texas",
+      "title": "THE HUMAN SCALE",
+      "url": "https://espaitexas.cat/pelicula/the-human-scale/",
+      "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260920 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Richard Donner, 1985"
-      ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0089218/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Hall of Mirrors | The Tuxedo Theatre | Friendly Witness",
-      "url": "https://www.filmoteca.cat/web/ca/film/hall-mirrors-tuxedo-theatre-friendly-witness",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260920 21:00",
+          "datetime": "20261123 19:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "The Tenth Legion | Whiplash | Noblesse oblige",
-      "url": "https://www.filmoteca.cat/web/ca/film/tenth-legion-whiplash-noblesse-oblige",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260920 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Weapons (Zach Cregger, 2025)",
-      "url": "https://www.filmoteca.cat/web/ca/film/weapons",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260920 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Zach Cregger, 2025"
-      ],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt26581740/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Cinco segundos (VOSE)",
-      "url": "https://www.cinemamalda.com/cinco-segundos/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260920 15:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt34960684/\">IMDb</a>"
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt2414454/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1238,21 +1217,6 @@
     },
     {
       "cinema": "Maldà",
-      "title": "La última ronda en Venecia (VOSE)",
-      "url": "https://www.cinemamalda.com/la-ultima-ronda-en-venecia/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20260920 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt36491632/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "Omaha (VOSE)",
       "url": "https://www.cinemamalda.com/omaha/",
       "source_section": "cartelera-dia-dia",
@@ -1265,6 +1229,21 @@
       ],
       "labels": [],
       "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt29253299/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Vivir la tierra (VOSE)",
+      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260921 19:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1382,15 +1361,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "EL CASTILLO AMBULANTE (Proyección en VOSE) Hauru no Ugoku Shiro",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=949",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 8.4 <a href=\"https://www.imdb.com/title/tt0347149/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "EL CREPÚSCULO DE LOS DIOSES (Proyección en 4K y VOSE) Sunset Boulevard",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=969",
       "source_section": "cartelera",
@@ -1504,6 +1474,11 @@
           "datetime": "20260926 23:45",
           "room": null,
           "language": null
+        },
+        {
+          "datetime": "20261011 23:25",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
@@ -1523,21 +1498,6 @@
       ],
       "labels": [],
       "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0118694/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "INSOMNIO (Proyección en 35 mm y VOSE) Insomnia",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1529",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260920 15:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0278504/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1634,6 +1594,11 @@
           "datetime": "20261007 16:50",
           "room": null,
           "language": null
+        },
+        {
+          "datetime": "20261008 21:20",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
@@ -1656,6 +1621,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "LA LA LAND (LA CIUDAD DE LAS ESTRELLAS) (Proyección en Dolby 7.1 y VOSE) La La Land",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1604",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261012 21:20",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt3783958/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "MARY POPPINS (Proyección en VOSE) Mary Poppins",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=1967",
       "source_section": "cartelera",
@@ -1668,6 +1648,21 @@
       ],
       "labels": [],
       "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0058331/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "PAPRIKA, DETECTIVE DE LOS SUEÑOS (Proyección en VOSE) Papurika",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2192",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261007 22:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0851578/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1747,7 +1742,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt35538033/\">IMDb</a>"
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt35538033/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1841,18 +1836,18 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "TOMMY (Proyección en 4K y VOSE) TOMMY",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2788",
+      "title": "UN TRANVÍA LLAMADO DESEO (Proyección en VOSE) A Streetcar Named Desire",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2847",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260920 21:40",
+          "datetime": "20261008 15:20",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0073812/\">IMDb</a>"
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0044081/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1922,21 +1917,6 @@
         },
         {
           "datetime": "20260923 17:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Après les nuages + Massacalor + Un trato brillante + Sueños de viernes",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/apres-les-nuages-massacalor-un-trato-brillante-suenos-de-viernes-1/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260920 19:00",
           "room": null,
           "language": null
         }
@@ -2196,21 +2176,6 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Kinosaure: Mumbo Jumbo es fa enorme",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/kinosaure-mumbo-jumbo-es-fa-enorme/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260920 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
       "title": "La bola negra",
       "url": "https://www.zumzeigcine.coop/es/cine/films/la-bola-negra/",
       "source_section": "calendari",
@@ -2392,21 +2357,6 @@
       "shows": [
         {
           "datetime": "20261029 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Técnicas de creación colectiva en formato Super 8",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/tecnicas-de-creacion-colectiva-en-formato-super-8/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260920 09:30",
           "room": null,
           "language": null
         }
