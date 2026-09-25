@@ -1,32 +1,12 @@
 {
-  "fetched_at": "2026-09-24T13:52:45.524932+00:00",
+  "fetched_at": "2026-09-25T14:15:05.910279+00:00",
   "films": [
-    {
-      "cinema": "Espai Texas",
-      "title": "AMAZOMANIA",
-      "url": "https://espaitexas.cat/pelicula/amazomania/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260924 18:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
     {
       "cinema": "Espai Texas",
       "title": "CINC SEGONS",
       "url": "https://espaitexas.cat/pelicula/cinc-segons/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260924 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260925 16:00",
           "room": null,
@@ -57,11 +37,6 @@
       "url": "https://espaitexas.cat/pelicula/detectiu-conan-langel-caigut-de-la-carretera/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260924 20:20",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260925 20:30",
           "room": null,
@@ -148,15 +123,30 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "LA FAMÍLIA DINO",
+      "url": "https://espaitexas.cat/pelicula/la-familia-dino/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260926 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260927 16:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "LIONEL",
       "url": "https://espaitexas.cat/pelicula/lionel/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260924 18:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260925 20:45",
           "room": null,
@@ -203,11 +193,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260924 20:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260925 18:05",
           "room": null,
           "language": null
@@ -253,11 +238,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260924 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260925 16:00",
           "room": null,
           "language": null
@@ -295,6 +275,23 @@
       ],
       "labels": [],
       "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Agnes of God (Agnes de Déu)",
+      "url": "https://www.filmoteca.cat/web/ca/film/agnes-god",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260926 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Norman Jewison, 1985"
+      ],
+      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt0088683/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -354,7 +351,7 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260924 20:00",
+          "datetime": "20260926 18:00",
           "room": null,
           "language": null
         }
@@ -383,114 +380,187 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "La amiga de mi amiga (Zaida Carmona, 2022)",
-      "url": "https://www.filmoteca.cat/web/ca/film/la-amiga-de-mi-amiga",
+      "title": "Mon Oncle (El meu oncle)",
+      "url": "https://www.filmoteca.cat/web/ca/film/mon-oncle",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260924 20:30",
+          "datetime": "20260926 17:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Zaida Carmona, 2022"
+        "Jacques Tati, 1958"
       ],
-      "rating": "★ 4.6 <a href=\"https://www.imdb.com/title/tt19513160/\">IMDb</a>"
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0050706/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
-      "title": "What's Up, Doc? (Què passa, doctor?)",
-      "url": "https://www.filmoteca.cat/web/ca/film/whats-doc",
+      "title": "Sois belle et tais-toi (Calladeta estàs més maca!)",
+      "url": "https://www.filmoteca.cat/web/ca/film/sois-belle-et-tais-toi",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260924 17:00",
+          "datetime": "20260926 20:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Peter Bogdanovich, 1972"
+        "Delphine Seyrig, 1981"
       ],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0069495/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Xestaia txast mira (La sisena part del món)",
-      "url": "https://www.filmoteca.cat/web/ca/film/xestaia-txast-mira",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260924 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Dziga Vertov, 1926"
-      ],
-      "rating": null
+      "rating": "★ 5.6 <a href=\"https://www.imdb.com/title/tt0052211/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Backrooms (Inclou 16min de metratge addicional postcrèdits.) (VOSE)",
-      "url": "https://www.cinemamalda.com/backrooms/",
+      "title": "El coro de Praga (VOSE)",
+      "url": "https://www.cinemamalda.com/el-coro-de-praga/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260924 20:35",
+          "datetime": "20260925 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260926 17:05",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260927 16:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260929 18:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt28149522/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "En la zona gris (VOSE)",
-      "url": "https://www.cinemamalda.com/en-la-zona-gris/",
+      "title": "En el camino (VOE)",
+      "url": "https://www.cinemamalda.com/en-el-camino/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260924 19:00",
+          "datetime": "20260926 19:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt27681354/\">IMDb</a>"
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt37660509/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
-      "title": "Proyecto Salvación (VOSE)",
-      "url": "https://www.cinemamalda.com/proyecto-salvacion/",
+      "title": "Femení, singular (VOCastCat)",
+      "url": "https://www.cinemamalda.com/femeni-singular/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20260924 16:15",
+          "datetime": "20260926 15:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 8.6 <a href=\"https://www.imdb.com/title/tt12042730/\">IMDb</a>"
+      "rating": "★ 9.0 <a href=\"https://www.imdb.com/title/tt30229628/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Jim Queen (VOSE)",
+      "url": "https://www.cinemamalda.com/jim-queen/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260926 20:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt36955518/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "La isla de Amrum (VOSE)",
+      "url": "https://www.cinemamalda.com/la-isla-de-amrum/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260925 20:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt22507216/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "La última ronda en Venecia (VOSE)",
+      "url": "https://www.cinemamalda.com/la-ultima-ronda-en-venecia/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260925 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt36491632/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Sus hijos (VOSE)",
+      "url": "https://www.cinemamalda.com/sus-hijos/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20260925 16:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260927 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260929 16:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt5265480/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
-      "title": "EL MAGO DE OZ (Proyección en 4K y VOSE) The Wizard of Oz",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1070",
+      "title": "HOMENAJE A TIM CURRY: THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260925 14:45",
+          "datetime": "20260926 23:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261011 23:25",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0032138/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Phenomena",
@@ -609,11 +679,6 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 18:20",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260925 17:00",
           "room": null,
           "language": null
@@ -646,21 +711,6 @@
       ],
       "labels": [],
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PARIS, TEXAS (Proyección en 4K y VOSE) Paris, Texas",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2193",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260924 21:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0087884/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -699,12 +749,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 15:50",
+          "datetime": "20260925 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260924 17:50",
+          "datetime": "20260925 17:50",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260925 19:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -719,22 +774,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 15:50",
+          "datetime": "20260925 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260924 17:50",
+          "datetime": "20260925 17:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260924 20:35",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260924 22:45",
+          "datetime": "20260925 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -744,52 +794,22 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Dentro Del Laberinto [Wilder Cinema]",
-      "url": "https://www.cinesrenoir.com/pelicula/dentro-del-laberinto-wilder-cinema/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260924 20:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0091369/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
       "title": "El Ser Querido",
       "url": "https://www.cinesrenoir.com/pelicula/el-ser-querido/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 16:00",
+          "datetime": "20260925 16:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260924 17:15",
+          "datetime": "20260925 19:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260924 18:05",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260924 19:00",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260924 20:00",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260924 21:35",
+          "datetime": "20260925 20:00",
           "room": null,
           "language": "Castellano"
         }
@@ -804,12 +824,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 15:50",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260924 20:05",
+          "datetime": "20260925 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -819,12 +834,47 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "La Bola Negra",
+      "url": "https://www.cinesrenoir.com/pelicula/la-bola-negra/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260925 16:00",
+          "room": null,
+          "language": "Castellano"
+        },
+        {
+          "datetime": "20260925 17:40",
+          "room": null,
+          "language": "Castellano"
+        },
+        {
+          "datetime": "20260925 19:00",
+          "room": null,
+          "language": "Castellano"
+        },
+        {
+          "datetime": "20260925 20:35",
+          "room": null,
+          "language": "Castellano"
+        },
+        {
+          "datetime": "20260925 22:00",
+          "room": null,
+          "language": "Castellano"
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "La Constelación Del Perro",
       "url": "https://www.cinesrenoir.com/pelicula/la-constelacion-del-perro/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 22:05",
+          "datetime": "20260925 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -834,17 +884,37 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "La Odisea",
+      "url": "https://www.cinesrenoir.com/pelicula/la-odisea/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260925 21:50",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "Palestina 36",
       "url": "https://www.cinesrenoir.com/pelicula/palestina-36/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 18:00",
+          "datetime": "20260925 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260924 22:30",
+          "datetime": "20260925 18:05",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20260925 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -859,93 +929,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260924 16:00",
+          "datetime": "20260925 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260924 20:15",
+          "datetime": "20260925 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260924 22:15",
+          "datetime": "20260925 20:00",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
       "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt32547691/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "El ser querido",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/el-ser-querido/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260904 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260905 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260906 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260908 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260909 17:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260910 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260912 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260914 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260915 11:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260916 21:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260921 21:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260924 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33451014/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1084,73 +1084,33 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Lionel",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/lionel/",
+      "title": "Mumbo Jumbo es fa enorme",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/mumbo-jumbo-es-fa-enorme/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260915 19:15",
+          "datetime": "20260919 17:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260918 21:30",
+          "datetime": "20260926 16:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260920 21:30",
+          "datetime": "20260927 17:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20260923 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260924 17:15",
+          "datetime": "20261004 16:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Siemprevivas",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas-zumzeig/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260910 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260912 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260924 19:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260927 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261002 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt28942997/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1279,26 +1239,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "LA FAMÍLIA DINO",
-      "url": "https://espaitexas.cat/pelicula/la-familia-dino/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260926 16:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260927 16:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "LA FURGO",
       "url": "https://espaitexas.cat/pelicula/la-furgo/",
       "source_section": "cartellera-cinema",
@@ -1311,6 +1251,21 @@
       ],
       "labels": [],
       "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt32454647/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "LA INVASIÓ DELS BÀRBARS",
+      "url": "https://espaitexas.cat/pelicula/la-invasio-dels-barbars/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261006 19:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -1392,23 +1347,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Agnes of God (Agnes de Déu)",
-      "url": "https://www.filmoteca.cat/web/ca/film/agnes-god",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260926 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Norman Jewison, 1985"
-      ],
-      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt0088683/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Das Indische Grabmal (La tumba india)",
       "url": "https://www.filmoteca.cat/web/ca/film/das-indische-grabmal",
       "source_section": "agenda-setmanal",
@@ -1443,40 +1381,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Die 1000 Augen des Dr. Mabuse (Els crims del Dr. Mabuse)",
-      "url": "https://www.filmoteca.cat/web/ca/film/die-1000-augen-des-dr-mabuse",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260926 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1960"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt0054371/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Mon Oncle (El meu oncle)",
-      "url": "https://www.filmoteca.cat/web/ca/film/mon-oncle",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260926 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jacques Tati, 1958"
-      ],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0050706/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Mon Oncle (El meu oncle)",
       "url": "https://www.filmoteca.cat/web/ca/film/mon-oncle",
       "source_section": "agenda-setmanal",
@@ -1491,23 +1395,6 @@
         "Jacques Tati, 1958"
       ],
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0050706/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Sois belle et tais-toi (Calladeta estàs més maca!)",
-      "url": "https://www.filmoteca.cat/web/ca/film/sois-belle-et-tais-toi",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260926 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Delphine Seyrig, 1981"
-      ],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt0076733/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1537,44 +1424,8 @@
     },
     {
       "cinema": "Maldà",
-      "title": "ASESINATO EN LA 3ª PLANTA #sesionteta (VOSE)",
-      "url": "https://www.cinemamalda.com/cine-bebes-maldanins_sesionteta/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Maldà",
       "title": "Cine sénior",
       "url": "https://www.cinemamalda.com/cine-senior/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Hermanos (VOSCAT)",
-      "url": "https://www.cinemamalda.com/hermanos/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0765010/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "La isla de Amrum (VOSE)",
-      "url": "https://www.cinemamalda.com/la-isla-de-amrum/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt22507216/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Lionel (VOSE)",
-      "url": "https://www.cinemamalda.com/lionel/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
@@ -1762,7 +1613,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 9.3 <a href=\"https://www.imdb.com/title/tt31450459/\">IMDb</a>"
+      "rating": "★ 8.6 <a href=\"https://www.imdb.com/title/tt31450459/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1796,6 +1647,15 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "EL MAGO DE OZ (Proyección en 4K y VOSE) The Wizard of Oz",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1070",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0032138/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "EL PADRINO (Proyección en 4K y VOSE) The Godfather",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=896",
       "source_section": "cartelera",
@@ -1823,26 +1683,6 @@
       ],
       "labels": [],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0134119/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "HOMENAJE A TIM CURRY: THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260926 23:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261011 23:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Phenomena",
@@ -1903,15 +1743,6 @@
       ],
       "labels": [],
       "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0068762/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "MARY POPPINS (Proyección en VOSE) Mary Poppins",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1967",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0058331/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -2213,6 +2044,11 @@
           "datetime": "20261004 18:45",
           "room": null,
           "language": null
+        },
+        {
+          "datetime": "20261010 19:00",
+          "room": null,
+          "language": null
         }
       ],
       "labels": [],
@@ -2252,6 +2088,76 @@
       ],
       "labels": [],
       "rating": "★ 6.1 <a href=\"https://www.imdb.com/title/tt32844121/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "El ser querido",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/el-ser-querido/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260904 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260905 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260906 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260908 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260909 17:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260910 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260912 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260914 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260915 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260916 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260921 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260924 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt33451014/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2475,6 +2381,41 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Lionel",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/lionel/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260915 19:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260918 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260920 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260923 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260924 17:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Los caminos de Actoras",
       "url": "https://www.zumzeigcine.coop/es/cine/films/los-caminos-de-actoras/",
       "source_section": "calendari",
@@ -2517,36 +2458,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Mumbo Jumbo es fa enorme",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/mumbo-jumbo-es-fa-enorme/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20260919 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260926 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20260927 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261004 16:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt28942997/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2602,6 +2513,41 @@
       ],
       "labels": [],
       "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt33311007/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Siemprevivas",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas-zumzeig/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20260910 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260912 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260924 19:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20260927 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261002 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
