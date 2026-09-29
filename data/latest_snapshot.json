@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T17:06:59.519012+00:00",
+  "fetched_at": "2026-09-29T15:11:35.225125+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -28,11 +28,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260928 20:30",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260929 20:30",
           "room": null,
           "language": null
@@ -57,11 +52,6 @@
       "url": "https://espaitexas.cat/pelicula/forastera/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260928 18:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260929 18:30",
           "room": null,
@@ -88,11 +78,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260928 20:30",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260929 20:30",
           "room": null,
           "language": null
@@ -113,15 +98,25 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "OMBRA NÒMADA",
+      "url": "https://espaitexas.cat/pelicula/ombra-nomada/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20260930 20:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "TANIT",
       "url": "https://espaitexas.cat/pelicula/tanit/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20260928 18:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260929 18:15",
           "room": null,
@@ -148,11 +143,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20260928 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20260929 16:00",
           "room": null,
           "language": null
@@ -173,6 +163,23 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Beyond a Reasonable Doubt (Más allá de la duda)",
+      "url": "https://www.filmoteca.cat/web/ca/film/beyond-reasonable-doubt",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260930 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Fritz Lang, 1956"
+      ],
+      "rating": "★ 5.7 <a href=\"https://www.imdb.com/title/tt1183251/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Das indische Grabmal: Der Tiger von Eschnapur (La tomba índia: el tigre d'Esnapur)",
       "url": "https://www.filmoteca.cat/web/ca/film/das-indische-grabmal-der-tiger-von-eschnapur",
       "source_section": "agenda-setmanal",
@@ -190,20 +197,20 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Das indische Grabmal: Die Sendung des Yoghi (La tomba índia: la missió del iogui)",
-      "url": "https://www.filmoteca.cat/web/ca/film/das-indische-grabmal-die-sendung-des-yoghi",
+      "title": "Hard Truths (La meva única família)",
+      "url": "https://www.filmoteca.cat/web/ca/film/hard-truths",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20260929 17:00",
+          "datetime": "20260930 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Joe May, 1921"
+        "Mike Leigh, 2024"
       ],
-      "rating": "★ 5.7 <a href=\"https://www.imdb.com/title/tt0012314/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt11891850/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -224,6 +231,38 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Sois belle et tais-toi (Calladeta estàs més maca!)",
+      "url": "https://www.filmoteca.cat/web/ca/film/sois-belle-et-tais-toi",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260930 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Delphine Seyrig, 1981"
+      ],
+      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt0076733/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Visita comentada a l'exposició \"Feminismes fílmics: 1976-2026\" a càrrec de Pilar Monsell",
+      "url": "https://www.filmoteca.cat/web/ca/film/visita-comentada-lexposicio-feminismes-filmics-1976-2026-carrec-de-pilar-monsell",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260930 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Written on the Wind (Escrito sobre el viento)",
       "url": "https://www.filmoteca.cat/web/ca/film/written-wind",
       "source_section": "agenda-setmanal",
@@ -238,6 +277,23 @@
         "Douglas Sirk, 1956"
       ],
       "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt0049966/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Xestaia txast mira (La sisena part del món)",
+      "url": "https://www.filmoteca.cat/web/ca/film/xestaia-txast-mira",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20260930 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Dziga Vertov, 1926"
+      ],
+      "rating": null
     },
     {
       "cinema": "Maldà",
@@ -305,11 +361,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2997",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20260928 20:35",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20260929 19:00",
           "room": null,
@@ -396,36 +447,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "LA ODISEA (Proyección en 70 mm, DTS y VOSE) The Odyssey",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260929 15:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261001 18:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261008 17:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261012 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "RESIDENT EVIL (2026) (Proyección en VOSE) Resident Evil",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2996",
       "source_section": "cartelera",
@@ -456,17 +477,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 15:50",
+          "datetime": "20260929 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260928 17:50",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20260928 19:50",
+          "datetime": "20260929 17:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -481,17 +497,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 15:50",
+          "datetime": "20260929 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260928 17:50",
+          "datetime": "20260929 17:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260928 22:35",
+          "datetime": "20260929 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -501,27 +517,37 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "El Maquinista De La General [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/el-maquinista-de-la-general-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20260929 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0017925/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "El Ser Querido",
       "url": "https://www.cinesrenoir.com/pelicula/el-ser-querido/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 16:10",
+          "datetime": "20260929 16:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260928 19:10",
+          "datetime": "20260929 19:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260928 20:00",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260928 22:10",
+          "datetime": "20260929 22:10",
           "room": null,
           "language": "Castellano"
         }
@@ -536,7 +562,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 22:35",
+          "datetime": "20260929 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -551,27 +577,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 16:00",
+          "datetime": "20260929 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260928 17:40",
+          "datetime": "20260929 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260928 19:00",
+          "datetime": "20260929 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20260928 20:35",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20260928 22:00",
+          "datetime": "20260929 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -586,7 +607,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 22:00",
+          "datetime": "20260929 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -596,37 +617,22 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "La Odisea",
-      "url": "https://www.cinesrenoir.com/pelicula/la-odisea/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20260928 21:50",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
       "title": "Palestina 36",
       "url": "https://www.cinesrenoir.com/pelicula/palestina-36/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 15:50",
+          "datetime": "20260929 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260928 18:05",
+          "datetime": "20260929 18:05",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260928 20:20",
+          "datetime": "20260929 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -641,17 +647,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20260928 15:50",
+          "datetime": "20260929 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260928 18:00",
+          "datetime": "20260929 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20260928 20:00",
+          "datetime": "20260929 20:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -721,7 +727,17 @@
           "language": null
         },
         {
+          "datetime": "20261005 11:30",
+          "room": null,
+          "language": null
+        },
+        {
           "datetime": "20261006 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261007 11:30",
           "room": null,
           "language": null
         },
@@ -732,6 +748,11 @@
         },
         {
           "datetime": "20261008 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261015 11:30",
           "room": null,
           "language": null
         }
@@ -756,18 +777,18 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Plató 3",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/plato-3/",
+      "title": "Nudo mixteco",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/nudo-mixteco/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260928 21:00",
+          "datetime": "20260930 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt10632226/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -944,21 +965,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "OMBRA NÒMADA",
-      "url": "https://espaitexas.cat/pelicula/ombra-nomada/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20260930 20:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "SISÈ PRIMERA + GASTOS INCLUIDOS",
       "url": "https://espaitexas.cat/pelicula/sise-primera-gastos-incluidos/",
       "source_section": "cartellera-cinema",
@@ -1018,23 +1024,6 @@
         "Aurora Corominas, 1988-1997"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Beyond a Reasonable Doubt (Más allá de la duda)",
-      "url": "https://www.filmoteca.cat/web/ca/film/beyond-reasonable-doubt",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260930 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Fritz Lang, 1956"
-      ],
-      "rating": "★ 5.7 <a href=\"https://www.imdb.com/title/tt1183251/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1123,23 +1112,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Hard Truths (La meva única família)",
-      "url": "https://www.filmoteca.cat/web/ca/film/hard-truths",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260930 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Mike Leigh, 2024"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt11891850/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "La amiga de mi amiga (Zaida Carmona, 2022)",
       "url": "https://www.filmoteca.cat/web/ca/film/la-amiga-de-mi-amiga",
       "source_section": "agenda-setmanal",
@@ -1205,23 +1177,6 @@
         "Paul Thomas Anderson, 2002"
       ],
       "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0272338/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Sois belle et tais-toi (Calladeta estàs més maca!)",
-      "url": "https://www.filmoteca.cat/web/ca/film/sois-belle-et-tais-toi",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260930 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Delphine Seyrig, 1981"
-      ],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt0076733/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1293,21 +1248,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Visita comentada a l'exposició \"Feminismes fílmics: 1976-2026\" a càrrec de Pilar Monsell",
-      "url": "https://www.filmoteca.cat/web/ca/film/visita-comentada-lexposicio-feminismes-filmics-1976-2026-carrec-de-pilar-monsell",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260930 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "What's Up, Doc? (Què passa, doctor?)",
       "url": "https://www.filmoteca.cat/web/ca/film/whats-doc",
       "source_section": "agenda-setmanal",
@@ -1322,23 +1262,6 @@
         "Peter Bogdanovich, 1972"
       ],
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0069495/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Xestaia txast mira (La sisena part del món)",
-      "url": "https://www.filmoteca.cat/web/ca/film/xestaia-txast-mira",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20260930 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Dziga Vertov, 1926"
-      ],
-      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -1368,15 +1291,6 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Backrooms (Inclou 16min de metratge addicional postcrèdits.) (VOSE)",
-      "url": "https://www.cinemamalda.com/backrooms/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt26657236/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "Cine sénior",
       "url": "https://www.cinemamalda.com/cine-senior/",
       "source_section": "cartelera-dia-dia",
@@ -1403,6 +1317,24 @@
       "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt29253299/\">IMDb</a>"
     },
     {
+      "cinema": "Maldà",
+      "title": "Vivir la tierra (VOSE)",
+      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "#titulo-2# #titulo-vo-2#",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
       "cinema": "Phenomena",
       "title": "12 HOMBRES SIN PIEDAD (Proyección en 4K y VOSE) 12 Angry Men",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=406",
@@ -1416,15 +1348,6 @@
       ],
       "labels": [],
       "rating": "★ 8.6 <a href=\"https://www.imdb.com/title/tt0050083/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "500 DÍAS JUNTOS (Proyección en VOSE) 500 Days of Summer",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=422",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt1022603/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1529,7 +1452,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt31450459/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt31450459/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1650,6 +1573,31 @@
       ],
       "labels": [],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt3783958/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "LA ODISEA (Proyección en 70 mm, DTS y VOSE) The Odyssey",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261001 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261008 17:50",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261012 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1989,7 +1937,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt33381401/\">IMDb</a>"
+      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt33381401/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2428,18 +2376,18 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Nudo mixteco",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/nudo-mixteco/",
+      "title": "Plató 3",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/plato-3/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20260930 18:00",
+          "datetime": "20260928 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt10632226/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
