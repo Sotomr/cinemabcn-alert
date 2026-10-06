@@ -1,56 +1,6 @@
 {
-  "fetched_at": "2026-10-05T17:31:19.339104+00:00",
+  "fetched_at": "2026-10-06T15:31:36.065496+00:00",
   "films": [
-    {
-      "cinema": "Espai Texas",
-      "title": "CICLE ARTEC",
-      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261005 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261014 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261019 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261026 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261109 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261116 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261123 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261130 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
     {
       "cinema": "Espai Texas",
       "title": "CINC SEGONS",
@@ -78,11 +28,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261005 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261006 16:15",
           "room": null,
           "language": null
@@ -107,11 +52,6 @@
       "url": "https://espaitexas.cat/pelicula/homenatge-a-catalunya/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261005 17:50",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261006 18:10",
           "room": null,
@@ -143,15 +83,25 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "LIONEL",
+      "url": "https://espaitexas.cat/pelicula/lionel/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261007 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "OMBRA NÒMADA",
       "url": "https://espaitexas.cat/pelicula/ombra-nomada/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261005 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261006 18:15",
           "room": null,
@@ -173,30 +123,10 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "SISÈ PRIMERA + GASTOS INCLUIDOS",
-      "url": "https://espaitexas.cat/pelicula/sise-primera-gastos-incluidos/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261005 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "TANIT",
       "url": "https://espaitexas.cat/pelicula/tanit/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261005 18:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261006 20:15",
           "room": null,
@@ -215,6 +145,26 @@
       ],
       "labels": [],
       "rating": "★ 4.0 <a href=\"https://www.themoviedb.org/movie/1655929\">TMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "VIURE LA TERRA",
+      "url": "https://espaitexas.cat/pelicula/viure-la-terra/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261007 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261008 16:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -252,23 +202,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Boogie Nights (Paul Thomas Anderson, 1997)",
-      "url": "https://www.filmoteca.cat/web/ca/film/boogie-nights",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261006 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Paul Thomas Anderson, 1997"
-      ],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0118749/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Et si on vivait tous ensemble? (I si vivim tots plegats?)",
       "url": "https://www.filmoteca.cat/web/ca/film/et-si-vivait-tous-ensemble",
       "source_section": "agenda-setmanal",
@@ -283,6 +216,72 @@
         "Stéphane Robelin, 2011"
       ],
       "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt1674057/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Madame a des envies | Les resultats du féminisme | Ara crema",
+      "url": "https://www.filmoteca.cat/web/ca/film/madame-des-envies-les-resultats-du-feminisme-ara-crema",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261007 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Pasolini, un viaggio in Italia (Xavier Juncosa, 1999)",
+      "url": "https://www.filmoteca.cat/web/ca/film/pasolini-un-viaggio-italia-0",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261007 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Xavier Juncosa, 1999"
+      ],
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Punch-Drunk Love (Paul Thomas Anderson, 2002)",
+      "url": "https://www.filmoteca.cat/web/ca/film/punch-drunk-love",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261007 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Paul Thomas Anderson, 2002"
+      ],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0272338/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Yo (Rafa Cortés, 2007)",
+      "url": "https://www.filmoteca.cat/web/ca/film/yo",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261007 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Rafa Cortés, 2007"
+      ],
+      "rating": "★ 5.2 <a href=\"https://www.imdb.com/title/tt0796239/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -316,45 +315,10 @@
     },
     {
       "cinema": "Maldà",
-      "title": "La muestra MEX / ULTRAcinema: El Último Vals (VOE)",
-      "url": "https://www.cinemamalda.com/ultracinema-el-ultimo-vals/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261005 20:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Maldà",
-      "title": "La última ronda en Venecia (VOSE)",
-      "url": "https://www.cinemamalda.com/la-ultima-ronda-en-venecia/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261005 15:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt36491632/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "Sombra nómada (VOSE)",
       "url": "https://www.cinemamalda.com/sombra-nomada/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20261005 19:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261006 19:00",
           "room": null,
@@ -363,21 +327,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Sunny Dancer (VOSE)",
-      "url": "https://www.cinemamalda.com/sunny-dancer/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261005 17:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt32212403/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -392,7 +341,22 @@
         }
       ],
       "labels": [],
-      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt5265480/\">IMDb</a>"
+      "rating": "★ 3.8 <a href=\"https://www.imdb.com/title/tt5265480/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "KOYAANISQATSI Koyaanisqatsi",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1589",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261007 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0085809/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -400,11 +364,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2997",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20261005 21:35",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261006 18:40",
           "room": null,
@@ -506,6 +465,41 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "PAPRIKA, DETECTIVE DE LOS SUEÑOS (Proyección en VOSE) Papurika",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2192",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261007 22:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0851578/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "QUEEN BUDAPEST (Proyección en Dolby Atmos, 4K y VOSE) Queen Budapest",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2998",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261007 20:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261010 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0093427/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "RESIDENT EVIL (2026) (Proyección en VOSE) Resident Evil",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2996",
       "source_section": "cartelera",
@@ -525,28 +519,13 @@
       "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt35538033/\">IMDb</a>"
     },
     {
-      "cinema": "Phenomena",
-      "title": "SOLARIS (Proyección en VOSE) Solyaris",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2622",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261006 15:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0069293/\">IMDb</a>"
-    },
-    {
       "cinema": "Renoir Floridablanca",
       "title": "Bad Apples",
       "url": "https://www.cinesrenoir.com/pelicula/bad-apples/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261005 22:45",
+          "datetime": "20261006 22:45",
           "room": null,
           "language": "subtitulada"
         }
@@ -561,7 +540,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261005 15:50",
+          "datetime": "20261006 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -576,22 +555,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261005 15:50",
+          "datetime": "20261006 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261005 17:45",
+          "datetime": "20261006 17:45",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261005 20:10",
+          "datetime": "20261006 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261005 22:35",
+          "datetime": "20261006 22:35",
           "room": null,
           "language": "subtitulada"
         }
@@ -606,12 +585,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261005 17:40",
+          "datetime": "20261006 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261005 20:10",
+          "datetime": "20261006 20:10",
           "room": null,
           "language": "Castellano"
         }
@@ -626,37 +605,27 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261005 16:00",
+          "datetime": "20261006 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261005 17:40",
+          "datetime": "20261006 18:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261005 18:10",
+          "datetime": "20261006 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261005 19:00",
+          "datetime": "20261006 21:15",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261005 20:35",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20261005 21:15",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20261005 22:00",
+          "datetime": "20261006 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -666,22 +635,32 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "La Reina De África [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/la-reina-de-africa-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261006 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0043265/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "Narciso",
       "url": "https://www.cinesrenoir.com/pelicula/narciso/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261005 15:50",
+          "datetime": "20261006 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261005 20:35",
-          "room": null,
-          "language": "Castellano"
-        },
-        {
-          "datetime": "20261005 22:35",
+          "datetime": "20261006 22:35",
           "room": null,
           "language": "Castellano"
         }
@@ -691,48 +670,18 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Palestina 36",
-      "url": "https://www.cinesrenoir.com/pelicula/palestina-36/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261005 18:15",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt29271622/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
       "title": "Tiempo De Victoria",
       "url": "https://www.cinesrenoir.com/pelicula/tiempo-de-victoria/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261005 15:50",
+          "datetime": "20261006 15:50",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
       "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt32547691/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Abril, hoy no es invierno + Como antes + Dafne y Pol + It's Still Autum + Te dejo el mar + Umbuzeiro + Voces del silencio",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/abril-hoy-no-es-invierno-como-antes-dafne-y-pol-itls-still-autum-te-dejo-el-mar-umbuzeiro-voces-del-silencio/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261005 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -846,21 +795,6 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Mavro Vouno + Arenillas + Cara de bicicleta + Les primeres + Les aventures d'Angosat",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/mavro-vouno-arenillas-cara-de-bicicleta-les-primeres-les-aventures-dangosat/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261005 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
       "title": "Sombra nómada",
       "url": "https://www.zumzeigcine.coop/es/cine/films/sombra-nomada/",
       "source_section": "calendari",
@@ -901,6 +835,51 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "CICLE ARTEC",
+      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261014 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261019 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261026 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261109 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261116 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261123 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261130 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "DETECTIU CONAN: L'ÀNGEL CAIGUT DE LA CARRETERA",
       "url": "https://espaitexas.cat/pelicula/detectiu-conan-langel-caigut-de-la-carretera/",
       "source_section": "cartellera-cinema",
@@ -922,6 +901,15 @@
       "shows": [],
       "labels": [],
       "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt33512868/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "EL SAMURAI I EL PRESONER",
+      "url": "https://espaitexas.cat/pelicula/el-samurai-i-el-presoner/",
+      "source_section": "cartellera-cinema",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt39602215/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1018,21 +1006,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "LIONEL",
-      "url": "https://espaitexas.cat/pelicula/lionel/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261007 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "MISS JOBSON",
       "url": "https://espaitexas.cat/pelicula/miss-jobson-2/",
       "source_section": "cartellera-cinema",
@@ -1069,26 +1042,6 @@
       ],
       "labels": [],
       "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt2414454/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "VIURE LA TERRA",
-      "url": "https://espaitexas.cat/pelicula/viure-la-terra/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261007 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261008 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1228,21 +1181,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Madame a des envies | Les resultats du féminisme | Ara crema",
-      "url": "https://www.filmoteca.cat/web/ca/film/madame-des-envies-les-resultats-du-feminisme-ara-crema",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261007 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Magnolia (Paul Thomas Anderson, 1997)",
       "url": "https://www.filmoteca.cat/web/ca/film/magnolia",
       "source_section": "agenda-setmanal",
@@ -1277,23 +1215,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Pasolini, un viaggio in Italia (Xavier Juncosa, 1999)",
-      "url": "https://www.filmoteca.cat/web/ca/film/pasolini-un-viaggio-italia-0",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261007 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Xavier Juncosa, 1999"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Pina (3D) (Wim Wenders, 2011)",
       "url": "https://www.filmoteca.cat/web/ca/film/pina-3d",
       "source_section": "agenda-setmanal",
@@ -1308,23 +1229,6 @@
         "Wim Wenders, 2011"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Punch-Drunk Love (Paul Thomas Anderson, 2002)",
-      "url": "https://www.filmoteca.cat/web/ca/film/punch-drunk-love",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261007 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Paul Thomas Anderson, 2002"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0272338/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1401,23 +1305,6 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261007 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Rafa Cortés, 2007"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt12145684/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Yo (Rafa Cortés, 2007)",
-      "url": "https://www.filmoteca.cat/web/ca/film/yo",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
           "datetime": "20261009 21:00",
           "room": null,
           "language": null
@@ -1426,7 +1313,7 @@
       "labels": [
         "Rafa Cortés, 2007"
       ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt12145684/\">IMDb</a>"
+      "rating": "★ 5.2 <a href=\"https://www.imdb.com/title/tt0796239/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1442,6 +1329,42 @@
       "title": "Cine sénior",
       "url": "https://www.cinemamalda.com/cine-senior/",
       "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Femení, singular (VOCastCat)",
+      "url": "https://www.cinemamalda.com/femeni-singular/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 9.0 <a href=\"https://www.imdb.com/title/tt30229628/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Jim Queen (VOSE)",
+      "url": "https://www.cinemamalda.com/jim-queen/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt36955518/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Sunny Dancer (VOSE)",
+      "url": "https://www.cinemamalda.com/sunny-dancer/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt32212403/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "#titulo-2# #titulo-vo-2#",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
+      "source_section": "cartelera",
       "shows": [],
       "labels": [],
       "rating": null
@@ -1663,30 +1586,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "KOYAANISQATSI Koyaanisqatsi",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1589",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261007 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0085809/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LA DONCELLA (THE HANDMAIDEN) Agassi",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2730",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt4016934/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "LA LA LAND (LA CIUDAD DE LAS ESTRELLAS) (Proyección en Dolby 7.1 y VOSE) La La Land",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=1604",
       "source_section": "cartelera",
@@ -1762,18 +1661,18 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "PAPRIKA, DETECTIVE DE LOS SUEÑOS (Proyección en VOSE) Papurika",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2192",
+      "title": "PREESTRENO: DUNE PARTE TRES (Proyección en Dolby Atmos, 4K y VOSE) Dune: Part Three",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3016",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261007 22:00",
+          "datetime": "20261215 20:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0851578/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Phenomena",
@@ -1807,26 +1706,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "QUEEN BUDAPEST (Proyección en Dolby Atmos, 4K y VOSE) Queen Budapest",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2998",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261007 20:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261010 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0093427/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "RETORNO AL PASADO (Proyección en 4K y VOSE) Out of the Past",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2490",
       "source_section": "cartelera",
@@ -1842,12 +1721,12 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "SED DE MAL (Proyección en 35 mm y VOSE) Touch of Evil",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2555",
+      "title": "SOLARIS (Proyección en VOSE) Solyaris",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2622",
       "source_section": "cartelera",
       "shows": [],
       "labels": [],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0052311/\">IMDb</a>"
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0069293/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1902,6 +1781,21 @@
       "shows": [
         {
           "datetime": "20261008 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Abril, hoy no es invierno + Como antes + Dafne y Pol + It's Still Autum + Te dejo el mar + Umbuzeiro + Voces del silencio",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/abril-hoy-no-es-invierno-como-antes-dafne-y-pol-itls-still-autum-te-dejo-el-mar-umbuzeiro-voces-del-silencio/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261005 19:00",
           "room": null,
           "language": null
         }
@@ -2016,12 +1910,72 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Far and Near + Sea Scavengers",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/far-and-near-sea-scavengers/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261017 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Fromzero Sessions #7",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/fromzero-sessions-7/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261022 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Indòmita llum",
       "url": "https://www.zumzeigcine.coop/es/cine/films/indomita-llum/",
       "source_section": "calendari",
       "shows": [
         {
           "datetime": "20261021 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Krakatoa",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/krakatoa/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261107 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt3690918/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Mavro Vouno + Arenillas + Cara de bicicleta + Les primeres + Les aventures d'Angosat",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/mavro-vouno-arenillas-cara-de-bicicleta-les-primeres-les-aventures-dangosat/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261005 21:30",
           "room": null,
           "language": null
         }
@@ -2087,7 +2041,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2097,6 +2051,21 @@
       "shows": [
         {
           "datetime": "20261009 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Sem terra: La lluita per la terra al Brasil",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/sem-terra-lluita-terra-brasil/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261105 19:00",
           "room": null,
           "language": null
         }
