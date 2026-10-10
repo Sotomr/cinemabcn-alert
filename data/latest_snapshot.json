@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T15:38:39.278355+00:00",
+  "fetched_at": "2026-10-10T14:52:33.541680+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -27,21 +27,6 @@
       "url": "https://espaitexas.cat/pelicula/escape-room-2/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261009 16:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261009 18:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261009 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261010 16:30",
           "room": null,
@@ -138,11 +123,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261009 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261010 18:15",
           "room": null,
           "language": null
@@ -183,11 +163,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261009 20:30",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261010 20:30",
           "room": null,
           "language": null
@@ -205,6 +180,74 @@
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Boogie Nights (Paul Thomas Anderson, 1997)",
+      "url": "https://www.filmoteca.cat/web/ca/film/boogie-nights",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261011 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Paul Thomas Anderson, 1997"
+      ],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0118749/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Invitation to the Dance (Invitació a la dansa)",
+      "url": "https://www.filmoteca.cat/web/ca/film/invitation-dance",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261011 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Gene Kelly, 1956"
+      ],
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0049367/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Jakten (La cacera)",
+      "url": "https://www.filmoteca.cat/web/ca/film/jakten",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261011 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Erik Løchen, 1959"
+      ],
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0059326/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Liverpool (Lisandro Alonso, 2008)",
+      "url": "https://www.filmoteca.cat/web/ca/film/liverpool",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261011 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Lisandro Alonso, 2008"
+      ],
+      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1002539/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -275,70 +318,19 @@
       "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0088230/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "The Master (Paul Thomas Anderson, 2012)",
-      "url": "https://www.filmoteca.cat/web/ca/film/master",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261009 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Paul Thomas Anderson, 2012"
-      ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt1560747/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "The Miracle Worker (La treballadora del miracle)",
-      "url": "https://www.filmoteca.cat/web/ca/film/miracle-worker",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261009 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Arthur Penn, 1962"
-      ],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0246786/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Yo (Rafa Cortés, 2007)",
-      "url": "https://www.filmoteca.cat/web/ca/film/yo",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261009 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Rafa Cortés, 2007"
-      ],
-      "rating": "★ 5.2 <a href=\"https://www.imdb.com/title/tt0796239/\">IMDb</a>"
-    },
-    {
       "cinema": "Maldà",
-      "title": "La muestra MEX / Antimateria (VOSI) ESTRENO MUNDIAL",
-      "url": "https://www.cinemamalda.com/antimateria/",
+      "title": "Jim Queen (VOSE)",
+      "url": "https://www.cinemamalda.com/jim-queen/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20261009 20:35",
+          "datetime": "20261011 20:15",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt36955518/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -346,11 +338,6 @@
       "url": "https://www.cinemamalda.com/tiempo-de-victoria/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20261009 18:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261011 18:30",
           "room": null,
@@ -372,35 +359,10 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "AKIRA (Proyección en 4K y VOSE) Akira",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=459",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261009 23:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0094625/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "DIGGER (Proyección en DOLBY ATMOS y VOSE) Digger",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2987",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20261009 17:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261009 20:40",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261010 20:10",
           "room": null,
@@ -426,143 +388,18 @@
       "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt31450459/\">IMDb</a>"
     },
     {
-      "cinema": "Phenomena",
-      "title": "DRIVE (Proyección en 4K y VOSE) Drive",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=841",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261010 23:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0780504/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LA BOLA NEGRA (Proyección en Dolby Atmos y 4K) La bola negra",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2997",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261010 14:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261011 20:10",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261013 17:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261013 21:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261014 20:40",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261015 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261015 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261016 19:25",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261017 15:50",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261017 19:10",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261018 17:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261018 21:10",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261019 17:10",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261020 20:40",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261021 15:10",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261022 21:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "QUEEN BUDAPEST (Proyección en Dolby Atmos, 4K y VOSE) Queen Budapest",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2998",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261010 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0093427/\">IMDb</a>"
-    },
-    {
       "cinema": "Renoir Floridablanca",
       "title": "Digger",
       "url": "https://www.cinesrenoir.com/pelicula/digger/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 15:50",
+          "datetime": "20261010 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261009 20:10",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261009 22:10",
+          "datetime": "20261010 20:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -577,28 +414,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 15:50",
+          "datetime": "20261010 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261009 18:00",
+          "datetime": "20261010 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261009 20:10",
+          "datetime": "20261010 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261009 22:20",
+          "datetime": "20261010 22:20",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -607,17 +444,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 17:00",
+          "datetime": "20261010 17:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261009 19:35",
+          "datetime": "20261010 19:35",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261009 22:10",
+          "datetime": "20261010 22:10",
           "room": null,
           "language": "Castellano"
         }
@@ -632,27 +469,27 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 16:00",
+          "datetime": "20261010 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261009 17:40",
+          "datetime": "20261010 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261009 19:00",
+          "datetime": "20261010 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261009 20:35",
+          "datetime": "20261010 20:35",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261009 22:00",
+          "datetime": "20261010 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -667,17 +504,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 16:00",
+          "datetime": "20261010 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261009 18:15",
+          "datetime": "20261010 18:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261009 22:40",
+          "datetime": "20261010 22:40",
           "room": null,
           "language": "subtitulada"
         }
@@ -692,12 +529,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 20:20",
+          "datetime": "20261010 20:20",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261009 22:20",
+          "datetime": "20261010 22:20",
           "room": null,
           "language": "Castellano"
         }
@@ -712,12 +549,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 16:15",
+          "datetime": "20261010 16:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261009 18:15",
+          "datetime": "20261010 18:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -732,7 +569,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 18:00",
+          "datetime": "20261010 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -747,7 +584,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261009 20:00",
+          "datetime": "20261010 20:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -979,41 +816,6 @@
       ],
       "labels": [],
       "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Punto y Raya: Arquitectura y Animación",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/punto-y-raya-arquitectura-y-animacion/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261009 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Siemprevivas",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas-zumzeig/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261002 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261009 17:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -1248,74 +1050,6 @@
       "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt2414454/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Boogie Nights (Paul Thomas Anderson, 1997)",
-      "url": "https://www.filmoteca.cat/web/ca/film/boogie-nights",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261011 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Paul Thomas Anderson, 1997"
-      ],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0118749/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Invitation to the Dance (Invitació a la dansa)",
-      "url": "https://www.filmoteca.cat/web/ca/film/invitation-dance",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261011 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Gene Kelly, 1956"
-      ],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0049367/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Jakten (La cacera)",
-      "url": "https://www.filmoteca.cat/web/ca/film/jakten",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261011 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Erik Løchen, 1959"
-      ],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0059326/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Liverpool (Lisandro Alonso, 2008)",
-      "url": "https://www.filmoteca.cat/web/ca/film/liverpool",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261011 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Lisandro Alonso, 2008"
-      ],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt1002539/\">IMDb</a>"
-    },
-    {
       "cinema": "Maldà",
       "title": "9ª Muestra de cine Mexicano",
       "url": "https://www.cinemamalda.com/muestra-cine-mexicano/",
@@ -1335,18 +1069,18 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Jim Queen (VOSE)",
-      "url": "https://www.cinemamalda.com/jim-queen/",
+      "title": "Femení, singular (VOCastCat)",
+      "url": "https://www.cinemamalda.com/femeni-singular/",
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20261011 20:15",
+          "datetime": "20261013 19:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt36955518/\">IMDb</a>"
+      "rating": "★ 9.0 <a href=\"https://www.imdb.com/title/tt30229628/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1407,78 +1141,12 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "BLADE RUNNER: THE FINAL CUT (Proyección en Dolby Atmos, 4K y VOSE)",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=625",
+      "title": "AKIRA (Proyección en 4K y VOSE) Akira",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=459",
       "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261024 23:10",
-          "room": null,
-          "language": null
-        }
-      ],
+      "shows": [],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0083658/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "BONNIE Y CLYDE (Proyección en VOSE) Bonnie and Clyde",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=633",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261014 15:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0061418/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "CALL ME BY YOUR NAME (Proyección en VOSE) Call Me by Your Name",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=64",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261022 15:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt5726616/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "CARRETERA PERDIDA (Proyección en 35 mm y VOSE) Lost Highway",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=681",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261017 22:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt0116922/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "DUNKERQUE (Proyección en 4K y VOSE) Dunkirk",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=254",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261019 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt5013056/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0094625/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1488,236 +1156,6 @@
       "shows": [],
       "labels": [],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0134119/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "EN EL CORAZÓN DE LA BESTIA (Proyección en Dolby Atmos, 4K y  VOSE) Heart of the Beast",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3005",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261016 17:10",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261018 15:25",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261020 18:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt7526136/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "EYES WIDE SHUT (Proyección en VOSE) Eyes Wide Shut",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1237",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261020 15:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0120663/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "HOMENAJE A TIM CURRY: THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261011 23:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LA LA LAND (LA CIUDAD DE LAS ESTRELLAS) (Proyección en Dolby 7.1 y VOSE) La La Land",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1604",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261012 21:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt3783958/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LA ODISEA (Proyección en 70 mm, DTS y VOSE) The Odyssey",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261012 15:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261022 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261023 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LAS AVENTURAS DE JEREMIAH JOHNSON (Proyección en VOSE) Jeremiah Johnson",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1796",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261015 15:40",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt0068762/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "OLVÍDATE DE MÍ (Proyección en 35mm y VOSE) Eternal Sunshine of the Spotless Mind",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2120",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261025 21:35",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0338013/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PREESTRENO: DUNE PARTE TRES (Proyección en Dolby Atmos, 4K y VOSE) Dune: Part Three",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3016",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261215 20:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PROGRAMA DOBLE SORPRESA CLUB PHENOMENA",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2356",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261019 20:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "PROGRAMA DOBLE SORPRESA HALLOWEEN Halloween Surprise Double Bill",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2368",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261031 22:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "RESIDENT EVIL (2026) (Proyección en VOSE) Resident Evil",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2996",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261016 22:40",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt35538033/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "RETORNO AL PASADO (Proyección en 4K y VOSE) Out of the Past",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2490",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261011 15:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0039689/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "THX 1138 (Proyección en 35 mm y VOSE) THX 1138",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2682",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261016 15:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0066434/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "TWIN PEAKS: FUEGO CAMINA CONMIGO (Proyección en 35 mm y VOSE) Twin Peaks: Fire Walk With Me",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2817",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261013 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0105665/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -1976,12 +1414,47 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Punto y Raya: Arquitectura y Animación",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/punto-y-raya-arquitectura-y-animacion/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261009 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Sem terra: La lluita per la terra al Brasil",
       "url": "https://www.zumzeigcine.coop/es/cine/films/sem-terra-lluita-terra-brasil/",
       "source_section": "calendari",
       "shows": [
         {
           "datetime": "20261105 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Siemprevivas",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/siemprevivas-zumzeig/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261002 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261009 17:15",
           "room": null,
           "language": null
         }
