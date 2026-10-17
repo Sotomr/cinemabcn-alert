@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T13:36:04.949051+00:00",
+  "fetched_at": "2026-10-17T12:32:36.201937+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -27,16 +27,6 @@
       "url": "https://espaitexas.cat/pelicula/escape-room-2/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261016 18:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261016 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261017 18:15",
           "room": null,
@@ -88,11 +78,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261016 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261017 18:15",
           "room": null,
           "language": null
@@ -133,11 +118,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261016 20:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261017 20:00",
           "room": null,
           "language": null
@@ -157,11 +137,6 @@
       "url": "https://espaitexas.cat/pelicula/ombra-nomada/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261016 16:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261018 20:30",
           "room": null,
@@ -197,11 +172,6 @@
       "url": "https://espaitexas.cat/pelicula/tanit/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261016 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261017 16:00",
           "room": null,
@@ -255,7 +225,7 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261016 17:00",
+          "datetime": "20261018 18:00",
           "room": null,
           "language": null
         }
@@ -284,37 +254,54 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Mystic River (Clint Eastwood, 2003)",
-      "url": "https://www.filmoteca.cat/web/ca/film/mystic-river",
+      "title": "Les mille et un jours du Hajj Edmond (Simone Bitton, 2024)",
+      "url": "https://www.filmoteca.cat/web/ca/film/les-mille-et-un-jours-du-hajj-edmond",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261016 20:00",
+          "datetime": "20261018 21:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Clint Eastwood, 2003"
+        "Simone Bitton, 2024"
       ],
-      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt0327056/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Filmoteca",
-      "title": "Punch-Drunk Love (Paul Thomas Anderson, 2002)",
-      "url": "https://www.filmoteca.cat/web/ca/film/punch-drunk-love",
+      "title": "Pina (3D) (Wim Wenders, 2011)",
+      "url": "https://www.filmoteca.cat/web/ca/film/pina-3d",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261016 21:00",
+          "datetime": "20261018 17:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Paul Thomas Anderson, 2002"
+        "Wim Wenders, 2011"
       ],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0272338/\">IMDb</a>"
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt1440266/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Stranger Than Paradise (Extraños en el paraíso)",
+      "url": "https://www.filmoteca.cat/web/ca/film/stranger-paradise",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261018 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Jim Jarmusch, 1984"
+      ],
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0088184/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -351,23 +338,6 @@
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Ziyara (Simone Bitton, 2020)",
-      "url": "https://www.filmoteca.cat/web/ca/film/ziyara",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261016 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Simone Bitton, 2020"
-      ],
-      "rating": "★ 4.5 <a href=\"https://www.imdb.com/title/tt15520396/\">IMDb</a>"
-    },
-    {
       "cinema": "Phenomena",
       "title": "CARRETERA PERDIDA (Proyección en 35 mm y VOSE) Lost Highway",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=681",
@@ -389,11 +359,6 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 17:10",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261018 15:25",
           "room": null,
           "language": null
@@ -413,11 +378,6 @@
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2997",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20261016 19:25",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261017 15:50",
           "room": null,
@@ -478,33 +438,13 @@
       "rating": "★ 8.4 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
-      "cinema": "Phenomena",
-      "title": "RESIDENT EVIL (2026) (Proyección en VOSE) Resident Evil",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2996",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261016 22:40",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261024 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt35538033/\">IMDb</a>"
-    },
-    {
       "cinema": "Renoir Floridablanca",
       "title": "Chopin",
       "url": "https://www.cinesrenoir.com/pelicula/chopin/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 18:00",
+          "datetime": "20261017 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -519,12 +459,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 15:50",
+          "datetime": "20261017 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 22:00",
+          "datetime": "20261017 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -539,12 +479,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 15:50",
+          "datetime": "20261017 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261016 20:30",
+          "datetime": "20261017 20:30",
           "room": null,
           "language": "Castellano"
         }
@@ -559,23 +499,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 15:50",
+          "datetime": "20261017 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 20:25",
+          "datetime": "20261017 20:25",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 22:30",
+          "datetime": "20261017 22:30",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -584,17 +524,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 15:50",
+          "datetime": "20261017 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261016 17:50",
+          "datetime": "20261017 17:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261016 22:00",
+          "datetime": "20261017 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -609,12 +549,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 18:00",
+          "datetime": "20261017 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 22:30",
+          "datetime": "20261017 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -629,27 +569,27 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 16:00",
+          "datetime": "20261017 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261016 17:40",
+          "datetime": "20261017 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261016 19:00",
+          "datetime": "20261017 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261016 20:35",
+          "datetime": "20261017 20:35",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261016 22:00",
+          "datetime": "20261017 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -664,22 +604,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 15:50",
+          "datetime": "20261017 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 18:20",
+          "datetime": "20261017 18:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 20:25",
+          "datetime": "20261017 20:25",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 22:30",
+          "datetime": "20261017 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -694,7 +634,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 20:00",
+          "datetime": "20261017 20:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -709,23 +649,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261016 16:00",
+          "datetime": "20261017 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 18:20",
+          "datetime": "20261017 18:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261016 20:25",
+          "datetime": "20261017 20:25",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -985,22 +925,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Érem una gran família",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/erem-una-gran-familia/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261016 18:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt39946544/\">IMDb</a>"
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1242,74 +1167,6 @@
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0078915/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Karumen junjô su (Carmen se enamora)",
-      "url": "https://www.filmoteca.cat/web/ca/film/karumen-junjo-su",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261018 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Keisuke Kinoshita, 1952"
-      ],
-      "rating": "★ 5.2 <a href=\"https://www.imdb.com/title/tt0044793/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Les mille et un jours du Hajj Edmond (Simone Bitton, 2024)",
-      "url": "https://www.filmoteca.cat/web/ca/film/les-mille-et-un-jours-du-hajj-edmond",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261018 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Simone Bitton, 2024"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Pina (3D) (Wim Wenders, 2011)",
-      "url": "https://www.filmoteca.cat/web/ca/film/pina-3d",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261018 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Wim Wenders, 2011"
-      ],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt1440266/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Stranger Than Paradise (Extraños en el paraíso)",
-      "url": "https://www.filmoteca.cat/web/ca/film/stranger-paradise",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261018 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Jim Jarmusch, 1984"
-      ],
-      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0088184/\">IMDb</a>"
-    },
-    {
       "cinema": "Maldà",
       "title": "Cine sénior",
       "url": "https://www.cinemamalda.com/cine-senior/",
@@ -1438,15 +1295,6 @@
       "shows": [],
       "labels": [],
       "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt32547691/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "#titulo-2# #titulo-vo-2#",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Phenomena",
@@ -1586,7 +1434,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1696,7 +1544,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt27369017/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt27369017/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1845,6 +1693,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "RESIDENT EVIL (2026) (Proyección en VOSE) Resident Evil",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2996",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261024 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt35538033/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "RÉQUIEM POR UN SUEÑO (Proyección en 35 mm y VOSE) Requiem for a Dream",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2485",
       "source_section": "cartelera",
@@ -1877,15 +1740,6 @@
       ],
       "labels": [],
       "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0066993/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "THX 1138 (Proyección en 35 mm y VOSE) THX 1138",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2682",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0066434/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -2040,7 +1894,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2441,6 +2295,21 @@
       ],
       "labels": [],
       "rating": "★ 5.4 <a href=\"https://www.imdb.com/title/tt1053951/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Érem una gran família",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/erem-una-gran-familia/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261016 18:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt39946544/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
