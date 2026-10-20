@@ -1,72 +1,12 @@
 {
-  "fetched_at": "2026-10-19T15:57:23.080230+00:00",
+  "fetched_at": "2026-10-20T13:56:23.819471+00:00",
   "films": [
-    {
-      "cinema": "Espai Texas",
-      "title": "CHAVALAS",
-      "url": "https://espaitexas.cat/pelicula/chavalas/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261019 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt10835642/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "CICLE ARTEC",
-      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261019 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261026 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261109 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261116 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261123 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261130 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
     {
       "cinema": "Espai Texas",
       "title": "ESCAPE ROOM 2",
       "url": "https://espaitexas.cat/pelicula/escape-room-2/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261019 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261020 20:15",
           "room": null,
@@ -92,11 +32,6 @@
       "url": "https://espaitexas.cat/pelicula/homenatge-a-catalunya/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261019 17:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261021 20:30",
           "room": null,
@@ -133,11 +68,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261019 18:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261020 18:00",
           "room": null,
           "language": null
@@ -163,11 +93,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261019 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261020 16:15",
           "room": null,
           "language": null
@@ -192,11 +117,6 @@
       "url": "https://espaitexas.cat/pelicula/tanit/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261019 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261020 16:00",
           "room": null,
@@ -270,6 +190,21 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Lola i el piano trencaclosques (Programa expandit)",
+      "url": "https://www.filmoteca.cat/web/ca/film/lola-i-el-piano-trencaclosques",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261021 10:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt39174702/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "Mahmoud Darwich: et la terre, comme la langue... (Simone Bitton, 1998)",
       "url": "https://www.filmoteca.cat/web/ca/film/mahmoud-darwich-et-la-terre-comme-la-langue",
       "source_section": "agenda-setmanal",
@@ -287,6 +222,40 @@
     },
     {
       "cinema": "Filmoteca",
+      "title": "Mur (Simone Bitton, 2004)",
+      "url": "https://www.filmoteca.cat/web/ca/film/mur",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261021 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Simone Bitton, 2004"
+      ],
+      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt0413018/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Tasio (Montxo Armendáriz, 1984)",
+      "url": "https://www.filmoteca.cat/web/ca/film/tasio",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261021 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Montxo Armendáriz, 1984"
+      ],
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0088230/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
       "title": "The Miracle Worker (La treballadora del miracle)",
       "url": "https://www.filmoteca.cat/web/ca/film/miracle-worker",
       "source_section": "agenda-setmanal",
@@ -301,6 +270,40 @@
         "Arthur Penn, 1962"
       ],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0056241/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Tretya meshchanskaya (Cama y sofá)",
+      "url": "https://www.filmoteca.cat/web/ca/film/tretya-meshchanskaya",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261021 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Abram Room, 1927"
+      ],
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0018505/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Wakolda (Lucía Puenzo, 2013)",
+      "url": "https://www.filmoteca.cat/web/ca/film/wakolda",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261021 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Lucía Puenzo, 2013"
+      ],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt1847746/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -339,11 +342,6 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20261019 13:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261020 13:30",
           "room": null,
           "language": null
@@ -358,11 +356,6 @@
       "url": "https://www.cinemamalda.com/la-invitacion/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20261019 17:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261020 17:35",
           "room": null,
@@ -383,11 +376,6 @@
       "url": "https://www.cinemamalda.com/la-voz-quebrada/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20261019 15:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261020 19:25",
           "room": null,
@@ -416,21 +404,6 @@
       ],
       "labels": [],
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt7526136/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "EYES WIDE SHUT (Proyección en VOSE) Eyes Wide Shut",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1237",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261020 15:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0120663/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -473,28 +446,13 @@
       "rating": "★ 8.3 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
-      "cinema": "Phenomena",
-      "title": "PROGRAMA DOBLE SORPRESA CLUB PHENOMENA",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2356",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261019 20:20",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
       "cinema": "Renoir Floridablanca",
       "title": "Chopin",
       "url": "https://www.cinesrenoir.com/pelicula/chopin/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 18:00",
+          "datetime": "20261020 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -509,12 +467,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 15:50",
+          "datetime": "20261020 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 22:00",
+          "datetime": "20261020 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -529,12 +487,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 15:50",
+          "datetime": "20261020 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261019 20:30",
+          "datetime": "20261020 20:30",
           "room": null,
           "language": "Castellano"
         }
@@ -549,23 +507,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 15:50",
+          "datetime": "20261020 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 20:25",
+          "datetime": "20261020 20:25",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 22:30",
+          "datetime": "20261020 22:30",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -574,17 +532,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 15:50",
+          "datetime": "20261020 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261019 17:50",
+          "datetime": "20261020 17:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261019 22:00",
+          "datetime": "20261020 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -599,12 +557,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 18:00",
+          "datetime": "20261020 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 22:30",
+          "datetime": "20261020 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -619,27 +577,27 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 16:00",
+          "datetime": "20261020 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261019 17:40",
+          "datetime": "20261020 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261019 19:00",
+          "datetime": "20261020 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261019 20:35",
+          "datetime": "20261020 20:35",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261019 22:00",
+          "datetime": "20261020 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -654,22 +612,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 15:50",
+          "datetime": "20261020 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 18:20",
+          "datetime": "20261020 18:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 20:25",
+          "datetime": "20261020 20:25",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 22:30",
+          "datetime": "20261020 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -684,7 +642,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 20:00",
+          "datetime": "20261020 20:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -699,17 +657,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261019 16:00",
+          "datetime": "20261020 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 18:20",
+          "datetime": "20261020 18:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261019 20:25",
+          "datetime": "20261020 20:25",
           "room": null,
           "language": "subtitulada"
         }
@@ -789,12 +747,12 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Dues perspectives sobre l'art i els drets",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/dues-perspectives-sobre-lart-i-els-drets/",
+      "title": "Dues perspectives sobre la crisi mediambiental",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/dues-perspectives-sobre-la-crisi-mediambiental/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20261019 19:00",
+          "datetime": "20261020 19:00",
           "room": null,
           "language": null
         }
@@ -804,12 +762,12 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Dues perspectives sobre la crisi mediambiental",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/dues-perspectives-sobre-la-crisi-mediambiental/",
+      "title": "Indòmita llum",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/indomita-llum/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20261020 19:00",
+          "datetime": "20261021 19:00",
           "room": null,
           "language": null
         }
@@ -1074,12 +1032,65 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "BLUE HERON",
+      "url": "https://espaitexas.cat/pelicula/blue-heron/",
+      "source_section": "cartellera-cinema",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "CICLE ARTEC",
+      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261026 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261109 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261116 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261123 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261130 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "EL SAMURAI I EL PRESONER",
       "url": "https://espaitexas.cat/pelicula/el-samurai-i-el-presoner/",
       "source_section": "cartellera-cinema",
       "shows": [],
       "labels": [],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt39602215/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "ELS NENS ESTÀN BÉ",
+      "url": "https://espaitexas.cat/pelicula/els-nens-estan-be/",
+      "source_section": "cartellera-cinema",
+      "shows": [],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -1175,6 +1186,15 @@
       ],
       "labels": [],
       "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt2414454/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "VIATGE AL PAÍS DELS BLANCS",
+      "url": "https://espaitexas.cat/pelicula/viatge-al-pais-dels-blancs/",
+      "source_section": "cartellera-cinema",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt37162873/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1278,21 +1298,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Lola i el piano trencaclosques (Programa expandit)",
-      "url": "https://www.filmoteca.cat/web/ca/film/lola-i-el-piano-trencaclosques",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261021 10:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt39174702/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Mr. Klein (El otro señor Klein)",
       "url": "https://www.filmoteca.cat/web/ca/film/mr-klein",
       "source_section": "agenda-setmanal",
@@ -1324,23 +1329,6 @@
         "Joseph Losey, 1976"
       ],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt0074916/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Mur (Simone Bitton, 2004)",
-      "url": "https://www.filmoteca.cat/web/ca/film/mur",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261021 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Simone Bitton, 2004"
-      ],
-      "rating": "★ 5.8 <a href=\"https://www.imdb.com/title/tt0413018/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1392,23 +1380,6 @@
         "Keisuke Kinoshita, 1944"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Tasio (Montxo Armendáriz, 1984)",
-      "url": "https://www.filmoteca.cat/web/ca/film/tasio",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261021 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Montxo Armendáriz, 1984"
-      ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt0088230/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1468,23 +1439,6 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261021 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Abram Room, 1927"
-      ],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0018505/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Tretya meshchanskaya (Cama y sofá)",
-      "url": "https://www.filmoteca.cat/web/ca/film/tretya-meshchanskaya",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
           "datetime": "20261025 18:00",
           "room": null,
           "language": null
@@ -1494,23 +1448,6 @@
         "Abram Room, 1927"
       ],
       "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0018505/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Wakolda (Lucía Puenzo, 2013)",
-      "url": "https://www.filmoteca.cat/web/ca/film/wakolda",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261021 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Lucía Puenzo, 2013"
-      ],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt1847746/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1660,15 +1597,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "DUNKERQUE (Proyección en 4K y VOSE) Dunkirk",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=254",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt5013056/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "EL FARO (Proyección en 4K y VOSE) The Lighthouse",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=348",
       "source_section": "cartelera",
@@ -1715,7 +1643,16 @@
         }
       ],
       "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
+      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt37510326/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "EYES WIDE SHUT (Proyección en VOSE) Eyes Wide Shut",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1237",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0120663/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -2054,6 +1991,21 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Animals bestials",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/animals-bestials/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261107 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Aniversario Las Pibas Producen: Ruido",
       "url": "https://www.zumzeigcine.coop/es/cine/films/ruido/",
       "source_section": "calendari",
@@ -2164,6 +2116,21 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Dues perspectives sobre l'art i els drets",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/dues-perspectives-sobre-lart-i-els-drets/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261019 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Fromzero Sessions #7",
       "url": "https://www.zumzeigcine.coop/es/cine/films/fromzero-sessions-7/",
       "source_section": "calendari",
@@ -2185,21 +2152,6 @@
       "shows": [
         {
           "datetime": "20261128 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Indòmita llum",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/indomita-llum/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261021 19:00",
           "room": null,
           "language": null
         }
