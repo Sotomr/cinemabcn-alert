@@ -1,17 +1,47 @@
 {
-  "fetched_at": "2026-10-24T13:00:15.307437+00:00",
+  "fetched_at": "2026-10-25T13:26:08.212395+00:00",
   "films": [
+    {
+      "cinema": "Espai Texas",
+      "title": "CICLE ARTEC",
+      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261026 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261109 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261116 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261123 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261130 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
     {
       "cinema": "Espai Texas",
       "title": "DORAEMON: AVENTURES AL MÓN DE L'ART",
       "url": "https://espaitexas.cat/pelicula/doraemon-aventures-al-mon-de-lart/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261024 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261025 16:00",
           "room": null,
@@ -27,11 +57,6 @@
       "url": "https://espaitexas.cat/pelicula/el-samurai-i-el-presoner/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261024 20:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261025 18:00",
           "room": null,
@@ -68,11 +93,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261024 18:10",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261025 16:00",
           "room": null,
           "language": null
@@ -93,15 +113,25 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "HER",
+      "url": "https://espaitexas.cat/pelicula/her/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261026 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt1798709/\">IMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "INDÒMITA LLUM",
       "url": "https://espaitexas.cat/pelicula/indomita-llum/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261024 16:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261025 20:45",
           "room": null,
@@ -127,11 +157,6 @@
       "url": "https://espaitexas.cat/pelicula/la-invasio-dels-barbars/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261024 18:00",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261025 18:00",
           "room": null,
@@ -178,18 +203,23 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "ÒRBITA FILM FEST",
-      "url": "https://espaitexas.cat/pelicula/orbita-film-fest/",
+      "title": "TANIT",
+      "url": "https://espaitexas.cat/pelicula/tanit/",
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261024 20:00",
+          "datetime": "20261026 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261027 16:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0078915/\">IMDb</a>"
+      "rating": "★ 4.0 <a href=\"https://www.themoviedb.org/movie/1655929\">TMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -197,11 +227,6 @@
       "url": "https://www.cinemamalda.com/chopin/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20261024 16:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261026 15:30",
           "room": null,
@@ -217,11 +242,6 @@
       "url": "https://www.cinemamalda.com/el-samurai-y-el-prisionero/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20261024 14:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261026 17:30",
           "room": null,
@@ -268,11 +288,6 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20261024 18:45",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261025 17:00",
           "room": null,
           "language": null
@@ -313,11 +328,6 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20261024 20:15",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261026 20:00",
           "room": null,
           "language": null
@@ -333,45 +343,10 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "BLADE RUNNER: THE FINAL CUT (Proyección en Dolby Atmos, 4K y VOSE)",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=625",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261024 23:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0083658/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "EL OSO (Proyección en 35 mm y VOSE) L'ours",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3010",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261024 15:35",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0095800/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "LA BOLA NEGRA (Proyección en Dolby Atmos y 4K) La bola negra",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2997",
       "source_section": "cartelera",
       "shows": [
-        {
-          "datetime": "20261024 17:45",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261025 18:20",
           "room": null,
@@ -394,7 +369,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -410,21 +385,6 @@
       ],
       "labels": [],
       "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt0338013/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "RESIDENT EVIL (2026) (Proyección en VOSE) Resident Evil",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2996",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261024 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt35538033/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -453,12 +413,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 16:00",
+          "datetime": "20261025 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261024 18:00",
+          "datetime": "20261025 18:00",
           "room": null,
           "language": "Castellano"
         }
@@ -473,7 +433,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 18:00",
+          "datetime": "20261025 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -488,7 +448,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 18:20",
+          "datetime": "20261025 18:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -503,7 +463,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 22:00",
+          "datetime": "20261025 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -518,12 +478,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 15:50",
+          "datetime": "20261025 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 22:25",
+          "datetime": "20261025 22:25",
           "room": null,
           "language": "subtitulada"
         }
@@ -538,12 +498,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 15:50",
+          "datetime": "20261025 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261024 19:50",
+          "datetime": "20261025 19:50",
           "room": null,
           "language": "Castellano"
         }
@@ -558,33 +518,33 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 16:00",
+          "datetime": "20261025 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261024 17:40",
+          "datetime": "20261025 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261024 19:00",
+          "datetime": "20261025 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261024 20:35",
+          "datetime": "20261025 20:35",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261024 22:00",
+          "datetime": "20261025 22:00",
           "room": null,
           "language": "Castellano"
         }
       ],
       "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -593,17 +553,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 16:00",
+          "datetime": "20261025 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 18:00",
+          "datetime": "20261025 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 20:00",
+          "datetime": "20261025 20:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -618,17 +578,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 16:00",
+          "datetime": "20261025 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 20:35",
+          "datetime": "20261025 20:35",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 22:10",
+          "datetime": "20261025 22:10",
           "room": null,
           "language": "subtitulada"
         }
@@ -643,17 +603,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 16:00",
+          "datetime": "20261025 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 19:00",
+          "datetime": "20261025 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 22:00",
+          "datetime": "20261025 22:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -668,58 +628,18 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261024 20:00",
+          "datetime": "20261025 20:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261024 22:30",
+          "datetime": "20261025 22:30",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 8.4 <a href=\"https://www.imdb.com/title/tt2056785/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Blue Heron",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/blue-heron/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261023 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261024 20:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261028 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261031 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261104 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261105 21:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
+      "rating": "★ 8.8 <a href=\"https://www.imdb.com/title/tt2056785/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -859,7 +779,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -898,142 +818,12 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Naza",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/naza/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261009 21:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261011 19:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261012 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261013 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261013 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261014 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261015 18:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261017 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261018 18:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261019 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261020 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261021 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261023 19:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261024 22:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261027 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261027 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261028 19:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261031 17:15",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261102 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261103 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261104 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
       "title": "Roid",
       "url": "https://www.zumzeigcine.coop/es/cine/films/roid/",
       "source_section": "calendari",
       "shows": [
         {
           "datetime": "20261025 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Wrangler",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/wrangler/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261024 18:00",
           "room": null,
           "language": null
         }
@@ -1060,41 +850,6 @@
       ],
       "labels": [],
       "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "CICLE ARTEC",
-      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261026 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261109 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261116 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261123 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261130 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -1135,21 +890,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "HER",
-      "url": "https://espaitexas.cat/pelicula/her/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261026 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt1798709/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -1223,26 +963,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "TANIT",
-      "url": "https://espaitexas.cat/pelicula/tanit/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261026 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261027 16:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 4.0 <a href=\"https://www.themoviedb.org/movie/1655929\">TMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "THE HUMAN SCALE",
       "url": "https://espaitexas.cat/pelicula/the-human-scale/",
       "source_section": "cartellera-cinema",
@@ -1263,7 +983,7 @@
       "source_section": "cartellera-cinema",
       "shows": [],
       "labels": [],
-      "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt37162873/\">IMDb</a>"
+      "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt37162873/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1938,6 +1658,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "ROBOCOP (Proyección en 35 mm y VOSE) Robocop",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2500",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261114 15:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt1234721/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "RÉQUIEM POR UN SUEÑO (Proyección en 35 mm y VOSE) Requiem for a Dream",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2485",
       "source_section": "cartelera",
@@ -2125,6 +1860,46 @@
       ],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Blue Heron",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/blue-heron/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261023 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261024 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261028 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261031 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261104 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261105 21:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2408,6 +2183,121 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Naza",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/naza/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261009 21:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261011 19:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261012 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261013 12:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261013 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261014 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261015 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261017 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261018 18:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261019 12:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261020 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261021 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261023 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261024 22:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261027 12:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261027 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261028 19:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261031 17:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261102 21:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261103 12:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261104 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Punto y Raya: Arquitectura y Animación",
       "url": "https://www.zumzeigcine.coop/es/cine/films/punto-y-raya-arquitectura-y-animacion/",
       "source_section": "calendari",
@@ -2543,6 +2433,21 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "Wrangler",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/wrangler/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261024 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Érem una gran família",
       "url": "https://www.zumzeigcine.coop/es/cine/films/erem-una-gran-familia/",
       "source_section": "calendari",
@@ -2554,7 +2459,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt39946544/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
