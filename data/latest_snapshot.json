@@ -1,6 +1,86 @@
 {
-  "fetched_at": "2026-11-04T16:41:38.445821+00:00",
+  "fetched_at": "2026-11-05T16:55:52.989745+00:00",
   "films": [
+    {
+      "cinema": "Espai Texas",
+      "title": "11",
+      "url": "https://espaitexas.cat/pelicula/11/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261106 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261107 21:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261108 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261109 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261112 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 5.0 <a href=\"https://www.themoviedb.org/movie/1017871\">TMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "BLUE HERON",
+      "url": "https://espaitexas.cat/pelicula/blue-heron/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261106 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261107 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261108 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261109 18:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261112 16:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
+    },
     {
       "cinema": "Espai Texas",
       "title": "EL SAMURAI I EL PRESONER",
@@ -8,12 +88,17 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261104 20:15",
+          "datetime": "20261105 20:15",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261105 20:15",
+          "datetime": "20261106 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261109 16:00",
           "room": null,
           "language": null
         }
@@ -28,12 +113,12 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261104 18:30",
+          "datetime": "20261106 16:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261105 16:00",
+          "datetime": "20261109 16:00",
           "room": null,
           "language": null
         }
@@ -51,19 +136,24 @@
           "datetime": "20261105 20:00",
           "room": null,
           "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "SUPORTANT EL PARADÍS",
-      "url": "https://espaitexas.cat/pelicula/suportant-el-paradis/",
-      "source_section": "cartellera-cinema",
-      "shows": [
+        },
         {
-          "datetime": "20261104 20:30",
+          "datetime": "20261107 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261108 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261112 16:00",
           "room": null,
           "language": null
         }
@@ -78,35 +168,33 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261104 18:15",
+          "datetime": "20261105 18:10",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261105 18:10",
+          "datetime": "20261106 18:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261108 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 16:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261112 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt37162873/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "A Woman Under the Influence | Non! Tu ne sortiras pas sans moi! (Una dona sota la influència | No! No aniràs enlloc sense mi!)",
-      "url": "https://www.filmoteca.cat/web/ca/film/woman-under-influence-non-tu-ne-sortiras-pas-sans-moi",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261104 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "John Cassavetes, 1974"
-      ],
-      "rating": null
     },
     {
       "cinema": "Filmoteca",
@@ -144,29 +232,12 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Dong fu ren (L'arc)",
-      "url": "https://www.filmoteca.cat/web/ca/film/dong-fu-ren",
+      "title": "Ehki ya asfoura | Anatomie du contrôle (Cuéntame, pajarito)",
+      "url": "https://www.filmoteca.cat/web/ca/film/ehki-ya-asfoura-anatomie-du-controle",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261104 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "T'ang Shushuen, 1968"
-      ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0074151/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "El Meu primer Festival amb l'escola: Arco (Programa expandit)",
-      "url": "https://www.filmoteca.cat/web/ca/film/el-meu-primer-festival-amb-lescola-arco",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261105 10:30",
+          "datetime": "20261106 21:00",
           "room": null,
           "language": null
         }
@@ -193,20 +264,35 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Licorice Pizza (Paul Thomas Anderson, 2021)",
-      "url": "https://www.filmoteca.cat/web/ca/film/licorice-pizza",
+      "title": "Introduction to the End of an Argument | Resistance, Why?",
+      "url": "https://www.filmoteca.cat/web/ca/film/introduction-end-argument-resistance-why",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261105 17:00",
+          "datetime": "20261106 18:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0347254/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "One Battle After Another (Una batalla tras otra)",
+      "url": "https://www.filmoteca.cat/web/ca/film/one-battle-after-another",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261106 20:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Paul Thomas Anderson, 2021"
+        "Paul Thomas Anderson, 2025"
       ],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt11271038/\">IMDb</a>"
+      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt30144839/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -230,7 +316,7 @@
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261104 20:00",
+          "datetime": "20261106 17:00",
           "room": null,
           "language": null
         }
@@ -242,33 +328,18 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Visita comentada a l'exposició \"Feminismes fílmics: 1976-2026\" a càrrec d'Alexandra Laudo",
-      "url": "https://www.filmoteca.cat/web/ca/film/visita-comentada-lexposicio-feminismes-filmics-1976-2026-carrec-dalexandra-laudo",
+      "title": "Viure al Raval - Sessió de curtmetratges joves (Arxiu viu)",
+      "url": "https://www.filmoteca.cat/web/ca/film/viure-al-raval-sessio-de-curtmetratges-joves",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261104 19:00",
+          "datetime": "20261106 10:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Maldà",
-      "title": "El samurái y el prisionero (VOSCAT)",
-      "url": "https://www.cinemamalda.com/el-samurai-y-el-prisionero/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261105 14:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt39602215/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -299,6 +370,41 @@
       ],
       "labels": [],
       "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt37803364/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "GODZILLA MINUS ZERO (Proyección en Dolby Atmos, 4K  y VOSE) Gojira Mainasu Zero",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3002",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261106 17:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261106 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261107 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261108 15:20",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 18:50",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt23289160/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -352,98 +458,33 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "LA ODISEA (Proyección en 70 mm, DTS y VOSE) The Odyssey",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
+      "title": "LA NARANJA MECÁNICA (Proyección en VOSE) A Clockwork Orange",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=351",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 18:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261115 18:40",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261118 17:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261121 15:35",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261129 18:00",
+          "datetime": "20261106 23:15",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0066921/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
-      "title": "V DE VENDETTA (Proyección en 35 mm y VOSE) V for Vendetta",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2863",
+      "title": "SOLTEROS (SINGLES) (Proyección en 35 mm y VOSE) Singles",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3041",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261105 15:45",
+          "datetime": "20261106 15:25",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0434409/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "Arriba Tutto",
-      "url": "https://www.cinesrenoir.com/pelicula/arriba-tutto/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261104 16:00",
-          "room": null,
-          "language": "Castellano"
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "Blue Heron",
-      "url": "https://www.cinesrenoir.com/pelicula/blue-heron/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261104 22:15",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.6 <a href=\"https://www.imdb.com/title/tt32252801/\">IMDb</a>"
-    },
-    {
-      "cinema": "Renoir Floridablanca",
-      "title": "Chopin",
-      "url": "https://www.cinesrenoir.com/pelicula/chopin/",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261104 18:00",
-          "room": null,
-          "language": "subtitulada"
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt33305572/\">IMDb</a>"
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0105415/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -452,7 +493,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 22:35",
+          "datetime": "20261105 22:35",
           "room": null,
           "language": "Castellano"
         }
@@ -467,12 +508,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 15:50",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261104 20:10",
+          "datetime": "20261105 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -483,16 +519,11 @@
     {
       "cinema": "Renoir Floridablanca",
       "title": "Hope",
-      "url": "https://www.cinesrenoir.com/pelicula/20261104050503-hope/",
+      "url": "https://www.cinesrenoir.com/pelicula/20261105050503-hope/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 17:55",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261104 22:15",
+          "datetime": "20261105 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -507,27 +538,27 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 16:00",
+          "datetime": "20261105 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261104 17:40",
+          "datetime": "20261105 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261104 19:00",
+          "datetime": "20261105 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261104 20:35",
+          "datetime": "20261105 20:35",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261104 22:00",
+          "datetime": "20261105 22:00",
           "room": null,
           "language": "Castellano"
         }
@@ -542,17 +573,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 15:50",
+          "datetime": "20261105 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261104 18:15",
+          "datetime": "20261105 18:15",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261104 20:20",
+          "datetime": "20261105 20:20",
           "room": null,
           "language": "subtitulada"
         }
@@ -567,12 +598,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 16:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261104 20:45",
+          "datetime": "20261105 16:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -582,28 +608,58 @@
     },
     {
       "cinema": "Renoir Floridablanca",
-      "title": "Sentido Y Sensibilidad",
-      "url": "https://www.cinesrenoir.com/pelicula/sentido-y-sensibilidad/",
+      "title": "Ruega Por Nosotras [Proyecto Viridiana]",
+      "url": "https://www.cinesrenoir.com/pelicula/ruega-por-nosotras-proyecto-viridiana/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 15:50",
+          "datetime": "20261105 19:30",
           "room": null,
-          "language": "subtitulada"
-        },
+          "language": "Castellano"
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Renoir Floridablanca",
+      "title": "Réquiem Por Un Sueño [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/requiem-por-un-sueno-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
         {
-          "datetime": "20261104 20:15",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261104 22:40",
+          "datetime": "20261105 20:00",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt13609648/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0180093/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
+      "title": "Sentido Y Sensibilidad",
+      "url": "https://www.cinesrenoir.com/pelicula/sentido-y-sensibilidad/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261105 15:50",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20261105 20:15",
+          "room": null,
+          "language": "subtitulada"
+        },
+        {
+          "datetime": "20261105 22:40",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt13609648/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -612,17 +668,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 15:50",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261104 18:05",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261104 20:20",
+          "datetime": "20261105 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -637,18 +683,33 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261104 17:45",
+          "datetime": "20261105 17:45",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261104 22:25",
+          "datetime": "20261105 22:25",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
       "rating": "★ 8.5 <a href=\"https://www.imdb.com/title/tt2056785/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "10mo Aniversario de la Cooperativa: El año del descubrimiento",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/10mo-aniversario-de-la-cooperativa-el-ano-del-descubrimiento/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261106 20:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -672,93 +733,33 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "La bola negra",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/la-bola-negra/",
+      "title": "Ruega por nosotras",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/ruega-por-nosotras/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20261103 18:00",
+          "datetime": "20261106 18:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261104 11:30",
+          "datetime": "20261107 21:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261104 20:45",
+          "datetime": "20261108 18:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261110 11:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261112 11:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261116 11:30",
+          "datetime": "20261110 20:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Naza",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/naza/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261102 21:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261103 12:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261104 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261109 11:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261109 21:45",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261110 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261118 17:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261119 12:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -782,19 +783,21 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "11",
-      "url": "https://espaitexas.cat/pelicula/11/",
-      "source_section": "cartellera-cinema",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 4.5 <a href=\"https://www.imdb.com/title/tt1712159/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "BOB I BOBEK",
       "url": "https://espaitexas.cat/pelicula/bob-i-bobek-a-la-recerca-del-menjapasatanagues/",
       "source_section": "cartellera-cinema",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20261107 16:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261108 16:15",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt34092261/\">IMDb</a>"
     },
@@ -833,7 +836,28 @@
       "title": "CRONOS",
       "url": "https://espaitexas.cat/pelicula/cronos/",
       "source_section": "cartellera-cinema",
-      "shows": [],
+      "shows": [
+        {
+          "datetime": "20261107 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261108 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261112 18:05",
+          "room": null,
+          "language": null
+        }
+      ],
       "labels": [],
       "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt0104029/\">IMDb</a>"
     },
@@ -978,6 +1002,21 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "TANIT",
+      "url": "https://espaitexas.cat/pelicula/tanit/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261107 18:10",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 4.0 <a href=\"https://www.themoviedb.org/movie/1655929\">TMDb</a>"
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "THE HUMAN SCALE",
       "url": "https://espaitexas.cat/pelicula/the-human-scale/",
       "source_section": "cartellera-cinema",
@@ -1016,21 +1055,6 @@
       "shows": [
         {
           "datetime": "20261107 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Ehki ya asfoura | Anatomie du contrôle (Cuéntame, pajarito)",
-      "url": "https://www.filmoteca.cat/web/ca/film/ehki-ya-asfoura-anatomie-du-controle",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261106 21:00",
           "room": null,
           "language": null
         }
@@ -1108,21 +1132,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Introduction to the End of an Argument | Resistance, Why?",
-      "url": "https://www.filmoteca.cat/web/ca/film/introduction-end-argument-resistance-why",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261106 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0347254/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Ka'anna lam takun (Looking for Ayda)",
       "url": "https://www.filmoteca.cat/web/ca/film/kaanna-lam-takun",
       "source_section": "agenda-setmanal",
@@ -1156,51 +1165,11 @@
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt36639956/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "One Battle After Another (Una batalla tras otra)",
-      "url": "https://www.filmoteca.cat/web/ca/film/one-battle-after-another",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261106 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Paul Thomas Anderson, 2025"
-      ],
-      "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt30144839/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Sekishunchô (Adiós a la primavera)",
-      "url": "https://www.filmoteca.cat/web/ca/film/sekishuncho",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261106 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Keisuke Kinoshita, 1959"
-      ],
-      "rating": "★ 6.3 <a href=\"https://www.imdb.com/title/tt0053259/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Viure al Raval - Sessió de curtmetratges joves (Arxiu viu)",
-      "url": "https://www.filmoteca.cat/web/ca/film/viure-al-raval-sessio-de-curtmetratges-joves",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261106 10:30",
-          "room": null,
-          "language": null
-        }
-      ],
+      "cinema": "Maldà",
+      "title": "Bad luck + Portento (VOE)",
+      "url": "https://www.cinemamalda.com/barcelona-queer-film-festival-presenta/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
       "labels": [],
       "rating": null
     },
@@ -1251,12 +1220,21 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Vivir la tierra (VOSE)",
-      "url": "https://www.cinemamalda.com/vivir-la-tierra/",
+      "title": "La voz quebrada (VOE)",
+      "url": "https://www.cinemamalda.com/la-voz-quebrada/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
-      "rating": "★ 6.9 <a href=\"https://www.imdb.com/title/tt31079597/\">IMDb</a>"
+      "rating": null
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "#titulo-2# #titulo-vo-2#",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Phenomena",
@@ -1656,7 +1634,7 @@
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 10.0 <a href=\"https://www.imdb.com/title/tt40564737/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1672,41 +1650,6 @@
       ],
       "labels": [],
       "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0162346/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "GODZILLA MINUS ZERO (Proyección en Dolby Atmos, 4K  y VOSE) Gojira Mainasu Zero",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3002",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261106 17:35",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261106 20:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261107 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261108 15:20",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261110 18:50",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt23289160/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1785,27 +1728,33 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "LA LLEGADA (Proyección en VOSE) Arrival",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1711",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt2543164/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "LA NARANJA MECÁNICA (Proyección en VOSE) A Clockwork Orange",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=351",
+      "title": "LA ODISEA (Proyección en 70 mm, DTS y VOSE) The Odyssey",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2964",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261106 23:15",
+          "datetime": "20261115 18:40",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261118 17:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261121 15:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261129 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0066921/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1934,21 +1883,6 @@
     },
     {
       "cinema": "Phenomena",
-      "title": "SOLTEROS (SINGLES) (Proyección en 35 mm y VOSE) Singles",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3041",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261106 15:25",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt0105415/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
       "title": "SOSPECHOSOS HABITUALES (Proyección en 35 mm y VOSE) The Usual Suspects",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2635",
       "source_section": "cartelera",
@@ -2033,6 +1967,15 @@
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0117951/\">IMDb</a>"
     },
     {
+      "cinema": "Phenomena",
+      "title": "V DE VENDETTA (Proyección en 35 mm y VOSE) V for Vendetta",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2863",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt0434409/\">IMDb</a>"
+    },
+    {
       "cinema": "Zumzeig",
       "title": "10mo Aniversario de la Cooperativa: Concierto emmagatzematge",
       "url": "https://www.zumzeigcine.coop/es/cine/films/10mo-aniversario-de-la-cooperativa-concierto-emmagatzematge/",
@@ -2055,21 +1998,6 @@
       "shows": [
         {
           "datetime": "20261107 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "10mo Aniversario de la Cooperativa: El año del descubrimiento",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/10mo-aniversario-de-la-cooperativa-el-ano-del-descubrimiento/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261106 20:30",
           "room": null,
           "language": null
         }
@@ -2419,6 +2347,46 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "La bola negra",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/la-bola-negra/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261103 18:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261104 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261104 20:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261112 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261116 11:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "La deriva",
       "url": "https://www.zumzeigcine.coop/es/cine/films/la-deriva/",
       "source_section": "calendari",
@@ -2599,33 +2567,53 @@
     },
     {
       "cinema": "Zumzeig",
-      "title": "Ruega por nosotras",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/ruega-por-nosotras/",
+      "title": "Naza",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/naza/",
       "source_section": "calendari",
       "shows": [
         {
-          "datetime": "20261106 18:00",
+          "datetime": "20261102 21:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261107 21:30",
+          "datetime": "20261103 12:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261108 18:30",
+          "datetime": "20261104 19:00",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261110 20:45",
+          "datetime": "20261109 11:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261109 21:45",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261110 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261118 17:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261119 12:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt44766123/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
