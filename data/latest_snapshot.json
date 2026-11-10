@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T19:17:59.475072+00:00",
+  "fetched_at": "2026-11-10T16:41:07.154319+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -7,11 +7,6 @@
       "url": "https://espaitexas.cat/pelicula/11/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261109 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261110 20:30",
           "room": null,
@@ -24,7 +19,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 5.0 <a href=\"https://www.themoviedb.org/movie/1017871\">TMDb</a>"
+      "rating": "★ 4.5 <a href=\"https://www.imdb.com/title/tt1712159/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -48,36 +43,6 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "CICLE ARTEC",
-      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261109 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261116 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261123 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261130 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
       "title": "CRONOS",
       "url": "https://espaitexas.cat/pelicula/cronos/",
       "source_section": "cartellera-cinema",
@@ -95,21 +60,6 @@
       ],
       "labels": [],
       "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt0104029/\">IMDb</a>"
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "HISTÒRIES DE LA VALL BONA",
-      "url": "https://espaitexas.cat/pelicula/historias-del-buen-valle/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261109 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.2 <a href=\"https://www.imdb.com/title/tt37676219/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -153,20 +103,54 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Eien no hito (Un amor immortal)",
-      "url": "https://www.filmoteca.cat/web/ca/film/eien-no-hito",
+      "title": "A Woman Under the Influence | Non! Tu ne sortiras pas sans moi! (Una dona sota la influència | No! No aniràs enlloc sense mi!)",
+      "url": "https://www.filmoteca.cat/web/ca/film/woman-under-influence-non-tu-ne-sortiras-pas-sans-moi",
       "source_section": "agenda-setmanal",
       "shows": [
         {
-          "datetime": "20261110 17:00",
+          "datetime": "20261111 18:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [
-        "Keisuke Kinoshita, 1961"
+        "John Cassavetes, 1974"
       ],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0054845/\">IMDb</a>"
+      "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Christopher Strong (Hacia las alturas)",
+      "url": "https://www.filmoteca.cat/web/ca/film/christopher-strong",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261111 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Dorothy Arzner, 1933"
+      ],
+      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt0023891/\">IMDb</a>"
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Dong fu ren (L'arc)",
+      "url": "https://www.filmoteca.cat/web/ca/film/dong-fu-ren",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261111 21:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "T'ang Shushuen, 1968"
+      ],
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0074151/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -184,6 +168,23 @@
         "Jihan K, 2025"
       ],
       "rating": null
+    },
+    {
+      "cinema": "Filmoteca",
+      "title": "Nahnou Fil Dakhil (We Are Inside)",
+      "url": "https://www.filmoteca.cat/web/ca/film/nahnou-fil-dakhil",
+      "source_section": "agenda-setmanal",
+      "shows": [
+        {
+          "datetime": "20261111 20:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [
+        "Farah Kassem, 2026"
+      ],
+      "rating": "★ 9.0 <a href=\"https://www.imdb.com/title/tt32123730/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -221,21 +222,6 @@
     },
     {
       "cinema": "Maldà",
-      "title": "11 (VOCATALAN)",
-      "url": "https://www.cinemamalda.com/11/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261109 14:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 5.0 <a href=\"https://www.themoviedb.org/movie/1017871\">TMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "Chopin (VOSE)",
       "url": "https://www.cinemamalda.com/chopin/",
       "source_section": "cartelera-dia-dia",
@@ -251,30 +237,10 @@
     },
     {
       "cinema": "Maldà",
-      "title": "El misterio de Lucy Lost (VOSE)",
-      "url": "https://www.cinemamalda.com/el-misterio-de-lucy-lost/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261109 13:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Maldà",
       "title": "La bola negra (VOE)",
       "url": "https://www.cinemamalda.com/la-bola-negra/",
       "source_section": "cartelera-dia-dia",
       "shows": [
-        {
-          "datetime": "20261109 19:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261110 17:30",
           "room": null,
@@ -282,7 +248,22 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "La invitación (VOSE)",
+      "url": "https://www.cinemamalda.com/la-invitacion/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20261110 20:15",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.2 <a href=\"https://www.imdb.com/title/tt14173636/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -291,11 +272,6 @@
       "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20261109 17:45",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261110 16:00",
           "room": null,
           "language": null
@@ -303,21 +279,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Maldà",
-      "title": "Leviticus (VOSE)",
-      "url": "https://www.cinemamalda.com/leviticus/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261109 16:15",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt39143902/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -333,21 +294,6 @@
       ],
       "labels": [],
       "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt32547691/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "FARGO (Proyección en 4K y VOSE) Fargo",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1247",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261110 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0116282/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -412,22 +358,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "REALITY BITES (BOCADOS DE REALIDAD) (Proyección en 35 mm y VOSE) Reality Bites",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2470",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261110 15:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0110950/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -436,7 +367,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 15:50",
+          "datetime": "20261110 15:50",
           "room": null,
           "language": "subtitulada"
         }
@@ -451,7 +382,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 20:25",
+          "datetime": "20261110 20:25",
           "room": null,
           "language": "subtitulada"
         }
@@ -462,11 +393,11 @@
     {
       "cinema": "Renoir Floridablanca",
       "title": "Hope",
-      "url": "https://www.cinesrenoir.com/pelicula/20261109050503-hope/",
+      "url": "https://www.cinesrenoir.com/pelicula/20261110050503-hope/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 22:15",
+          "datetime": "20261110 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -481,33 +412,33 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 16:00",
+          "datetime": "20261110 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261109 17:40",
+          "datetime": "20261110 17:40",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261109 19:00",
+          "datetime": "20261110 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261109 20:35",
+          "datetime": "20261110 20:35",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261109 22:00",
+          "datetime": "20261110 22:00",
           "room": null,
           "language": "Castellano"
         }
       ],
       "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -516,12 +447,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 20:20",
+          "datetime": "20261110 20:20",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261109 22:25",
+          "datetime": "20261110 22:25",
           "room": null,
           "language": "subtitulada"
         }
@@ -532,16 +463,16 @@
     {
       "cinema": "Renoir Floridablanca",
       "title": "Los Miserables",
-      "url": "https://www.cinesrenoir.com/pelicula/20261109050503-los-miserables/",
+      "url": "https://www.cinesrenoir.com/pelicula/20261110050502-los-miserables/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 15:50",
+          "datetime": "20261110 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261109 19:00",
+          "datetime": "20261110 19:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -556,7 +487,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 16:00",
+          "datetime": "20261110 16:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -571,17 +502,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 16:10",
+          "datetime": "20261110 16:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261109 18:50",
+          "datetime": "20261110 18:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261109 21:40",
+          "datetime": "20261110 21:40",
           "room": null,
           "language": "Castellano"
         }
@@ -596,22 +527,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 16:00",
+          "datetime": "20261110 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261109 18:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261109 20:00",
-          "room": null,
-          "language": "subtitulada"
-        },
-        {
-          "datetime": "20261109 22:00",
+          "datetime": "20261110 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -626,7 +547,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 18:00",
+          "datetime": "20261110 18:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -636,17 +557,32 @@
     },
     {
       "cinema": "Renoir Floridablanca",
+      "title": "Sospecha [Wilder Cinema]",
+      "url": "https://www.cinesrenoir.com/pelicula/sospecha-wilder-cinema/",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261110 20:00",
+          "room": null,
+          "language": "subtitulada"
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.1 <a href=\"https://www.imdb.com/title/tt0034248/\">IMDb</a>"
+    },
+    {
+      "cinema": "Renoir Floridablanca",
       "title": "Tiempos De Ilusión",
       "url": "https://www.cinesrenoir.com/pelicula/tiempos-de-ilusion/",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 15:50",
+          "datetime": "20261110 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261109 18:05",
+          "datetime": "20261110 18:05",
           "room": null,
           "language": "subtitulada"
         }
@@ -661,7 +597,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261109 22:30",
+          "datetime": "20261110 22:30",
           "room": null,
           "language": "subtitulada"
         }
@@ -702,7 +638,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.1 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -782,6 +718,31 @@
         },
         {
           "datetime": "20261119 11:45",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
+      "title": "CICLE ARTEC",
+      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261116 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261123 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261130 19:00",
           "room": null,
           "language": null
         }
@@ -887,7 +848,7 @@
       "source_section": "cartellera-cinema",
       "shows": [],
       "labels": [],
-      "rating": "★ 3.4 <a href=\"https://www.imdb.com/title/tt37799273/\">IMDb</a>"
+      "rating": "★ 4.1 <a href=\"https://www.imdb.com/title/tt37799273/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -930,23 +891,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "A Woman Under the Influence | Non! Tu ne sortiras pas sans moi! (Una dona sota la influència | No! No aniràs enlloc sense mi!)",
-      "url": "https://www.filmoteca.cat/web/ca/film/woman-under-influence-non-tu-ne-sortiras-pas-sans-moi",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261111 18:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "John Cassavetes, 1974"
-      ],
-      "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "Cançó per Amine (Alberto Bougleux, 2009)",
       "url": "https://www.filmoteca.cat/web/ca/film/canco-amine",
       "source_section": "agenda-setmanal",
@@ -961,23 +905,6 @@
         "Alberto Bougleux, 2009"
       ],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Christopher Strong (Hacia las alturas)",
-      "url": "https://www.filmoteca.cat/web/ca/film/christopher-strong",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261111 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Dorothy Arzner, 1933"
-      ],
-      "rating": "★ 5.9 <a href=\"https://www.imdb.com/title/tt0023891/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1042,23 +969,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Dong fu ren (L'arc)",
-      "url": "https://www.filmoteca.cat/web/ca/film/dong-fu-ren",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261111 21:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "T'ang Shushuen, 1968"
-      ],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0074151/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1144,23 +1054,6 @@
         "Roberto Rossellini, 1941"
       ],
       "rating": "★ 5.5 <a href=\"https://www.imdb.com/title/tt0033941/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
-      "title": "Nahnou Fil Dakhil (We Are Inside)",
-      "url": "https://www.filmoteca.cat/web/ca/film/nahnou-fil-dakhil",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261111 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Farah Kassem, 2026"
-      ],
-      "rating": "★ 9.0 <a href=\"https://www.imdb.com/title/tt32123730/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -1289,6 +1182,24 @@
       "shows": [],
       "labels": [],
       "rating": null
+    },
+    {
+      "cinema": "Maldà",
+      "title": "El misterio de Lucy Lost (VOSE)",
+      "url": "https://www.cinemamalda.com/el-misterio-de-lucy-lost/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Kakeru (Sheep in the box) (VOSE)",
+      "url": "https://www.cinemamalda.com/kakeru/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt38551209/\">IMDb</a>"
     },
     {
       "cinema": "Maldà",
@@ -1447,6 +1358,31 @@
       ],
       "labels": [],
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt34890576/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "CLUB KID (Proyección en 4K y VOSE) Club Kid",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3003",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261204 20:15",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261205 15:25",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261208 17:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt38058097/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1750,6 +1686,15 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "FARGO (Proyección en 4K y VOSE) Fargo",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1247",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt0116282/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "GEORGE MICHAEL: THE FAITH TOUR (Proyección en Dolby Atmos, 4K y VOSE) George Michael: The Faith Hour",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=3042",
       "source_section": "cartelera",
@@ -1882,6 +1827,21 @@
       ],
       "labels": [],
       "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt33764258/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "LA PRINCESA MONONOKE (Proyección en VOSE) Mononoke-hime",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=101",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261201 15:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 8.3 <a href=\"https://www.imdb.com/title/tt0119698/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -2245,6 +2205,15 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "REALITY BITES (BOCADOS DE REALIDAD) (Proyección en 35 mm y VOSE) Reality Bites",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=2470",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt0110950/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "RESIDENT EVIL (2026) (Proyección en VOSE) Resident Evil",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2996",
       "source_section": "cartelera",
@@ -2531,6 +2500,21 @@
       "shows": [
         {
           "datetime": "20261107 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Art, Chaos, Riot",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/art-chaos-riot/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261215 19:00",
           "room": null,
           "language": null
         }
