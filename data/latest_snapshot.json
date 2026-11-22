@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T16:30:01.444417+00:00",
+  "fetched_at": "2026-11-22T16:46:27.567800+00:00",
   "films": [
     {
       "cinema": "Espai Texas",
@@ -7,11 +7,6 @@
       "url": "https://espaitexas.cat/pelicula/11/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261121 20:30",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261122 20:30",
           "room": null,
@@ -23,15 +18,30 @@
     },
     {
       "cinema": "Espai Texas",
+      "title": "CICLE ARTEC",
+      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
+      "source_section": "cartellera-cinema",
+      "shows": [
+        {
+          "datetime": "20261123 19:00",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261130 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Espai Texas",
       "title": "CITES: LA PEL·LÍCULA",
       "url": "https://espaitexas.cat/pelicula/cites-la-pel%c2%b7licula/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261121 18:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261122 18:15",
           "room": null,
@@ -63,28 +73,33 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "CRONOS",
-      "url": "https://espaitexas.cat/pelicula/cronos/",
+      "title": "DONES MUNTANYA",
+      "url": "https://espaitexas.cat/pelicula/dones-muntanya-vo/",
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261121 16:00",
+          "datetime": "20261123 20:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261122 16:00",
+          "datetime": "20261126 20:30",
           "room": null,
           "language": null
         },
         {
-          "datetime": "20261126 16:00",
+          "datetime": "20261202 20:30",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261203 20:30",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt0104029/\">IMDb</a>"
+      "rating": null
     },
     {
       "cinema": "Espai Texas",
@@ -92,11 +107,6 @@
       "url": "https://espaitexas.cat/pelicula/la-invasio-dels-barbars/",
       "source_section": "cartellera-cinema",
       "shows": [
-        {
-          "datetime": "20261121 18:15",
-          "room": null,
-          "language": null
-        },
         {
           "datetime": "20261122 18:15",
           "room": null,
@@ -128,16 +138,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261121 16:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261122 16:00",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261123 16:00",
           "room": null,
           "language": null
@@ -163,11 +163,6 @@
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261121 20:30",
-          "room": null,
-          "language": null
-        },
-        {
           "datetime": "20261122 20:30",
           "room": null,
           "language": null
@@ -187,21 +182,19 @@
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Competició de curtmetratges 2026 (+10 anys) (Diverses autories, 2023-2026)",
-      "url": "https://www.filmoteca.cat/web/ca/film/competicio-de-curtmetratges-2026-10-anys",
-      "source_section": "agenda-setmanal",
+      "cinema": "Espai Texas",
+      "title": "THE HUMAN SCALE",
+      "url": "https://espaitexas.cat/pelicula/the-human-scale/",
+      "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261122 17:00",
+          "datetime": "20261123 19:00",
           "room": null,
           "language": null
         }
       ],
-      "labels": [
-        "Diverses autories, 2023-2026"
-      ],
-      "rating": null
+      "labels": [],
+      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt2414454/\">IMDb</a>"
     },
     {
       "cinema": "Filmoteca",
@@ -237,23 +230,6 @@
     },
     {
       "cinema": "Filmoteca",
-      "title": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles | Diarymaid's Revenge (Chantal Akerman, 1975)",
-      "url": "https://www.filmoteca.cat/web/ca/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles-diarymaids-revenge",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261121 17:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Chantal Akerman, 1975"
-      ],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0073198/\">IMDb</a>"
-    },
-    {
-      "cinema": "Filmoteca",
       "title": "La permanence (Alice Diop, 2016)",
       "url": "https://www.filmoteca.cat/web/ca/film/la-permanence",
       "source_section": "agenda-setmanal",
@@ -270,68 +246,69 @@
       "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt5539408/\">IMDb</a>"
     },
     {
-      "cinema": "Filmoteca",
-      "title": "La tour du monde (Alice Diop, 2006)",
-      "url": "https://www.filmoteca.cat/web/ca/film/la-tour-du-monde",
-      "source_section": "agenda-setmanal",
+      "cinema": "Maldà",
+      "title": "El mal padre (VOE)",
+      "url": "https://www.cinemamalda.com/el-mal-padre/",
+      "source_section": "cartelera-dia-dia",
       "shows": [
         {
-          "datetime": "20261121 21:30",
+          "datetime": "20261123 18:35",
+          "room": null,
+          "language": null
+        },
+        {
+          "datetime": "20261124 18:45",
           "room": null,
           "language": null
         }
       ],
-      "labels": [
-        "Alice Diop, 2006"
+      "labels": [],
+      "rating": "★ 9.0 <a href=\"https://www.imdb.com/title/tt43662678/\">IMDb</a>"
+    },
+    {
+      "cinema": "Maldà",
+      "title": "Noche y dia, de Virginia Wolf (VOSE)",
+      "url": "https://www.cinemamalda.com/noche-y-dia-de-virginia-wolf/",
+      "source_section": "cartelera-dia-dia",
+      "shows": [
+        {
+          "datetime": "20261123 17:00",
+          "room": null,
+          "language": null
+        }
       ],
+      "labels": [],
       "rating": null
     },
     {
-      "cinema": "Filmoteca",
-      "title": "Roma, città aperta (Roma, ciutat oberta)",
-      "url": "https://www.filmoteca.cat/web/ca/film/roma-citta-aperta",
-      "source_section": "agenda-setmanal",
-      "shows": [
-        {
-          "datetime": "20261121 20:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [
-        "Roberto Rossellini, 1945"
-      ],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0038890/\">IMDb</a>"
-    },
-    {
       "cinema": "Phenomena",
-      "title": "CASINO (Proyección en 35 mm y VOSE) Casino",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=687",
+      "title": "2046 (Proyección en 4K y VOSE) 2046",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=415",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 19:00",
+          "datetime": "20261123 15:10",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt0112641/\">IMDb</a>"
+      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0212712/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
-      "title": "DUNE (1984) (Proyección en 4K y VOSE) Dune",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3045",
+      "title": "INFILTRADOS (Proyección en 35 mm y VOSE) The Departed",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1523",
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261122 15:35",
+          "datetime": "20261123 17:45",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt1160419/\">IMDb</a>"
+      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0407887/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -356,27 +333,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "THE DEVILS (LOS DEMONIOS) (Proyección en 4K y VOSE) The Devils",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3019",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261121 22:40",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261127 17:35",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0066993/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -400,7 +357,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 20:00",
+          "datetime": "20261122 20:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -415,28 +372,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 16:00",
+          "datetime": "20261122 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 18:10",
+          "datetime": "20261122 18:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 20:20",
+          "datetime": "20261122 20:20",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 22:30",
+          "datetime": "20261122 22:30",
           "room": null,
           "language": "Castellano"
         }
       ],
       "labels": [],
-      "rating": null
+      "rating": "★ 6.5 <a href=\"https://www.imdb.com/title/tt38454494/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -445,22 +402,22 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 15:50",
+          "datetime": "20261122 15:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 18:05",
+          "datetime": "20261122 18:05",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 20:20",
+          "datetime": "20261122 20:20",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 22:35",
+          "datetime": "20261122 22:35",
           "room": null,
           "language": "Castellano"
         }
@@ -475,23 +432,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 16:00",
+          "datetime": "20261122 16:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 19:00",
+          "datetime": "20261122 19:00",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 22:00",
+          "datetime": "20261122 22:00",
           "room": null,
           "language": "Castellano"
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -500,7 +457,7 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 16:00",
+          "datetime": "20261122 16:00",
           "room": null,
           "language": "subtitulada"
         }
@@ -515,23 +472,23 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 16:00",
+          "datetime": "20261122 16:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261121 19:00",
+          "datetime": "20261122 19:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261121 22:00",
+          "datetime": "20261122 22:00",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
-      "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt32558705/\">IMDb</a>"
+      "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt32558705/\">IMDb</a>"
     },
     {
       "cinema": "Renoir Floridablanca",
@@ -540,17 +497,17 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 16:10",
+          "datetime": "20261122 16:10",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 18:50",
+          "datetime": "20261122 18:50",
           "room": null,
           "language": "Castellano"
         },
         {
-          "datetime": "20261121 21:40",
+          "datetime": "20261122 21:40",
           "room": null,
           "language": "Castellano"
         }
@@ -565,12 +522,12 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 18:00",
+          "datetime": "20261122 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261121 22:15",
+          "datetime": "20261122 22:15",
           "room": null,
           "language": "subtitulada"
         }
@@ -585,58 +542,28 @@
       "source_section": "cartelera",
       "shows": [
         {
-          "datetime": "20261121 15:50",
+          "datetime": "20261122 15:50",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261121 18:00",
+          "datetime": "20261122 18:00",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261121 20:10",
+          "datetime": "20261122 20:10",
           "room": null,
           "language": "subtitulada"
         },
         {
-          "datetime": "20261121 22:20",
+          "datetime": "20261122 22:20",
           "room": null,
           "language": "subtitulada"
         }
       ],
       "labels": [],
       "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt15799564/\">IMDb</a>"
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Amazonia: Relatos de abundancia",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/amazonia-relatos-de-abundancia/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261121 18:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "El gran somiatge",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/el-gran-somiatge/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261121 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -804,6 +731,21 @@
       "rating": "★ 7.6 <a href=\"https://www.imdb.com/title/tt25399154/\">IMDb</a>"
     },
     {
+      "cinema": "Zumzeig",
+      "title": "Éxodo climático",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/exodo-climatico/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261123 19:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt12790168/\">IMDb</a>"
+    },
+    {
       "cinema": "Espai Texas",
       "title": "BLUE HERON",
       "url": "https://espaitexas.cat/pelicula/blue-heron/",
@@ -820,53 +762,18 @@
     },
     {
       "cinema": "Espai Texas",
-      "title": "CICLE ARTEC",
-      "url": "https://espaitexas.cat/pelicula/cicle-artec/",
+      "title": "CRONOS",
+      "url": "https://espaitexas.cat/pelicula/cronos/",
       "source_section": "cartellera-cinema",
       "shows": [
         {
-          "datetime": "20261123 19:00",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261130 19:00",
+          "datetime": "20261126 16:00",
           "room": null,
           "language": null
         }
       ],
       "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Espai Texas",
-      "title": "DONES MUNTANYA",
-      "url": "https://espaitexas.cat/pelicula/dones-muntanya-vo/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261123 20:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261126 20:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261202 20:30",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261203 20:30",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
+      "rating": "★ 6.7 <a href=\"https://www.imdb.com/title/tt0104029/\">IMDb</a>"
     },
     {
       "cinema": "Espai Texas",
@@ -987,21 +894,6 @@
       "rating": "★ 5.0 <a href=\"https://www.imdb.com/title/tt4481854/\">IMDb</a>"
     },
     {
-      "cinema": "Espai Texas",
-      "title": "THE HUMAN SCALE",
-      "url": "https://espaitexas.cat/pelicula/the-human-scale/",
-      "source_section": "cartellera-cinema",
-      "shows": [
-        {
-          "datetime": "20261123 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 6.4 <a href=\"https://www.imdb.com/title/tt2414454/\">IMDb</a>"
-    },
-    {
       "cinema": "Maldà",
       "title": "Bailar la muerte (VOE)",
       "url": "https://www.cinemamalda.com/bailar-la-muerte/",
@@ -1039,26 +931,6 @@
     },
     {
       "cinema": "Maldà",
-      "title": "El mal padre (VOE)",
-      "url": "https://www.cinemamalda.com/el-mal-padre/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261123 18:35",
-          "room": null,
-          "language": null
-        },
-        {
-          "datetime": "20261124 18:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 9.0 <a href=\"https://www.imdb.com/title/tt43662678/\">IMDb</a>"
-    },
-    {
-      "cinema": "Maldà",
       "title": "LA BOLA NEGRA #sesionteta (VOSE)",
       "url": "https://www.cinemamalda.com/cine-bebes-maldanins_sesionteta/",
       "source_section": "cartelera-dia-dia",
@@ -1083,51 +955,12 @@
     },
     {
       "cinema": "Maldà",
-      "title": "Noche y dia, de Virginia Wolf (VOSE)",
-      "url": "https://www.cinemamalda.com/noche-y-dia-de-virginia-wolf/",
-      "source_section": "cartelera-dia-dia",
-      "shows": [
-        {
-          "datetime": "20261123 17:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Maldà",
       "title": "Tiempo de victoria (VOSE)",
       "url": "https://www.cinemamalda.com/tiempo-de-victoria/",
       "source_section": "cartelera-dia-dia",
       "shows": [],
       "labels": [],
       "rating": "★ 7.7 <a href=\"https://www.imdb.com/title/tt32547691/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "#titulo-2# #titulo-vo-2#",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=#id-evento-2#",
-      "source_section": "cartelera",
-      "shows": [],
-      "labels": [],
-      "rating": null
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "2046 (Proyección en 4K y VOSE) 2046",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=415",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261123 15:10",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.4 <a href=\"https://www.imdb.com/title/tt0212712/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1228,6 +1061,15 @@
       ],
       "labels": [],
       "rating": "★ 7.3 <a href=\"https://www.imdb.com/title/tt31434030/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
+      "title": "DUNE (1984) (Proyección en 4K y VOSE) Dune",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3045",
+      "source_section": "cartelera",
+      "shows": [],
+      "labels": [],
+      "rating": "★ 7.8 <a href=\"https://www.imdb.com/title/tt1160419/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1448,21 +1290,6 @@
       ],
       "labels": [],
       "rating": "★ 6.0 <a href=\"https://www.imdb.com/title/tt0099740/\">IMDb</a>"
-    },
-    {
-      "cinema": "Phenomena",
-      "title": "INFILTRADOS (Proyección en 35 mm y VOSE) The Departed",
-      "url": "https://phenomena-experience.com/index?pag=ficha&evento=1523",
-      "source_section": "cartelera",
-      "shows": [
-        {
-          "datetime": "20261123 17:45",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 8.2 <a href=\"https://www.imdb.com/title/tt0407887/\">IMDb</a>"
     },
     {
       "cinema": "Phenomena",
@@ -1976,6 +1803,21 @@
     },
     {
       "cinema": "Phenomena",
+      "title": "THE DEVILS (LOS DEMONIOS) (Proyección en 4K y VOSE) The Devils",
+      "url": "https://phenomena-experience.com/index?pag=ficha&evento=3019",
+      "source_section": "cartelera",
+      "shows": [
+        {
+          "datetime": "20261127 17:35",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": "★ 7.5 <a href=\"https://www.imdb.com/title/tt0066993/\">IMDb</a>"
+    },
+    {
+      "cinema": "Phenomena",
       "title": "THE ROCKY HORROR PICTURE SHOW (Proyección en VOSE) The Rocky Horror Picture Show",
       "url": "https://phenomena-experience.com/index?pag=ficha&evento=2744",
       "source_section": "cartelera",
@@ -2093,6 +1935,21 @@
       ],
       "labels": [],
       "rating": "★ 6.8 <a href=\"https://www.imdb.com/title/tt3463018/\">IMDb</a>"
+    },
+    {
+      "cinema": "Zumzeig",
+      "title": "Amazonia: Relatos de abundancia",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/amazonia-relatos-de-abundancia/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261121 18:30",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
     },
     {
       "cinema": "Zumzeig",
@@ -2371,6 +2228,21 @@
     },
     {
       "cinema": "Zumzeig",
+      "title": "El gran somiatge",
+      "url": "https://www.zumzeigcine.coop/es/cine/films/el-gran-somiatge/",
+      "source_section": "calendari",
+      "shows": [
+        {
+          "datetime": "20261121 17:00",
+          "room": null,
+          "language": null
+        }
+      ],
+      "labels": [],
+      "rating": null
+    },
+    {
+      "cinema": "Zumzeig",
       "title": "Ensueño líquido",
       "url": "https://www.zumzeigcine.coop/es/cine/films/ensueno-liquido/",
       "source_section": "calendari",
@@ -2492,7 +2364,7 @@
         }
       ],
       "labels": [],
-      "rating": "★ 8.0 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
+      "rating": "★ 7.9 <a href=\"https://www.imdb.com/title/tt35511966/\">IMDb</a>"
     },
     {
       "cinema": "Zumzeig",
@@ -2973,21 +2845,6 @@
       ],
       "labels": [],
       "rating": null
-    },
-    {
-      "cinema": "Zumzeig",
-      "title": "Éxodo climático",
-      "url": "https://www.zumzeigcine.coop/es/cine/films/exodo-climatico/",
-      "source_section": "calendari",
-      "shows": [
-        {
-          "datetime": "20261123 19:00",
-          "room": null,
-          "language": null
-        }
-      ],
-      "labels": [],
-      "rating": "★ 7.0 <a href=\"https://www.imdb.com/title/tt12790168/\">IMDb</a>"
     }
   ]
 }
